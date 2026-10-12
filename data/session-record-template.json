@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "record_kind": "blank_template",
+  "learning_goal": null,
+  "task": null,
+  "criterion": null,
+  "attempts": [
+    {
+      "attempt_id": "attempt-1",
+      "state": "planned",
+      "phase": "baseline",
+      "attempted_at": null,
+      "original_response": null,
+      "answer_help": "unknown",
+      "answer_visible_during_attempt": null,
+      "access_accommodations": [],
+      "claimed_independent": false,
+      "same_item_seen_before": null,
+      "criterion_judgment": "not_evaluated",
+      "verification_basis": "none",
+      "verification_locator": null,
+      "verified": false,
+      "feedback": null,
+      "revised_response": null,
+      "delay_days": null,
+      "context_change": null
+    }
+  ],
+  "conclusion": null,
+  "next_action": null
+}
