@@ -1,0 +1,20 @@
+name: KPS and AI Coach checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 validate.py .
+      - run: python3 test_validate.py
+      - run: python3 tools/check_domain.py
+      - run: python3 tools/build_navigation.py --check
+      - run: python3 -m unittest discover -s tests -v
