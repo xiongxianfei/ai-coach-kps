@@ -1,0 +1,24 @@
+name: Temporary upstream source snapshot
+on:
+  push:
+    branches: [feat/adult-learning-coaching]
+    paths: ['.github/workflows/source-snapshot.yml']
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: xiongxianfei/knowledge-practice-system
+          ref: 9432f1ee86f641d01444038cc81b7efa596b75dc
+          persist-credentials: false
+      - run: git archive --format=zip --output=kps-core-10.2.0.zip HEAD
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: kps-core-10.2.0-source
+          path: kps-core-10.2.0.zip
+          retention-days: 1
+          if-no-files-found: error
