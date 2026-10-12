@@ -1,0 +1,26 @@
+{
+  "package": "AI Learning Coach KPS",
+  "version": "0.1.0",
+  "based_on_core": "10.2.0",
+  "kps_language": "9.x",
+  "validated_with": "9.1.0",
+  "minimum_validator": "9.1.0",
+  "practice_format": "steps-first-v1",
+  "markdown_profile": "practical-markdown-v1",
+  "alignment_profile": "ai-coach-academic-source-v1",
+  "upstream_commit": "9432f1ee86f641d01444038cc81b7efa596b75dc",
+  "scientific_status": "provisional",
+  "independent_review": false,
+  "primary_audience": "independent adult learners",
+  "independent": true,
+  "license": "MIT",
+  "knowledge_types": [
+    "concept",
+    "principle",
+    "model",
+    "method",
+    "practice"
+  ],
+  "reference_is_supporting_record": true,
+  "scope": "Practice-first adult educational coaching with AI; not clinical coaching or an efficacy-certified intervention"
+}

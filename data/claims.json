@@ -1,0 +1,255 @@
+[
+  {
+    "id": "ai-coach:claim:srl",
+    "kind": "conceptual",
+    "statement": "SRL is broader than metacognition alone.",
+    "references": [
+      "ai-coach:reference:panadero-2017"
+    ],
+    "locator": "Abstract and Introduction",
+    "population_context": "Review across educational models",
+    "comparison": "Not an intervention comparison",
+    "outcome": "Conceptual scope",
+    "time_horizon": "Not an effect estimate",
+    "limits": "A review of theoretical frameworks does not test this AI coaching workflow. No particular Zimmerman model is reproduced or attributed from uninspected original text.",
+    "application_inference": "Keep goal choices, monitoring and learner control visible; this stage sequence is our application.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:performance",
+    "kind": "conceptual",
+    "statement": "Immediate performance and durable learning are distinct targets.",
+    "references": [
+      "ai-coach:reference:soderstrom-2015"
+    ],
+    "locator": "Abstract",
+    "population_context": "Integrative review; publisher abstract inspected",
+    "comparison": "Acquisition performance versus retention and transfer evidence",
+    "outcome": "Distinction between observations",
+    "time_horizon": "Depends on target; no fixed threshold",
+    "limits": "Abstract-only inspection supports a narrow distinction, not specific optimal delays, universal mastery thresholds, or efficacy of an AI tutor.",
+    "application_inference": "Separate assistance, timing and changed-context observations in records.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai",
+      "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:calibration",
+    "kind": "conceptual",
+    "statement": "Judgments and criterion evidence are distinct; calibration concerns their relationship.",
+    "references": [
+      "ai-coach:reference:pieschl-2009"
+    ],
+    "locator": "Abstract",
+    "population_context": "Theoretical paper; abstract-only inspection",
+    "comparison": "Traditional performance correspondence versus proposed extended account",
+    "outcome": "Conceptualization, not a local score",
+    "time_horizon": "No empirical delay inferred",
+    "limits": "The proposed extension is not a settled equivalence with every use of calibration. A single confidence rating or an AI statement cannot establish calibrated self-knowledge. This publication is by Pieschl, not Schraw.",
+    "application_inference": "An optional confidence judgment should not replace a task response or become an automatic mastery label.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:formative",
+    "kind": "conceptual",
+    "statement": "Quality standards, evaluative comparison and improvement moves support formative use.",
+    "references": [
+      "ai-coach:reference:sadler-1989"
+    ],
+    "locator": "Abstract",
+    "population_context": "Quality judgments using multiple criteria",
+    "comparison": "Theoretical account; no local treatment effect",
+    "outcome": "Evaluative capacity and actionable improvement",
+    "time_horizon": "Not a tested schedule",
+    "limits": "Sadler explicitly gives the account less relevance to purely correct/incorrect responses. The AI adaptation and task-difficulty decision table are authored Practice choices, not his validated protocol.",
+    "application_inference": "Check source correctness and act on one discrepancy; simple probes are a labeled extension.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:formative-assessment-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:scaffold",
+    "kind": "framework",
+    "statement": "Cognitive Apprenticeship relates modeled expertise, guided activity and learner participation.",
+    "references": [
+      "ai-coach:reference:collins-1991"
+    ],
+    "locator": "Method items 1 to 6; framework summary and concluding discussion",
+    "population_context": "Instructional framework and illustrative settings",
+    "comparison": "Not a generic-AI intervention comparison",
+    "outcome": "Published teaching relationships",
+    "time_horizon": "No universal stage duration",
+    "limits": "The authors do not provide one compulsory coaching script. A language model is not automatically an expert, and its explanation is not a verified trace of hidden cognition. No AI implementation is studied here.",
+    "application_inference": "Verify AI examples; use contingent help and permit direct explanation without claiming expert cognition.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai",
+      "ai-coach:practice:formative-assessment-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:assessment",
+    "kind": "framework",
+    "statement": "Assessment relates cognition, observation and interpretation.",
+    "references": [
+      "ai-coach:reference:nrc-2001"
+    ],
+    "locator": "Chapter 2: Assessment as a Process of Reasoning from Evidence; The Assessment Triangle; relationships among the three vertices",
+    "population_context": "Assessment framework across educational contexts",
+    "comparison": "Not an intervention comparison",
+    "outcome": "Justified inference from selected observations",
+    "time_horizon": "Defined by assessment purpose",
+    "limits": "This representation does not supply subject-specific scoring rules or guarantee reliable automated grading. An interpretation remains uncertain and purpose-dependent.",
+    "application_inference": "State target, task and interpretation before using an AI judgment.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:evaluation-of-ai-assisted-learning",
+      "ai-coach:practice:formative-assessment-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:feedback",
+    "kind": "empirical",
+    "statement": "Feedback effects vary across contexts and informational forms.",
+    "references": [
+      "ai-coach:reference:feedback-2020"
+    ],
+    "locator": "Abstract and Introduction",
+    "population_context": "Educational feedback studies summarized in the review",
+    "comparison": "Multiple conditions, not one universal comparator",
+    "outcome": "Learning outcomes across included research",
+    "time_horizon": "Heterogeneous; not extracted as one value",
+    "limits": "This review does not validate AI-generated corrections, indicate that praise alone is diagnostic, or identify one universal feedback schedule. The definition is adopted from prior literature, not originated by these authors.",
+    "application_inference": "Ask for inspectable criterion information and check actual uptake; do not presume AI feedback is correct.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:formative-assessment-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:retrieval",
+    "kind": "empirical",
+    "statement": "The reported study–recall–restudy treatment supported later test outcomes in the inspected comparisons.",
+    "references": [
+      "ai-coach:reference:karpicke-2011"
+    ],
+    "locator": "Printed pages 772 to 773: retrieval condition, restudy, one-week short-answer test",
+    "population_context": "Science-text experiments with students",
+    "comparison": "Reported study and concept-mapping conditions; activities need separate accounting",
+    "outcome": "One-week short-answer and conceptual outcomes",
+    "time_horizon": "One week in the inspected example",
+    "limits": "The treatment includes more than recall alone. This is not evidence that retrieval beats every concept-mapping implementation; see the separate Mayrhofer comparison. Nor does it validate this package or a motor-learning task.",
+    "application_inference": "Preserve original recall and correction; do not assert universal superiority.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:retrieval-qualification",
+    "kind": "empirical",
+    "statement": "Changing the comparison and memorization phase altered the superiority result.",
+    "references": [
+      "ai-coach:reference:mayrhofer-2023"
+    ],
+    "locator": "Abstract; Discussion on additional memorization and inference-question limits",
+    "population_context": "Preregistered experiment reported by Mayrhofer and colleagues",
+    "comparison": "Retrieval plus memorization versus mapping variants",
+    "outcome": "Verbatim and limited inference outcomes differ",
+    "time_horizon": "One-week outcome context in the inspected discussion",
+    "limits": "This questions a specific superiority claim, not all retrieval effects. The authors note the weakness of drawing broad conclusions from only two inference questions.",
+    "application_inference": "Retain activity/time details rather than calling every benefit a retrieval-only effect.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:spacing",
+    "kind": "empirical",
+    "statement": "A favorable review gap depends on the retention interval in the inspected fact-learning account.",
+    "references": [
+      "ai-coach:reference:cepeda-2008"
+    ],
+    "locator": "Abstract",
+    "population_context": "Fact-learning experiment; publisher abstract only",
+    "comparison": "Different gaps and final-test delays",
+    "outcome": "Retention of learned material",
+    "time_horizon": "Varied; not an optimal day recipe",
+    "limits": "No fixed spacing algorithm, exact day sequence or individualized optimality is extracted from abstract-only inspection.",
+    "application_inference": "Use a learner-owned revisable review plan and record actual intervals.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:self-explanation",
+    "kind": "empirical",
+    "statement": "Prompted learner explanations supported understanding in the selected text-learning experiment.",
+    "references": [
+      "ai-coach:reference:chi-1994"
+    ],
+    "locator": "Abstract; Procedure and explanation-elicitation prompts, printed pages 450 to 451",
+    "population_context": "Eighth-grade learners; indirect for adults",
+    "comparison": "Prompted explanations versus comparison reading conditions, with timing differences",
+    "outcome": "Understanding; post-test with text/notes available",
+    "time_horizon": "Not taken as long-term independent retention",
+    "limits": "Participants were eighth graders, not independent adult AI users. Conditions differed in time, and text/notes were available for the post-test. The contribution cannot be restated as proof of unaided adult retention from AI-generated explanations.",
+    "application_inference": "Let the learner explain and check claims; an AI explanation is not learner self-explanation.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai",
+      "ai-coach:practice:formative-assessment-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:ai-college",
+    "kind": "empirical-ai",
+    "statement": "A structured AI tutor improved reported short-term outcomes against the classroom comparator in that setting.",
+    "references": [
+      "ai-coach:reference:kestin-2025"
+    ],
+    "locator": "Discussion: Designing successful student-AI interactions; Context, limitations, and future directions; Methods",
+    "population_context": "College introductory physics; custom source-informed tutor",
+    "comparison": "In-class active learning in the reported randomized design",
+    "outcome": "Short-term topic-learning outcomes",
+    "time_horizon": "Post-lesson; delayed learning not established",
+    "limits": "The system used course-specific expert material and interaction controls. This does not establish long-term independent learning, general adult self-study effectiveness or equivalence to a generic chat prompt.",
+    "application_inference": "Use verified material and observe actual tool behavior; a generic prompt is not the tested platform.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai",
+      "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:ai-secondary",
+    "kind": "empirical-ai",
+    "statement": "AI-assisted practice and subsequent no-access exam performance differed by assistance design.",
+    "references": [
+      "ai-coach:reference:bastani-2025"
+    ],
+    "locator": "Abstract and Significance; footnotes on exam timing; published correction history",
+    "population_context": "High-school mathematics; indirect for independent adults",
+    "comparison": "Unrestricted interface, teacher-informed tutor safeguards and study control",
+    "outcome": "Assisted practice and no-access examination outcomes",
+    "time_horizon": "Short-term exam, not long-term retention",
+    "limits": "This is high-school mathematics, indirect evidence for independent adults. The exam is short-term, not a long-term retention measure. Teacher-supplied safeguards are not reproduced by a promise in a generic prompt. The inspected article notes a 2025 affiliation correction.",
+    "application_inference": "Retain an independent check and source controls; do not generalize that AI always helps or harms.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:self-regulated-learning-with-ai",
+      "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    ]
+  }
+]

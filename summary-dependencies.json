@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "meaning": "Declared/direct dependencies requiring human summary review after content changes; not proof of factual or semantic validity.",
+  "entries": {
+    "concepts/feedback.md": {
+      "references/wisniewski-zierer-hattie-2020-feedback.md": "3167d808fe18280136e119c4378709d3c876bcc34b683cdf9f031305d485d4a1"
+    },
+    "concepts/formative-assessment.md": {
+      "references/sadler-1989-formative-assessment.md": "7a227f788c1bdf5b617700bba6d00cdcad45068eae53b12984a421719066ab50"
+    },
+    "concepts/instructional-scaffolding.md": {
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "7f6c41ff716347f970c9f3e77c6f48df2a730ef014e2146693eb716c2fadc43f"
+    },
+    "concepts/learning-performance-distinction.md": {
+      "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
+    },
+    "concepts/metacognitive-calibration.md": {
+      "references/pieschl-2009-metacognitive-calibration.md": "b1d98c66f8815a80f81069f9401a572d157cd2b10b7fef127f1c9a6b4c5ff623"
+    },
+    "concepts/self-regulated-learning.md": {
+      "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de"
+    },
+    "methods/cognitive-modeling.md": {
+      "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "7f6c41ff716347f970c9f3e77c6f48df2a730ef014e2146693eb716c2fadc43f"
+    },
+    "methods/retrieval-practice.md": {
+      "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
+      "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
+      "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md": "6421c087d1d885cfdfa0d01eda87abc5350aa5d1b1e7734c69f9030ffaa19ef6"
+    },
+    "methods/self-explanation.md": {
+      "principles/self-explanation-effect.md": "25dd41b973cc7059041d0ef17f38d6e5906e5f14d333959fa739d2eaf0e11126",
+      "references/chi-1994-self-explanation.md": "e33ccfa9d58c453ed8cb32042d96326c2bbdefcad6c8203135cdf2d9ba8ecb12"
+    },
+    "models/assessment-triangle.md": {
+      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788"
+    },
+    "models/cognitive-apprenticeship.md": {
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "7f6c41ff716347f970c9f3e77c6f48df2a730ef014e2146693eb716c2fadc43f"
+    },
+    "practices/evaluation-of-ai-assisted-learning.md": {
+      "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",
+      "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "concepts/metacognitive-calibration.md": "90673e6ab0baf7f19e993af23ca9e74ad4b0b956c62b4c816aa7cd297b1b9762",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
+      "references/kestin-2025-ai-tutoring.md": "9e9cb26c147fe204572a37d18051289eb3351ae682443a2c86a4192cc2d4f8df",
+      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/pieschl-2009-metacognitive-calibration.md": "b1d98c66f8815a80f81069f9401a572d157cd2b10b7fef127f1c9a6b4c5ff623",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
+    },
+    "practices/formative-assessment-with-ai.md": {
+      "concepts/feedback.md": "cff5f7ab828c0f4e9a0cd41a977292958992758084441e6d6c7ffc3be25449d7",
+      "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",
+      "concepts/instructional-scaffolding.md": "ca75f5411e98054d4e5217209ebe08977c04564a1cf6efc49889c3f7e71c2ac4",
+      "methods/cognitive-modeling.md": "1c2fddfd2a56007b24db2f93b20a5682e3cfc4b3239f244571c3aa8a4f62bd74",
+      "methods/self-explanation.md": "faacf31a294a16c4ecb055109a85e5d3f215eb8b00e0156f4f66394e906caaca",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "7f6c41ff716347f970c9f3e77c6f48df2a730ef014e2146693eb716c2fadc43f",
+      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/sadler-1989-formative-assessment.md": "7a227f788c1bdf5b617700bba6d00cdcad45068eae53b12984a421719066ab50",
+      "references/wisniewski-zierer-hattie-2020-feedback.md": "3167d808fe18280136e119c4378709d3c876bcc34b683cdf9f031305d485d4a1"
+    },
+    "practices/retrieval-and-distributed-practice-with-ai.md": {
+      "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "concepts/metacognitive-calibration.md": "90673e6ab0baf7f19e993af23ca9e74ad4b0b956c62b4c816aa7cd297b1b9762",
+      "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
+      "methods/self-explanation.md": "faacf31a294a16c4ecb055109a85e5d3f215eb8b00e0156f4f66394e906caaca",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "practices/evaluation-of-ai-assisted-learning.md": "bfe82c07e07b487732716e3cd2efaaf3c687b8a07befddfb63b26b6fdae323e1",
+      "principles/spacing-effect.md": "2039f5ab8ac78381de63fc08e0b44e8f85758584907fef91e44d88ae1a2cd967",
+      "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
+      "references/cepeda-2006-distributed-practice.md": "4063a968e229f024e409ff2fc6eb88f457292b4982ea3b12547bf57628fea698",
+      "references/cepeda-2008-temporal-ridgeline.md": "97c4be64fad86ca52b0bb29091a06a547bc3c1e31593e0f379bcad1bf17ca266",
+      "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
+      "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md": "6421c087d1d885cfdfa0d01eda87abc5350aa5d1b1e7734c69f9030ffaa19ef6",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
+    },
+    "practices/self-regulated-learning-with-ai.md": {
+      "concepts/feedback.md": "cff5f7ab828c0f4e9a0cd41a977292958992758084441e6d6c7ffc3be25449d7",
+      "concepts/instructional-scaffolding.md": "ca75f5411e98054d4e5217209ebe08977c04564a1cf6efc49889c3f7e71c2ac4",
+      "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "concepts/self-regulated-learning.md": "9d6c5f86af0ed14b4131fe1689f9f96af6dc88bc1aae761a410681def1590b50",
+      "methods/cognitive-modeling.md": "1c2fddfd2a56007b24db2f93b20a5682e3cfc4b3239f244571c3aa8a4f62bd74",
+      "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
+      "methods/self-explanation.md": "faacf31a294a16c4ecb055109a85e5d3f215eb8b00e0156f4f66394e906caaca",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
+      "practices/evaluation-of-ai-assisted-learning.md": "bfe82c07e07b487732716e3cd2efaaf3c687b8a07befddfb63b26b6fdae323e1",
+      "practices/formative-assessment-with-ai.md": "d8e33c6e9e6514888510f94a02e7be0b4c7110afac18f0e8b0a1d0f1fce7f514",
+      "practices/retrieval-and-distributed-practice-with-ai.md": "779b064f14a214c198bcfa88eb30752ef92053d056a971e2229b8c3ad3df7b14",
+      "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
+      "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "7f6c41ff716347f970c9f3e77c6f48df2a730ef014e2146693eb716c2fadc43f",
+      "references/kestin-2025-ai-tutoring.md": "9e9cb26c147fe204572a37d18051289eb3351ae682443a2c86a4192cc2d4f8df",
+      "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
+    },
+    "principles/self-explanation-effect.md": {
+      "references/chi-1994-self-explanation.md": "e33ccfa9d58c453ed8cb32042d96326c2bbdefcad6c8203135cdf2d9ba8ecb12"
+    },
+    "principles/spacing-effect.md": {
+      "references/cepeda-2006-distributed-practice.md": "4063a968e229f024e409ff2fc6eb88f457292b4982ea3b12547bf57628fea698",
+      "references/cepeda-2008-temporal-ridgeline.md": "97c4be64fad86ca52b0bb29091a06a547bc3c1e31593e0f379bcad1bf17ca266"
+    },
+    "principles/testing-effect.md": {
+      "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
+      "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md": "6421c087d1d885cfdfa0d01eda87abc5350aa5d1b1e7734c69f9030ffaa19ef6"
+    }
+  }
+}
