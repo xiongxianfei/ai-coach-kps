@@ -36,7 +36,7 @@ Use for learner-owned, low-stakes evaluation. The learner can decline or stop. T
 
 ## One learning claim to evaluate
 
-Select **one bounded claim** about a capability under declared resources, such as an independent explanation on an unfamiliar task. Reuse available task records instead of imposing a redundant test. If the claim concerns later retention or changed-context application, leave it pending until the necessary observation actually occurs. Conclude with one justified next check or learning task. The [one-task guide](../ONE-LEARNING-TASK.md) supports task scoping but does not define a universal mastery threshold.
+Select **one bounded claim** about a capability under declared resources, such as an independent explanation on an unfamiliar task. Reuse available task records instead of imposing a redundant test. If the claim concerns later retention or changed-context application, leave it pending until the necessary observation actually occurs. Conclude with one justified next check or learning task. The [one-task guide](../guides/LEARNING-WORKFLOW.md) supports task scoping but does not define a universal mastery threshold.
 
 ## Stage map
 
@@ -128,7 +128,7 @@ To revise a [two-level plan](concept-mapping-and-instructional-sequencing-with-a
 
 ## Record checker and its limits
 
-The optional [record checker](../tools/check_record.py) reports internally inconsistent declarations and missing evidence. It does not determine answer correctness, diagnose a learner, infer an effect size or establish that any instruction worked. See [RECORDS](../RECORDS.md) for the schema and private-use guidance.
+The optional [record checker](../tools/check_record.py) reports internally inconsistent declarations and missing evidence. It does not determine answer correctness, diagnose a learner, infer an effect size or establish that any instruction worked. See [RECORDS](../guides/SESSION-RECORDS.md) for the schema and private-use guidance.
 
 ## Stopping and fallback
 

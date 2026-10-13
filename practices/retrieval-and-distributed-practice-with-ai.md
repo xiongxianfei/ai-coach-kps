@@ -36,7 +36,7 @@ Use this Practice for safe conceptual or procedural review with a source that ca
 
 ## One current retrieval target
 
-Start with **one already encountered concept, relation or procedure** and one checked retrieval prompt. Save the response before feedback and distinguish actual recall from an explanation supplied by AI. Additional questions and a spaced review plan may follow, but they are not prerequisites for recording this one attempt. A planned future check is not observed retention. The [one-task guide](../ONE-LEARNING-TASK.md) clarifies the current output and stop/continue choice without prescribing an optimal interval.
+Start with **one already encountered concept, relation or procedure** and one checked retrieval prompt. Save the response before feedback and distinguish actual recall from an explanation supplied by AI. Additional questions and a spaced review plan may follow, but they are not prerequisites for recording this one attempt. A planned future check is not observed retention. The [one-task guide](../guides/LEARNING-WORKFLOW.md) clarifies the current output and stop/continue choice without prescribing an optimal interval.
 
 ## Stage map
 
@@ -129,7 +129,7 @@ Later observation and actual interval: [fill or unknown]
 Next design choice and reason: [fill]
 ```
 
-Do not commit personal review records or private source excerpts. See [record interpretation](../RECORDS.md).
+Do not commit personal review records or private source excerpts. See [record interpretation](../guides/SESSION-RECORDS.md).
 
 ## Academic basis and adaptation
 

@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -16,7 +16,7 @@ This is a targeted, provisional synthesis for five adult AI coaching tasks. Sour
 
 ## Source access
 
-The [source register](references/README.md) records actual inspection. Selected original material was inspected for Cognitive Apprenticeship, the NRC Assessment Triangle, retrieval procedures and self-explanation procedures. Several sources were available only as abstracts; those claims remain deliberately narrow. Pieschl's calibration article is correctly attributed to Stephanie Pieschl with citation year 2009 and first-online year 2008.
+The [source register](../references/README.md) records actual inspection. Selected original material was inspected for Cognitive Apprenticeship, the NRC Assessment Triangle, retrieval procedures and self-explanation procedures. Several sources were available only as abstracts; those claims remain deliberately narrow. Pieschl's calibration article is correctly attributed to Stephanie Pieschl with citation year 2009 and first-online year 2008.
 
 Original Zimmerman material was not adequately accessible in this run; no Zimmerman Model was manufactured from a review. A detailed Distributed Practice Method was not admitted from abstract-only access; the basic temporal design is a labeled application inside a Practice. Core's source-alignment test was adapted to this domain rather than copied with its Core-specific migration assertions.
 

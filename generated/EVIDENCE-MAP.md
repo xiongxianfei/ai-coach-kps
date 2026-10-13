@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -22,7 +22,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** SRL is broader than metacognition alone.
 
-[Source record](references/panadero-2017-self-regulated-learning.md) — Abstract and Introduction.
+[Source record](../references/panadero-2017-self-regulated-learning.md) — Abstract and Introduction.
 
 **Population and context:** Review across educational models  
 **Comparison:** Not an intervention comparison  
@@ -36,7 +36,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Immediate performance and durable learning are distinct targets.
 
-[Source record](references/soderstrom-bjork-2015-learning-versus-performance.md) — Abstract.
+[Source record](../references/soderstrom-bjork-2015-learning-versus-performance.md) — Abstract.
 
 **Population and context:** Integrative review; publisher abstract inspected  
 **Comparison:** Acquisition performance versus retention and transfer evidence  
@@ -50,7 +50,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Judgments and criterion evidence are distinct; calibration concerns their relationship.
 
-[Source record](references/pieschl-2009-metacognitive-calibration.md) — Abstract.
+[Source record](../references/pieschl-2009-metacognitive-calibration.md) — Abstract.
 
 **Population and context:** Theoretical paper; abstract-only inspection  
 **Comparison:** Traditional performance correspondence versus proposed extended account  
@@ -64,7 +64,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Quality standards, evaluative comparison and improvement moves support formative use.
 
-[Source record](references/sadler-1989-formative-assessment.md) — Abstract.
+[Source record](../references/sadler-1989-formative-assessment.md) — Abstract.
 
 **Population and context:** Quality judgments using multiple criteria  
 **Comparison:** Theoretical account; no local treatment effect  
@@ -78,7 +78,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Cognitive Apprenticeship relates modeled expertise, guided activity and learner participation.
 
-[Source record](references/collins-brown-holum-1991-cognitive-apprenticeship.md) — Method items 1 to 6; framework summary and concluding discussion.
+[Source record](../references/collins-brown-holum-1991-cognitive-apprenticeship.md) — Method items 1 to 6; framework summary and concluding discussion.
 
 **Population and context:** Instructional framework and illustrative settings  
 **Comparison:** Not a generic-AI intervention comparison  
@@ -92,7 +92,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Assessment relates cognition, observation and interpretation.
 
-[Source record](references/national-research-council-2001-assessment.md) — Chapter 2: Assessment as a Process of Reasoning from Evidence; The Assessment Triangle; relationships among the three vertices.
+[Source record](../references/national-research-council-2001-assessment.md) — Chapter 2: Assessment as a Process of Reasoning from Evidence; The Assessment Triangle; relationships among the three vertices.
 
 **Population and context:** Assessment framework across educational contexts  
 **Comparison:** Not an intervention comparison  
@@ -106,7 +106,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Feedback effects vary across contexts and informational forms.
 
-[Source record](references/wisniewski-zierer-hattie-2020-feedback.md) — Abstract and Introduction.
+[Source record](../references/wisniewski-zierer-hattie-2020-feedback.md) — Abstract and Introduction.
 
 **Population and context:** Educational feedback studies summarized in the review  
 **Comparison:** Multiple conditions, not one universal comparator  
@@ -120,7 +120,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** The reported study–recall–restudy treatment supported later test outcomes in the inspected comparisons.
 
-[Source record](references/karpicke-blunt-2011-retrieval-practice.md) — Printed pages 772 to 773: retrieval condition, restudy, one-week short-answer test.
+[Source record](../references/karpicke-blunt-2011-retrieval-practice.md) — Printed pages 772 to 773: retrieval condition, restudy, one-week short-answer test.
 
 **Population and context:** Science-text experiments with students  
 **Comparison:** Reported study and concept-mapping conditions; activities need separate accounting  
@@ -134,7 +134,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Changing the comparison and memorization phase altered the superiority result.
 
-[Source record](references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md) — Abstract; Discussion on additional memorization and inference-question limits.
+[Source record](../references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md) — Abstract; Discussion on additional memorization and inference-question limits.
 
 **Population and context:** Preregistered experiment reported by Mayrhofer and colleagues  
 **Comparison:** Retrieval plus memorization versus mapping variants  
@@ -148,7 +148,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** A favorable review gap depends on the retention interval in the inspected fact-learning account.
 
-[Source record](references/cepeda-2008-temporal-ridgeline.md) — Abstract.
+[Source record](../references/cepeda-2008-temporal-ridgeline.md) — Abstract.
 
 **Population and context:** Fact-learning experiment; publisher abstract only  
 **Comparison:** Different gaps and final-test delays  
@@ -162,7 +162,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Prompted learner explanations supported understanding in the selected text-learning experiment.
 
-[Source record](references/chi-1994-self-explanation.md) — Abstract; Procedure and explanation-elicitation prompts, printed pages 450 to 451.
+[Source record](../references/chi-1994-self-explanation.md) — Abstract; Procedure and explanation-elicitation prompts, printed pages 450 to 451.
 
 **Population and context:** Eighth-grade learners; indirect for adults  
 **Comparison:** Prompted explanations versus comparison reading conditions, with timing differences  
@@ -176,7 +176,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** A structured AI tutor improved reported short-term outcomes against the classroom comparator in that setting.
 
-[Source record](references/kestin-2025-ai-tutoring.md) — Discussion: Designing successful student-AI interactions; Context, limitations, and future directions; Methods.
+[Source record](../references/kestin-2025-ai-tutoring.md) — Discussion: Designing successful student-AI interactions; Context, limitations, and future directions; Methods.
 
 **Population and context:** College introductory physics; custom source-informed tutor  
 **Comparison:** In-class active learning in the reported randomized design  
@@ -190,7 +190,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** AI-assisted practice and subsequent no-access exam performance differed by assistance design.
 
-[Source record](references/bastani-2025-generative-ai-guardrails.md) — Abstract and Significance; footnotes on exam timing; published correction history.
+[Source record](../references/bastani-2025-generative-ai-guardrails.md) — Abstract and Significance; footnotes on exam timing; published correction history.
 
 **Population and context:** High-school mathematics; indirect for independent adults  
 **Comparison:** Unrestricted interface, teacher-informed tutor safeguards and study control  
@@ -204,7 +204,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Concept maps use explicit linking phrases to organize propositions around a focus question.
 
-[Source record](references/novak-canas-2008-concept-maps.md) — Introduction; Constructing Good Concept Maps.
+[Source record](../references/novak-canas-2008-concept-maps.md) — Introduction; Constructing Good Concept Maps.
 
 **Population and context:** Author technical report on a knowledge representation and construction procedure  
 **Comparison:** Not an intervention comparison  
@@ -218,7 +218,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** Cognitive Apprenticeship discusses global task orientation before component execution alongside complexity and diversity.
 
-[Source record](references/collins-brown-holum-1991-cognitive-apprenticeship.md) — Sequencing: Global before local skills; framework summary.
+[Source record](../references/collins-brown-holum-1991-cognitive-apprenticeship.md) — Sequencing: Global before local skills; framework summary.
 
 **Population and context:** Published instructional framework with varied educational examples  
 **Comparison:** Not an experiment on adult AI-coach domain panoramas  
@@ -232,7 +232,7 @@ Bounded claim records connect selected research with authored Practice decisions
 
 **Source premise:** The NRC science account treats learning progressions as research-informed descriptions of increasingly sophisticated understanding, including multiple paths.
 
-[Source record](references/national-research-council-2007-learning-progressions.md) — Chapter 8, printed page 214 and Key Characteristics on pages 220 to 222.
+[Source record](../references/national-research-council-2007-learning-progressions.md) — Chapter 8, printed page 214 and Key Characteristics on pages 220 to 222.
 
 **Population and context:** K–8 science and developmental/instructional research synthesis  
 **Comparison:** Conceptual description, not a trial of adult AI coaching  
@@ -244,4 +244,4 @@ Bounded claim records connect selected research with authored Practice decisions
 
 ## Data and review
 
-[Machine-readable claim bridge](data/claims.json). Each inference remains provisional. Different populations and designs must not be flattened into an unconditional claim about all AI learning.
+[Machine-readable claim bridge](../data/claims.json). Each inference remains provisional. Different populations and designs must not be flattened into an unconditional claim about all AI learning.

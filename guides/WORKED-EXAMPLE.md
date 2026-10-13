@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -22,7 +22,7 @@ For A, $6 divided by 750 g is $0.008 per g, or $0.80 per 100 g. For B, $7.20 div
 
 ## From subject panorama to one first task
 
-A **constructed panorama** locates unit-price reasoning in quantitative reasoning: arithmetic, measurement and units, proportional relationships and data interpretation. The current goal is one narrower relation—compare amounts on a common quantity basis—rather than mastering those entire regions. The [two-level planning Practice](practices/concept-mapping-and-instructional-sequencing-with-ai.md) proposes conversion, unit rate and integrated comparison as *possible* learning stages. For the first learning task, it selects only one output:
+A **constructed panorama** locates unit-price reasoning in quantitative reasoning: arithmetic, measurement and units, proportional relationships and data interpretation. The current goal is one narrower relation—compare amounts on a common quantity basis—rather than mastering those entire regions. The [two-level planning Practice](../practices/concept-mapping-and-instructional-sequencing-with-ai.md) proposes conversion, unit rate and integrated comparison as *possible* learning stages. For the first learning task, it selects only one output:
 
 | Task card field | Constructed first task |
 |---|---|
@@ -33,7 +33,7 @@ A **constructed panorama** locates unit-price reasoning in quantitative reasonin
 | Allowed support | An accessible text display; verified explanation on request is recorded as instructional assistance |
 | Stop or split | After one response and checking, proceed to a rate task, teach the missing unit relation, or pause |
 
-This is a proposed Day 1 *example*, not an actual day, interview, test or observed learning result. It is small without being mere disconnected vocabulary. The broader plan may have other stages, but they are not silently assigned as additional Day 1 requirements. See [One Learning Task at a Time](ONE-LEARNING-TASK.md).
+This is a proposed Day 1 *example*, not an actual day, interview, test or observed learning result. It is small without being mere disconnected vocabulary. The broader plan may have other stages, but they are not silently assigned as additional Day 1 requirements. See [One Learning Task at a Time](LEARNING-WORKFLOW.md).
 
 ## Coaching choices
 

@@ -1,18 +1,39 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
-# Selective visual explanation
+# Reading navigation and diagrams
 
 ## Key takeaway
 
-A visual is included only when its relationship or decision is clearer than the accompanying text alone.
+Use direct local links and simple explanation aids without requiring a special viewer or image quota.
 
 ## Summary
 
-This first domain slice uses Markdown decision tables and a compact text Assessment Triangle. No image-generation quota, graph platform or external rendering dependency is introduced.
+This guide combines the navigation profile and the selective visual-explanation policy. Tables and text remain appropriate where an image would not resolve ambiguity.
+
+## Navigation and reading
+
+These conventions help readers move between independently complete documents; a link is not a replacement for necessary guidance.
+
+## Reading routes
+
+[Practice map](../generated/PRACTICE-MAP.md) is the learner entry. [INDEX](../generated/INDEX.md) lists academic objects by role. [EVIDENCE-MAP](../generated/EVIDENCE-MAP.md) traces source support and application limits. [TERMINOLOGY-MAP](../generated/TERMINOLOGY-MAP.md) records canonical naming. [REVIEW-QUEUE](../generated/REVIEW-QUEUE.md) identifies remaining inspection and evaluation.
+
+## Link procedure
+
+1. Prefer a relative file link for an entire object.
+2. For a stage, include the full lowercase heading fragment, such as #stage1-define-a-learning-goal-and-constraints.
+3. After renaming a heading, update the stage map, metadata and incoming links together.
+4. Test the actual reader when rendering matters; structural validation is not a click test in every Markdown application.
+
+The generated graph is a dependency view, not a model of human cognition or a compulsory reading sequence. No plugin or iframe is required.
+
+## Selective visual explanations
+
+Diagrams are used when they clarify a relationship, not to satisfy an illustration quota.
 
 ## Current audit
 
