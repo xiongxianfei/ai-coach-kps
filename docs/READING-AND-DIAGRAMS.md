@@ -20,7 +20,7 @@ These conventions help readers move between independently complete documents; a 
 
 ## Reading routes
 
-[Practice map](../generated/PRACTICE-MAP.md) is the learner entry. [INDEX](../generated/INDEX.md) lists academic objects by role. [EVIDENCE-MAP](../generated/EVIDENCE-MAP.md) traces source support and application limits. [TERMINOLOGY-MAP](../generated/TERMINOLOGY-MAP.md) records canonical naming. [REVIEW-QUEUE](../generated/REVIEW-QUEUE.md) identifies remaining inspection and evaluation.
+The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. [Review priorities](REVIEW.md) identify remaining inspection and evaluation.
 
 ## Link procedure
 

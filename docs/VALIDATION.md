@@ -31,7 +31,7 @@ python3 -m unittest discover -s tests -v
 
 The 0.4.0 update adds a self-contained master and preserves all five original specialist files. New domain tests check the declared composition, hierarchy, response-wait boundary, inline specialist responsibilities, evidence distinctions, unchanged record schemas, preserved root layout and source-review limits. Mutation cases reject a link-only stage or a missing response-wait instruction. Text and metadata checks do not establish usability or educational effectiveness; an author walkthrough is recorded separately in REVIEW.md.
 
-Fresh local and archive results are recorded in `data/master-orchestration-validation.json`. The ordinary validation commands above include the new tests. The master uses existing optional session and plan records; their checkers are unchanged.
+Record actual local and archive check results in the change PR. The ordinary validation commands above include the new tests. The master uses existing optional session and plan records; their checkers are unchanged.
 
 ## Check boundaries
 
@@ -50,7 +50,7 @@ python3 tools/check_learning_plan.py data/two-level-learning-plan-template.json
 python3 tools/check_learning_plan.py data/two-level-learning-plan-example.json
 ```
 
-An empty template passes as a template, not as a completed plan. A constructed example is not an observed learner result. Historical execution records retain their original version scope; the overview run is recorded separately in data/overview-validation.json.
+An empty template passes as a template, not as a completed plan. A constructed example is not an observed learner result. The [review record](REVIEW.md) retains the scope of the source and dependent-summary inspections; old execution logs remain available in Git history.
 
 ## Summary review
 
@@ -70,7 +70,7 @@ A downloadable archive can include a checksum manifest and must be checked after
 
 ## Not established
 
-A passing test does not prove faithful terminology, sufficient evidence, causal effectiveness, model compliance, valid grading, privacy in a third-party product or learner competence. Check logs and versioned records for actual executed commands; intended checks are not results.
+A passing test does not prove faithful terminology, sufficient evidence, causal effectiveness, model compliance, valid grading, privacy in a third-party product or learner competence. Check the change PR and CI logs for actual executed commands; intended checks are not results.
 
 ## Version and format compatibility
 
@@ -82,7 +82,7 @@ Compatibility of content version, KPS language and validator revision must be do
 {"version":"0.4.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
 ```
 
-Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). validate.py and LICENSE remain unchanged copies. AUTHORING.md and TEMPLATES.md adapt local links, and AUTHORING.md adapts the local test command. The original regression suite is retained in Core at the pinned commit. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
+Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). validate.py and LICENSE remain unchanged copies. docs/AUTHORING.md and docs/TEMPLATES.md adapt local links, and docs/AUTHORING.md adapts the local test command. The original regression suite is retained in Core at the pinned commit. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
 
 ## The one task refinement
 
@@ -107,11 +107,16 @@ The update reduces root-level files by consolidating overlapping guides and movi
 | `CHECKS.md`, `COMPATIBILITY.md` | `docs/VALIDATION.md` |
 | `NAVIGATION.md`, `DIAGRAMS.md` | `docs/READING-AND-DIAGRAMS.md` |
 | `REVIEW.md` | `docs/REVIEW.md` |
-| `INDEX.md`, `PRACTICE-MAP.md`, `EVIDENCE-MAP.md`, `TERMINOLOGY-MAP.md`, `REVIEW-QUEUE.md`, `knowledge-graph.json` | same names under `generated/` |
+| `INDEX.md`, `generated/INDEX.md`, Practice and terminology maps | [Combined knowledge index](INDEX.md) |
+| Evidence map | Canonical [claim records](../data/claims.json) |
+| Review queue | [Specific review priorities](REVIEW.md) |
+| `knowledge-graph.json` | Removed; no consumer requires the export |
+| `AUTHORING.md`, `TEMPLATES.md` | `docs/AUTHORING.md`, `docs/TEMPLATES.md` |
+| `CONTRIBUTING.md` | `.github/CONTRIBUTING.md` |
 
 Existing URLs pointing to former root paths will not automatically redirect on GitHub. Update external bookmarks and Markdown links deliberately. A copied relative link from an older version may need a new directory prefix; do not blindly replace text without considering the referring file's location. Generated views are rebuilt by `tools/build_navigation.py`. The dependency snapshot is refreshed only after reviewing affected local summaries and their source limits.
 
-The validator and licence (`validate.py`, `LICENSE`) remain byte-identical to Core 10.2.0. The copied regression suite was subsequently removed under the test allowlist. The copied `AUTHORING.md` and `TEMPLATES.md` retain the same format requirements and examples but have **relative documentation links updated for the new local file paths and the authoring test command adapted to the domain suite**. `upstream-lock.json` records both their original Core hashes and the local adapted hashes; no identical-copy claim is made. The package still declares KPS Core 10.2.0, language 9.x, and validator 9.1.0. Automated checks establish structural integrity, not scientific approval.
+The validator and licence (`validate.py`, `LICENSE`) remain byte-identical to Core 10.2.0. The copied regression suite was subsequently removed under the test allowlist. The copied `docs/AUTHORING.md` and `docs/TEMPLATES.md` retain the same format requirements and examples but have **relative documentation links updated for the new local file paths and the authoring test command adapted to the domain suite**. `upstream-lock.json` records both their original Core hashes and the local adapted hashes; no identical-copy claim is made. The package still declares KPS Core 10.2.0, language 9.x, and validator 9.1.0. Automated checks establish structural integrity, not scientific approval.
 
 ## Independence
 
@@ -125,7 +130,7 @@ Reading and applying a Practice requires no scripts. The existing tools have bou
 |---|---|
 | `validate.py` | KPS structure, links and dependency checks on this package |
 | `tools/check_domain.py` | Source-alignment declarations, evidence boundaries and role constraints |
-| `tools/build_navigation.py` | Keep indexes, evidence maps and the metadata graph aligned with Markdown and claim records |
+| `tools/build_navigation.py` | Keep the combined knowledge index and source register aligned with canonical Markdown |
 | `tools/check_record.py` | Detect inconsistent declarations in a private session record without inferring mastery |
 | `tools/check_learning_plan.py` | Detect missing or inconsistent plan fields and references without asserting prerequisite truth |
 | `tests/` | Exercise those contracts, examples and their failure cases |

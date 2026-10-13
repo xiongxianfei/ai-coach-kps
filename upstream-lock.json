@@ -4,18 +4,6 @@
   "commit": "9432f1ee86f641d01444038cc81b7efa596b75dc",
   "validator_version": "9.1.0",
   "files": {
-    "AUTHORING.md": {
-      "sha256": "ea8701fa52a563fefdc506671606d9b48a492bd57cca62f7e36e9204bfe779b3",
-      "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "Core 10.2.0 text with local documentation links and the domain-test command adapted; original checksum retained",
-      "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864"
-    },
-    "TEMPLATES.md": {
-      "sha256": "ae8d07540a246ef32a7c5f9c2029ab16f4fe2d9c3f2b06dc6a2e92012c7c7f74",
-      "git_blob_sha1": "0a30f90deed16f86b4b270d9c2d2d597bee805bf",
-      "reuse": "Core 10.2.0 text with relative documentation links adapted for relocated local targets; original checksum retained",
-      "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1"
-    },
     "LICENSE": {
       "sha256": "5522e6c3380f36d25cbdc97508a913229e1ea3cbc9af51b970574144869976f6",
       "git_blob_sha1": "f2069d6cff77823390bd06ee0513c324db216050",
@@ -25,6 +13,20 @@
       "sha256": "18e7e9a7eb86ace86a1f8fa31f7772b182b488ab0a5ab10c3fce2a2ea4e70f50",
       "git_blob_sha1": "ad8e9d48c501961e38415719fa5bdba6d78b18d4",
       "reuse": "unchanged copy"
+    },
+    "docs/AUTHORING.md": {
+      "sha256": "c511b6ffeb70547e7f6b1419a1bdcc2be8bbcc2179ad89cb81444bab968dfce1",
+      "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted and the domain-test command retained; original checksum retained",
+      "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
+      "upstream_path": "AUTHORING.md"
+    },
+    "docs/TEMPLATES.md": {
+      "sha256": "1bb060cd339cd8d12b88100564e3a9c4fd264566520be0cee7db84c47436cfeb",
+      "git_blob_sha1": "0a30f90deed16f86b4b270d9c2d2d597bee805bf",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained",
+      "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1",
+      "upstream_path": "TEMPLATES.md"
     }
   },
   "upstream_regression_suite": {

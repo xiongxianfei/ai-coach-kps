@@ -179,7 +179,7 @@ class MasterContentTests(unittest.TestCase):
         text = (ROOT/'README.md').read_text()
         self.assertLess(text.index(MASTER), text.index('practices/concept-mapping-'))
         generated = build_navigation.generate(ROOT)
-        self.assertIn('Self-contained master entry', generated['generated/PRACTICE-MAP.md'])
+        self.assertIn('Self-contained master entry', generated['docs/INDEX.md'])
         docs, _ = build_navigation.collect(ROOT)
         self.assertEqual(MASTER, docs[0][0])
     def test_specialists_retain_independent_entry(self):

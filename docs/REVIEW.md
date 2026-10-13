@@ -59,3 +59,21 @@ No real adult learner used these Practices under observation; no live model sess
 ## Next review tasks
 
 Prioritize expert review of AI-specific adaptation, appropriate assessments for each target subject, missing full-text access, learner-agency tradeoffs and real usability. Test one bounded Practice with consent before scaling. Publish observed outcomes only under appropriate rights and privacy conditions, and keep them distinct from the scientific library.
+
+## Source access priorities
+
+The following sources still need fuller inspection before their claims can be strengthened. Update this task list when that inspection actually occurs.
+
+- [Hamsa Bastani and colleagues](../references/bastani-2025-generative-ai-guardrails.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted and Doug Rohrer](../references/cepeda-2006-distributed-practice.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Nicholas J. Cepeda, Edward Vul, Doug Rohrer, John T. Wixted and Harold Pashler](../references/cepeda-2008-temporal-ridgeline.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Michelene T. H. Chi, Nicholas de Leeuw, Mei-Hung Chiu and Christian LaVancher](../references/chi-1994-self-explanation.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Greg Kestin, Kelly Miller, Anna Klales, Timothy Milbourne and Gregorio Ponti](../references/kestin-2025-ai-tutoring.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Roland Mayrhofer, Christof Kuhbandner and Katja Frischholz](../references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Ernesto Panadero](../references/panadero-2017-self-regulated-learning.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Stephanie Pieschl](../references/pieschl-2009-metacognitive-calibration.md) — read missing full procedures/arguments before strengthening the current claim.
+- [D. Royce Sadler](../references/sadler-1989-formative-assessment.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Nicholas C. Soderstrom and Robert A. Bjork](../references/soderstrom-bjork-2015-learning-versus-performance.md) — read missing full procedures/arguments before strengthening the current claim.
+- [Benedikt Wisniewski, Klaus Zierer and John Hattie](../references/wisniewski-zierer-hattie-2020-feedback.md) — read missing full procedures/arguments before strengthening the current claim.
+
+Review source-faithfulness and scope for the academic objects. Review source-to-AI adaptations and seek consented adult usability and outcome evaluation for Practices. Integrity checks do not promote provisional content to independent review.

@@ -48,7 +48,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## What is included
 
-There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](generated/INDEX.md), [Practice coverage](generated/PRACTICE-MAP.md), [terminology](generated/TERMINOLOGY-MAP.md) and [evidence map](generated/EVIDENCE-MAP.md).
+There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
 The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
@@ -56,7 +56,7 @@ The Models are actual published frameworks: Cognitive Apprenticeship and the Ass
 
 The full package remains **provisional**. Some definitions are supported by selected full passages, others only by publisher abstracts. No systematic review, independent expert approval, learner study, model evaluation or live coaching trial is claimed. A scientific source does not validate every AI application derived from it.
 
-General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. [REVIEW](docs/REVIEW.md) records inspection, indirectness and open questions. [REVIEW-QUEUE](generated/REVIEW-QUEUE.md) makes remaining work explicit.
+General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. [Review](docs/REVIEW.md) records inspection, indirectness, open questions and specific remaining work.
 
 ## Architecture and independence
 
@@ -66,7 +66,7 @@ This repository stands alone. It does not require the English Linguistics or Lea
 
 ## Repository layout
 
-The root holds reader entry, community and licence files, the pinned Core contract and validator (documentation links adapted locally; tool and licence bytes unchanged), and integrity metadata. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [generated knowledge index](generated/INDEX.md), [Practice map](generated/PRACTICE-MAP.md), [evidence map](generated/EVIDENCE-MAP.md), [terminology map](generated/TERMINOLOGY-MAP.md) and [review queue](generated/REVIEW-QUEUE.md) are derived views, not competing canonical knowledge.
+The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and review guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
 
 Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), [reader and diagram guide](docs/READING-AND-DIAGRAMS.md), and [scientific review](docs/REVIEW.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
 
@@ -89,4 +89,4 @@ These commands check structure and declared boundaries, not educational efficacy
 
 Domain package: 0.4.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/VALIDATION.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
-Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](CONTRIBUTING.md).
+Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](.github/CONTRIBUTING.md).
