@@ -14,7 +14,6 @@ jobs:
         with:
           persist-credentials: false
       - run: python3 validate.py .
-      - run: python3 test_validate.py
       - run: python3 tools/check_domain.py
       - run: python3 tools/build_navigation.py --check
       - run: python3 -m unittest discover -s tests -v

@@ -35,4 +35,4 @@ Keep completed learner records outside the public repository. Do not commit API 
 
 ## Reproduce
 
-Run the five commands in docs/VALIDATION.md. Regenerate navigation from canonical files, review affected summaries and only then accept the dependency snapshot. Keep upstream tool copies pinned and record any proposed tool changes separately.
+Run the commands in docs/VALIDATION.md. Regenerate navigation from canonical files, review affected summaries and only then accept the dependency snapshot. Keep upstream tool copies pinned and record any proposed tool changes separately.

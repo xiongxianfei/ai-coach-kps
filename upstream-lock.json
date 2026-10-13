@@ -5,9 +5,9 @@
   "validator_version": "9.1.0",
   "files": {
     "AUTHORING.md": {
-      "sha256": "e70fc9a440aa5c71781d9ce459897e9b4d7309e2c66621ad9d6b08fe681009a8",
+      "sha256": "ea8701fa52a563fefdc506671606d9b48a492bd57cca62f7e36e9204bfe779b3",
       "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "Core 10.2.0 text with relative documentation links adapted for relocated local targets; original checksum retained",
+      "reuse": "Core 10.2.0 text with local documentation links and the domain-test command adapted; original checksum retained",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864"
     },
     "TEMPLATES.md": {
@@ -25,11 +25,12 @@
       "sha256": "18e7e9a7eb86ace86a1f8fa31f7772b182b488ab0a5ab10c3fce2a2ea4e70f50",
       "git_blob_sha1": "ad8e9d48c501961e38415719fa5bdba6d78b18d4",
       "reuse": "unchanged copy"
-    },
-    "test_validate.py": {
-      "sha256": "924264d18c0c5d416d488094168c07989430472dd5b60c43979dfe964d1f8337",
-      "git_blob_sha1": "19de2fda5653cf2159f3c9df6396991c1b2aead9",
-      "reuse": "unchanged copy"
     }
+  },
+  "upstream_regression_suite": {
+    "path": "test_validate.py",
+    "commit": "9432f1ee86f641d01444038cc81b7efa596b75dc",
+    "sha256": "924264d18c0c5d416d488094168c07989430472dd5b60c43979dfe964d1f8337",
+    "location": "Core Git history; no local copy"
   }
 }

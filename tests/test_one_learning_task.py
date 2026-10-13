@@ -8,42 +8,6 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from tools.check_learning_plan import inspect_plan
 from tools.check_record import inspect_record
-import validate
-
-PRACTICES=[
-    'concept-mapping-and-instructional-sequencing-with-ai.md',
-    'self-regulated-learning-with-ai.md',
-    'formative-assessment-with-ai.md',
-    'retrieval-and-distributed-practice-with-ai.md',
-    'evaluation-of-ai-assisted-learning.md',
-]
-
-class OneTaskPublicationTests(unittest.TestCase):
-    def test_five_practices_give_one_task_handoff(self):
-        for name in PRACTICES:
-            with self.subTest(name=name):
-                doc=validate.parse(ROOT/'practices'/name)
-                self.assertEqual('practice',doc.meta['type'])
-                self.assertIn('LEARNING-WORKFLOW.md',doc.path.read_text())
-                self.assertIn('not recorded',doc.path.read_text().lower())
-
-    def test_core_scientific_roles_unchanged(self):
-        self.assertEqual(7,len(list((ROOT/'concepts').glob('*.md'))))
-        self.assertEqual(3,len(list((ROOT/'principles').glob('*.md'))))
-        self.assertEqual(2,len(list((ROOT/'models').glob('*.md'))))
-        self.assertEqual(4,len(list((ROOT/'methods').glob('*.md'))))
-        self.assertEqual(6,len(list((ROOT/'practices').glob('*.md'))))
-
-    def test_version_and_entry_are_explicit(self):
-        self.assertEqual('0.4.0',json.loads((ROOT/'publication.json').read_text())['version'])
-        s=(ROOT/'README.md').read_text()
-        self.assertIn('[One Learning Task at a Time](guides/LEARNING-WORKFLOW.md)',s)
-        self.assertIn('does not require',s)
-
-    def test_no_observed_day_one_outcome(self):
-        text=(ROOT/'guides/WORKED-EXAMPLE.md').read_text()
-        self.assertIn('constructed',text.lower())
-        self.assertIn('not recorded',text.lower())
 
 class NextTaskDeclarationTests(unittest.TestCase):
     def sample(self):return json.loads((ROOT/'data/two-level-learning-plan-example.json').read_text())
