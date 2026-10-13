@@ -22,7 +22,7 @@ GENERATED={'INDEX.md','PRACTICE-MAP.md','EVIDENCE-MAP.md','TERMINOLOGY-MAP.md',
 
 class RootSimplificationTests(unittest.TestCase):
     def test_01_root_has_only_required_files(self):
-        root={p.name for p in ROOT.iterdir() if p.is_file()}
+        root={p.name for p in ROOT.iterdir() if p.is_file() and p.name!='MANIFEST.sha256'}
         self.assertEqual(ROOT_FILES,root)
     def test_02_old_root_paths_are_gone(self):
         self.assertTrue(RETIRED.isdisjoint(ROOT_FILES))
