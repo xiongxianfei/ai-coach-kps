@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -13,6 +13,10 @@ Keep the original response, assistance, timing and verification separate from in
 ## Summary
 
 The JSON record is a local reporting convention for private use, not a validated measurement model. Its checker detects inconsistent declarations and reports counts without producing mastery decisions.
+
+## Programme continuity
+
+The [master Practice](../practices/ai-assisted-learning-orchestration.md) includes a complete plain-text resume record, so JSON and separate files are optional. Existing `plan_id`, `plan_version`, `learning_stage_id` and `learning_task_id` connect an attempt to the programme when those records exist. No new required schema fields are introduced. Keep the overall target, stage decisions and task attempts distinct, and never fill a learner response merely to complete a template.
 
 ## Start a private record
 

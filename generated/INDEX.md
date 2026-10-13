@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -16,6 +16,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Practices
 
+- [AI-Assisted Learning Orchestration](../practices/ai-assisted-learning-orchestration.md) — provisional.
 - [Concept Mapping and Instructional Sequencing With an AI Coach](../practices/concept-mapping-and-instructional-sequencing-with-ai.md) — provisional.
 - [Evaluation of AI Assisted Learning](../practices/evaluation-of-ai-assisted-learning.md) — provisional.
 - [Formative Assessment With an AI Coach](../practices/formative-assessment-with-ai.md) — provisional.

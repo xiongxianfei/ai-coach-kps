@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -18,6 +18,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 | Object | Current status | Next review need |
 |---|---|---|
+| [AI-Assisted Learning Orchestration](../practices/ai-assisted-learning-orchestration.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Concept Mapping and Instructional Sequencing With an AI Coach](../practices/concept-mapping-and-instructional-sequencing-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Evaluation of AI Assisted Learning](../practices/evaluation-of-ai-assisted-learning.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Formative Assessment With an AI Coach](../practices/formative-assessment-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |

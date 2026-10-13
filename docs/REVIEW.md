@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -12,7 +12,7 @@ Inspection of research, authoring review and independent validation are separate
 
 ## Summary
 
-This is a targeted, provisional synthesis for five adult AI coaching tasks. Sources were selected for specific constructs and decisions; this was not an exhaustive systematic search or meta-analysis.
+This is a targeted, provisional synthesis for five specialist adult AI coaching tasks and a master orchestration Practice. Sources were selected for specific constructs and decisions; this was not an exhaustive systematic search or meta-analysis.
 
 ## Source access
 
@@ -41,6 +41,16 @@ Before refreshing summary-dependencies.json, the new source summaries and direct
 The five Practice summaries and StageN identifiers were inspected for scope after adding a one-current-task handoff. Planning still permits an overview and staged route, but one immediate observable task is selected for execution; direct entry to a small goal is also allowed. Formative probes, retrieval prompts and evaluation questions remain task-sensitive rather than a fixed time quota. The unit-price and authorized-lab examples are explicitly constructed. No global claim that smaller tasks are always superior was introduced and no external publication was promoted to endorsement of the authored prompt or unit contract.
 
 Before refreshing the direct dependency fingerprints, the authoring assistant examined the added supporting guide and its incoming Practice links, checked that it does not supersede the academically grounded Concepts, Principles, Models or Methods, and verified that all original observations remain blank. This is AI-assisted editorial review of the changed dependencies and local meaning, not independent scientific review or a live learner trial.
+
+## Master orchestration author review
+
+On 2026-10-13 the authoring assistant inspected the merged 0.3.0 repository and all five specialist procedures, then wrote the master as an inline synthesis. The seven new procedural stages cover target agreement, two-level orientation and stage planning, one current task, instruction and a genuine response pause, formative assessment, stage/programme interpretation, and retrieval/resumption. The overall target, learning-stage IDs, task IDs, attempt evidence and day labels are explicitly distinct.
+
+For this update the official IHMC Introduction and Constructing Good Concept Maps sections, the original AFT Cognitive Apprenticeship Method and Sequencing passages, and NRC 2001 Chapter 2 assessment-triangle discussion were reinspected as HTML. The first NRC request failed; a subsequent official-host request succeeded. Other existing source records retain their original inspection extent. No new research search, learner study, original-source access for all SRL models, or independent scientific review is claimed.
+
+The author inspected a links-hidden reading copy and traced a constructed new-subject case, a returning learner, an absent reply, a requested full explanation, disputed AI feedback, an unknown delay and a stage revision. This checks that actions, interpretation and stopping choices are present without visiting a specialist file. It is an AI-assisted editorial walkthrough, not an independent user study or proof of comprehension. A standalone scholarly source is not proof of the seven-stage integration.
+
+The five specialist files and scientific library were preserved byte-for-byte. Composition is one-way from the master; returning to an earlier learning activity is a runtime decision, not a metadata containment cycle. The current-practice summary stays blank. New tests examine declarations and regressions, not actual learner performance. Dependency summaries are reviewed before refreshing fingerprints; normal CI does not accept them automatically.
 
 ## What remains untested
 

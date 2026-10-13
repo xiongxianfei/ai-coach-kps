@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -13,6 +13,12 @@ Use one meaningful, observable current task while retaining revisable subject an
 ## Summary
 
 This reader guide combines the one-task-at-a-time convention and the optional two-level learning-plan record instructions. It distinguishes the current task, panorama, goal concept map, proposed learning episodes and actual observations. No fixed task duration, planning software, or validated mastery score is required.
+
+## One continuing programme without document switching
+
+The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts the full procedure in one file. Define the overall target, identify provisional learning stages, select one current task, teach or ask for retrieval, wait for the real reply, assess against an inspectable criterion and choose the next action. Preserve actual attempts separately from plan revisions, and resume from the current decision instead of restarting the whole procedure.
+
+**Overall target → learning stage → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. Day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
 
 ## One task at a time
 
