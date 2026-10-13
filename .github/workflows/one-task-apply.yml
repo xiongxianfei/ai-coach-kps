@@ -1,0 +1,46 @@
+name: Temporary one-task refinement materialization
+on:
+  push:
+    branches: [feat/one-task-first]
+    paths: ['.one-task-build/patch.b64']
+permissions:
+  contents: read
+jobs:
+  materialize:
+    if: github.repository == 'xiongxianfei/ai-coach-kps' && github.event.head_commit.message == 'build: upload one-task patch payload'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - name: Verify pinned baseline and reviewed patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD~2)" = '15b3ae34d9283496088ff886fd22ba2bee23cd16'
+          base64 -d .one-task-build/patch.b64 | xz -dc > /tmp/one-task.patch
+          printf '%s  %s\n' 'a87ddab12be4b1c2bf43c4b7cffdf980694e70dd7668ec3e6d04a4b9ff68c782' /tmp/one-task.patch | sha256sum -c -
+          git apply --check --unidiff-zero /tmp/one-task.patch
+          git apply --unidiff-zero /tmp/one-task.patch
+          python3 validate.py .
+          python3 test_validate.py
+          python3 tools/check_domain.py
+          python3 tools/build_navigation.py --check
+          python3 -m unittest discover -s tests -v
+          python3 tools/check_learning_plan.py data/two-level-learning-plan-template.json
+          python3 tools/check_learning_plan.py data/two-level-learning-plan-example.json
+          python3 tools/check_record.py data/session-record-template.json
+      - name: Commit verified files and remove payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -r --ignore-unmatch .one-task-build
+          git add -A
+          git commit -m 'feat: select one meaningful next learning task across coaching Practices'
+          git push origin HEAD:refs/heads/feat/one-task-first
