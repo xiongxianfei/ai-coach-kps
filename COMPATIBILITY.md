@@ -12,12 +12,12 @@ Core content version, authoring language and structural checker version have dif
 
 ## Summary
 
-This domain is based on pinned KPS Core 10.2.0, follows the KPS 9.x authoring language and uses the unchanged 9.1.0 checker. It has its own 0.1.0 content version and no required sibling-package dependency.
+This domain is based on pinned KPS Core 10.2.0, follows the KPS 9.x authoring language and uses the unchanged 9.1.0 checker. It has its own 0.2.0 content version and no required sibling-package dependency.
 
 ## Version declarations
 
 ```json
-{"version":"0.1.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
+{"version":"0.2.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
 ```
 
 Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](upstream-lock.json). AUTHORING.md, TEMPLATES.md, validate.py, test_validate.py and LICENSE are copied unchanged. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
