@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -25,6 +25,8 @@ Generated view of canonical package declarations. It is a navigation and review 
 - [AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting](kestin-2025-ai-tutoring.md) — Publisher HTML abstract, selected Results and Discussion, design constraints, limitations and Methods inspected. Raw data and supplements were not independently reanalyzed.
 - [Re-examining the testing effect as a learning strategy: the advantage of retrieval practice over concept mapping as a methodological artifact](mayrhofer-kuhbandner-frischholz-2023-testing-effect.md) — Publisher abstract and Discussion passages on verbatim and inference outcomes inspected. Preregistration, raw data and detailed scoring were not independently checked.
 - [Knowing What Students Know: The Science and Design of Educational Assessment](national-research-council-2001-assessment.md) — Hosted HTML of Chapter 2, particularly printed pages 42 to 51, inspected for assessment reasoning and the triangle. The source figures and balance-scale data are not copied or used as our examples.
+- [Taking Science to School: Learning and Teaching Science in Grades K-8, Chapter 8 Learning Progressions](national-research-council-2007-learning-progressions.md) — Official publisher HTML Chapter 8, introductory definition on printed page 214 and Key Characteristics discussion on pages 220 to 222. No full-book, underlying-study or figure review.
+- [The Theory Underlying Concept Maps and How to Construct and Use Them](novak-canas-2008-concept-maps.md) — Official IHMC HTML: Introduction and Constructing Good Concept Maps. Other theoretical claims, linked studies, software, and figures were not evaluated.
 - [A Review of Self-regulated Learning: Six Models and Four Directions for Research](panadero-2017-self-regulated-learning.md) — Publisher HTML abstract and introduction inspected. The review is used for its characterization of the field, not as direct inspection of the original publications for all six models.
 - [Metacognitive calibration: an extended conceptualization and potential applications](pieschl-2009-metacognitive-calibration.md) — Publisher abstract and metadata only; complete theoretical argument and measures were not inspected.
 - [Formative assessment and the design of instructional systems](sadler-1989-formative-assessment.md) — Publisher abstract and metadata only; full article was not inspected.

@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -16,7 +16,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Scope
 
-Thirteen bounded claim records connect selected research with authored Practice decisions. This is a targeted map, not a systematic review, pooled effect-size analysis or causal model.
+Bounded claim records connect selected research with authored Practice decisions. This is a targeted map, not a systematic review, pooled effect-size analysis or causal model.
 
 ## Srl
 
@@ -199,6 +199,48 @@ Thirteen bounded claim records connect selected research with authored Practice 
 **Limit:** This is high-school mathematics, indirect evidence for independent adults. The exam is short-term, not a long-term retention measure. Teacher-supplied safeguards are not reproduced by a promise in a generic prompt. The inspected article notes a 2025 affiliation correction.
 
 **Authored application, not a demonstrated effect:** Retain an independent check and source controls; do not generalize that AI always helps or harms.
+
+## Concept Mapping
+
+**Source premise:** Concept maps use explicit linking phrases to organize propositions around a focus question.
+
+[Source record](references/novak-canas-2008-concept-maps.md) — Introduction; Constructing Good Concept Maps.
+
+**Population and context:** Author technical report on a knowledge representation and construction procedure  
+**Comparison:** Not an intervention comparison  
+**Outcome and timing:** Meaning and procedure, not a measured learning effect; No delay or developmental timescale tested here.
+
+**Limit:** The report does not establish this AI workflow, an exhaustive panorama or prerequisite relationships. Theories and experiments elsewhere in the report were not evaluated.
+
+**Authored application, not a demonstrated effect:** Use distinct panorama and goal-map artifacts, check important propositions, and keep instructional hypotheses separate. These are local design choices.
+
+## Whole Task Orientation
+
+**Source premise:** Cognitive Apprenticeship discusses global task orientation before component execution alongside complexity and diversity.
+
+[Source record](references/collins-brown-holum-1991-cognitive-apprenticeship.md) — Sequencing: Global before local skills; framework summary.
+
+**Population and context:** Published instructional framework with varied educational examples  
+**Comparison:** Not an experiment on adult AI-coach domain panoramas  
+**Outcome and timing:** An instructional sequencing account; No optimum preliminary survey duration is prescribed.
+
+**Limit:** Whole-task understanding is not the same as a whole-discipline map. The article does not require exhaustive orientation or validate this sequence.
+
+**Authored application, not a demonstrated effect:** Offer a bounded panorama before detailed planning and revisit the whole when a local relation changes; preserve learner choice.
+
+## Learning Progression Boundary
+
+**Source premise:** The NRC science account treats learning progressions as research-informed descriptions of increasingly sophisticated understanding, including multiple paths.
+
+[Source record](references/national-research-council-2007-learning-progressions.md) — Chapter 8, printed page 214 and Key Characteristics on pages 220 to 222.
+
+**Population and context:** K–8 science and developmental/instructional research synthesis  
+**Comparison:** Conceptual description, not a trial of adult AI coaching  
+**Outcome and timing:** A research use of the term learning progression; Extended schooling rather than one chat session.
+
+**Limit:** This school-science account is not direct evidence for an adult topic plan. An authored order does not acquire empirical validation from a label.
+
+**Authored application, not a demonstrated effect:** Call the local output a provisional instructional sequence and record the evidence needed to revise it.
 
 ## Data and review
 

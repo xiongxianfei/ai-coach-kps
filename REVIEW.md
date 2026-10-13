@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -12,7 +12,7 @@ Inspection of research, authoring review and independent validation are separate
 
 ## Summary
 
-This is a targeted, provisional synthesis for four adult AI coaching tasks. Sources were selected for specific constructs and decisions; this was not an exhaustive systematic search or meta-analysis.
+This is a targeted, provisional synthesis for five adult AI coaching tasks. Sources were selected for specific constructs and decisions; this was not an exhaustive systematic search or meta-analysis.
 
 ## Source access
 
@@ -27,6 +27,14 @@ The retrieval superiority claim is qualified by Mayrhofer and colleagues' altere
 ## What was author reviewed
 
 The authoring assistant checked local explanation, source identity, role classification, prompt boundaries, source-to-application statements, original versus corrected responses, and the links used in each Practice. The definitions and Practice summaries were compared before the initial dependency baseline was established. This is an authoring review, not an independent scholar's approval.
+
+## Two level planning review
+
+The interrupted branch already contained a Concept Map definition, Concept Mapping Method, IHMC Reference and planning Practice. On 2026-10-13 these were recovered and reviewed against their source sections. The original self-regulated learning, formative assessment, retrieval and evaluation Practices were then checked for coherent entry and return paths. No existing StageN anchor was renamed.
+
+The IHMC report's Introduction and Constructing Good Concept Maps sections were rechecked; Cognitive Apprenticeship's Sequencing discussion was also rechecked. NRC 2007 Chapter 8 HTML pages 214 and 220–222 were inspected only for the learning-progression terminology boundary. These are sources about representation and instruction, not a direct test of this two-level AI workflow. No unpublished learner evidence or comprehensive disciplinary panorama was inferred.
+
+Before refreshing summary-dependencies.json, the new source summaries and direct receiving Practices were inspected for source scope, conceptual versus prerequisite links, and the separation of planning from observed capability. This was AI-assisted authoring review, not independent scholarly review.
 
 ## What remains untested
 

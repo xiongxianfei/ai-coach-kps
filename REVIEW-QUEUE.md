@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -18,10 +18,12 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 | Object | Current status | Next review need |
 |---|---|---|
+| [Concept Mapping and Instructional Sequencing With an AI Coach](practices/concept-mapping-and-instructional-sequencing-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Evaluation of AI Assisted Learning](practices/evaluation-of-ai-assisted-learning.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Formative Assessment With an AI Coach](practices/formative-assessment-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Retrieval and Distributed Practice With an AI Coach](practices/retrieval-and-distributed-practice-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
 | [Self Regulated Learning With an AI Coach](practices/self-regulated-learning-with-ai.md) | provisional | Consented adult usability and outcome evaluation; source-to-AI adaptation review |
+| [Concept Map](concepts/concept-map.md) | provisional | Independent source-faithfulness and scope review |
 | [Feedback](concepts/feedback.md) | provisional | Independent source-faithfulness and scope review |
 | [Formative Assessment](concepts/formative-assessment.md) | provisional | Independent source-faithfulness and scope review |
 | [Instructional Scaffolding](concepts/instructional-scaffolding.md) | provisional | Independent source-faithfulness and scope review |
@@ -34,6 +36,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 | [Assessment Triangle](models/assessment-triangle.md) | provisional | Independent source-faithfulness and scope review |
 | [Cognitive Apprenticeship](models/cognitive-apprenticeship.md) | provisional | Independent source-faithfulness and scope review |
 | [Cognitive Modeling](methods/cognitive-modeling.md) | provisional | Independent source-faithfulness and scope review |
+| [Concept Mapping](methods/concept-mapping.md) | provisional | Independent source-faithfulness and scope review |
 | [Retrieval Practice](methods/retrieval-practice.md) | provisional | Independent source-faithfulness and scope review |
 | [Self-Explanation](methods/self-explanation.md) | provisional | Independent source-faithfulness and scope review |
 

@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -16,6 +16,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Practices
 
+- [Concept Mapping and Instructional Sequencing With an AI Coach](practices/concept-mapping-and-instructional-sequencing-with-ai.md) — provisional.
 - [Evaluation of AI Assisted Learning](practices/evaluation-of-ai-assisted-learning.md) — provisional.
 - [Formative Assessment With an AI Coach](practices/formative-assessment-with-ai.md) — provisional.
 - [Retrieval and Distributed Practice With an AI Coach](practices/retrieval-and-distributed-practice-with-ai.md) — provisional.
@@ -23,6 +24,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Concepts
 
+- [Concept Map](concepts/concept-map.md) — provisional.
 - [Feedback](concepts/feedback.md) — provisional.
 - [Formative Assessment](concepts/formative-assessment.md) — provisional.
 - [Instructional Scaffolding](concepts/instructional-scaffolding.md) — provisional.
@@ -44,6 +46,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 ## Methods
 
 - [Cognitive Modeling](methods/cognitive-modeling.md) — provisional.
+- [Concept Mapping](methods/concept-mapping.md) — provisional.
 - [Retrieval Practice](methods/retrieval-practice.md) — provisional.
 - [Self-Explanation](methods/self-explanation.md) — provisional.
 

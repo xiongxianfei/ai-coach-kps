@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -21,6 +21,8 @@ The JSON record is a local reporting convention for private use, not a validated
 3. Create a separate attempt when help or feedback changes the conditions. Never overwrite the original response with the revision.
 4. Leave unobserved events and unknown fields blank. Do not turn a missing response into a numerical failure.
 5. Run python3 tools/check_record.py /path/to/private-record.json to inspect declarations. Do not upload the private file to an AI service unless appropriate.
+
+For a multi-episode goal, keep the [planning record](LEARNING-PLAN.md) separately. Reference a plan version and stable learning-stage ID in your private note. The plan holds intended activities; this session record holds actual responses and assistance. Neither a plan edit nor a checked map link changes the original performance record.
 
 ## Assistance and verification
 

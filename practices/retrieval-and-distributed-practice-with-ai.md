@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Retrieval and Distributed Practice With an AI Coach"
@@ -17,6 +17,7 @@ uses_concepts: ["ai-coach:concept:learning-performance-distinction", "ai-coach:c
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_models: ["ai-coach:model:assessment-triangle"]
 uses_methods: ["ai-coach:method:retrieval-practice", "ai-coach:method:self-explanation"]
+uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
 
 # Retrieval and Distributed Practice With an AI Coach
@@ -49,6 +50,8 @@ Use this Practice for safe conceptual or procedural review with a source that ca
 4. Plan a manageable study occasion and a separate later check. Exact numbers of items and dates are local choices, not research-validated constants.
 
 Retrieval concerns the activity; distribution concerns when activities occur. Neither term automatically specifies interleaving, difficulty or a repetition algorithm.
+
+Locate each selected question in the [goal-specific concept map](concept-mapping-and-instructional-sequencing-with-ai.md). Include questions about relations and boundaries when relevant, not just isolated node names. Keep the panoramic subject regions as context; do not require retrieving the whole discipline before working on one goal.
 
 ## Stage2 Prepare prompts with checked answers
 

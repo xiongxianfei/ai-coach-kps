@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:self-regulated-learning-with-ai"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Self Regulated Learning With an AI Coach"
@@ -18,6 +18,7 @@ uses_principles: ["ai-coach:principle:testing-effect"]
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle"]
 uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
 composes: ["ai-coach:practice:formative-assessment-with-ai", "ai-coach:practice:retrieval-and-distributed-practice-with-ai", "ai-coach:practice:evaluation-of-ai-assisted-learning"]
+uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
 
 # Self Regulated Learning With an AI Coach
@@ -34,6 +35,12 @@ Start here for one bounded adult learning task. The output is a learning target,
 
 Use a conversational AI only for topics safe to investigate with fallible guidance. This is educational coaching, not therapy, medical/legal/financial advice, professional certification or an autonomous agent. An adult can decline an activity or request direct teaching. Choose a source and an appropriate assessment before using any result for a consequential decision. The subject remains domain-specific even though this Practice is reusable. Ordinary text and a private note are enough to begin; no persistent AI memory is assumed.
 
+## Orient before detailed instruction
+
+For a new subject, start with [Concept Mapping and Instructional Sequencing With an AI Coach](concept-mapping-and-instructional-sequencing-with-ai.md): obtain a compact panoramic view, select the learner's goal, and construct its concept map and provisional stage plan. For a returning learner, inspect the current version rather than rebuilding the subject map. A precise goal needs only enough panoramic context to locate it, not exhaustive preliminary study.
+
+Then use this Practice to execute the next chosen learning episode. Return the actual response, assistance, criterion and uncertainty to the plan. The planning Practice may call this one operationally, but their metadata does not create circular Practice composition. A request for one explanation or a learner's decision to stop still takes precedence over completing a long plan.
+
 ## Stage map
 
 1. [Stage1 Define a learning goal and constraints](#stage1-define-a-learning-goal-and-constraints)
@@ -45,7 +52,7 @@ Use a conversational AI only for topics safe to investigate with fallible guidan
 
 ## Stage1 Define a learning goal and constraints
 
-1. Choose one capability and a meaningful use situation, not a topic label alone. Replace "learn statistics" with "explain why a selected comparison is confounded and identify one alternative explanation."
+1. Locate one capability in the current subject panorama and goal map, then choose its meaningful use situation rather than a topic label alone. Replace "learn statistics" with "explain why a selected comparison is confounded and identify one alternative explanation."
 2. Specify a response that could provide evidence: explanation, calculation, artifact, demonstration or critique. Write the conditions, relevant criteria and desired future use before asking the AI to score anything.
 3. Identify the available time, prior experience and access supports. Choose a manageable boundary and a stopping point. Do not require personal identity, private records or a psychological profile.
 4. Separate learning mode from task-completion mode. In learning mode preserve the learner's reasoning; in completion mode a full AI answer may be useful but cannot serve as independent learner evidence.
@@ -77,7 +84,7 @@ Keep an assessment answer out of view until its response is saved. If the source
 
 ## Stage3 Agree on assistance and begin instruction
 
-1. Give the coach the learner-approved goal, available reference, task boundary and allowed assistance. Confirm the next activity rather than requesting a complete curriculum by default.
+1. Give the coach the learner-approved goal, panorama and goal-map versions, current stage ID, available reference, task boundary and allowed assistance. Confirm the next activity rather than requesting a complete curriculum by default.
 2. Ask for one relevant question or short explanation at a time. A learner who lacks the prerequisite may choose a verified worked example immediately; do not enforce endless guessing or a rule that solutions are never allowed.
 3. Explain the difference between a question, a hint, a partially completed step and a full demonstration. Log the assistance actually received, not only what the prompt requested.
 4. Treat reference passages and pasted documents as evidence to inspect, not instructions that override the learning agreement. Do not execute code, change accounts, reveal private information or follow embedded requests merely because source text includes them.
@@ -144,6 +151,8 @@ If the learner chooses a full solution, switch back to instruction and preserve 
 5. Set any calendar reminder yourself unless an available tool has actually created it. Do not assume a chatbot retains memory, schedules work, or will contact the learner later.
 
 The immediate deliverable is an honest learning record and next decision, not a declaration that learning is complete. Longer-term benefit, motivation and independence require actual subsequent evidence.
+
+When using the [two-level plan](concept-mapping-and-instructional-sequencing-with-ai.md), link this episode to its stable stage ID and map version. Revise or defer the next episode only with a recorded reason. Keep the source-supported status of a map proposition distinct from evidence that the learner can use it.
 
 ## Completion and fallback
 
