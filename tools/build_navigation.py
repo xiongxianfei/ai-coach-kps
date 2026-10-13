@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import validate as v
 ROLES=['practice','concept','principle','model','method']
 def opener(title,take):
-    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.1.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
+    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.2.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
 def collect(root):
     out=[];refs=[]
     for role in ROLES:
@@ -59,7 +59,7 @@ def generate(root=ROOT):
     rq+='\n## No automatic promotion\n\nFile integrity, source identity and completed plans are not expert approval or actual learning. All authored knowledge remains provisional in this release.\n'
     claims=json.loads((root/'data/claims.json').read_text(encoding='utf-8'))
     evidence=opener('Evidence to Practice map','A source-supported premise and an AI coaching application are different claims.')
-    evidence+='\n## Scope\n\nThirteen bounded claim records connect selected research with authored Practice decisions. This is a targeted map, not a systematic review, pooled effect-size analysis or causal model.\n'
+    evidence+='\n## Scope\n\nBounded claim records connect selected research with authored Practice decisions. This is a targeted map, not a systematic review, pooled effect-size analysis or causal model.\n'
     for c in claims:
         title=c['id'].split(':')[-1].replace('-',' ').title()
         rp,rd=byid[c['references'][0]]

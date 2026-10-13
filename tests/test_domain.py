@@ -63,9 +63,9 @@ class PublicationTests(unittest.TestCase):
         for name,text in build_navigation.generate(self.root).items():self.assertEqual(text,(self.root/name).read_text(),name)
     def test_practice_and_library_counts(self):
         docs,refs=build_navigation.collect(self.root)
-        self.assertEqual(18,len(docs));self.assertEqual(15,len(refs))
+        self.assertEqual(21,len(docs));self.assertEqual(17,len(refs))
         practices=[d for _,d in docs if d.meta['type']=='practice']
-        self.assertEqual(4,len(practices));self.assertEqual(22,sum(len(d.meta['stage_titles']) for d in practices))
+        self.assertEqual(5,len(practices));self.assertEqual(28,sum(len(d.meta['stage_titles']) for d in practices))
     def test_no_uninspected_named_model(self):
         paths=[p.name for p in (self.root/'models').glob('*.md')]
         self.assertEqual(['assessment-triangle.md','cognitive-apprenticeship.md'],sorted(paths))

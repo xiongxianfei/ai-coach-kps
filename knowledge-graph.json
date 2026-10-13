@@ -3,6 +3,11 @@
   "meaning": "Declared documentation dependencies, not a causal or mental-processing model.",
   "nodes": [
     {
+      "id": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "path": "practices/concept-mapping-and-instructional-sequencing-with-ai.md",
+      "type": "practice"
+    },
+    {
       "id": "ai-coach:practice:evaluation-of-ai-assisted-learning",
       "path": "practices/evaluation-of-ai-assisted-learning.md",
       "type": "practice"
@@ -21,6 +26,11 @@
       "id": "ai-coach:practice:self-regulated-learning-with-ai",
       "path": "practices/self-regulated-learning-with-ai.md",
       "type": "practice"
+    },
+    {
+      "id": "ai-coach:concept:concept-map",
+      "path": "concepts/concept-map.md",
+      "type": "concept"
     },
     {
       "id": "ai-coach:concept:feedback",
@@ -83,6 +93,11 @@
       "type": "method"
     },
     {
+      "id": "ai-coach:method:concept-mapping",
+      "path": "methods/concept-mapping.md",
+      "type": "method"
+    },
+    {
       "id": "ai-coach:method:retrieval-practice",
       "path": "methods/retrieval-practice.md",
       "type": "method"
@@ -138,6 +153,16 @@
       "type": "reference"
     },
     {
+      "id": "ai-coach:reference:nrc-2007-learning-progressions",
+      "path": "references/national-research-council-2007-learning-progressions.md",
+      "type": "reference"
+    },
+    {
+      "id": "ai-coach:reference:novak-canas-2008",
+      "path": "references/novak-canas-2008-concept-maps.md",
+      "type": "reference"
+    },
+    {
       "id": "ai-coach:reference:panadero-2017",
       "path": "references/panadero-2017-self-regulated-learning.md",
       "type": "reference"
@@ -170,6 +195,61 @@
   ],
   "edges": [
     {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:concept-map"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:learning-performance-distinction"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:formative-assessment"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_models",
+      "target": "ai-coach:model:cognitive-apprenticeship"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_models",
+      "target": "ai-coach:model:assessment-triangle"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "uses_methods",
+      "target": "ai-coach:method:concept-mapping"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "references",
+      "target": "ai-coach:reference:novak-canas-2008"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "references",
+      "target": "ai-coach:reference:collins-1991"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "references",
+      "target": "ai-coach:reference:nrc-2001"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "references",
+      "target": "ai-coach:reference:soderstrom-2015"
+    },
+    {
+      "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
+      "relationship": "references",
+      "target": "ai-coach:reference:nrc-2007-learning-progressions"
+    },
+    {
       "source": "ai-coach:practice:evaluation-of-ai-assisted-learning",
       "relationship": "uses_concepts",
       "target": "ai-coach:concept:learning-performance-distinction"
@@ -188,6 +268,11 @@
       "source": "ai-coach:practice:evaluation-of-ai-assisted-learning",
       "relationship": "uses_models",
       "target": "ai-coach:model:assessment-triangle"
+    },
+    {
+      "source": "ai-coach:practice:evaluation-of-ai-assisted-learning",
+      "relationship": "uses_practices",
+      "target": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
     },
     {
       "source": "ai-coach:practice:evaluation-of-ai-assisted-learning",
@@ -246,6 +331,11 @@
     },
     {
       "source": "ai-coach:practice:formative-assessment-with-ai",
+      "relationship": "uses_practices",
+      "target": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:formative-assessment-with-ai",
       "relationship": "references",
       "target": "ai-coach:reference:sadler-1989"
     },
@@ -298,6 +388,11 @@
       "source": "ai-coach:practice:retrieval-and-distributed-practice-with-ai",
       "relationship": "uses_methods",
       "target": "ai-coach:method:self-explanation"
+    },
+    {
+      "source": "ai-coach:practice:retrieval-and-distributed-practice-with-ai",
+      "relationship": "uses_practices",
+      "target": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
     },
     {
       "source": "ai-coach:practice:retrieval-and-distributed-practice-with-ai",
@@ -376,6 +471,11 @@
     },
     {
       "source": "ai-coach:practice:self-regulated-learning-with-ai",
+      "relationship": "uses_practices",
+      "target": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:self-regulated-learning-with-ai",
       "relationship": "composes",
       "target": "ai-coach:practice:formative-assessment-with-ai"
     },
@@ -413,6 +513,11 @@
       "source": "ai-coach:practice:self-regulated-learning-with-ai",
       "relationship": "references",
       "target": "ai-coach:reference:soderstrom-2015"
+    },
+    {
+      "source": "ai-coach:concept:concept-map",
+      "relationship": "references",
+      "target": "ai-coach:reference:novak-canas-2008"
     },
     {
       "source": "ai-coach:concept:feedback",
@@ -493,6 +598,16 @@
       "source": "ai-coach:method:cognitive-modeling",
       "relationship": "references",
       "target": "ai-coach:reference:collins-1991"
+    },
+    {
+      "source": "ai-coach:method:concept-mapping",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:concept-map"
+    },
+    {
+      "source": "ai-coach:method:concept-mapping",
+      "relationship": "references",
+      "target": "ai-coach:reference:novak-canas-2008"
     },
     {
       "source": "ai-coach:method:retrieval-practice",

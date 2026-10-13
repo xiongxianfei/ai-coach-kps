@@ -50,6 +50,10 @@ Cognitive apprenticeship organizes contextual learning with expert modeling, coa
 
 The authors do not provide one compulsory coaching script. A language model is not automatically an expert, and its explanation is not a verified trace of hidden cognition. No AI implementation is studied here.
 
+## Sequencing reinspection
+
+On 2026-10-13, the official article's Sequencing section and framework summary were rechecked. Its global-before-local account concerns grasping a whole task before component execution, alongside increasing complexity and diversity. Extending this to a subject panorama is a KPS planning choice; the source does not prescribe a full-discipline survey or this AI workflow.
+
 ## Nonclaims
 
 This record does not report a new replication, raw-data reanalysis, independent expert approval, or actual learner results from this package. The full publication and its media are not redistributed. Citation does not imply institutional endorsement.

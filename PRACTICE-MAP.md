@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -13,6 +13,17 @@ Choose a recurring adult learning task rather than a compulsory sequence through
 ## Summary
 
 Generated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.
+
+## Concept Mapping and Instructional Sequencing With an AI Coach
+
+[Open this Practice](practices/concept-mapping-and-instructional-sequencing-with-ai.md). Original KPS application; effectiveness not established.
+
+1. [Stage1 Establish a panoramic subject overview](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage1-establish-a-panoramic-subject-overview)
+2. [Stage2 Select a goal and inspect prior knowledge](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage2-select-a-goal-and-inspect-prior-knowledge)
+3. [Stage3 Construct a goal specific concept map](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage3-construct-a-goal-specific-concept-map)
+4. [Stage4 Propose a staged instructional sequence](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage4-propose-a-staged-instructional-sequence)
+5. [Stage5 Learn assess and adapt the sequence](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage5-learn-assess-and-adapt-the-sequence)
+6. [Stage6 Revisit both maps and preserve the next plan](practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage6-revisit-both-maps-and-preserve-the-next-plan)
 
 ## Evaluation of AI Assisted Learning
 

@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:formative-assessment-with-ai"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Formative Assessment With an AI Coach"
@@ -17,6 +17,7 @@ uses_concepts: ["ai-coach:concept:formative-assessment", "ai-coach:concept:feedb
 uses_principles: []
 uses_models: ["ai-coach:model:assessment-triangle"]
 uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation"]
+uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
 
 # Formative Assessment With an AI Coach
@@ -101,6 +102,8 @@ A correct analogous calculation supports a limited next decision. It does not sh
 4. Retain unresolved alternatives and discard an unsupported hypothesis rather than preserving it as a learner profile. Invite the learner to correct the record.
 
 Completion means a justified instructional decision, not a clinical diagnosis or verified psychological measurement. No change should be attributed to the AI intervention from this short sequence alone.
+
+With a [two-level learning plan](concept-mapping-and-instructional-sequencing-with-ai.md), identify the specific map relation, prerequisite hypothesis or stage that this evidence concerns. A faulty map edge requires content correction; it is not a learner deficit. Record whether the change is source-based, performance-based or a learner priority, then revise the affected part rather than restarting the entire subject.
 
 ## Completion and limits
 

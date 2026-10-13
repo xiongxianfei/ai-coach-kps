@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:evaluation-of-ai-assisted-learning"
 type: "practice"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Evaluation of AI Assisted Learning"
@@ -17,6 +17,7 @@ uses_concepts: ["ai-coach:concept:learning-performance-distinction", "ai-coach:c
 uses_principles: []
 uses_models: ["ai-coach:model:assessment-triangle"]
 uses_methods: []
+uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
 
 # Evaluation of AI Assisted Learning
@@ -118,6 +119,8 @@ Next decision, rationale and optional future check: [fill]
 ```
 
 A complete evaluation report may conclude that evidence is insufficient. That is a valid output, not a reason to invent a final grade.
+
+To revise a [two-level plan](concept-mapping-and-instructional-sequencing-with-ai.md), associate the observation with a goal, map version and stable stage ID. An overview can be accurate while the learner cannot yet apply it; independently reconstructing one relation does not establish mastery of the panorama. Evaluate the selected capability before advancing or revising a stage, and preserve the record underlying that decision.
 
 ## Record checker and its limits
 

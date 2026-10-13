@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -12,31 +12,32 @@ Start with a bounded adult learning task and preserve the evidence of what the l
 
 ## Summary
 
-A Practice-first, domain-independent knowledge package for independent adults using conversational AI as a learning coach. Four locally usable Practices are supported by source-aligned academic Concepts, Principles, Models and Methods. AI coaching workflows and prompts are explicitly authored applications, not established theories or tested programs.
+A Practice-first, domain-independent knowledge package for independent adults using conversational AI as a learning coach. Five locally usable Practices are supported by source-aligned academic Concepts, Principles, Models and Methods. AI coaching workflows and prompts are explicitly authored applications, not established theories or tested programs.
 
 ## Start with a Practice
 
 | Current task | Entry Practice | Output |
 |---|---|---|
+| Orient to a subject and plan a learning route | [Concept Mapping and Instructional Sequencing With an AI Coach](practices/concept-mapping-and-instructional-sequencing-with-ai.md) | A panorama, goal map and evidence-revisable stage plan |
 | Learn one concept or safe skill | [Self-Regulated Learning With an AI Coach](practices/self-regulated-learning-with-ai.md) | A target, source, original attempts, feedback and a next independent check |
 | Understand a recurring task difficulty | [Formative Assessment With an AI Coach](practices/formative-assessment-with-ai.md) | Competing explanations, a probe and a justified instructional decision |
 | Retain encountered material | [Retrieval and Distributed Practice With an AI Coach](practices/retrieval-and-distributed-practice-with-ai.md) | Checked questions, saved recall, corrections and a revisable review plan |
 | Judge what was actually learned | [Evaluation of AI-Assisted Learning](practices/evaluation-of-ai-assisted-learning.md) | An evidence report separating assistance, retention and application |
 
-Begin with the task that fits. The package does not require reading the full library or completing all four Practices. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
+Begin with the task that fits. The package does not require reading the full library or completing all five Practices. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
 
 ## First use
 
-1. Select a low-stakes capability, a source you can inspect and a response that would demonstrate the target.
-2. Open the first Practice and adapt its short opening prompt to your situation. Do not paste private data or trust an uninspected AI bibliography.
+1. For a new subject, start with the two-level planning Practice: a bounded panorama first, then a chosen capability and goal-specific concept map. Reuse a checked panorama when returning. Select an inspectable source and a response that would demonstrate the goal.
+2. Use the planning prompt to propose a revisable route, then open the main coaching Practice for the next learning episode. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
 4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
 
 ## What is included
 
-There are **18 knowledge objects**: six Concepts, three Principles, two Models, three Methods and four Practices, with **22 stages** across the Practices. Fifteen Reference records document inspected source scope. Read [INDEX](INDEX.md), [Practice coverage](PRACTICE-MAP.md), [terminology](TERMINOLOGY-MAP.md) and [evidence map](EVIDENCE-MAP.md).
+There are **21 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and five Practices, with **28 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](INDEX.md), [Practice coverage](PRACTICE-MAP.md), [terminology](TERMINOLOGY-MAP.md) and [evidence map](EVIDENCE-MAP.md).
 
-The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
+The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](LEARNING-PLAN.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
 ## Evidence and outcome boundaries
 
@@ -66,6 +67,6 @@ These commands check structure and declared boundaries, not educational efficacy
 
 ## Versions and rights
 
-Domain package: 0.1.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](COMPATIBILITY.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
+Domain package: 0.2.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](COMPATIBILITY.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
 Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](CONTRIBUTING.md).

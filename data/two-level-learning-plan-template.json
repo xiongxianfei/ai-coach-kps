@@ -1,0 +1,33 @@
+{
+  "schema": "two-level-learning-plan-v1",
+  "record_kind": "template",
+  "plan_id": null,
+  "version": 1,
+  "sources": [],
+  "panorama": {
+    "subject": null,
+    "orientation_question": null,
+    "boundary": null,
+    "regions": [],
+    "relations": [],
+    "omissions": []
+  },
+  "goal": {
+    "capability": null,
+    "context": null,
+    "success_criterion": null,
+    "allowed_resources": [],
+    "panorama_region_ids": []
+  },
+  "goal_map": {
+    "focus_question": null,
+    "concepts": [],
+    "relations": [],
+    "deferred": []
+  },
+  "prerequisite_hypotheses": [],
+  "learning_stages": [],
+  "learner_agreement": "not_recorded",
+  "agreement_evidence": null,
+  "revision_log": []
+}

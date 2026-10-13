@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -17,6 +17,8 @@ Coaching means an educational interaction in which the learner retains control o
 ## Included work
 
 Conceptual understanding, safe procedural learning, learner-generated explanation, retrieval, feedback, reflection and evaluation. Subject expertise remains necessary even though the workflow is domain-independent. Applications can use reading, mathematics or coding, but this package does not automatically validate the subject material.
+
+New-subject coaching starts with a compact panoramic orientation, followed by a goal-specific concept map and an adaptive instructional sequence. Returning learners may reuse a checked overview. Panoramic coverage need not be exhaustive, and a conceptual relation is not a proven learning prerequisite. Planning status, source support and learner-performance evidence remain separate.
 
 ## Roles and consent
 
@@ -36,4 +38,4 @@ Assisted task completion, immediate independent performance, delayed retention a
 
 ## Research scope
 
-The source search was targeted to the four Practices, not systematic or exhaustive. Selected academic sources span research designs and populations. Adolescent and classroom evidence has explicit indirectness for independent adults. Named cognitive and assessment Models are limited source-faithful summaries, not a new theory of the learner or a causal model of an LLM.
+The source search was targeted to the five Practices, not systematic or exhaustive. Selected academic sources span research designs and populations. Adolescent and classroom evidence has explicit indirectness for independent adults. Named cognitive and assessment Models are limited source-faithful summaries, not a new theory of the learner or a causal model of an LLM.

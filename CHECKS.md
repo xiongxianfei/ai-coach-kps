@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -27,6 +27,17 @@ python3 -m unittest discover -s tests -v
 ## Check boundaries
 
 The upstream suite contains 52 regression tests. Domain checks require valid scholarly source locators, original application labels, adult scope, unchanged upstream copies and retained provisional status. Record tests use synthetic fixtures only; they do not grade a human answer or establish psychometric validity.
+
+## Two level plan declarations
+
+The overview extension adds 41 regressions for the optional planning record and Practice integration. They check panorama-to-goal links, explicit propositions, task-specific prerequisites, stable stage IDs, assessment fields, revision rationale and absence of fabricated agreement or mastery. Conceptual cycles are distinct from contradictory required-before stage cycles. These tests do not establish the truth of dependencies or instructional effectiveness.
+
+```bash
+python3 tools/check_learning_plan.py data/two-level-learning-plan-template.json
+python3 tools/check_learning_plan.py data/two-level-learning-plan-example.json
+```
+
+An empty template passes as a template, not as a completed plan. A constructed example is not an observed learner result. Historical execution records retain their original version scope; the overview run is recorded separately in data/overview-validation.json.
 
 ## Summary review
 

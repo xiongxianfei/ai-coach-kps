@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.1.0"
+package_version: "0.2.0"
 status: "draft"
 ---
 
@@ -16,9 +16,11 @@ This first domain slice uses Markdown decision tables and a compact text Assessm
 
 ## Current audit
 
-The four Practices use point-of-use decision and evidence tables. Their branch conditions and next actions are readable without graphics. Cognitive Apprenticeship is represented as a four-dimension table, not a newly invented six-stage cycle. The Assessment Triangle has a text triad with explicit noncausal edge meaning. The source and reference declarations remain in the owning Models.
+The five Practices use point-of-use decision and evidence tables. Their branch conditions and next actions are readable without graphics. Cognitive Apprenticeship is represented as a four-dimension table, not a newly invented six-stage cycle. The Assessment Triangle has a text triad with explicit noncausal edge meaning. The source and reference declarations remain in the owning Models.
 
 These relationships are sufficiently compact for text, so no D2/SVG assets are claimed or required in this release. This is a selective-format decision consistent with the Core contract's allowance for simple text diagrams and tables; it is not a claim that visual instruction is ineffective.
+
+The overview Practice adds a compact text flow and local tables. Conceptual connections, selected-goal links, stage requirements and feedback decisions are explained separately. The text layout does not imply that knowledge forms a prerequisite tree. No new rendered diagram or image-effectiveness claim is made.
 
 ## Future image procedure
 

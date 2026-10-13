@@ -35,7 +35,8 @@
     "application_status": "authored-provisional",
     "practices": [
       "ai-coach:practice:self-regulated-learning-with-ai",
-      "ai-coach:practice:evaluation-of-ai-assisted-learning"
+      "ai-coach:practice:evaluation-of-ai-assisted-learning",
+      "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
     ]
   },
   {
@@ -73,7 +74,8 @@
     "application_inference": "Check source correctness and act on one discrepancy; simple probes are a labeled extension.",
     "application_status": "authored-provisional",
     "practices": [
-      "ai-coach:practice:formative-assessment-with-ai"
+      "ai-coach:practice:formative-assessment-with-ai",
+      "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
     ]
   },
   {
@@ -250,6 +252,63 @@
     "practices": [
       "ai-coach:practice:self-regulated-learning-with-ai",
       "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:concept-mapping",
+    "kind": "conceptual",
+    "statement": "Concept maps use explicit linking phrases to organize propositions around a focus question.",
+    "references": [
+      "ai-coach:reference:novak-canas-2008"
+    ],
+    "locator": "Introduction; Constructing Good Concept Maps",
+    "population_context": "Author technical report on a knowledge representation and construction procedure",
+    "comparison": "Not an intervention comparison",
+    "outcome": "Meaning and procedure, not a measured learning effect",
+    "time_horizon": "No delay or developmental timescale tested here",
+    "limits": "The report does not establish this AI workflow, an exhaustive panorama or prerequisite relationships. Theories and experiments elsewhere in the report were not evaluated.",
+    "application_inference": "Use distinct panorama and goal-map artifacts, check important propositions, and keep instructional hypotheses separate. These are local design choices.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:whole-task-orientation",
+    "kind": "conceptual",
+    "statement": "Cognitive Apprenticeship discusses global task orientation before component execution alongside complexity and diversity.",
+    "references": [
+      "ai-coach:reference:collins-1991"
+    ],
+    "locator": "Sequencing: Global before local skills; framework summary",
+    "population_context": "Published instructional framework with varied educational examples",
+    "comparison": "Not an experiment on adult AI-coach domain panoramas",
+    "outcome": "An instructional sequencing account",
+    "time_horizon": "No optimum preliminary survey duration is prescribed",
+    "limits": "Whole-task understanding is not the same as a whole-discipline map. The article does not require exhaustive orientation or validate this sequence.",
+    "application_inference": "Offer a bounded panorama before detailed planning and revisit the whole when a local relation changes; preserve learner choice.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
+    ]
+  },
+  {
+    "id": "ai-coach:claim:learning-progression-boundary",
+    "kind": "conceptual",
+    "statement": "The NRC science account treats learning progressions as research-informed descriptions of increasingly sophisticated understanding, including multiple paths.",
+    "references": [
+      "ai-coach:reference:nrc-2007-learning-progressions"
+    ],
+    "locator": "Chapter 8, printed page 214 and Key Characteristics on pages 220 to 222",
+    "population_context": "K–8 science and developmental/instructional research synthesis",
+    "comparison": "Conceptual description, not a trial of adult AI coaching",
+    "outcome": "A research use of the term learning progression",
+    "time_horizon": "Extended schooling rather than one chat session",
+    "limits": "This school-science account is not direct evidence for an adult topic plan. An authored order does not acquire empirical validation from a label.",
+    "application_inference": "Call the local output a provisional instructional sequence and record the evidence needed to revise it.",
+    "application_status": "authored-provisional",
+    "practices": [
+      "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
     ]
   }
 ]

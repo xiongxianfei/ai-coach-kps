@@ -1,0 +1,297 @@
+{
+  "schema": "two-level-learning-plan-v1",
+  "record_kind": "constructed_example",
+  "plan_id": "synthetic-unit-comparison",
+  "version": 1,
+  "sources": [
+    {
+      "id": "constructed-basis",
+      "citation": "Authored unit-price definitions and synthetic arithmetic in the planning Practice",
+      "locator": "Constructed panorama, propositions and stage plan",
+      "access_status": "constructed"
+    }
+  ],
+  "panorama": {
+    "subject": "Quantitative reasoning",
+    "orientation_question": "What problems concern quantity, units, relationships and uncertainty?",
+    "boundary": "A deliberately incomplete orientation for the unit-price example; not a disciplinary taxonomy.",
+    "regions": [
+      {
+        "id": "operations",
+        "label": "Numbers and operations",
+        "purpose": "Represent and calculate quantities",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "measurement",
+        "label": "Measurement and units",
+        "purpose": "Express quantities with units",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "ratios",
+        "label": "Ratios and proportionality",
+        "purpose": "Compare on a common basis",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "algebra",
+        "label": "Algebra and functions",
+        "purpose": "Represent variable relations",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "data",
+        "label": "Data and uncertainty",
+        "purpose": "Interpret observations and variability",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      }
+    ],
+    "relations": [
+      {
+        "source": "measurement",
+        "relation": "constrains meaningful units of",
+        "target": "ratios",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "source": "operations",
+        "relation": "supplies calculations for",
+        "target": "ratios",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "source": "ratios",
+        "relation": "can be represented using",
+        "target": "algebra",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      }
+    ],
+    "omissions": [
+      "Geometry and other substantial areas",
+      "Alternative subject organizations"
+    ]
+  },
+  "goal": {
+    "capability": "Compare package prices on a common quantity basis and justify the comparison.",
+    "context": "A constructed exercise with different package sizes and units.",
+    "success_criterion": "Equivalent quantity units, valid per-unit calculations, and a justified comparison.",
+    "allowed_resources": [
+      "calculator",
+      "screen reader"
+    ],
+    "panorama_region_ids": [
+      "operations",
+      "measurement",
+      "ratios"
+    ]
+  },
+  "goal_map": {
+    "focus_question": "How does a common quantity basis allow two unit prices to be compared?",
+    "concepts": [
+      {
+        "id": "conversion",
+        "label": "Unit conversion",
+        "panorama_region_ids": [
+          "measurement"
+        ],
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "quantity",
+        "label": "Quantity",
+        "panorama_region_ids": [
+          "measurement"
+        ],
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "unit-price",
+        "label": "Unit price",
+        "panorama_region_ids": [
+          "operations",
+          "ratios"
+        ],
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "id": "comparison",
+        "label": "Like-for-like comparison",
+        "panorama_region_ids": [
+          "ratios"
+        ],
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      }
+    ],
+    "relations": [
+      {
+        "source": "conversion",
+        "relation": "preserves the represented",
+        "target": "quantity",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "source": "unit-price",
+        "relation": "expresses price per unit of",
+        "target": "quantity",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      },
+      {
+        "source": "unit-price",
+        "relation": "supports a common-basis",
+        "target": "comparison",
+        "source_refs": [
+          "constructed-basis"
+        ],
+        "source_status": "constructed"
+      }
+    ],
+    "deferred": [
+      "General algebraic functions",
+      "Statistics and uncertainty"
+    ]
+  },
+  "prerequisite_hypotheses": [
+    {
+      "id": "conversion-before-comparison",
+      "from_concept": "conversion",
+      "to_concept": "comparison",
+      "kind": "required_for_task",
+      "status": "proposed",
+      "rationale": "For this proposed task, differing quantity units must be normalized; this does not imply every learner needs a new conversion lesson.",
+      "probe": "Explain whether 0.75 kg and 750 g denote equal quantities under the supplied unit definitions.",
+      "evidence_refs": []
+    }
+  ],
+  "learning_stages": [
+    {
+      "id": "normalize",
+      "order": 1,
+      "capability": "Express quantities in a common unit",
+      "concept_ids": [
+        "conversion",
+        "quantity"
+      ],
+      "prerequisite_ids": [],
+      "requires_stage_ids": [],
+      "dependency_rationale": null,
+      "activity": "Inspect a verified unit conversion when needed, then attempt another.",
+      "allowed_help": [
+        "verified explanation on request",
+        "hint during instruction, recorded as assistance"
+      ],
+      "check": {
+        "task": "Normalize a new pair of quantities and explain the equivalence.",
+        "criterion": "Quantity is preserved and units are named.",
+        "allowed_resources": [
+          "calculator",
+          "screen reader"
+        ]
+      },
+      "adaptation_trigger": "Bypass redundant instruction only with adequate prior evidence; teach a gap if present."
+    },
+    {
+      "id": "rate",
+      "order": 2,
+      "capability": "Compute and interpret per-unit price",
+      "concept_ids": [
+        "quantity",
+        "unit-price"
+      ],
+      "prerequisite_ids": [],
+      "requires_stage_ids": [],
+      "dependency_rationale": null,
+      "activity": "Compare the meanings of price, quantity and their quotient.",
+      "allowed_help": [
+        "verified explanation on request",
+        "hint during instruction, recorded as assistance"
+      ],
+      "check": {
+        "task": "Calculate a new unit price in matching units.",
+        "criterion": "Calculation and numerator/denominator interpretation match the defined quantity.",
+        "allowed_resources": [
+          "calculator",
+          "screen reader"
+        ]
+      },
+      "adaptation_trigger": "Distinguish arithmetic difficulty from uncertainty about the meaning of per."
+    },
+    {
+      "id": "integrate",
+      "order": 3,
+      "capability": "Justify a like-for-like comparison",
+      "concept_ids": [
+        "conversion",
+        "unit-price",
+        "comparison"
+      ],
+      "prerequisite_ids": [
+        "conversion-before-comparison"
+      ],
+      "requires_stage_ids": [
+        "normalize",
+        "rate"
+      ],
+      "dependency_rationale": "This proposed exercise combines conversion and rate interpretation. Existing capability can justify revising the required learning episodes.",
+      "activity": "Integrate conversion, rate and comparison in one constructed task.",
+      "allowed_help": [
+        "verified explanation on request",
+        "hint during instruction, recorded as assistance"
+      ],
+      "check": {
+        "task": "Compare two unfamiliar formats without answer-generating hints.",
+        "criterion": "Normalize quantity, compute common-unit values, and justify the decision.",
+        "allowed_resources": [
+          "calculator",
+          "screen reader"
+        ]
+      },
+      "adaptation_trigger": "Revisit the specific missing relation; correct the map if its claim was wrong."
+    }
+  ],
+  "learner_agreement": "not_recorded",
+  "agreement_evidence": null,
+  "revision_log": []
+}
