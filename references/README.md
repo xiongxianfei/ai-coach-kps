@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -36,4 +36,4 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Rights and applicability
 
-No external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../REVIEW.md).
+No external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../docs/REVIEW.md).

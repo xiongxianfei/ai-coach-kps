@@ -5,14 +5,16 @@
   "validator_version": "9.1.0",
   "files": {
     "AUTHORING.md": {
-      "sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
+      "sha256": "e70fc9a440aa5c71781d9ce459897e9b4d7309e2c66621ad9d6b08fe681009a8",
       "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "unchanged copy"
+      "reuse": "Core 10.2.0 text with relative documentation links adapted for relocated local targets; original checksum retained",
+      "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864"
     },
     "TEMPLATES.md": {
-      "sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1",
+      "sha256": "ae8d07540a246ef32a7c5f9c2029ab16f4fe2d9c3f2b06dc6a2e92012c7c7f74",
       "git_blob_sha1": "0a30f90deed16f86b4b270d9c2d2d597bee805bf",
-      "reuse": "unchanged copy"
+      "reuse": "Core 10.2.0 text with relative documentation links adapted for relocated local targets; original checksum retained",
+      "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1"
     },
     "LICENSE": {
       "sha256": "5522e6c3380f36d25cbdc97508a913229e1ea3cbc9af51b970574144869976f6",

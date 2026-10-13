@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -28,7 +28,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## Start with one manageable task
 
-[One Learning Task at a Time](ONE-LEARNING-TASK.md) is the shared KPS application convention: locate the goal, select **one meaningful task**, define its observable output and checking criterion, agree on assistance, attempt it, then use the evidence to choose the next action. The subject panorama and adaptive stage plan provide orientation; they are **not** prerequisites for a clearly bounded small task or a demand to finish a whole subject on Day 1. Task size is adjustable and not defined by a fixed number of minutes. This design choice is not asserted as a universal scientific principle.
+[One Learning Task at a Time](guides/LEARNING-WORKFLOW.md) is the shared KPS application convention: locate the goal, select **one meaningful task**, define its observable output and checking criterion, agree on assistance, attempt it, then use the evidence to choose the next action. The subject panorama and adaptive stage plan provide orientation; they are **not** prerequisites for a clearly bounded small task or a demand to finish a whole subject on Day 1. Task size is adjustable and not defined by a fixed number of minutes. This design choice is not asserted as a universal scientific principle.
 
 ## First use
 
@@ -39,21 +39,29 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## What is included
 
-There are **21 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and five Practices, with **28 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](INDEX.md), [Practice coverage](PRACTICE-MAP.md), [terminology](TERMINOLOGY-MAP.md) and [evidence map](EVIDENCE-MAP.md).
+There are **21 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and five Practices, with **28 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](generated/INDEX.md), [Practice coverage](generated/PRACTICE-MAP.md), [terminology](generated/TERMINOLOGY-MAP.md) and [evidence map](generated/EVIDENCE-MAP.md).
 
-The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](LEARNING-PLAN.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
+The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
 ## Evidence and outcome boundaries
 
 The full package remains **provisional**. Some definitions are supported by selected full passages, others only by publisher abstracts. No systematic review, independent expert approval, learner study, model evaluation or live coaching trial is claimed. A scientific source does not validate every AI application derived from it.
 
-General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. [REVIEW](REVIEW.md) records inspection, indirectness and open questions. [REVIEW-QUEUE](REVIEW-QUEUE.md) makes remaining work explicit.
+General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. [REVIEW](docs/REVIEW.md) records inspection, indirectness and open questions. [REVIEW-QUEUE](generated/REVIEW-QUEUE.md) makes remaining work explicit.
 
 ## Architecture and independence
 
-KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. No new AI coaching theory is invented as a standalone Model. [ALIGNMENT](ALIGNMENT.md) explicitly adopts a domain version of Core's professional source-alignment policy.
+KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. No new AI coaching theory is invented as a standalone Model. [ALIGNMENT](docs/SCIENTIFIC-POLICY.md) explicitly adopts a domain version of Core's professional source-alignment policy.
 
 This repository stands alone. It does not require the English Linguistics or Learning and Teaching KPS packages, an Obsidian plugin, an API key or an installed agent. It is knowledge and guidance, not a deployed chatbot. Ordinary relative Markdown links work without a knowledge-graph viewer.
+
+## Repository layout
+
+The root holds reader entry, community and licence files, the pinned Core contract and validator (documentation links adapted locally; tool and licence bytes unchanged), and integrity metadata. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [generated knowledge index](generated/INDEX.md), [Practice map](generated/PRACTICE-MAP.md), [evidence map](generated/EVIDENCE-MAP.md), [terminology map](generated/TERMINOLOGY-MAP.md) and [review queue](generated/REVIEW-QUEUE.md) are derived views, not competing canonical knowledge.
+
+Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), [reader and diagram guide](docs/READING-AND-DIAGRAMS.md), and [scientific review](docs/REVIEW.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
+
+**Root cleanup changes document locations**. Links to former root-level guide or generated files will need updating in external notes. Stable KPS knowledge IDs, Practice stage anchors, the 10.2.0 Core lock and the 9.1.0 validation semantics are unchanged. See the mapping table in [validation and compatibility](docs/VALIDATION.md) before migrating external links.
 
 ## Check locally
 
@@ -67,10 +75,10 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](CHECKS.md). Blank [session records](data/session-record-template.json) and a [record guide](RECORDS.md) are provided for private use. Do not publish completed personal records.
+These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [record guide](guides/SESSION-RECORDS.md) are provided for private use. Do not publish completed personal records.
 
 ## Versions and rights
 
-Domain package: 0.2.1. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](COMPATIBILITY.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
+Domain package: 0.3.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/VALIDATION.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
 Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](CONTRIBUTING.md).

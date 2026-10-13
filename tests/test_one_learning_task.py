@@ -24,7 +24,7 @@ class OneTaskPublicationTests(unittest.TestCase):
             with self.subTest(name=name):
                 doc=validate.parse(ROOT/'practices'/name)
                 self.assertEqual('practice',doc.meta['type'])
-                self.assertIn('ONE-LEARNING-TASK.md',doc.path.read_text())
+                self.assertIn('LEARNING-WORKFLOW.md',doc.path.read_text())
                 self.assertIn('not recorded',doc.path.read_text().lower())
 
     def test_core_scientific_roles_unchanged(self):
@@ -35,13 +35,13 @@ class OneTaskPublicationTests(unittest.TestCase):
         self.assertEqual(5,len(list((ROOT/'practices').glob('*.md'))))
 
     def test_version_and_entry_are_explicit(self):
-        self.assertEqual('0.2.1',json.loads((ROOT/'publication.json').read_text())['version'])
+        self.assertEqual('0.3.0',json.loads((ROOT/'publication.json').read_text())['version'])
         s=(ROOT/'README.md').read_text()
-        self.assertIn('[One Learning Task at a Time](ONE-LEARNING-TASK.md)',s)
+        self.assertIn('[One Learning Task at a Time](guides/LEARNING-WORKFLOW.md)',s)
         self.assertIn('does not require',s)
 
     def test_no_observed_day_one_outcome(self):
-        text=(ROOT/'WORKED-EXAMPLE.md').read_text()
+        text=(ROOT/'guides/WORKED-EXAMPLE.md').read_text()
         self.assertIn('constructed',text.lower())
         self.assertIn('not recorded',text.lower())
 

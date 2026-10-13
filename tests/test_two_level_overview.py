@@ -123,7 +123,7 @@ class PracticeIntegrationTests(unittest.TestCase):
         self.assertIn('provisional instructional sequence',text)
         self.assertIn('national-research-council-2007-learning-progressions.md',text)
     def test_private_plan_is_not_mandatory(self):
-        text=(ROOT/'LEARNING-PLAN.md').read_text()
+        text=(ROOT/'guides/LEARNING-WORKFLOW.md').read_text()
         self.assertIn('A plain private table is sufficient',text)
         self.assertIn('does not write',text)
 

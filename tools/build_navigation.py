@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import validate as v
 ROLES=['practice','concept','principle','model','method']
 def opener(title,take):
-    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.2.1"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
+    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.3.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
 def collect(root):
     out=[];refs=[]
     for role in ROLES:
@@ -47,7 +47,7 @@ def generate(root=ROOT):
     sr=opener('Source register','Every source record identifies what was inspected and what the source does not establish.')
     sr+='\n## Publications\n\n'
     for p,d in refs:sr+=f'- [{d.meta["publication"]}]({Path(p).name}) — {d.meta["access_extent"]}\n'
-    sr+='\n## Rights and applicability\n\nNo external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../REVIEW.md).\n'
+    sr+='\n## Rights and applicability\n\nNo external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../docs/REVIEW.md).\n'
     rq=opener('Review queue','Source inspection, authoring review and independent validation remain separate.')
     rq+='\n## Knowledge objects\n\n| Object | Current status | Next review need |\n|---|---|---|\n'
     for p,d in docs:
@@ -69,11 +69,32 @@ def generate(root=ROOT):
     for p,d in docs+refs:
         for relation in v.RELATIONS:
             for target in d.meta.get(relation,[]):graph['edges'].append({'source':d.meta['id'],'relationship':relation,'target':target})
-    return {'INDEX.md':index,'PRACTICE-MAP.md':pm,'TERMINOLOGY-MAP.md':tm,'references/README.md':sr,'REVIEW-QUEUE.md':rq,'EVIDENCE-MAP.md':evidence,'knowledge-graph.json':json.dumps(graph,ensure_ascii=False,indent=2)+'\n'}
+    # Generated Markdown is now one directory deeper than the canonical objects.
+    # Relative links to another generated view remain siblings; external targets
+    # are rebased to the package root. The source register remains with sources.
+    sibling_views = {'INDEX.md', 'PRACTICE-MAP.md', 'TERMINOLOGY-MAP.md',
+                     'EVIDENCE-MAP.md', 'REVIEW-QUEUE.md'}
+    def rebase_view(text):
+        import re
+        def fix(m):
+            url=m.group(2)
+            if url.startswith(('#','/','../','mailto:')) or '://' in url:
+                return m.group(0)
+            name=url.split('#',1)[0]
+            if name in sibling_views:return m.group(0)
+            return m.group(1)+'../'+url+m.group(3)
+        return re.sub(r'(!?\[[^\]\n]+\]\()([^\)]+)(\))',fix,text)
+    views = {'INDEX.md':index,'PRACTICE-MAP.md':pm,
+             'TERMINOLOGY-MAP.md':tm,'REVIEW-QUEUE.md':rq,
+             'EVIDENCE-MAP.md':evidence}
+    return {**{'generated/'+k:rebase_view(text) for k,text in views.items()},
+            'references/README.md':sr,
+            'generated/knowledge-graph.json':json.dumps(graph,ensure_ascii=False,indent=2)+'\n'}
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();stale=[]
     for name,text in generate().items():
         p=ROOT/name
+        if not args.check:p.parent.mkdir(parents=True,exist_ok=True)
         if args.check:
             if not p.exists() or p.read_text(encoding='utf-8')!=text:stale.append(name)
         else:p.write_text(text,encoding='utf-8')

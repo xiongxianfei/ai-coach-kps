@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.1"
+package_version: "0.3.0"
 status: "draft"
 ---
 
@@ -13,6 +13,10 @@ Version 0.2.0 adds two-level conceptual orientation and adaptive planning withou
 ## Summary
 
 The package is independent of earlier English and Learning and Teaching KPS work. It adopts the steps-first and source-alignment direction of Core 10.2.0 without relabeling old invented workflows as academic theory.
+
+## Version 0 3 0
+
+Reduce the root from 31 files to 14 while retaining the five Practices, the supporting academic library, 17 source records, generated evidence and review views, and the pinned KPS 10.2.0 contract and byte-identical validation tools. Consolidate one-task guidance with plan guidance, scientific policy with scope, validation with compatibility, and navigation with the diagram audit. Move all generated views under `generated/`, update relative links and generators, and record breaking document paths for external links in `docs/VALIDATION.md`. This is a publishing/layout change, not new evidence for coaching effectiveness.
 
 ## Version 0 2 1
 
