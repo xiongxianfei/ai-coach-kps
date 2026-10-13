@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -27,6 +27,10 @@ python3 -m unittest discover -s tests -v
 ## Check boundaries
 
 The upstream suite contains 52 regression tests. Domain checks require valid scholarly source locators, original application labels, adult scope, unchanged upstream copies and retained provisional status. Record tests use synthetic fixtures only; they do not grade a human answer or establish psychometric validity.
+
+## One current task declarations
+
+The optional `next_task` plan entry selects one current proposed task and names its output, checking criterion, assistance boundary and stop/split rule. Its stage ID must exist in the proposal. Optional session-record linkage fields have bounded types and cannot create an observed result. New tests reject unsupported multiple/invalid task declarations and broken plan linkage. These assertions test **format and authorship boundaries**, not whether the task is optimally sized, the criterion is scientifically adequate, or the learner improved.
 
 ## Two level plan declarations
 

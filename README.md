@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -26,10 +26,14 @@ A Practice-first, domain-independent knowledge package for independent adults us
 
 Begin with the task that fits. The package does not require reading the full library or completing all five Practices. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
 
+## Start with one manageable task
+
+[One Learning Task at a Time](ONE-LEARNING-TASK.md) is the shared KPS application convention: locate the goal, select **one meaningful task**, define its observable output and checking criterion, agree on assistance, attempt it, then use the evidence to choose the next action. The subject panorama and adaptive stage plan provide orientation; they are **not** prerequisites for a clearly bounded small task or a demand to finish a whole subject on Day 1. Task size is adjustable and not defined by a fixed number of minutes. This design choice is not asserted as a universal scientific principle.
+
 ## First use
 
-1. For a new subject, start with the two-level planning Practice: a bounded panorama first, then a chosen capability and goal-specific concept map. Reuse a checked panorama when returning. Select an inspectable source and a response that would demonstrate the goal.
-2. Use the planning prompt to propose a revisable route, then open the main coaching Practice for the next learning episode. Do not paste private data or trust an uninspected AI bibliography.
+1. If the subject is new, take a brief panoramic orientation, select one capability and map only the relationships necessary for a **single next task**. Reuse an existing panorama if available; for an already bounded task, start directly without a compulsory survey. Choose a source and observable response.
+2. Sketch a revisable route, but execute **only the current bounded task** through the main coaching Practice. Agree on the output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
 4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
 
@@ -67,6 +71,6 @@ These commands check structure and declared boundaries, not educational efficacy
 
 ## Versions and rights
 
-Domain package: 0.2.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](COMPATIBILITY.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
+Domain package: 0.2.1. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](COMPATIBILITY.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
 Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](CONTRIBUTING.md).

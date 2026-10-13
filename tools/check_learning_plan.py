@@ -18,7 +18,7 @@ def inspect_plan(value: Any) -> dict[str, Any]:
     root_fields = {'schema','record_kind','plan_id','version','sources','panorama','goal','goal_map',
                    'prerequisite_hypotheses','learning_stages','learner_agreement','agreement_evidence','revision_log'}
     for k in sorted(root_fields - value.keys()): errors.append(f'plan: missing {k}')
-    for k in sorted(value.keys() - root_fields): errors.append(f'plan: unsupported field {k}')
+    for k in sorted(value.keys() - root_fields - {'next_task'}): errors.append(f'plan: unsupported field {k}')
     if value.get('schema') != SCHEMA: errors.append('plan: unsupported schema')
     kind = value.get('record_kind')
     if not isinstance(kind,str) or kind not in {'template','proposed_plan','constructed_example'}: errors.append('plan: invalid record_kind')
@@ -148,6 +148,17 @@ def inspect_plan(value: Any) -> dict[str, Any]:
         ready={ident for ident in pending if all(d in done or d not in stage_ids for d in edges.get(ident,[]))}
         if not ready:errors.append('stages: circular required-before dependency');break
         pending-=ready;done|=ready
+    next_task = value.get('next_task')  # Optional in existing v1 planning records.
+    if next_task is not None:
+        if template: errors.append('next_task: blank template cannot contain a selected task')
+        row = obj(next_task,{'id','stage_id','task','observable_output','criterion',
+                             'allowed_resources','assistance_boundary','stop_rule'},'next_task')
+        for field in ('id','task','observable_output','criterion','assistance_boundary','stop_rule'):
+            text(row.get(field),'next_task.'+field)
+        if not isinstance(row.get('stage_id'),str) or row['stage_id'] not in stage_ids:
+            errors.append('next_task: stage_id must identify an existing learning stage')
+        strings(row.get('allowed_resources'),'next_task.allowed_resources')
+    counts['next_tasks'] = 1 if next_task is not None else 0
     agreement=value.get('learner_agreement')
     if not isinstance(agreement,str) or agreement not in {'not_recorded','agreed','needs_revision'}:errors.append('learner_agreement: invalid state')
     text(value.get('agreement_evidence'),'agreement_evidence',agreement!='agreed')

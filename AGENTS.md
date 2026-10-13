@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -18,7 +18,7 @@ This is repository guidance for automated contributors, not an executable learni
 
 1. Inspect AUTHORING.md, ALIGNMENT.md and the local Practice before edits.
 2. Ground non-Practice meanings in actually inspected academic sources and record the locator.
-3. Put new coaching prompts, adaptation rules and authored workflows inside Practices, not invented canonical theory files.
+3. Put new coaching prompts, adaptation rules and authored workflows inside Practices, not invented canonical theory files. Scope immediate work to one meaningful next task with an observable output, criterion and stop/split rule; do not invent universal task-size thresholds.
 4. Preserve original learner responses and source scope; do not claim persistent memory, scheduling, source reading, tool execution or expert approval without evidence.
 5. Run the declared checks and report their actual results and limits.
 

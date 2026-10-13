@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -32,6 +32,12 @@ The prerequisite register is a set of task-sensitive hypotheses, not a fourth kn
 4. Use stable region, concept and learning-stage IDs. `order` is a replaceable display position, not the stage identity or proof of developmental necessity. A stage ID such as `normalize` remains unchanged when reordered. This differs from the repository Practice's navigable StageN headings.
 5. Keep the learner's actual response in a separate [session record](RECORDS.md). Refer to it privately in the prerequisite evidence or revision history rather than copying it into the public knowledge base.
 
+## Choose one current task
+
+A learning plan can contain several provisional stages while presenting **one next task** for immediate work. Use the optional `next_task` object to specify an `id`, `stage_id`, `task`, `observable_output`, `criterion`, `allowed_resources`, `assistance_boundary` and `stop_rule`. This is a proposed activity, not a learner response or a validated progression. `null` means no next task is selected yet; prior plans without this optional field remain readable by the checker. The ID references a stable learning-stage ID, not the navigable `StageN` headings of a KPS Practice. A day label is optional and never a performance claim.
+
+Choose the smallest *meaningful* evidence-producing action, not the smallest dictionary fragment. If important relationships need to be applied together, the next task may be integrative. A ready learner may bypass redundant preliminary episodes with supporting evidence. See [the one-task guide](ONE-LEARNING-TASK.md); retain the original map, plan and revision history rather than overwriting earlier decisions.
+
 ## Field interpretation
 
 `sources` records citations, locators and inspected/uninspected/constructed status. Source references on nodes or propositions support the content declaration, not learner competence. `source_supported` requires a declared inspected source; a source declaration does not prove that inspection occurred.
@@ -40,7 +46,7 @@ The prerequisite register is a set of task-sensitive hypotheses, not a fourth kn
 
 `prerequisite_hypotheses` names concepts, kind, proposed/supported/rejected status, rationale, probe and evidence references. Unsupported hypotheses may remain proposed. Rejected prerequisites cannot remain in a stage's prerequisite list. Evidence references are descriptions of private records, not files the checker uploads or opens.
 
-`learning_stages` provides target capability, concepts, activities, allowed instructional help, a separately specified check and an adaptation trigger. `requires_stage_ids` is reserved for a chosen required-before ordering of learning episodes. It needs its own rationale and may be revised; conceptual map edges are never converted automatically to stage dependencies. Related concepts may form cycles, but contradictory strict stage ordering must be repaired or combined into a corequisite episode.
+`learning_stages` provides target capability, concepts, activities, allowed instructional help, a separately specified check and an adaptation trigger. `next_task` selects at most one current proposed task from those stages; it never stores an observed answer. `requires_stage_ids` is reserved for a chosen required-before ordering of learning episodes. It needs its own rationale and may be revised; conceptual map edges are never converted automatically to stage dependencies. Related concepts may form cycles, but contradictory strict stage ordering must be repaired or combined into a corequisite episode.
 
 `learner_agreement` remains `not_recorded` until actual agreement exists. `agreed` needs `agreement_evidence`; neither the assistant nor a test should fabricate it. `revision_log` states versions, affected stage IDs, the change and reason. A source correction or learner choice can justify a revision without inventing a performance result; a performance-based revision requires an actual observation reference. Retired or split stage IDs stay in the history instead of being repurposed.
 

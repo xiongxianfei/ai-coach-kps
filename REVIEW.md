@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -35,6 +35,12 @@ The interrupted branch already contained a Concept Map definition, Concept Mappi
 The IHMC report's Introduction and Constructing Good Concept Maps sections were rechecked; Cognitive Apprenticeship's Sequencing discussion was also rechecked. NRC 2007 Chapter 8 HTML pages 214 and 220–222 were inspected only for the learning-progression terminology boundary. These are sources about representation and instruction, not a direct test of this two-level AI workflow. No unpublished learner evidence or comprehensive disciplinary panorama was inferred.
 
 Before refreshing summary-dependencies.json, the new source summaries and direct receiving Practices were inspected for source scope, conceptual versus prerequisite links, and the separation of planning from observed capability. This was AI-assisted authoring review, not independent scholarly review.
+
+## One task at a time refinement review
+
+The five Practice summaries and StageN identifiers were inspected for scope after adding a one-current-task handoff. Planning still permits an overview and staged route, but one immediate observable task is selected for execution; direct entry to a small goal is also allowed. Formative probes, retrieval prompts and evaluation questions remain task-sensitive rather than a fixed time quota. The unit-price and authorized-lab examples are explicitly constructed. No global claim that smaller tasks are always superior was introduced and no external publication was promoted to endorsement of the authored prompt or unit contract.
+
+Before refreshing the direct dependency fingerprints, the authoring assistant examined the added supporting guide and its incoming Practice links, checked that it does not supersede the academically grounded Concepts, Principles, Models or Methods, and verified that all original observations remain blank. This is AI-assisted editorial review of the changed dependencies and local meaning, not independent scientific review or a live learner trial.
 
 ## What remains untested
 

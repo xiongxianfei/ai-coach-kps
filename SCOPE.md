@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -19,6 +19,10 @@ Coaching means an educational interaction in which the learner retains control o
 Conceptual understanding, safe procedural learning, learner-generated explanation, retrieval, feedback, reflection and evaluation. Subject expertise remains necessary even though the workflow is domain-independent. Applications can use reading, mathematics or coding, but this package does not automatically validate the subject material.
 
 New-subject coaching starts with a compact panoramic orientation, followed by a goal-specific concept map and an adaptive instructional sequence. Returning learners may reuse a checked overview. Panoramic coverage need not be exhaustive, and a conceptual relation is not a proven learning prerequisite. Planning status, source support and learner-performance evidence remain separate.
+
+## One small task before more content
+
+The default immediate unit is one bounded learning task with an observable output and a checking criterion, situated in the larger goal where useful. The panoramic overview should locate that goal without becoming a mandatory comprehensive lecture. Day labels and study durations are adjustable scheduling decisions, not KPS Practice stages or universal learning laws. Sometimes an integrative task is needed; decomposition must preserve meaning. See [the next-task guide](ONE-LEARNING-TASK.md).
 
 ## Roles and consent
 

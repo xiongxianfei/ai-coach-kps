@@ -27,5 +27,9 @@
     }
   ],
   "conclusion": null,
-  "next_action": null
+  "next_action": null,
+  "learning_task_id": null,
+  "plan_id": null,
+  "plan_version": null,
+  "learning_stage_id": null
 }

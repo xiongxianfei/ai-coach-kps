@@ -34,6 +34,10 @@ This Practice combines published retrieval and spacing ideas in an original adul
 
 Use this Practice for safe conceptual or procedural review with a source that can be checked. The AI may draft prompts or feedback, but the learner does the retrieval. The procedure does not replace skilled instruction, and it is not an established spaced-repetition software algorithm. Retain access accommodations while distinguishing answer assistance.
 
+## One current retrieval target
+
+Start with **one already encountered concept, relation or procedure** and one checked retrieval prompt. Save the response before feedback and distinguish actual recall from an explanation supplied by AI. Additional questions and a spaced review plan may follow, but they are not prerequisites for recording this one attempt. A planned future check is not observed retention. The [one-task guide](../ONE-LEARNING-TASK.md) clarifies the current output and stop/continue choice without prescribing an optimal interval.
+
 ## Stage map
 
 1. [Stage1 Select learned material and a retention goal](#stage1-select-learned-material-and-a-retention-goal)
@@ -44,7 +48,7 @@ Use this Practice for safe conceptual or procedural review with a source that ca
 
 ## Stage1 Select learned material and a retention goal
 
-1. Choose a small set of concepts or procedures already encountered. If initial understanding is absent, return to instruction rather than trying to recall unknown content repeatedly.
+1. Choose **one current concept, relation or procedure** already encountered; optionally expand to a related set after inspecting the first response. If initial understanding is absent, return to instruction rather than trying to recall unknown content repeatedly.
 2. Specify what must be retained and when it will be useful. Select recall, explanation or application criteria appropriate to that purpose.
 3. Identify a reliable reference and distinguish its claims from your own synthesis. Do not create flashcards around an unchecked AI invention.
 4. Plan a manageable study occasion and a separate later check. Exact numbers of items and dates are local choices, not research-validated constants.
@@ -55,7 +59,7 @@ Locate each selected question in the [goal-specific concept map](concept-mapping
 
 ## Stage2 Prepare prompts with checked answers
 
-1. Ask the AI to propose a few answerable prompts anchored to identified source passages. Request explanation and boundary questions when simple term recall would miss the goal.
+1. Ask the AI to propose **one answerable prompt for the next attempt** anchored to an identified source passage; more prompts may be prepared later if needed. Request explanation and boundary questions when simple term recall would miss the goal.
 2. Check that each prompt has an appropriate criterion and is not misleading, overspecific or answer-revealing. Record source locators for the answer key.
 3. Keep answers separate from the retrieval display. If checking your own newly generated items has exposed their answers, record that exposure and treat the activity as preparation, not a clean independent test.
 4. For consequential evaluation, prefer independently prepared items or human-checked criteria. Multiple AIs agreeing does not establish source independence.
