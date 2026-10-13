@@ -293,5 +293,17 @@
   ],
   "learner_agreement": "not_recorded",
   "agreement_evidence": null,
-  "revision_log": []
+  "revision_log": [],
+  "next_task": {
+    "id": "day1-units",
+    "stage_id": "normalize",
+    "task": "Explain whether 0.75 kg and 750 g represent the same quantity.",
+    "observable_output": "A short explanation of equivalence in the learner's own words.",
+    "criterion": "State that 1 kg equals 1000 g and preserve the represented quantity.",
+    "allowed_resources": [
+      "screen reader"
+    ],
+    "assistance_boundary": "May request a verified explanation, recorded as assisted instruction.",
+    "stop_rule": "After one checked attempt, teach the unit relation if needed or choose the next task."
+  }
 }

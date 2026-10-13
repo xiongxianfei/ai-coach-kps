@@ -21,6 +21,16 @@ def inspect_record(record):
     if record.get('schema_version')!=1: errors.append('schema_version must be 1')
     if record.get('record_kind') not in {'blank_template','constructed_example','personal_observation'}:errors.append('record_kind must identify provenance')
     if record.get('mastery_decision') is not None: errors.append('mastery_decision is not supported by this record checker')
+    for field in ('learning_task_id','plan_id','learning_stage_id'):
+        if field in record and record[field] is not None and not nonempty(record[field]):
+            errors.append(field+' must be nonempty text or null')
+    plan_version=record.get('plan_version')
+    if plan_version is not None and (type(plan_version) is not int or plan_version < 1):
+        errors.append('plan_version must be a positive integer or null')
+    if nonempty(record.get('learning_stage_id')) and (not nonempty(record.get('plan_id')) or plan_version is None):
+        errors.append('learning_stage_id needs plan_id and plan_version')
+    if plan_version is not None and not nonempty(record.get('plan_id')):
+        errors.append('plan_version needs plan_id')
     attempts=record.get('attempts')
     if not isinstance(attempts,list): attempts=[];errors.append('attempts must be a list')
     seen=set()

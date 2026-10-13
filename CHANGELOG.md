@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.2.0"
+package_version: "0.2.1"
 status: "draft"
 ---
 
@@ -13,6 +13,10 @@ Version 0.2.0 adds two-level conceptual orientation and adaptive planning withou
 ## Summary
 
 The package is independent of earlier English and Learning and Teaching KPS work. It adopts the steps-first and source-alignment direction of Core 10.2.0 without relabeling old invented workflows as academic theory.
+
+## Version 0 2 1
+
+Refine all five Practices around one meaningful, independently checkable **next learning task** at a time, with optional rather than compulsory subject-map setup. Add a supporting one-task guide and a constructed Day 1 example. Extend the optional planning record with one `next_task` selector and private session records with backward-compatible plan/task identifiers, plus declaration-only tests. No new independent academic knowledge object, universally optimal study duration, observed result or experimentally validated AI intervention is claimed. The Core 10.2.0 pin and its unchanged authoring tools remain fixed.
 
 ## Version 0 2 0
 

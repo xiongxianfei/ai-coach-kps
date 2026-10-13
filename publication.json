@@ -1,6 +1,6 @@
 {
   "package": "AI Learning Coach KPS",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "based_on_core": "10.2.0",
   "kps_language": "9.x",
   "validated_with": "9.1.0",

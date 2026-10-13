@@ -34,6 +34,10 @@ Use this Practice when an explanation, response or artifact does not yet meet a 
 
 This Practice is for educational obstacles in a bounded adult learning task. It is not psychological, clinical or disability diagnosis. Learner agreement, an inspectable response and a trustworthy criterion are prerequisites. The learner controls pacing and may refuse an assessment. The AI provides proposed interpretations; it is not an infallible judge.
 
+## One obstacle and one discriminating probe
+
+Enter with **one observed discrepancy**, its task, a credible criterion and actual assistance information. Check whether the task or reference is wrong before inferring a learner difficulty. Choose a small probe whose answers would lead to different instructional decisions; ask it before presenting multiple new explanations. Return one concrete next learning task or an explicit reason to pause, not a global learner diagnosis. Use [the one-task guide](../ONE-LEARNING-TASK.md) when the instructional response needs to be scoped further.
+
 ## Stage map
 
 1. [Stage1 Locate the discrepancy and check the task](#stage1-locate-the-discrepancy-and-check-the-task)
@@ -54,7 +58,7 @@ This Practice is for educational obstacles in a bounded adult learning task. It 
 ## Stage2 Compare explanations with a discriminating probe
 
 1. Write at least two plausible explanations when the evidence permits them. Include task/source error or insufficient evidence rather than forcing a learner deficit.
-2. Choose a short probe whose possible responses would change the next instructional action. The question should isolate a relation, not simply repeat the original task more loudly.
+2. Choose **one** short probe whose possible responses would change the next instructional action. The question should isolate a relation, not simply repeat the original task more loudly.
 3. State which answer-generating help is withheld for the probe and retain access supports. Save the response before interpreting it.
 4. Mark the hypothesis unresolved if both explanations predict the same response. Do not infer a stable learning style, mental disorder, intelligence or motivation from one answer.
 
@@ -97,7 +101,7 @@ A correct analogous calculation supports a limited next decision. It does not sh
 ## Stage5 Choose the next instructional decision
 
 1. Summarize the discrepancy, evidence inspected, support given and new observation in a private note.
-2. Choose among continuing with less answer help, teaching a prerequisite, using another representation, obtaining human feedback, or pausing. State the reason and any uncertainty.
+2. Choose **one next bounded action** among continuing with less answer help, teaching a prerequisite, using another representation, obtaining human feedback, or pausing. State the reason and any uncertainty.
 3. Set a later independent check when retention matters and label it planned until it occurs. Preserve access accommodations in that plan.
 4. Retain unresolved alternatives and discard an unsupported hypothesis rather than preserving it as a learner profile. Invite the learner to correct the record.
 

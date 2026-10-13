@@ -34,6 +34,10 @@ This Practice asks what an adult actually demonstrated, not whether the AI sessi
 
 Use for learner-owned, low-stakes evaluation. The learner can decline or stop. This is not a clinical assessment, grading authority or causal-impact certification. Keep private records out of public version control and inspect task correctness before interpreting a score. No automatic mastery metric is assumed.
 
+## One learning claim to evaluate
+
+Select **one bounded claim** about a capability under declared resources, such as an independent explanation on an unfamiliar task. Reuse available task records instead of imposing a redundant test. If the claim concerns later retention or changed-context application, leave it pending until the necessary observation actually occurs. Conclude with one justified next check or learning task. The [one-task guide](../ONE-LEARNING-TASK.md) supports task scoping but does not define a universal mastery threshold.
+
 ## Stage map
 
 1. [Stage1 Specify the evaluation question and criterion](#stage1-specify-the-evaluation-question-and-criterion)
@@ -45,7 +49,7 @@ Use for learner-owned, low-stakes evaluation. The learner can decline or stop. T
 
 ## Stage1 Specify the evaluation question and criterion
 
-1. State the claim you want to examine: immediate task capability, retained knowledge, transfer to a specified context, or the contribution of a coaching design. These are different questions.
+1. State **one bounded claim** you want to examine: immediate task capability, retained knowledge, transfer to a specified context, or the contribution of a coaching design. These are different questions.
 2. Define relevant response features and allowed resources before seeing the result. Include what would count against the proposed interpretation.
 3. Select tasks capable of exposing the target. A multiple-choice recognition question is not interchangeable with producing a justified solution.
 4. State the stakes and obtain the learner's agreement. Do not use this local workflow for credentials, clinical judgment or consequential personnel decisions without suitable qualified procedures.
@@ -102,7 +106,7 @@ The retained evidence is intentionally mixed: promising contextual results and f
 
 1. Write what was demonstrated, conditions of assistance and verification, actual intervals, and the scope of changed-context evidence.
 2. List what was not measured. Keep an unresolved classification when timing, source accuracy or assistance history is missing.
-3. Choose a next action: continue, alter one support, investigate a prerequisite, seek expert feedback or stop. Preserve the reason and invite the learner to challenge the interpretation.
+3. Choose **one next action**: continue a bounded task, alter one support, investigate a prerequisite, seek expert feedback or stop. Preserve the reason and invite the learner to challenge the interpretation.
 4. Keep personal responses private. Publish only de-identified or constructed examples when rights and consent permit, never fabricated observations.
 5. Review the interpretation after new evidence rather than freezing a learner label. If a generalization changes, update the linked local explanation, not the original event history.
 

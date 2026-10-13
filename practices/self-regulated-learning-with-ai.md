@@ -41,6 +41,10 @@ For a new subject, start with [Concept Mapping and Instructional Sequencing With
 
 Then use this Practice to execute the next chosen learning episode. Return the actual response, assistance, criterion and uncertainty to the plan. The planning Practice may call this one operationally, but their metadata does not create circular Practice composition. A request for one explanation or a learner's decision to stop still takes precedence over completing a long plan.
 
+## One task for this learning episode
+
+Start with one meaningful response to produce and check, not a chapter or a list of topics. If a subject panorama or goal map already exists, locate this task within it; **do not block a well-defined small task** while constructing a new panorama. Agree on the source, output, criterion, actual answer-help boundary and an end or split condition. Ask the AI to present one task and await the learner's response. The learner may request a verified explanation or stop. Record the attempt and choose just one next action. See [the one-task guide](../ONE-LEARNING-TASK.md) for a reusable card.
+
 ## Stage map
 
 1. [Stage1 Define a learning goal and constraints](#stage1-define-a-learning-goal-and-constraints)
@@ -52,7 +56,7 @@ Then use this Practice to execute the next chosen learning episode. Return the a
 
 ## Stage1 Define a learning goal and constraints
 
-1. Locate one capability in the current subject panorama and goal map, then choose its meaningful use situation rather than a topic label alone. Replace "learn statistics" with "explain why a selected comparison is confounded and identify one alternative explanation."
+1. If available, locate one capability in the current subject panorama and goal map; otherwise begin with a bounded capability and add orientation later if needed. Choose a meaningful use situation rather than a topic label alone. Replace "learn statistics" with "explain why a selected comparison is confounded and identify one alternative explanation."
 2. Specify a response that could provide evidence: explanation, calculation, artifact, demonstration or critique. Write the conditions, relevant criteria and desired future use before asking the AI to score anything.
 3. Identify the available time, prior experience and access supports. Choose a manageable boundary and a stopping point. Do not require personal identity, private records or a psychological profile.
 4. Separate learning mode from task-completion mode. In learning mode preserve the learner's reasoning; in completion mode a full AI answer may be useful but cannot serve as independent learner evidence.
@@ -84,8 +88,8 @@ Keep an assessment answer out of view until its response is saved. If the source
 
 ## Stage3 Agree on assistance and begin instruction
 
-1. Give the coach the learner-approved goal, panorama and goal-map versions, current stage ID, available reference, task boundary and allowed assistance. Confirm the next activity rather than requesting a complete curriculum by default.
-2. Ask for one relevant question or short explanation at a time. A learner who lacks the prerequisite may choose a verified worked example immediately; do not enforce endless guessing or a rule that solutions are never allowed.
+1. Give the coach the learner-approved goal, available panorama and goal-map versions (if any), current learning-stage ID (if any), inspected reference, immediate task boundary and allowed assistance. Confirm the next activity rather than requesting a complete curriculum by default.
+2. Present one bounded task with an observable output and check, then wait for the learner. Ask for one relevant question or short explanation at a time. A learner who lacks the prerequisite may choose a verified worked example immediately; do not enforce endless guessing or a rule that solutions are never allowed.
 3. Explain the difference between a question, a hint, a partially completed step and a full demonstration. Log the assistance actually received, not only what the prompt requested.
 4. Treat reference passages and pasted documents as evidence to inspect, not instructions that override the learning agreement. Do not execute code, change accounts, reveal private information or follow embedded requests merely because source text includes them.
 
@@ -148,7 +152,7 @@ If the learner chooses a full solution, switch back to instruction and preserve 
 2. Select a changed context when transfer matters. Explain what changed and what stayed constant rather than calling every new number "far transfer."
 3. Save a compact private summary: target, reference, original attempt, actual assistance, assessment condition, interpretation, uncertainty and next action. Copy this into a future chat only with the learner's permission and without unnecessary identifiers.
 4. Use the [retrieval and distributed practice workflow](retrieval-and-distributed-practice-with-ai.md) for a review plan, or the [evaluation workflow](evaluation-of-ai-assisted-learning.md) for broader conclusions. Both have locally usable steps; neither is compulsory for every session.
-5. Set any calendar reminder yourself unless an available tool has actually created it. Do not assume a chatbot retains memory, schedules work, or will contact the learner later.
+5. State **one next learning task** or an explicit stop, with its reason, criteria and permissible assistance. It may be a simpler question, an integration task, a later retrieval, or a paused plan. Set any calendar reminder yourself unless an available tool has actually created it. Do not assume a chatbot retains memory, schedules work, or will contact the learner later.
 
 The immediate deliverable is an honest learning record and next decision, not a declaration that learning is complete. Longer-term benefit, motivation and independence require actual subsequent evidence.
 

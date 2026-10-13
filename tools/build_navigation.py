@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import validate as v
 ROLES=['practice','concept','principle','model','method']
 def opener(title,take):
-    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.2.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
+    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.2.1"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
 def collect(root):
     out=[];refs=[]
     for role in ROLES:
