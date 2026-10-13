@@ -26,6 +26,7 @@ jobs:
           printf '%s  %s\n' 'a87ddab12be4b1c2bf43c4b7cffdf980694e70dd7668ec3e6d04a4b9ff68c782' /tmp/one-task.patch | sha256sum -c -
           git apply --check --unidiff-zero /tmp/one-task.patch
           git apply --unidiff-zero /tmp/one-task.patch
+          rm .github/workflows/one-task-apply.yml
           python3 validate.py .
           python3 test_validate.py
           python3 tools/check_domain.py
