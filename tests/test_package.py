@@ -15,7 +15,7 @@ class PackageIntegrityTests(unittest.TestCase):
             self.assertEqual(lock['files'][name]['sha256'],hashlib.sha256((ROOT/name).read_bytes()).hexdigest())
     def test_07_core_document_link_adaptations_disclosed(self):
         lock=json.loads((ROOT/'upstream-lock.json').read_text())
-        for name in ('AUTHORING.md','TEMPLATES.md'):
+        for name in ('docs/AUTHORING.md','docs/TEMPLATES.md'):
             self.assertIn('link',lock['files'][name]['reuse'])
             self.assertIn('upstream_sha256',lock['files'][name])
             self.assertEqual(lock['files'][name]['sha256'],hashlib.sha256((ROOT/name).read_bytes()).hexdigest())
