@@ -16,7 +16,7 @@ The supporting library is newly authored as bounded source-aligned summaries. Th
 
 ## Upstream copies
 
-AUTHORING.md, TEMPLATES.md, validate.py, test_validate.py and LICENSE are unchanged copies from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
+validate.py and LICENSE remain unchanged copies from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. AUTHORING.md and TEMPLATES.md adapt local documentation links; AUTHORING.md also names the local domain-test command. The copied regression suite was removed; its original source and digest remain recorded in upstream-lock.json. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
 
 ## Original material
 

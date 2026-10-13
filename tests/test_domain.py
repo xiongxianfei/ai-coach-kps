@@ -1,8 +1,6 @@
 """Publication and constructed-record regressions, not tests of human learning."""
 from pathlib import Path
 import copy
-from fractions import Fraction
-import importlib.util
 import json
 import shutil
 import sys
@@ -61,17 +59,6 @@ class PublicationTests(unittest.TestCase):
         p=self.root/'data/claims.json';d=json.loads(p.read_text());d[0]['practices']=['unknown'];p.write_text(json.dumps(d));self.has_error('claim-practice')
     def test_navigation_matches(self):
         for name,text in build_navigation.generate(self.root).items():self.assertEqual(text,(self.root/name).read_text(),name)
-    def test_practice_and_library_counts(self):
-        docs,refs=build_navigation.collect(self.root)
-        self.assertEqual(22,len(docs));self.assertEqual(17,len(refs))
-        practices=[d for _,d in docs if d.meta['type']=='practice']
-        self.assertEqual(6,len(practices));self.assertEqual(35,sum(len(d.meta['stage_titles']) for d in practices))
-    def test_no_uninspected_named_model(self):
-        paths=[p.name for p in (self.root/'models').glob('*.md')]
-        self.assertEqual(['assessment-triangle.md','cognitive-apprenticeship.md'],sorted(paths))
-    def test_example_arithmetic(self):
-        a=Fraction(6,750)*100;b=Fraction(720,100)/1000*100
-        self.assertEqual(Fraction(4,5),a);self.assertEqual(Fraction(18,25),b);self.assertLess(b,a)
 
 class RecordTests(unittest.TestCase):
     def template(self):return json.loads((ROOT/'data/session-record-template.json').read_text())

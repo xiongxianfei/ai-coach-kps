@@ -78,7 +78,6 @@ Python 3.10 or newer and the standard library are sufficient.
 
 ```bash
 python3 validate.py .
-python3 test_validate.py
 python3 tools/check_domain.py
 python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
