@@ -3,6 +3,11 @@
   "meaning": "Declared documentation dependencies, not a causal or mental-processing model.",
   "nodes": [
     {
+      "id": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "path": "practices/ai-assisted-learning-orchestration.md",
+      "type": "practice"
+    },
+    {
       "id": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
       "path": "practices/concept-mapping-and-instructional-sequencing-with-ai.md",
       "type": "practice"
@@ -194,6 +199,131 @@
     }
   ],
   "edges": [
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:self-regulated-learning"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:concept-map"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:instructional-scaffolding"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:formative-assessment"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_concepts",
+      "target": "ai-coach:concept:learning-performance-distinction"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_principles",
+      "target": "ai-coach:principle:testing-effect"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_principles",
+      "target": "ai-coach:principle:spacing-effect"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_models",
+      "target": "ai-coach:model:cognitive-apprenticeship"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_models",
+      "target": "ai-coach:model:assessment-triangle"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_methods",
+      "target": "ai-coach:method:concept-mapping"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_methods",
+      "target": "ai-coach:method:cognitive-modeling"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_methods",
+      "target": "ai-coach:method:self-explanation"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "uses_methods",
+      "target": "ai-coach:method:retrieval-practice"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "composes",
+      "target": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "composes",
+      "target": "ai-coach:practice:self-regulated-learning-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "composes",
+      "target": "ai-coach:practice:formative-assessment-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "composes",
+      "target": "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "composes",
+      "target": "ai-coach:practice:evaluation-of-ai-assisted-learning"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:novak-canas-2008"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:collins-1991"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:nrc-2001"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:panadero-2017"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:soderstrom-2015"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:karpicke-2011"
+    },
+    {
+      "source": "ai-coach:practice:ai-assisted-learning-orchestration",
+      "relationship": "references",
+      "target": "ai-coach:reference:cepeda-2008"
+    },
     {
       "source": "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai",
       "relationship": "uses_concepts",

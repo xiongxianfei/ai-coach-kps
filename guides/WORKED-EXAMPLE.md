@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -12,7 +12,11 @@ An inspectable example can clarify outputs without inventing a completed learner
 
 ## Summary
 
-This unit-cost example illustrates the five Practices, including the two-level overview and the single-next-task convention. It is fully synthetic and does not report a learner, an AI run or educational effectiveness.
+This unit-cost example illustrates the five specialist Practices, including the two-level overview and the single-next-task convention. The master now provides a separate fully inline programme example. It is fully synthetic and does not report a learner, an AI run or educational effectiveness.
+
+## Stay within the master
+
+The [master Practice](../practices/ai-assisted-learning-orchestration.md) contains its own constructed target, three proposed learning stages, one Day 1 task, an answer-key exposure warning, conditional assessment branches and a blank resume record. It is usable without this guide. The example below is an additional domain illustration, not another mandatory phase or evidence that any real learner succeeded.
 
 ## Target and reference relation
 

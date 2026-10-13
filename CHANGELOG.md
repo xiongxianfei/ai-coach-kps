@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -8,11 +8,15 @@ status: "draft"
 
 ## Key takeaway
 
-Version 0.2.0 adds two-level conceptual orientation and adaptive planning without claiming a complete field survey.
+Version 0.4.0 adds a self-contained master for overall targets, learning stages and one task at a time, without promoting the authored workflow as scientific theory.
 
 ## Summary
 
 The package is independent of earlier English and Learning and Teaching KPS work. It adopts the steps-first and source-alignment direction of Core 10.2.0 without relabeling old invented workflows as academic theory.
+
+## Version 0 4 0
+
+Add AI-Assisted Learning Orchestration as a self-contained master Practice: overall target, learning stages, one current task, instruction/question/reply/assessment, adaptive continuation and learner-owned resumption. Seven inline procedural stages incorporate the five existing specialist functions without mandatory link-following. Keep all five specialist files, their StageN anchors, the scientific library, reference records, record schemas and Core tool bytes unchanged. Update the primary entry and derived navigation, preserve the simplified root, and add editorial/contract regression checks. No empirical effectiveness or independent review is asserted.
 
 ## Version 0 3 0
 

@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -35,9 +35,13 @@ The generated graph is a dependency view, not a model of human cognition or a co
 
 Diagrams are used when they clarify a relationship, not to satisfy an illustration quota.
 
+## Master reading route
+
+The master Practice contains a text hierarchy, task card, conditional assessment table and complete resume format. These are inline representations, not links to a missing application. Read the relevant procedural stage after resuming; there is no requirement to reread the whole document or render a graph. No image assets or additional renderer were added for this update.
+
 ## Current audit
 
-The five Practices use point-of-use decision and evidence tables. Their branch conditions and next actions are readable without graphics. Cognitive Apprenticeship is represented as a four-dimension table, not a newly invented six-stage cycle. The Assessment Triangle has a text triad with explicit noncausal edge meaning. The source and reference declarations remain in the owning Models.
+The five specialist Practices and the master use point-of-use decision and evidence tables. Their branch conditions and next actions are readable without graphics. Cognitive Apprenticeship is represented as a four-dimension table, not a newly invented six-stage cycle. The Assessment Triangle has a text triad with explicit noncausal edge meaning. The source and reference declarations remain in the owning Models.
 
 These relationships are sufficiently compact for text, so no D2/SVG assets are claimed or required in this release. This is a selective-format decision consistent with the Core contract's allowance for simple text diagrams and tables; it is not a claim that visual instruction is ineffective.
 

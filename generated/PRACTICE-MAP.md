@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -14,9 +14,21 @@ Choose a recurring adult learning task rather than a compulsory sequence through
 
 Generated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.
 
+## AI Assisted Learning Orchestration
+
+[Open this Practice](../practices/ai-assisted-learning-orchestration.md). Self-contained master entry. Original KPS application; effectiveness not established.
+
+1. [Stage1 Establish the overall target and learning agreement](../practices/ai-assisted-learning-orchestration.md#stage1-establish-the-overall-target-and-learning-agreement)
+2. [Stage2 Orient to the subject and propose learning stages](../practices/ai-assisted-learning-orchestration.md#stage2-orient-to-the-subject-and-propose-learning-stages)
+3. [Stage3 Select one current learning task](../practices/ai-assisted-learning-orchestration.md#stage3-select-one-current-learning-task)
+4. [Stage4 Teach question and preserve the learner response](../practices/ai-assisted-learning-orchestration.md#stage4-teach-question-and-preserve-the-learner-response)
+5. [Stage5 Assess the response and adapt assistance](../practices/ai-assisted-learning-orchestration.md#stage5-assess-the-response-and-adapt-assistance)
+6. [Stage6 Evaluate stage evidence and revise the programme](../practices/ai-assisted-learning-orchestration.md#stage6-evaluate-stage-evidence-and-revise-the-programme)
+7. [Stage7 Retrieve review and resume or close](../practices/ai-assisted-learning-orchestration.md#stage7-retrieve-review-and-resume-or-close)
+
 ## Concept Mapping and Instructional Sequencing With an AI Coach
 
-[Open this Practice](../practices/concept-mapping-and-instructional-sequencing-with-ai.md). Original KPS application; effectiveness not established.
+[Open this Practice](../practices/concept-mapping-and-instructional-sequencing-with-ai.md). Independent specialist entry. Original KPS application; effectiveness not established.
 
 1. [Stage1 Establish a panoramic subject overview](../practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage1-establish-a-panoramic-subject-overview)
 2. [Stage2 Select a goal and inspect prior knowledge](../practices/concept-mapping-and-instructional-sequencing-with-ai.md#stage2-select-a-goal-and-inspect-prior-knowledge)
@@ -27,7 +39,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Evaluation of AI Assisted Learning
 
-[Open this Practice](../practices/evaluation-of-ai-assisted-learning.md). Original KPS application; effectiveness not established.
+[Open this Practice](../practices/evaluation-of-ai-assisted-learning.md). Independent specialist entry. Original KPS application; effectiveness not established.
 
 1. [Stage1 Specify the evaluation question and criterion](../practices/evaluation-of-ai-assisted-learning.md#stage1-specify-the-evaluation-question-and-criterion)
 2. [Stage2 Document baseline assistance and exposure](../practices/evaluation-of-ai-assisted-learning.md#stage2-document-baseline-assistance-and-exposure)
@@ -38,7 +50,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Formative Assessment With an AI Coach
 
-[Open this Practice](../practices/formative-assessment-with-ai.md). Original KPS application; effectiveness not established.
+[Open this Practice](../practices/formative-assessment-with-ai.md). Independent specialist entry. Original KPS application; effectiveness not established.
 
 1. [Stage1 Locate the discrepancy and check the task](../practices/formative-assessment-with-ai.md#stage1-locate-the-discrepancy-and-check-the-task)
 2. [Stage2 Compare explanations with a discriminating probe](../practices/formative-assessment-with-ai.md#stage2-compare-explanations-with-a-discriminating-probe)
@@ -48,7 +60,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Retrieval and Distributed Practice With an AI Coach
 
-[Open this Practice](../practices/retrieval-and-distributed-practice-with-ai.md). Original KPS application; effectiveness not established.
+[Open this Practice](../practices/retrieval-and-distributed-practice-with-ai.md). Independent specialist entry. Original KPS application; effectiveness not established.
 
 1. [Stage1 Select learned material and a retention goal](../practices/retrieval-and-distributed-practice-with-ai.md#stage1-select-learned-material-and-a-retention-goal)
 2. [Stage2 Prepare prompts with checked answers](../practices/retrieval-and-distributed-practice-with-ai.md#stage2-prepare-prompts-with-checked-answers)
@@ -58,7 +70,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Self Regulated Learning With an AI Coach
 
-[Open this Practice](../practices/self-regulated-learning-with-ai.md). Original KPS application; effectiveness not established.
+[Open this Practice](../practices/self-regulated-learning-with-ai.md). Independent specialist entry. Original KPS application; effectiveness not established.
 
 1. [Stage1 Define a learning goal and constraints](../practices/self-regulated-learning-with-ai.md#stage1-define-a-learning-goal-and-constraints)
 2. [Stage2 Establish a source and a starting response](../practices/self-regulated-learning-with-ai.md#stage2-establish-a-source-and-a-starting-response)

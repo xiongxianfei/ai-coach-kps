@@ -1,0 +1,119 @@
+{
+  "version": "0.4.0",
+  "prepared_at": "2026-10-13T16:30:56.275321+00:00",
+  "source_repository": "xiongxianfei/ai-coach-kps",
+  "base_commit": "63b5de53116c8fdab4b3a18e9491ab75352d3e7d",
+  "base_tree_verified": "9200b901cadcd01258ebb78198b28bb99c12756f",
+  "new_master_path": "practices/ai-assisted-learning-orchestration.md",
+  "master_sha256": "5454a6b3995a40d8cfa374d5a4eea4bc10ab321560073bb6c9c5f5d7b6d1ea50",
+  "unchanged_paths_verified": [
+    "concepts/concept-map.md",
+    "concepts/feedback.md",
+    "concepts/formative-assessment.md",
+    "concepts/instructional-scaffolding.md",
+    "concepts/learning-performance-distinction.md",
+    "concepts/metacognitive-calibration.md",
+    "concepts/self-regulated-learning.md",
+    "methods/cognitive-modeling.md",
+    "methods/concept-mapping.md",
+    "methods/retrieval-practice.md",
+    "methods/self-explanation.md",
+    "models/assessment-triangle.md",
+    "models/cognitive-apprenticeship.md",
+    "practices/concept-mapping-and-instructional-sequencing-with-ai.md",
+    "practices/evaluation-of-ai-assisted-learning.md",
+    "practices/formative-assessment-with-ai.md",
+    "practices/retrieval-and-distributed-practice-with-ai.md",
+    "practices/self-regulated-learning-with-ai.md",
+    "principles/self-explanation-effect.md",
+    "principles/spacing-effect.md",
+    "principles/testing-effect.md",
+    "references/bastani-2025-generative-ai-guardrails.md",
+    "references/cepeda-2006-distributed-practice.md",
+    "references/cepeda-2008-temporal-ridgeline.md",
+    "references/chi-1994-self-explanation.md",
+    "references/collins-brown-holum-1991-cognitive-apprenticeship.md",
+    "references/karpicke-blunt-2011-retrieval-practice.md",
+    "references/kestin-2025-ai-tutoring.md",
+    "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md",
+    "references/national-research-council-2001-assessment.md",
+    "references/national-research-council-2007-learning-progressions.md",
+    "references/novak-canas-2008-concept-maps.md",
+    "references/panadero-2017-self-regulated-learning.md",
+    "references/pieschl-2009-metacognitive-calibration.md",
+    "references/sadler-1989-formative-assessment.md",
+    "references/soderstrom-bjork-2015-learning-versus-performance.md",
+    "references/wisniewski-zierer-hattie-2020-feedback.md",
+    "references/xiongxianfei-2026-kps-core-10-2.md",
+    "AUTHORING.md",
+    "TEMPLATES.md",
+    "validate.py",
+    "test_validate.py",
+    "LICENSE",
+    "upstream-lock.json",
+    "tools/check_record.py",
+    "tools/check_learning_plan.py",
+    "data/session-record-template.json",
+    "data/two-level-learning-plan-template.json",
+    "data/two-level-learning-plan-example.json",
+    ".github/workflows/checks.yml"
+  ],
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "validate.py",
+        "."
+      ],
+      "returncode": 0,
+      "log_sha256": "b762d82583b51bbee6ae205ddcb1508d0e270629fdff84b07961dab6d87d3c77",
+      "result": "passed"
+    },
+    {
+      "command": [
+        "python3",
+        "test_validate.py"
+      ],
+      "returncode": 0,
+      "log_sha256": "80174f69bade40d03539e0d65e879c513cb81a88441a04a55f7ed1678d4e34af",
+      "result": "52 upstream tests passed"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_domain.py"
+      ],
+      "returncode": 0,
+      "log_sha256": "68c0a003a0850d37188c3ba4351d296161303b656a505add36ea06e6b30cd079",
+      "result": "passed"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_navigation.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "ec8abca72e292ca71848e60504c8d822e96d67e4c4126d2331c54aa8e8ef3e27",
+      "result": "passed"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "log_sha256": "31831e6a7202093b926a12eff740d518bbb4b4d9721d98675aff56cef63737fd",
+      "result": "158 domain tests passed"
+    }
+  ],
+  "scope": "Local structural/declaration tests and AI-assisted editorial review only; no learner performance, independent source review or educational effectiveness established.",
+  "upstream_tests": 52,
+  "domain_tests": 158,
+  "new_master_tests": 34
+}

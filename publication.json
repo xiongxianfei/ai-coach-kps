@@ -1,6 +1,6 @@
 {
   "package": "AI Learning Coach KPS",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "based_on_core": "10.2.0",
   "kps_language": "9.x",
   "validated_with": "9.1.0",
@@ -22,5 +22,6 @@
     "practice"
   ],
   "reference_is_supporting_record": true,
-  "scope": "Practice-first adult educational coaching with AI; not clinical coaching or an efficacy-certified intervention"
+  "scope": "Practice-first adult educational coaching with AI; not clinical coaching or an efficacy-certified intervention",
+  "primary_practice": "ai-coach:practice:ai-assisted-learning-orchestration"
 }

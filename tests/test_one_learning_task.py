@@ -32,10 +32,10 @@ class OneTaskPublicationTests(unittest.TestCase):
         self.assertEqual(3,len(list((ROOT/'principles').glob('*.md'))))
         self.assertEqual(2,len(list((ROOT/'models').glob('*.md'))))
         self.assertEqual(4,len(list((ROOT/'methods').glob('*.md'))))
-        self.assertEqual(5,len(list((ROOT/'practices').glob('*.md'))))
+        self.assertEqual(6,len(list((ROOT/'practices').glob('*.md'))))
 
     def test_version_and_entry_are_explicit(self):
-        self.assertEqual('0.3.0',json.loads((ROOT/'publication.json').read_text())['version'])
+        self.assertEqual('0.4.0',json.loads((ROOT/'publication.json').read_text())['version'])
         s=(ROOT/'README.md').read_text()
         self.assertIn('[One Learning Task at a Time](guides/LEARNING-WORKFLOW.md)',s)
         self.assertIn('does not require',s)

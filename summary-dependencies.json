@@ -47,6 +47,33 @@
     "models/cognitive-apprenticeship.md": {
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3"
     },
+    "practices/ai-assisted-learning-orchestration.md": {
+      "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
+      "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",
+      "concepts/instructional-scaffolding.md": "ca75f5411e98054d4e5217209ebe08977c04564a1cf6efc49889c3f7e71c2ac4",
+      "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "concepts/self-regulated-learning.md": "9d6c5f86af0ed14b4131fe1689f9f96af6dc88bc1aae761a410681def1590b50",
+      "methods/cognitive-modeling.md": "1c2fddfd2a56007b24db2f93b20a5682e3cfc4b3239f244571c3aa8a4f62bd74",
+      "methods/concept-mapping.md": "bac4b5ce3f9e80845b4f648cc4fd38ef3d5604d09daec206df692fb85c4d5c2f",
+      "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
+      "methods/self-explanation.md": "faacf31a294a16c4ecb055109a85e5d3f215eb8b00e0156f4f66394e906caaca",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "89f105170f9a25c4a183b2fea18072f56f8cd36086342b3e9063d0fceed0ce4a",
+      "practices/evaluation-of-ai-assisted-learning.md": "a251ca0033d185ebd7f21b0d3b8ecc1b7588e9fb17cbbd1fb6e8642f4451a733",
+      "practices/formative-assessment-with-ai.md": "6c52765cb814bb144bb414e26053e6fc90fa3b855970dbba6637866fb7c40da0",
+      "practices/retrieval-and-distributed-practice-with-ai.md": "e9a491442d16d7cd9959b6d15e25a0f9b92962f0bee085005e19f0a8ae0f2da6",
+      "practices/self-regulated-learning-with-ai.md": "1dac5f9144afcd406cd33a0f6bf076928637032da36e3aa4c5d3a71fd6d0f275",
+      "principles/spacing-effect.md": "2039f5ab8ac78381de63fc08e0b44e8f85758584907fef91e44d88ae1a2cd967",
+      "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
+      "references/cepeda-2008-temporal-ridgeline.md": "97c4be64fad86ca52b0bb29091a06a547bc3c1e31593e0f379bcad1bf17ca266",
+      "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
+      "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
+      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
+      "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
+    },
     "practices/concept-mapping-and-instructional-sequencing-with-ai.md": {
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
       "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",

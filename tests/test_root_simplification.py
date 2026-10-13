@@ -32,12 +32,12 @@ class RootSimplificationTests(unittest.TestCase):
         for path,text in build_navigation.generate(ROOT).items():
             self.assertEqual(text,(ROOT/path).read_text(),path)
     def test_04_scientific_library_is_intact(self):
-        counts={'concepts':7,'principles':3,'models':2,'methods':4,'practices':5}
+        counts={'concepts':7,'principles':3,'models':2,'methods':4,'practices':6}
         for role,n in counts.items():self.assertEqual(n,len(list((ROOT/role).glob('*.md'))))
         self.assertEqual(17,sum(1 for p in (ROOT/'references').glob('*.md')
                                 if validate.parse(p).meta.get('type')=='reference'))
     def test_05_practice_stage_identity_is_preserved(self):
-        self.assertEqual(28,sum(len(validate.parse(p).meta['stage_titles']) for p in
+        self.assertEqual(35,sum(len(validate.parse(p).meta['stage_titles']) for p in
                                 (ROOT/'practices').glob('*.md')))
     def test_06_original_tooling_and_license_preserved(self):
         lock=json.loads((ROOT/'upstream-lock.json').read_text())
@@ -85,7 +85,7 @@ class RootSimplificationTests(unittest.TestCase):
         self.assertIn('will not automatically redirect',s)
     def test_14_pinned_core_and_version_identified(self):
         p=json.loads((ROOT/'publication.json').read_text())
-        self.assertEqual('0.3.0',p['version'])
+        self.assertEqual('0.4.0',p['version'])
         self.assertEqual('10.2.0',p['based_on_core'])
         self.assertEqual('9.1.0',p['minimum_validator'])
         self.assertEqual('steps-first-v1',p['practice_format'])

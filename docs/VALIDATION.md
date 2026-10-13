@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -27,6 +27,12 @@ python3 tools/check_domain.py
 python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
+
+## Master orchestration checks
+
+The 0.4.0 update adds a self-contained master and preserves all five original specialist files. New domain tests check the declared composition, hierarchy, response-wait boundary, inline specialist responsibilities, evidence distinctions, unchanged record schemas, preserved root layout and source-review limits. Mutation cases reject a link-only stage or a missing response-wait instruction. Text and metadata checks do not establish usability or educational effectiveness; an author walkthrough is recorded separately in REVIEW.md.
+
+Fresh local and archive results are recorded in `data/master-orchestration-validation.json`. The ordinary five validation commands above include the new tests. The master uses existing optional session and plan records; their checkers are unchanged.
 
 ## Check boundaries
 
@@ -74,10 +80,10 @@ Compatibility of content version, KPS language and validator revision must be do
 ## Version declarations
 
 ```json
-{"version":"0.3.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
+{"version":"0.4.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
 ```
 
-Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). AUTHORING.md, TEMPLATES.md, validate.py, test_validate.py and LICENSE are copied unchanged. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
+Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). validate.py, test_validate.py and LICENSE remain unchanged copies. AUTHORING.md and TEMPLATES.md retain their v0.3.0 local documentation-link adaptations, recorded separately from upstream hashes. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
 
 ## The one task refinement
 

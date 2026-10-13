@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -12,19 +12,28 @@ Start with a bounded adult learning task and preserve the evidence of what the l
 
 ## Summary
 
-A Practice-first, domain-independent knowledge package for independent adults using conversational AI as a learning coach. Five locally usable Practices are supported by source-aligned academic Concepts, Principles, Models and Methods. AI coaching workflows and prompts are explicitly authored applications, not established theories or tested programs.
+A Practice-first, domain-independent knowledge package for independent adults using conversational AI as a learning coach. One self-contained master Practice coordinates the whole learning programme; five self-contained specialist Practices remain available independently. They are supported by source-aligned academic Concepts, Principles, Models and Methods. AI coaching workflows and prompts are explicitly authored applications, not established theories or tested programs.
+
+## Start and stay in the master Practice
+
+[AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) is the primary entry for **overall target → learning stages → individual tasks**. Its seven procedural stages contain the planning, instruction, question–response–assessment loop, difficulty investigation, retrieval, revision and resume instructions **inline**. You do not need to open the five specialist files to carry out the master workflow.
+
+Within one current task: **relevant knowledge → question or activity → real learner response → assessment → next decision**. The coach waits for the reply and distinguishes task completion, learning-stage progress and evidence for the overall target. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
+
+The master contains its own worked example, task card, assessment branches and blank resume record. References provide support and optional depth, not missing instructions. Subject-specific facts still need an inspectable source; a complete procedure does not make an AI an expert.
 
 ## Start with a Practice
 
 | Current task | Entry Practice | Output |
 |---|---|---|
+| Coordinate the full learning journey in one file | [AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) | Overall target, stage plan, one current task, real response, bounded assessment and resume record |
 | Orient to a subject and plan a learning route | [Concept Mapping and Instructional Sequencing With an AI Coach](practices/concept-mapping-and-instructional-sequencing-with-ai.md) | A panorama, goal map and evidence-revisable stage plan |
 | Learn one concept or safe skill | [Self-Regulated Learning With an AI Coach](practices/self-regulated-learning-with-ai.md) | A target, source, original attempts, feedback and a next independent check |
 | Understand a recurring task difficulty | [Formative Assessment With an AI Coach](practices/formative-assessment-with-ai.md) | Competing explanations, a probe and a justified instructional decision |
 | Retain encountered material | [Retrieval and Distributed Practice With an AI Coach](practices/retrieval-and-distributed-practice-with-ai.md) | Checked questions, saved recall, corrections and a revisable review plan |
 | Judge what was actually learned | [Evaluation of AI-Assisted Learning](practices/evaluation-of-ai-assisted-learning.md) | An evidence report separating assistance, retention and application |
 
-Begin with the task that fits. The package does not require reading the full library or completing all five Practices. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
+Begin with the task that fits. The package does not require reading the full library or completing all six Practices. The master composes the specialist functions inline; the table also permits direct specialist entry. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
 
 ## Start with one manageable task
 
@@ -33,13 +42,13 @@ Begin with the task that fits. The package does not require reading the full lib
 ## First use
 
 1. If the subject is new, take a brief panoramic orientation, select one capability and map only the relationships necessary for a **single next task**. Reuse an existing panorama if available; for an already bounded task, start directly without a compulsory survey. Choose a source and observable response.
-2. Sketch a revisable route, but execute **only the current bounded task** through the main coaching Practice. Agree on the output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
+2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Sketch a revisable route, but execute **only the current bounded task**. Agree on the output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
 4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
 
 ## What is included
 
-There are **21 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and five Practices, with **28 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](generated/INDEX.md), [Practice coverage](generated/PRACTICE-MAP.md), [terminology](generated/TERMINOLOGY-MAP.md) and [evidence map](generated/EVIDENCE-MAP.md).
+There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Read [INDEX](generated/INDEX.md), [Practice coverage](generated/PRACTICE-MAP.md), [terminology](generated/TERMINOLOGY-MAP.md) and [evidence map](generated/EVIDENCE-MAP.md).
 
 The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
@@ -79,6 +88,6 @@ These commands check structure and declared boundaries, not educational efficacy
 
 ## Versions and rights
 
-Domain package: 0.3.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/VALIDATION.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
+Domain package: 0.4.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/VALIDATION.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
 Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](CONTRIBUTING.md).

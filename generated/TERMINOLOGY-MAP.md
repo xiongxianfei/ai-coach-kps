@@ -1,6 +1,6 @@
 ---
 language: "KPS 9.x"
-package_version: "0.3.0"
+package_version: "0.4.0"
 status: "draft"
 ---
 
@@ -18,6 +18,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 | File | Canonical name | Role | Source relationship and locator |
 |---|---|---|---|
+| [practices/ai-assisted-learning-orchestration.md](../practices/ai-assisted-learning-orchestration.md) | AI-Assisted Learning Orchestration | practice | KPS application synthesis; not a published intervention |
 | [practices/concept-mapping-and-instructional-sequencing-with-ai.md](../practices/concept-mapping-and-instructional-sequencing-with-ai.md) | Concept Mapping and Instructional Sequencing With an AI Coach | practice | KPS application synthesis; not a published intervention |
 | [practices/evaluation-of-ai-assisted-learning.md](../practices/evaluation-of-ai-assisted-learning.md) | Evaluation of AI Assisted Learning | practice | KPS application synthesis; not a published intervention |
 | [practices/formative-assessment-with-ai.md](../practices/formative-assessment-with-ai.md) | Formative Assessment With an AI Coach | practice | KPS application synthesis; not a published intervention |

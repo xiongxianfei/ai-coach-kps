@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import validate as v
 ROLES=['practice','concept','principle','model','method']
 def opener(title,take):
-    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.3.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
+    return '---\nlanguage: "KPS 9.x"\npackage_version: "0.4.0"\nstatus: "draft"\n---\n\n# '+title+'\n\n## Key takeaway\n\n'+take+'\n\n## Summary\n\nGenerated view of canonical package declarations. It is a navigation and review aid, not evidence of scientific validity or learner outcomes.\n'
 def collect(root):
     out=[];refs=[]
     for role in ROLES:
@@ -18,6 +18,10 @@ def collect(root):
     for p in sorted((root/'references').glob('*.md')):
         d=v.parse(p)
         if d.meta.get('type')=='reference':refs.append((p.relative_to(root).as_posix(),d))
+    primary=json.loads((root/'publication.json').read_text(encoding='utf-8')).get('primary_practice')
+    # Place the explicitly selected master first while preserving role/path order
+    # for all other objects. Source meanings do not depend on display position.
+    out.sort(key=lambda item: (0 if item[1].meta.get('id')==primary else 1))
     return out,refs
 
 def generate(root=ROOT):
@@ -33,7 +37,8 @@ def generate(root=ROOT):
     for p,d in docs:
         if d.meta['type']!='practice':continue
         pm+='\n## '+next(h for n,h in d.headings if n==1)+'\n\n'
-        pm+='[Open this Practice]('+p+'). Original KPS application; effectiveness not established.\n\n'
+        role_label='Self-contained master entry' if d.meta.get('orchestration_role')=='master' else 'Independent specialist entry'
+        pm+='[Open this Practice]('+p+'). '+role_label+'. Original KPS application; effectiveness not established.\n\n'
         for i,h in enumerate(d.meta['stage_titles'],1):pm+=f'{i}. [{h}]({p}#{v.slug(h)})\n'
     tm=opener('Academic terminology map','Names correspond to inspected academic meaning; original application sequences remain in Practices.')
     tm+='\n## Canonical library\n\n| File | Canonical name | Role | Source relationship and locator |\n|---|---|---|---|\n'

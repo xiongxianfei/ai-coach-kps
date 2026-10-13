@@ -48,6 +48,8 @@ def inspect(root=ROOT):
         pub=json.loads((root/'publication.json').read_text())
         if pub.get('based_on_core')!='10.2.0' or pub.get('validated_with')!='9.1.0' or pub.get('kps_language')!='9.x':errors.append('version-boundary')
         if pub.get('scientific_status')!='provisional' or pub.get('independent_review') is not False:errors.append('package-review')
+        primary=byid.get(pub.get('primary_practice'))
+        if primary is None or primary.meta.get('type')!='practice' or primary.meta.get('orchestration_role')!='master':errors.append('primary-practice')
         lock=json.loads((root/'upstream-lock.json').read_text())
         for name,entry in lock['files'].items():
             p=root/name
