@@ -67,9 +67,9 @@
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
       "models/instructional-design.md": "726edcd04adede7e5f10077f060b01cf1bc73f1cc64220dd4f084a67ba7ae097",
       "models/knowledge-representation.md": "46f2dab1fcc3b54f55188402433181ad76039b7445bba2b7bea661fe503998ae",
-      "practices/ai-assisted-learning-orchestration.md": "23edc1eccca25ea2a57f4e11ffdfb8e33568136aaa8025f2b096869e176c228f",
+      "practices/ai-assisted-learning-orchestration.md": "8b4fa521dd6bdfe2a850c1448bab1f8784d145d2ac3c039190bfdfb33dd43dac",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
-      "references/pashler-2007-organizing-instruction.md": "1f971e0272466460c50e761428e811ec909ad3095fbd0412066171e2ab06974a",
+      "references/pashler-2007-organizing-instruction.md": "94784560e08897721c6eb0c23b503af752818ecc1b9e734ed92b89d51b833ea7",
       "references/richards-2022-morphology.md": "6229650a10e106b796e132ba1c21d300c35f9c7c7991cc893957b1d3098405b7"
     },
     "models/instructional-design.md": {
@@ -78,18 +78,18 @@
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
       "models/instruction-and-scaffolding.md": "3a4c7508e01d4e5320984eb80e1a21d5f789dba8b0c4e7bc1cc1442bdd65b01f",
       "models/knowledge-representation.md": "46f2dab1fcc3b54f55188402433181ad76039b7445bba2b7bea661fe503998ae",
-      "practices/ai-assisted-learning-orchestration.md": "23edc1eccca25ea2a57f4e11ffdfb8e33568136aaa8025f2b096869e176c228f",
+      "practices/ai-assisted-learning-orchestration.md": "8b4fa521dd6bdfe2a850c1448bab1f8784d145d2ac3c039190bfdfb33dd43dac",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/national-research-council-2007-learning-progressions.md": "c4a1c4a2b0cd668a10bc2a74c12df4fc7b980eba579dac3ef935ff3eeb181a76",
-      "references/pashler-2007-organizing-instruction.md": "1f971e0272466460c50e761428e811ec909ad3095fbd0412066171e2ab06974a"
+      "references/pashler-2007-organizing-instruction.md": "94784560e08897721c6eb0c23b503af752818ecc1b9e734ed92b89d51b833ea7"
     },
     "models/knowledge-representation.md": {
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
       "models/assessment-and-feedback.md": "ac917e72758b9d060501fd37600b2f4240eef90bbf4ffbcfce13f6e85c6d825e",
       "models/instructional-design.md": "726edcd04adede7e5f10077f060b01cf1bc73f1cc64220dd4f084a67ba7ae097",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
-      "references/pashler-2007-organizing-instruction.md": "1f971e0272466460c50e761428e811ec909ad3095fbd0412066171e2ab06974a"
+      "references/pashler-2007-organizing-instruction.md": "94784560e08897721c6eb0c23b503af752818ecc1b9e734ed92b89d51b833ea7"
     },
     "practices/ai-assisted-learning-orchestration.md": {
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
@@ -120,6 +120,7 @@
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
       "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de",
+      "references/pashler-2007-organizing-instruction.md": "94784560e08897721c6eb0c23b503af752818ecc1b9e734ed92b89d51b833ea7",
       "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66",
       "references/wolfe-garnier-smith-2009-voice-acoustics.md": "6f5101eb83497088a7c3d3dc986c3917eacd9f44cf5859f9f4d1f158fbbc2421"
     },
