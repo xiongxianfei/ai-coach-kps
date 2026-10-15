@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.3.0"
+version: "0.3.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -170,7 +170,7 @@ The state labels are local coordination shorthand, not scientific mastery levels
 ## Stage4 Teach question and preserve the learner response
 
 1. Locate the lesson capability and current task in the learning stage and larger target. State the central question and choose the mode before disclosing an answer. For new learning, explain as needed before application. In retrieval, ask for previously encountered knowledge before showing it again. In a baseline or independent check, withhold the solution and record prior exposure. “Knowledge first” is not permission to contaminate a test while calling it independent.
-2. In instruction, build a connected explanation: introduce necessary terms, relate the parts, explain how and why the relationship or procedure works, and show where it applies. Use a checked demonstration when useful, explaining important choices and how to check the result. Connect any diagram or equation explicitly to the words. Include a relevant contrast or boundary when it prevents a likely confusion. These are content responsibilities, not compulsory headings or a fixed order; let the subject and learner determine depth. Preserve enough context for understanding rather than forcing unsupported guessing, and avoid delivering the whole future curriculum. Give a different example for learner application when the goal requires applying the idea rather than repeating the demonstration.
+2. In instruction, build a connected explanation: introduce necessary terms, relate the parts, explain how and why the relationship or procedure works, and show where it applies. Use a checked demonstration when useful, explaining important choices and how to check the result. Connect any diagram or equation explicitly to the words. Include a relevant contrast or boundary when it prevents a likely confusion. For a structural distinction, connect what each part contributes to the combined meaning and a concrete case that distinguishes the interpretations; use notation to make those relationships visible. These are content responsibilities, not compulsory headings or a fixed order; let the subject and learner determine depth. Preserve enough context for understanding rather than forcing unsupported guessing, and avoid delivering the whole future curriculum. Give a different example for learner application when the goal requires applying the idea rather than repeating the demonstration.
 3. Ask one clear question or set one activity and **wait for the learner's response**. Do not generate both sides of a live dialogue, answer on the learner's behalf, or advance because the question has been displayed. Silence means no response yet, not failure.
 4. Preserve the original reply and the help actually received. If the learner requests a hint or full explanation, honour the choice, mark answer assistance, and remain in instruction. Do not treat the resulting assisted answer as independent evidence. A later independent check needs its own conditions and preserved response.
 5. Once a reply exists, carry its evidence to Stage5. If no reply exists, wait, invite clarification, or record that the learner chose to stop. Do not invent a reply to make the session look complete.
@@ -202,7 +202,7 @@ After the actual reply, Stage5 provides checked feedback. A missing unit calls f
 ## Stage5 Assess the response and adapt assistance
 
 1. Restate the criterion and inspect the actual response before giving feedback. Separate observation (“the response omitted units”) from interpretation (“the learner may not distinguish quantities”). Check the task, answer key and source first; an erroneous AI correction is not a learner deficit.
-2. Compare each relevant feature with the criterion. Record **meets**, **does not yet meet**, **uncertain** or **not evaluated**, with the supporting observation. These are local descriptive judgments, not standardized grades. The same AI's unsupported opinion remains unverified; use an inspected source, a reproducible calculation/check, or a competent human where required. Keep evidence and interpretation separate.
+2. Compare each relevant feature with the criterion. Record **meets**, **does not yet meet**, **uncertain** or **not evaluated**, with the supporting observation. These are local descriptive judgments, not standardized grades. The same AI's unsupported opinion remains unverified; use an inspected source, a reproducible calculation/check, or a competent human where required. Keep evidence and interpretation separate. When meaning is part of the target, distinguish correct notation or terminology from the explanation of its significance. If that relationship is unobserved, ask for its meaning or a justified application to a contrasting case; do not repeat the check when the response already supplies it. If the interpretation is mistaken, explain the connection before adding more notation, then preserve the next response as a separate attempt under the actual help conditions.
 3. Give one actionable feedback point: what was supported, the specific discrepancy, the basis for the correction, and a next attempt. Offer a hint, simpler example, direct explanation or pause. Preserve the original answer before correction and assign a new attempt identifier when help changes the conditions.
 4. If the obstacle is unclear or repeats, investigate it inline. List plausible explanations, including ambiguous instructions and missing knowledge. Ask one short question that would distinguish them. For the rate example, “What does the three count?” probes denominator meaning; providing already matched units helps distinguish a conversion issue from a ratio issue. An inconclusive probe stays inconclusive. Do not infer intelligence, motivation, a learning style or a clinical condition.
 5. Decide whether another instruction attempt or a new independent check is appropriate. With the learner's agreement, use a fresh comparable question without answer-generating help for the latter; retain access accommodations. Do not overwrite an assisted revision as the baseline or demand a redundant new test when an existing observation adequately answers the decision.
@@ -315,6 +315,8 @@ For baseline, retrieval or independent checks keep answers hidden.
 Ask the question, WAIT for my real response, and never invent my reply.
 Preserve it before feedback. Check content and uncertainty against the criterion;
 record actual hints, answer exposure, access supports and verification limits.
+When meaning is part of the goal, check the interpretation or application,
+not just correct notation. Teach a missing connection before adding symbols.
 Offer a hint, explanation, simpler task or pause when appropriate; let me choose.
 After assessment, recommend one next action using the observed evidence.
 Revise the high-level plan only when a checked gap, a stage checkpoint, a source

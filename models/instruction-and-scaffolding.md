@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -11,8 +11,8 @@ basis_kind: "KPS-authored source-grounded explanatory synthesis; not a published
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:instructional-design", "ai-coach:model:assessment-and-feedback"]
 uses_concepts: ["ai-coach:concept:instructional-scaffolding"]
 uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation"]
-references: ["ai-coach:reference:collins-1991", "ai-coach:reference:pashler-2007-organizing-instruction"]
-source_alignment: [{"reference":"ai-coach:reference:collins-1991","relation":"synthesis-contribution","locator":"Framework Content, Method items 1 to 6, and Sequencing","contribution":"Knowledge and strategies, observable demonstration, articulation, task support, fading and meaningful whole-task context"},{"reference":"ai-coach:reference:pashler-2007-organizing-instruction","relation":"synthesis-contribution","locator":"Official WWC recommendation overview, recommendations 2, 3, 4 and 7 and their short descriptions","contribution":"Alternating worked examples with problems, connecting representations and eliciting explanatory responses; overview scope only"}]
+references: ["ai-coach:reference:collins-1991", "ai-coach:reference:pashler-2007-organizing-instruction", "ai-coach:reference:richards-2022-morphology"]
+source_alignment: [{"reference":"ai-coach:reference:collins-1991","relation":"synthesis-contribution","locator":"Framework Content, Method items 1 to 6, and Sequencing","contribution":"Knowledge and strategies, observable demonstration, articulation, task support, fading and meaningful whole-task context"},{"reference":"ai-coach:reference:pashler-2007-organizing-instruction","relation":"synthesis-contribution","locator":"Official WWC recommendation overview, recommendations 2, 3, 4 and 7 and their short descriptions","contribution":"Alternating worked examples with problems, connecting representations and eliciting explanatory responses; overview scope only"},{"reference":"ai-coach:reference:richards-2022-morphology","relation":"synthesis-contribution","locator":"Lecture 3 PDF text, numbered pages 16 to 18","contribution":"Subject basis for the unlockable contrast; no teaching-effectiveness contribution"}]
 ---
 
 # Instruction and Scaffolding
@@ -23,7 +23,7 @@ Explain enough connected knowledge for the learner to understand what happens, h
 
 ## Summary
 
-This Model explains how knowledge, demonstrations, questions and assistance relate within a lesson. It covers connected explanations, worked examples, learner articulation, guided and independent activity, scaffolding and responses to misunderstanding. A constructed lesson on equal sharing connects these topics. The account is an introductory KPS synthesis of selected source contributions; its lesson organization and examples are authored applications. No prior teaching terminology is required.
+This Model explains how knowledge, demonstrations, questions and assistance relate within a lesson. It covers connected explanations, worked examples, learner articulation, guided and independent activity, scaffolding and responses to misunderstanding. A constructed lesson on equal sharing connects these topics; a short morphology contrast connects structure with meaning. The account is an introductory KPS synthesis of selected source contributions; its lesson organization and examples are authored applications. No prior teaching terminology is required.
 
 ![Instruction and Scaffolding connects an explanation to learner activity and an actual response, which informs subsequent support. Eight tokens shared among four equal groups gives two tokens per group. Demonstration, targeted hints and attempts without answer help are possible support conditions, not compulsory stages.](../diagrams/instruction-and-scaffolding-overview.png)
 
@@ -34,6 +34,7 @@ The arrows express opportunities and informational relationships, not guaranteed
 - [What instruction makes available](#what-instruction-makes-available)
 - [Building a connected explanation](#building-a-connected-explanation)
 - [Demonstration and representations](#demonstration-and-representations)
+  - [Connecting structure to meaning](#connecting-structure-to-meaning)
 - [Questioning and learner explanation](#questioning-and-learner-explanation)
 - [Scaffolding and changing responsibility](#scaffolding-and-changing-responsibility)
 - [Interpreting misunderstanding](#interpreting-misunderstanding)
@@ -91,9 +92,26 @@ Representations contribute when their correspondence is explicit. Eight drawn to
 
 A contrasting example can reveal a boundary. Keeping eight tokens but reducing the number of equal groups to two changes the amount in each group to four. This makes the divisor's role visible. Simply changing the color of the tokens would not test that relationship.
 
+### Connecting structure to meaning
+
+For a structural distinction, a complete explanation connects the parts, their contributions, the meaning of the combination and a case where the distinction matters. Notation can summarize these connections, but reproducing a diagram or grouping does not by itself explain them. Meaning, examples and notation can be introduced in the order that makes the relationship accessible; no fixed sequence or learner type follows from this guidance.
+
+The following illustration uses the analysis of *unlockable* in [Richards's lecture, pages 16–18](../references/richards-2022-morphology.md). A base is the unit an affix attaches to at a particular step; brackets show that grouping. The door situations are authored examples, not learner records.
+
+| Structure | Contributions and resulting meaning | Concrete case |
+|---|---|---|
+| `[[un + lock] + able]` | Reversive *un-* forms the verb *unlock*; *-able* then gives **can be unlocked** | A locked door can be opened with its working key |
+| `[un + [lock + able]]` | *-able* forms the adjective *lockable*; negative *un-* gives **cannot be locked** | A broken mechanism prevents a door from being locked |
+
+The first case can still involve a door that can be locked. It therefore need not satisfy the second reading. The contrast makes the different claims visible; it does not present them as logical opposites. The word's written sequence is unchanged, while the grouping changes which contribution applies to which base.
+
+The teaching point is the correspondence among representation, interpretation and situation. Repeating the brackets with more labels leaves that correspondence unexplained if the meanings are still missing. Explaining each contribution and comparing a concrete case addresses the relationship directly. This is an authored instructional application of a bounded linguistic analysis, not evidence that every context favors both readings equally or that this teaching order is universally best.
+
 ## Questioning and learner explanation
 
 Questions can elicit different kinds of work: naming, calculating, explaining a reason, predicting a change, comparing cases or finding a boundary. Their usefulness depends on what the lesson is trying to develop. “What is the answer?” may reveal a quotient; “Why is four the divisor?” addresses its interpretation.
+
+When the intended capability includes meaning, correct notation and an adequate interpretation are separate response features. An accurate grouping can leave its significance unobserved. An explanation of what it means, or a justified choice of a contrasting situation, can supply the missing evidence. If the relationship is then taught, the subsequent answer is a response after clarification; it does not retroactively supply independent understanding in the original attempt. An already adequate explanation needs no redundant extra question.
 
 **Learner self-explanation** is reasoning generated by the learner about the material. Reading a supplied explanation and producing one are different activities. The existing [Self-Explanation Method](../methods/self-explanation.md) retains its particular source and applicability limits. Here, a request for explanation is an opportunity to observe reasoning, not a guarantee that the reasoning is correct.
 
@@ -169,8 +187,9 @@ The six outline topics have introductory coverage, not a complete theory of inst
 
 - [Collins, Brown and Holum](../references/collins-brown-holum-1991-cognitive-apprenticeship.md): framework Content, Method and Sequencing supply the named instructional relationships. The six methods are not six compulsory lesson stages. No underlying experiments were reanalyzed.
 - [Pashler and colleagues](../references/pashler-2007-organizing-instruction.md): the official overview of recommendations 2, 3, 4 and 7 supports the selected example, representation and questioning considerations. The full guide and primary studies are outside this inspection.
+- [Richards](../references/richards-2022-morphology.md): PDF text on pages 16–18 supplies the subject analysis for the morphology contrast, not evidence for a teaching method. The concrete cases and coaching implications are authored here.
 
-The explanation responsibilities, connecting representation, lesson and conditional decisions are KPS-authored integration. Neither source publishes this complete Model or validates its AI implementation.
+The explanation responsibilities, connecting representation, lesson and conditional decisions are KPS-authored integration. None of these sources publishes this complete Model or validates its AI implementation.
 
 ## Evidence status
 
