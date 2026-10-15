@@ -72,7 +72,7 @@ This repository stands alone. It does not require the English Linguistics or Lea
 
 ## Repository layout
 
-The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/learning-workflow.md), [private-session records](guides/learning-records.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
+The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/learning-workflow.md), [learning notes](guides/learning-notes.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
 
 Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), and [reader and diagram guide](docs/READING-AND-DIAGRAMS.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
 
@@ -89,7 +89,7 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [record guide](guides/learning-records.md) are provided for private use. Do not publish completed personal records.
+These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [learning-notes guide](guides/learning-notes.md) are provided for private use. For Markdown, copy the flexible [learning-notes overview](templates/learning-notes/learning-notes.md) and [numbered stage template](templates/learning-notes/stages/01-stage-name.md) into a private location. Do not publish completed personal records.
 
 ## Versions and rights
 

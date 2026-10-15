@@ -84,7 +84,7 @@ Compatibility of content version, KPS language and validator revision must be do
 {"version":"0.4.0","based_on_core":"10.2.0","kps_language":"9.x","validated_with":"9.1.0","minimum_validator":"9.1.0","practice_format":"steps-first-v1"}
 ```
 
-Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). validate.py and LICENSE remain unchanged copies. docs/AUTHORING.md and docs/TEMPLATES.md adapt local links; docs/AUTHORING.md also adapts the local test command and review-record destinations. The original regression suite is retained in Core at the pinned commit. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
+Upstream commit: `9432f1ee86f641d01444038cc81b7efa596b75dc`. File digests and exact reuse are in [upstream-lock.json](../upstream-lock.json). LICENSE remains an unchanged copy. The Core 9.1.0 validator has a local adaptation described below; its upstream commit and original checksum remain pinned. docs/AUTHORING.md and docs/TEMPLATES.md adapt local links; docs/AUTHORING.md also adapts the local test command and review-record destinations. The original regression suite is retained in Core at the pinned commit. Their retained upstream frontmatter dates/version labels describe those upstream documents, not this domain's independent scientific review.
 
 ## The one task refinement
 
@@ -103,7 +103,7 @@ The update reduces root-level files by consolidating overlapping guides and movi
 | Former root files | New location |
 |---|---|
 | `ONE-LEARNING-TASK.md`, `LEARNING-PLAN.md`, `guides/LEARNING-WORKFLOW.md` | `guides/learning-workflow.md` |
-| `RECORDS.md`, `guides/SESSION-RECORDS.md` | `guides/learning-records.md` |
+| `RECORDS.md`, `guides/SESSION-RECORDS.md` | `guides/learning-notes.md` |
 | `WORKED-EXAMPLE.md` | `guides/WORKED-EXAMPLE.md` |
 | `SCOPE.md`, `ALIGNMENT.md` | `docs/SCIENTIFIC-POLICY.md` |
 | `CHECKS.md`, `COMPATIBILITY.md` | `docs/VALIDATION.md` |
@@ -118,7 +118,7 @@ The update reduces root-level files by consolidating overlapping guides and movi
 
 Existing URLs pointing to former root paths will not automatically redirect on GitHub. Update external bookmarks and Markdown links deliberately. A copied relative link from an older version may need a new directory prefix; do not blindly replace text without considering the referring file's location. Generated views are rebuilt by `tools/build_navigation.py`. The dependency snapshot is refreshed only after reviewing affected local summaries and their source limits.
 
-The validator and licence (`validate.py`, `LICENSE`) remain byte-identical to Core 10.2.0. The copied regression suite was subsequently removed under the test allowlist. The copied `docs/AUTHORING.md` and `docs/TEMPLATES.md` retain the same format requirements and examples but have **relative documentation links updated for the local file paths, the authoring test command adapted to the domain suite, and review-record destinations adapted to References, owning knowledge documents and PRs**. `upstream-lock.json` records both their original Core hashes and the local adapted hashes; no identical-copy claim is made. The package still declares KPS Core 10.2.0, language 9.x, and validator 9.1.0. Automated checks establish structural integrity, not scientific approval.
+The licence (`LICENSE`) remains byte-identical to Core 10.2.0. The validator derives from that release, with one local exception: the two copyable private-note scaffolds at `templates/learning-notes/learning-notes.md` and `templates/learning-notes/stages/01-stage-name.md` need no Key takeaway or Summary headings. They still receive language, title, heading and local-link checks. The exception applies only to those exact paths without knowledge type or identity; ordinary documents and knowledge objects retain their summary requirements. These private-note scaffolds are not new KPS knowledge roles. The upstream and locally adapted validator hashes are both recorded in `upstream-lock.json`. The copied regression suite was subsequently removed under the test allowlist. The copied `docs/AUTHORING.md` and `docs/TEMPLATES.md` retain the same format requirements and examples but have **relative documentation links updated for the local file paths, the authoring test command adapted to the domain suite, and review-record destinations adapted to References, owning knowledge documents and PRs**. `upstream-lock.json` records both their original Core hashes and the local adapted hashes; no identical-copy claim is made. The package still declares KPS Core 10.2.0, language 9.x, and validator 9.1.0. Automated checks establish structural integrity, not scientific approval.
 
 ## Independence
 

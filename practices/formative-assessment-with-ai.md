@@ -125,7 +125,7 @@ Follow-up task and actual help: [fill]
 Interpretation, limits and next decision: [fill]
 ```
 
-Unfilled fields remain unknown. Use [RECORDS](../guides/learning-records.md) before turning an observation into a learning claim.
+Unfilled fields remain unknown. Use [learning notes](../guides/learning-notes.md) before turning an observation into a learning claim.
 
 ## Academic basis and adaptation
 

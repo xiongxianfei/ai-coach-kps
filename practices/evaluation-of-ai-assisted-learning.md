@@ -128,7 +128,7 @@ To revise a [two-level plan](concept-mapping-and-instructional-sequencing-with-a
 
 ## Record checker and its limits
 
-The optional [record checker](../tools/check_record.py) reports internally inconsistent declarations and missing evidence. It does not determine answer correctness, diagnose a learner, infer an effect size or establish that any instruction worked. See [RECORDS](../guides/learning-records.md) for the schema and private-use guidance.
+The optional [record checker](../tools/check_record.py) reports internally inconsistent declarations and missing evidence. It does not determine answer correctness, diagnose a learner, infer an effect size or establish that any instruction worked. See [learning notes](../guides/learning-notes.md) for the schema and private-use guidance.
 
 ## Stopping and fallback
 

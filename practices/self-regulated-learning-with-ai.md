@@ -166,7 +166,7 @@ Complete a session when the learner has an inspectable attempt, a justified inte
 
 ## Private record template
 
-Use [the blank session record](../data/session-record-template.json) outside the public repository. The [record guide](../guides/learning-records.md) distinguishes planned, missing, assisted and independently checked observations. Do not replace the raw attempt with the corrected version.
+Use [the blank session record](../data/session-record-template.json) outside the public repository. The [record guide](../guides/learning-notes.md) distinguishes planned, missing, assisted and independently checked observations. Do not replace the raw attempt with the corrected version.
 
 ## Academic basis and adaptation
 
