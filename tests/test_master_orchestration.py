@@ -201,6 +201,66 @@ class MasterContentTests(unittest.TestCase):
         self.assertEqual(8, sum(MASTER_ID in c['practices'] for c in claims))
 
 
+
+    def test_adaptive_route_is_visible_and_not_fixed_curriculum(self):
+        text = self.text()
+        summary = section(text, 'Summary')
+        handoff = section(text, 'Default planning handoff')
+        self.assertIn('self-assessment and an optional pre-instruction diagnostic', summary)
+        for phrase in ('Understand the learner', 'Clarify the subject',
+                       'Propose learning stages', 'Start learning', 'Adapt from evidence',
+                       'Do not pre-generate', 'high-level'):
+            self.assertIn(phrase, handoff)
+
+    def test_pre_instruction_diagnostic_and_self_report_are_distinguished(self):
+        entry = section(self.text(), STAGES[0])
+        for phrase in ('brief self-assessment', 'pre-instruction baseline response',
+                       'original reply', 'prior exposure', 'not failed',
+                       'self-report', 'not demonstrated competence'):
+            self.assertIn(phrase, entry.lower() if phrase == 'self-report' else entry)
+
+    def test_subject_areas_have_purpose_boundary_and_relationship(self):
+        s = section(self.text(), STAGES[1])
+        for phrase in ('subject subsystem map', 'what question it explains',
+                       'important boundary', 'cross-area relationships or overlaps',
+                       'actually inspected disciplinary sources',
+                       'provisional'):
+            self.assertIn(phrase, s)
+        self.assertIn('not an arbitrary number of chapters', s)
+
+    def test_learning_stages_are_not_identical_to_subject_areas(self):
+        s = section(self.text(), STAGES[1])
+        for phrase in ('a compulsory stage', 'several subsystems',
+                       'high-level set of learning stages',
+                       'Do not pre-generate the detailed daily tasks',
+                       'instructional hypothesis'):
+            self.assertIn(phrase, s)
+        self.assertIn('Constructed English orientation', s)
+
+    def test_only_one_meaningful_task_is_detailed(self):
+        s = section(self.text(), STAGES[2])
+        self.assertIn('smallest meaningful, assessable part', s)
+        self.assertIn('defer generating future daily questions', s)
+        self.assertIn('Do not silently switch tasks', s)
+        self.assertIn('criterion', s)
+
+    def test_task_result_drives_next_action_not_automatic_roadmap_rewrite(self):
+        s = section(self.text(), STAGES[5])
+        for phrase in ('Adaptive planning triggers', 'Independently checked task response',
+                       'Repeated, well-identified conceptual gap',
+                       'Ambiguous item', 'old plan version',
+                       'Do not rewrite the roadmap after every answer'):
+            self.assertIn(phrase, s)
+
+    def test_opening_prompt_enforces_planning_and_reply_boundaries(self):
+        s = section(self.text(), 'Opening prompt and one turn contract')
+        for phrase in ('self-assessment', 'pre-instruction baseline',
+                       'subsystem', 'high-level', 'exactly ONE',
+                       'Do not pre-generate', 'WAIT for my real response',
+                       'preserve old versions'):
+            self.assertIn(phrase, s)
+
+
 class MasterDeclarationMutationTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()

@@ -18,7 +18,9 @@ A Practice-first, domain-independent knowledge package for independent adults us
 
 [AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) is the primary entry for **overall target → learning stages → individual tasks**. Its seven procedural stages contain the planning, instruction, question–response–assessment loop, difficulty investigation, retrieval, revision and resume instructions **inline**. You do not need to open the five specialist files to carry out the master workflow.
 
-Within one current task: **relevant knowledge → question or activity → real learner response → assessment → next decision**. The coach waits for the reply and distinguishes task completion, learning-stage progress and evidence for the overall target. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
+**For a new broad subject, start with a brief learner self-assessment and (when appropriate) a small pre-instruction baseline check.** Then build a source-grounded map of the subject's major explanatory areas or subsystems, their boundaries and cross-links; propose a few high-level, revisable capability stages. These are not necessarily one stage per subsystem, and the plan is not a complete calendar of questions.
+
+**Work out only the current meaningful task in detail:** relevant knowledge when needed → question or activity → real learner response → criterion-based assessment and feedback → one next decision. For baseline or retrieval, the question may come before instruction. The coach waits for the reply, distinguishes assisted from independent evidence, and updates the high-level stages only when evidence or learner circumstances warrant it. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
 
 The master contains its own worked example, task card, assessment branches and blank resume record. References provide support and optional depth, not missing instructions. Subject-specific facts still need an inspectable source; a complete procedure does not make an AI an expert.
 
@@ -41,8 +43,8 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## First use
 
-1. If the subject is new, take a brief panoramic orientation, select one capability and map only the relationships necessary for a **single next task**. Reuse an existing panorama if available; for an already bounded task, start directly without a compulsory survey. Choose a source and observable response.
-2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Sketch a revisable route, but execute **only the current bounded task**. Agree on the output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
+1. For a broad goal, record a concise self-assessment and, if useful, a pre-instruction baseline response. Sketch the subject's source-grounded explanatory areas, selected connections and a small high-level stage roadmap. For an already bounded task, start directly without a compulsory survey; prior agreement and actual evidence can be reused.
+2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Detail **only the current meaningful task**, not all future days. Agree on its output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
 4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
 

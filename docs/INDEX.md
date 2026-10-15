@@ -16,7 +16,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Practices
 
-- [AI-Assisted Learning Orchestration](../practices/ai-assisted-learning-orchestration.md) — Stay in one self-contained Practice: establish an overall target, organise learning stages, execute one small task, assess the actual reply, and revise the next step.
+- [AI-Assisted Learning Orchestration](../practices/ai-assisted-learning-orchestration.md) — Start with a brief learner assessment, clarify the subject’s explanatory areas, propose high-level capability stages, then teach and assess one meaningful task at a time in this self-contained Practice.
   Self-contained master entry; original KPS application, effectiveness not established.
   - [Stage1 Establish the overall target and learning agreement](../practices/ai-assisted-learning-orchestration.md#stage1-establish-the-overall-target-and-learning-agreement)
   - [Stage2 Orient to the subject and propose learning stages](../practices/ai-assisted-learning-orchestration.md#stage2-orient-to-the-subject-and-propose-learning-stages)
