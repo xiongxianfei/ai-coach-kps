@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.5.0"
+version: "0.6.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -87,6 +87,10 @@ The appropriate explanation depends on the subject. A physical mechanism may nee
 
 Self-contained teaching introduces the terms and background needed now, while reusing what the learner already understands. Its scope is a coherent relationship or meaningful problem. Shortening until the learner must guess the missing connection defeats that purpose; adding every related topic can obscure it. An unclear response may justify expanding one relationship rather than repeating a longer version of everything.
 
+A list of parts differs from an explanation of their interaction. In a process, the missing connection may be how an input changes, which decision selects a path, or why a particular result follows. A worked trace can expose those connections across the whole task. In a conceptual subject, a contrast or derivation may serve the same purpose. No particular representation is required in every lesson.
+
+An activity also has prerequisites beyond its subject vocabulary. Reading notation, operating a tool and locating relevant output can add demands that are not the intended capability. Difficulty with those demands does not by itself establish difficulty with the subject. Distinguishing the target reasoning from supporting operations explains why supplying a tool legend or prepared data can sometimes preserve the meaningful challenge. If operating the tool is itself the target, supplying its output changes what the task can establish. These distinctions are part of our authored synthesis, not a validated scale of difficulty.
+
 ## Demonstration and representations
 
 A **worked example** includes a solution and the reasoning that makes it intelligible. A demonstration makes a relevant action inspectable. For the sharing example, “8 / 4 = 2” shows the calculation; four groups of two and a reconstruction of the total explain what it means. The supplied reasoning must be checked, even when fluent. An AI explanation is an authored account of a solution, not access to hidden model cognition.
@@ -96,6 +100,8 @@ The IES overview recommends alternating worked solutions and problem solving, co
 Representations contribute when their correspondence is explicit. Eight drawn tokens correspond to the numerator; the four group boundaries correspond to the divisor; the two tokens inside each group correspond to the quotient. If the drawing instead shows four groups of three, it contradicts the equation. A label saying “division” cannot repair that error.
 
 A contrasting example can reveal a boundary. Keeping eight tokens but reducing the number of equal groups to two changes the amount in each group to four. This makes the divisor's role visible. Simply changing the color of the tokens would not test that relationship.
+
+Showing an outcome is also different from exposing its mechanism. Four groups containing two tokens each show the resulting distribution; they do not reveal whether someone dealt tokens in rounds or counted each group separately. A demonstrated procedure supplies information that the final arrangement alone cannot. Likewise, an application's output may fit several internal implementations. A source excerpt, recorded intermediate steps or an explicitly hypothetical model can make an explanation inspectable, but those bases support different claims. A plausible instructional story is not evidence that an unseen process actually occurred.
 
 ### Connecting structure to meaning
 
@@ -157,6 +163,8 @@ For example, dividing twelve tokens among three equal groups can be posed as a c
 
 Thinking demand, response effort and support therefore need separate attention. Offered options can cue recognition, and a completed diagram can reveal part of the answer. Those conditions matter when interpreting a response; they are not inherently inappropriate during teaching. Familiar wording or an accessible response mode can reduce incidental effort without supplying the target reasoning.
 
+Producing an answer can include setting up an activity, navigating output and selecting evidence as well as writing. Existing work may already supply part of the requested evidence; repeating it in prose need not add information. A concise answer can preserve substantial reasoning when the relevant relationship and its basis remain visible.
+
 ### Question purposes
 
 The same kind of question may locate a starting point, develop understanding through guided activity, practise application, revisit earlier knowledge, integrate relationships or invite reflection. Purpose changes the appropriate support and the interpretation of the result. A question whose answer has just been demonstrated may support learning, but it cannot establish an unexposed baseline. A planned review is not observed retention until an actual later response exists under recorded conditions.
@@ -186,6 +194,8 @@ Guided activity and an attempt without answer help are conditions, not ranks ass
 A discrepancy is evidence to investigate, not a stable learner trait. A missing unit may reflect an omitted label, an unclear question or uncertainty about which quantity is being calculated. The response alone may not distinguish these explanations.
 
 Instruction and assessment meet at this point. Assessment identifies the discrepancy against a checked criterion and considers alternative interpretations. Instruction supplies an explanation or support directed at the relevant relationship. The [Assessment and Feedback Model](assessment-and-feedback.md) develops the inference and feedback boundaries.
+
+A partial response can contain both useful evidence and an unresolved distinction. For example, a correct distribution with an incorrect unit label supports a different conclusion from no distribution at all. Unanswered parts remain unknown; a coach's correction supplies instruction, not a subsequent learner demonstration. This makes partial progress usable without treating the entire lesson as either passed or failed.
 
 In the example, “four tokens per group” could follow from swapping the roles of the numbers. A reconstruction check exposes the contradiction: four groups of four would require sixteen tokens. This explains why the proposed result does not fit the stated situation. It does not establish why a particular person made the error. The task wording, illustration and answer key must also be checked.
 

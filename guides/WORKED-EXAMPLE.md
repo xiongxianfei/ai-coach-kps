@@ -12,7 +12,7 @@ An inspectable example can clarify outputs without inventing a completed learner
 
 ## Summary
 
-These constructed examples illustrate coaching decisions in quantitative reasoning, connected English lessons and other subjects. They show possible applications of the master Practice, not required topics, lesson lengths, question counts or teaching sequences. All responses and outcomes described as fictional remain illustrations, not learner evidence or demonstrations of educational effectiveness.
+These constructed examples illustrate coaching decisions in quantitative reasoning, connected English lessons, an HTTP lesson with partial progress, and other subjects. They show possible applications of the master Practice, not required topics, lesson lengths, question counts or teaching sequences. All responses and outcomes described as fictional remain illustrations, not learner evidence or demonstrations of educational effectiveness.
 
 ## Stay within the master
 
@@ -132,6 +132,72 @@ The overview can link to that evidence and carry the pending action; it need not
 ## Authorized security lab first day example
 
 For authorized OSCP-oriented preparation, a comparably bounded **constructed** task is to read one already collected service observation from a permitted lab, distinguish what it establishes from what remains unknown, and formulate one justified next question. The output is an observation–hypothesis–question note; the check is whether conclusions follow from evidence rather than assuming an exploitable weakness. If the learner needs an explanation of a service, provide one and record it as assistance. This does not include exploitation guidance, simulate an actual attempt or establish exam readiness. Follow the provider's AI rules; preparation guidance is not permission to use AI during a restricted examination.
+
+## HTTP lesson and partial progress
+
+This optional example applies the master Practice to **tracing an HTTP request and bounding conclusions from its response**. The pseudocode, example outputs and learner reply are constructed; no application was launched, no learner was assessed and no private learning record is reproduced. The lesson may remain a coherent whole with grouped questions. Its command choices and answer formats are illustrative, not requirements for other lessons.
+
+### Make the processing visible
+
+A router selects application code using information such as the method and path. A handler performs the selected operation and constructs a response. The following deliberately simplified pseudocode defines this example's behavior; it is neither executable lab software nor a description of an unseen application. `respond` constructs a status, headers and body; `form_decode` converts the form body into fields; `json_encode` serializes the result as JSON text.
+
+```text
+if method == GET and path == /welcome:
+    respond(200, text/plain, "Welcome")
+else if method == GET and path == /begin:
+    respond(302, Location=/welcome, empty body)
+else if method == POST and path == /mirror:
+    fields = form_decode(request_body)
+    result = {message: fields["message"]}
+    respond(200, application/json, json_encode(result))
+else if method == GET and path == /private:
+    respond(403, text/plain, "Forbidden")
+else:
+    respond(404, text/plain, "Not found")
+```
+
+For the worked trace, assume a valid form body containing `message=good+morning`, with `+` decoded as a space. Invalid bodies, missing fields and production error handling are outside this illustration.
+
+1. The client chooses `POST /mirror` and supplies the form body. The message is client input.
+2. The method and path select the mirror handler. Merely reaching the server does not select every handler.
+3. The decoder yields the field value `good morning`; the handler places that value in a result object.
+4. JSON serialization produces `{"message":"good morning"}`. The response reports status 200 and content type `application/json`.
+5. The client can inspect the returned status, headers and body. The supplied pseudocode explains the intended internal steps; a matching response alone would not identify a particular parser or implementation.
+
+The `/private` branch is especially useful for the evidence boundary: it emits 403 without consulting any identity or permission data. A refusal response alone therefore cannot demonstrate a functioning authorization policy. An unmatched request also receives a response in this example; 404 does not mean the application failed to process it. More generally, HTTP 404 can conceal a resource's existence, so it does not uniquely identify a missing route. [RFC 9110, sections 15.5.4–15.5.5](https://www.rfc-editor.org/rfc/rfc9110.html#section-15.5.4) supplies these status semantics; the branch logic is authored here.
+
+### Keep the task answerable
+
+If using a real local lab, first provide or confirm its files, launch instructions and relevant route behavior. This guide supplies no `app.py`. Prepared exchanges can support a conceptual lesson when a lab is unavailable; label them supplied examples and leave practical execution unassessed. Explain unfamiliar commands briefly rather than making command discovery an accidental prerequisite.
+
+For a GET redirect comparison, curl's `-i` includes response headers and `-L` follows redirects. Optional `-v` exposes outgoing request headers as well. `--data-urlencode` supplies encoded data and ordinarily selects POST when no other method-changing option is used. These options are tools for inspecting the exchange, not the learning objective. [Official curl manual](https://curl.se/docs/manpage.html) documents their behavior; this example does not claim to have executed them.
+
+For this lesson, a compact set could request:
+
+| Task | What to provide |
+|---|---|
+| Compare `GET /welcome` and `GET /absent` | Their status codes and one brief explanation using the supplied routing logic |
+| Trace `GET /begin` with and without following the redirect | The status sequence and what additional request following requires |
+| Send a different message to `/mirror`, or trace a supplied exchange | The submitted field, returned value and the transformation shown by the pseudocode |
+| Interpret `/private` | What the response reports and whether the supplied code checks permissions |
+
+Relevant output plus a short explanation is enough; do not request full logs or essays unless they serve the target capability. Accept equivalent response formats. Use a different message for application, and distinguish a prediction from actual execution. The worked solution is visible, so these tasks do not constitute an unexposed baseline. If the learner has already demonstrated one distinction, reuse that evidence rather than repeat its question.
+
+### Continue from a partial reply
+
+Suppose a **fictional** submission contains only `GET /welcome → 200`, `GET /absent → 404`, and: “Only the welcome request reached the application.” The remaining answers are blank. The outputs support two reported exchanges, while the explanation mistakenly treats a returned error status as failure to reach the application. No evidence yet establishes the learner's understanding of redirects or form processing, or why the reply is incomplete.
+
+A possible feedback and continuation is:
+
+> You recorded a response for each request. The 404 is also an application response: in the supplied code, the fallback branch constructs it. Reaching the application and finding a matching route are different events.
+>
+> The redirect comparison is still unassessed. For that part, share the status sequence with and without following the redirect, then briefly explain which request following adds. Use any results you already collected; the routing experiment need not be repeated. You can include the remaining answers together if you prefer.
+
+In live delivery, stop there and wait. If the learner is reasoning from supplied exchanges, keep that condition explicit. If tool setup is blocking progress, help with that obstacle or continue conceptually; do not diagnose a subject misconception from a failed setup.
+
+For author checking, the specified `/begin` route returns 302; following its location issues `GET /welcome`, which returns 200. This is an expected sequence under the constructed route definition, not an observed run. The feedback teaches a routing distinction but does not establish that the learner has corrected it. Keep the lesson in progress; use the next relevant response to assess that distinction if it matters, without automatically adding a duplicate test. No stage completion or retained learning follows from these fictional fragments.
+
+Source inspection for this example: RFC 9110 sections 15.5.4–15.5.5 and the curl manual entries for `--location`, `--show-headers`, `--verbose` and `--data-urlencode`, accessed 2026-10-15. These sources support protocol and tool facts, not the effectiveness of the authored coaching choices.
 
 ## Other subject applications
 
