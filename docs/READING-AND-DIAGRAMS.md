@@ -51,6 +51,10 @@ The overview Practice adds a compact text flow and local tables. Conceptual conn
 
 The body-of-knowledge outline owns one overall PNG illustration and its generation prompt in `diagrams/`. It shows nine knowledge domains, labeled “knowledge areas” in the illustration, and three selected connections, with the same content available as text in the outline. It is an original AI-generated orientation aid, not a metadata dependency graph or evidence of visual-learning effectiveness. Additional subtopic illustrations are optional and chosen for reader need.
 
+Each developed domain Model owns one overall summary illustration, embedded after its introduction and before Contents, with meaningful alternative text and a short explanation. Develop the Model's explanation first, then illustrate its key ideas and relationships. Store the PNG and prompt together under `diagrams/` using the domain name. The outline links to the Model rather than duplicating its image. Additional detail illustrations remain optional.
+
+The [Assessment and Feedback Model](../models/assessment-and-feedback.md) owns `assessment-and-feedback-overview.png` and its matching prompt. It illustrates criteria, task conditions, the actual response, bounded interpretation, feedback and a distinct new observation, alongside the Model's constructed unit-price comparison. The other eight domain summaries will accompany their Models as those explanations are developed; an outline gap is not a completed Model to illustrate.
+
 ## Future image procedure
 
 1. Identify an actual ambiguity the diagram would resolve and document its owner and scope.
@@ -58,4 +62,4 @@ The body-of-knowledge outline owns one overall PNG illustration and its generati
 3. For D2 outputs, register owner, reason and files in diagrams.json and include actual pinned-render checks before claiming freshness. A generated PNG is visually inspected against its owning text; it has no D2 freshness claim and does not require a new renderer or registry.
 4. Inspect the rendered result for legibility and preserve the text explanation. Do not hand-edit generated SVG or imply an effect-size chart is measured when its data are invented.
 
-No D2 renderer check is applicable because no D2 artifact is included. The outline's PNG must be inspected for accurate labels, relationships and legibility when changed.
+No D2 renderer check is applicable because no D2 artifact is included. Each PNG must be inspected for accurate labels, relationships, examples and legibility against its owning text when changed. Keep essential meaning in text and avoid duplicate full-size image links.

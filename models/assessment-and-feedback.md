@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:assessment-and-feedback"
 type: "model"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Assessment and Feedback"
@@ -23,6 +23,12 @@ A response becomes useful evidence when it is interpreted against a clear capabi
 ## Summary
 
 This Model explains the Assessment and feedback knowledge domain: what an assessment observes, how conclusions are limited, and how feedback can support another attempt. It integrates named research contributions into a KPS-authored explanation. The connected example is invented and checked, not an observed learner session. No prior assessment terminology is required; the essential distinctions are explained here.
+
+![Assessment and Feedback: capability and criteria align with task conditions. An actual learner response and the criteria inform a bounded interpretation, which informs feedback or clarification and a distinct revision or new attempt. A constructed comparison distinguishes package price from price per kilogram: A costs £5 per kg and B costs £4.50 per kg. Evidence before instruction, with assistance, without answer help, and later or in a new context remains distinct.](../diagrams/assessment-and-feedback-overview.png)
+
+The illustration connects the response, its interpretation and the opportunity to revise. A new attempt supplies another observation; it does not overwrite the original or automatically establish lasting learning. The price comparison is constructed, and all essential relationships and calculations are explained below. The evidence categories can overlap: a later attempt can also be assisted or independent.
+
+Original illustration generated for this Model with the built-in image generation tool; [generation prompt](../diagrams/assessment-and-feedback-overview.prompt.txt). It summarizes our explanatory synthesis rather than reproducing a source figure or reporting learner results.
 
 ## Contents
 

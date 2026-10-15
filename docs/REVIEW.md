@@ -74,6 +74,8 @@ The local policy and domain checker now admit explicitly authored, source-ground
 
 ## What remains untested
 
+The Assessment and Feedback Model now embeds its own overall illustration before Contents. The authoring assistant visually checked the two inputs to interpretation, the feedback path, the return to a distinct observation, all displayed labels and the constructed unit-price arithmetic. The evidence categories are not drawn as a compulsory progression, and adjacent prose explains their possible overlap. Essential meaning remains available in the Model text. The original PNG and prompt are stored in `diagrams/`; no source figure was reproduced and no image-effectiveness claim is made. Package validation, domain checks, navigation freshness and all 144 tests passed after embedding the image. No dependency fingerprint refresh was needed.
+
 No real adult learner used these Practices under observation; no live model session, behavior-enforcement test, delayed retention study, transfer study, usability trial, accessibility audit or causal comparison was performed. No latent learner diagnosis or actual memory trace is inferred. The record checker validates declarations only.
 
 ## Next review tasks

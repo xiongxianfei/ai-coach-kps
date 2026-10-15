@@ -1,0 +1,42 @@
+Use case: infographic-diagram.
+Create one polished, high-resolution landscape educational illustration for the Assessment and Feedback domain Model in an AI coaching knowledge library. Aim for 2400 by 1600 or similarly sharp landscape output. Warm ivory paper, dark navy typography, restrained teal and amber accents, gentle watercolor editorial illustrations, spacious alignment, crisp readable text. Use diagrams to explain relationships, not merely decorative topic cards. No logos, anthropomorphic robots, fake charts, scores or claims of proven learning gains.
+
+Title exactly: "Assessment and Feedback"
+Subtitle: "From a learner's response to a justified next step"
+
+Composition: left two-thirds contains the explanatory diagram; right third contains a compact worked comparison. A bottom strip preserves evidence distinctions. Clear visual hierarchy and generous margins.
+
+LEFT diagram:
+Top two boxes "Capability and criteria" and "Task and conditions", connected with a double-headed arrow labeled "align".
+Below Task and conditions, an arrow labeled "elicits" points DOWN to "Actual learner response".
+Below these, one box "Bounded interpretation". Draw separate arrow inputs from "Capability and criteria" and from "Actual learner response" into this box. Subtitle inside: "What does this response support?"
+Below Bounded interpretation a downward arrow labeled "informs" leads to "Feedback or clarification".
+Below that a downward arrow leads to "Revision or new attempt".
+A curved return arrow from Revision or new attempt returns specifically to Actual learner response and is labeled "new observation".
+Near the diagram add a small note: "Check the task and answer key too."
+Make the arrows unambiguous: no arrows implying that interpretation fabricates the original response or that feedback proves mastery. Subtle small icons can support the boxes, without additional text.
+
+RIGHT panel heading: "Constructed example"
+Question: "Which costs less per kilogram?"
+Two generic package illustrations with exact labels:
+"A: 600 g for £3.00"
+"B: 1 kg for £4.50"
+A hypothetical speech bubble: "A, because £3 is less."
+A note: "That compares package prices."
+Then two clear calculation lines:
+"A: £3 ÷ 0.6 kg = £5/kg"
+"B: £4.50 ÷ 1 kg = £4.50/kg"
+Conclusion: "B has the lower unit price."
+Bottom of example: "A corrected answer is a new observation."
+
+BOTTOM band heading: "Keep the evidence distinct"
+Four equal short labels, separated with vertical dividers, NOT arrows or a staircase:
+"Before instruction"
+"With assistance"
+"Without answer help"
+"Later or in a new context"
+Below this band one legible footer:
+"Record actual help and exposure. One success does not establish lasting learning."
+Small provenance footer: "KPS explanatory synthesis · Illustrative, not observed learner data"
+
+All wording must be correctly spelled and all calculations correct. Do not add text beyond the specified labels. Do not draw any guaranteed-improvement arrow or invented measured outcome. All lettering readable when the image is embedded in Markdown. Opaque background.
