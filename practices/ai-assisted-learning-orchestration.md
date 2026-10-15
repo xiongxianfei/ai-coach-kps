@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.10.0"
+version: "0.11.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -167,6 +167,8 @@ These rows are the learner's proposed learning stages, not Stage1–Stage7 of th
 The stable Stage3 heading identifies the current activity; it is not a one-question limit. The activity can be a coherent assessment set. The optional card and existing single `next_task` record can describe that set with numbered prompts and criteria in their text fields. No new schema or required lesson form is introduced.
 
 **Question fit and effort**
+
+Choose the question's purpose, the thinking it should elicit and a sufficient answer format separately. Recall, comparison, explanation, application, prediction, error diagnosis, evidence evaluation and generation are available options, not a sequence to complete. A choice can serve application; a short explanation can reveal a relationship; a practical demonstration may fit an action goal better than text. Select what supplies useful practice or evidence for this learner. Do not infer difficulty from a type label or format, or turn the menu into a question quota.
 
 Before presenting a question, consider its relevance, scope, challenge and answer effort together. Identify the lesson capability it develops or reveals. A prerequisite probe or planned review can reach beyond the current explanation, but make that connection clear; do not introduce an unrelated demand without explanation. Keep a recognizable task and stopping point, with enough context to answer. Estimate the challenge from available responses and support needs, treating that estimate as provisional rather than assigning a fixed ability level.
 
@@ -449,6 +451,8 @@ The named scholarly ideas below support selected distinctions. The seven-stage o
 - **Question readiness and support:** selected text in Pashler and colleagues' IES guide, printed pages 4, 10 and 29, discusses changing example support with expertise and deeper explanatory questions when foundational knowledge is available. The relevance, scope, challenge and answer-effort decisions here are authored adaptations, not a validated difficulty scale or universal question quota. [Source record](../references/pashler-2007-organizing-instruction.md).
 
 ## Optional specialist reading
+
+The [question classification](../models/instruction-and-scaffolding.md#thinking-requested) explains thinking types, response formats and purposes. Stage3 retains the selection decisions inline; the classification is optional explanatory detail, not another procedure.
 
 The optional [worked-example guide](../guides/WORKED-EXAMPLE.md#connected-lesson-example) illustrates a transition between two lessons. Its teaching sequence and question count are not requirements.
 

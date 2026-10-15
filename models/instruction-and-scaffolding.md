@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.4.0"
+version: "0.5.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -11,8 +11,8 @@ basis_kind: "KPS-authored source-grounded explanatory synthesis; not a published
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:instructional-design", "ai-coach:model:assessment-and-feedback"]
 uses_concepts: ["ai-coach:concept:instructional-scaffolding"]
 uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation"]
-references: ["ai-coach:reference:collins-1991", "ai-coach:reference:pashler-2007-organizing-instruction", "ai-coach:reference:richards-2022-morphology"]
-source_alignment: [{"reference":"ai-coach:reference:collins-1991","relation":"synthesis-contribution","locator":"Framework Content, Method items 1 to 6, and Sequencing","contribution":"Knowledge and strategies, observable demonstration, articulation, task support, fading and meaningful whole-task context"},{"reference":"ai-coach:reference:pashler-2007-organizing-instruction","relation":"synthesis-contribution","locator":"Official WWC recommendation overview, recommendations 2, 3, 4 and 7 and their short descriptions","contribution":"Alternating worked examples with problems, connecting representations and eliciting explanatory responses; overview scope only"},{"reference":"ai-coach:reference:richards-2022-morphology","relation":"synthesis-contribution","locator":"Lecture 3 PDF text, numbered pages 16 to 18","contribution":"Subject basis for the unlockable contrast; no teaching-effectiveness contribution"}]
+references: ["ai-coach:reference:collins-1991","ai-coach:reference:pashler-2007-organizing-instruction","ai-coach:reference:richards-2022-morphology","ai-coach:reference:cmu-eberly-assessment-alignment"]
+source_alignment: [{"reference":"ai-coach:reference:collins-1991","relation":"synthesis-contribution","locator":"Framework Content, Method items 1 to 6, and Sequencing","contribution":"Knowledge and strategies, observable demonstration, articulation, task support, fading and meaningful whole-task context"},{"reference":"ai-coach:reference:pashler-2007-organizing-instruction","relation":"synthesis-contribution","locator":"Official WWC recommendation overview, recommendations 2, 3, 4 and 7 and their short descriptions","contribution":"Alternating worked examples with problems, connecting representations and eliciting explanatory responses; overview scope only"},{"reference":"ai-coach:reference:richards-2022-morphology","relation":"synthesis-contribution","locator":"Lecture 3 PDF text, numbered pages 16 to 18","contribution":"Subject basis for the unlockable contrast; no teaching-effectiveness contribution"},{"reference":"ai-coach:reference:cmu-eberly-assessment-alignment","relation":"synthesis-contribution","locator":"Opening alignment discussion and table of learning objectives, assessment activities and measurement","contribution":"Alignment of intended learning and assessment activity; basis for distinguishing thinking from response format, not a validated question menu"}]
 ---
 
 # Instruction and Scaffolding
@@ -23,7 +23,7 @@ Explain enough connected knowledge for the learner to understand what happens, h
 
 ## Summary
 
-This Model explains how knowledge, demonstrations, questions and assistance relate within a lesson. It covers connected explanations, worked examples, learner articulation, guided and independent activity, scaffolding and responses to misunderstanding. A constructed lesson on equal sharing connects these topics; a short morphology contrast connects structure with meaning. The account is an introductory KPS synthesis of selected source contributions; its lesson organization and examples are authored applications. No prior teaching terminology is required.
+This Model explains how knowledge, demonstrations, questions and assistance relate within a lesson. It covers connected explanations, worked examples, question types and response formats, learner articulation, guided and independent activity, scaffolding and responses to misunderstanding. A constructed lesson on equal sharing connects these topics; a short morphology contrast connects structure with meaning. The account is an introductory KPS synthesis of selected source contributions; its lesson organization and examples are authored applications. No prior teaching terminology is required.
 
 ![Instruction and Scaffolding connects an explanation to learner activity and an actual response, which informs subsequent support. Eight tokens shared among four equal groups gives two tokens per group. Demonstration, targeted hints and attempts without answer help are possible support conditions, not compulsory stages.](../diagrams/instruction-and-scaffolding-overview.png)
 
@@ -37,6 +37,10 @@ The arrows express opportunities and informational relationships, not guaranteed
   - [Connecting structure to meaning](#connecting-structure-to-meaning)
 - [Lesson scope and interaction pace](#lesson-scope-and-interaction-pace)
 - [Questioning and learner explanation](#questioning-and-learner-explanation)
+  - [Thinking requested](#thinking-requested)
+  - [Answer formats](#answer-formats)
+  - [Question purposes](#question-purposes)
+  - [Learner explanations and evidence](#learner-explanations-and-evidence)
 - [Scaffolding and changing responsibility](#scaffolding-and-changing-responsibility)
 - [Interpreting misunderstanding](#interpreting-misunderstanding)
 - [A worked lesson on equal sharing](#a-worked-lesson-on-equal-sharing)
@@ -122,6 +126,45 @@ A question set can reveal relationships across answers. Correct definitions alon
 
 Questions can elicit different kinds of work: naming, calculating, explaining a reason, predicting a change, comparing cases or finding a boundary. Their usefulness depends on what the lesson is trying to develop. A brief comparison or prediction may expose the relevant distinction without a long explanation. More elaborate reasoning is useful when it resolves a material uncertainty; it is not a necessary response format for every check. “What is the answer?” may reveal a quotient; “Why is four the divisor?” addresses its interpretation.
 
+### Thinking requested
+
+A question can be described by the thinking it requests, the format of the answer and its purpose in the lesson. These dimensions interact but are not interchangeable. The [Eberly Center guidance](../references/cmu-eberly-assessment-alignment.md) relates objectives to assessment activities and summarizes revised Bloom categories: remember, understand, apply, analyze, evaluate and create. The following KPS menu makes common questioning choices concrete; it is not that taxonomy reproduced, a new validated classification or a mandatory progression.
+
+The examples use the already introduced relationship between total tokens, equal groups and amount per group. They are constructed prompts, not a question set to administer in full or records of learner answers.
+
+| Type | Illustrative prompt |
+|---|---|
+| Recall | From the earlier lesson, what does the divisor count when sharing a total equally? |
+| Identify or classify | In “twelve tokens in three groups,” which quantity counts groups? |
+| Interpret | What does “four tokens per group” tell us? |
+| Compare | How does “four tokens” differ from “four tokens per group”? |
+| Explain or justify | Why do we divide the total by the number of equal groups? |
+| Apply | Share fifteen tokens equally among five groups. What amount does each receive? |
+| Predict | Keep twelve tokens but increase the equal groups from three to six. What changes about each share? |
+| Diagnose and correct | A solution ends “twelve tokens divided among three groups gives four groups.” What needs correcting? |
+| Evaluate evidence | Does knowing the average is four tokens prove that every group received four? |
+| Explore a boundary | When would total divided by group count fail to describe each group's actual share? |
+| Generate or design | Give two different total-and-group-count pairs that produce the same amount per equal group. |
+| Reflect | Which part of this explanation is still unclear, and what would help? |
+
+Types can overlap: diagnosing a wrong unit may involve interpretation and explanation. A label does not determine the work actually required; prior knowledge, novelty, number of connected ideas and supplied support change the demand. Reflection elicits the learner's account of understanding or effort; that account is useful evidence about their experience, not a direct demonstration of the target capability. No lesson needs every type, and recalling a relevant prerequisite can be useful even during an advanced task.
+
+### Answer formats
+
+Possible formats include yes/no or multiple choice, matching or sorting, ordering steps, filling a gap, completing a worked step, a short phrase, a calculation, a brief explanation, an annotated diagram, a practical demonstration or a created artifact. A format describes how the response is expressed; it does not automatically establish the thinking used or the question's difficulty.
+
+For example, dividing twelve tokens among three equal groups can be posed as a choice among numerical answers, a written calculation, or arranging tokens into groups. These formats offer different cues and observations. A correct choice alone can leave the reason for division unobserved; a demonstration may make the distribution visible but still require clarification of its interpretation. More writing does not automatically provide better evidence. Conversely, shortening an argument until its justification disappears can remove the very capability being assessed.
+
+Thinking demand, response effort and support therefore need separate attention. Offered options can cue recognition, and a completed diagram can reveal part of the answer. Those conditions matter when interpreting a response; they are not inherently inappropriate during teaching. Familiar wording or an accessible response mode can reduce incidental effort without supplying the target reasoning.
+
+### Question purposes
+
+The same kind of question may locate a starting point, develop understanding through guided activity, practise application, revisit earlier knowledge, integrate relationships or invite reflection. Purpose changes the appropriate support and the interpretation of the result. A question whose answer has just been demonstrated may support learning, but it cannot establish an unexposed baseline. A planned review is not observed retention until an actual later response exists under recorded conditions.
+
+A question about previously taught group meaning could request recall, accept a brief phrase, and serve retrieval practice. A question asking the learner to justify division could request explanation, accept speech or writing, and serve guided learning or assessment depending on the help provided. Neither combination determines the lesson's next action on its own. The coaching Practice owns selection and adaptation from the goal, available evidence and learner preferences; this classification describes the options.
+
+### Learner explanations and evidence
+
 When the intended capability includes meaning, correct notation and an adequate interpretation are separate response features. An accurate grouping can leave its significance unobserved. An explanation of what it means, or a justified choice of a contrasting situation, can supply the missing evidence. If the relationship is then taught, the subsequent answer is a response after clarification; it does not retroactively supply independent understanding in the original attempt. An already adequate explanation needs no redundant extra question.
 
 **Learner self-explanation** is reasoning generated by the learner about the material. Reading a supplied explanation and producing one are different activities. The existing [Self-Explanation Method](../methods/self-explanation.md) retains its particular source and applicability limits. Here, a request for explanation is an opportunity to observe reasoning, not a guarantee that the reasoning is correct.
@@ -199,6 +242,8 @@ The six outline topics have introductory coverage, not a complete theory of inst
 - [Collins, Brown and Holum](../references/collins-brown-holum-1991-cognitive-apprenticeship.md): framework Content, Method and Sequencing supply the named instructional relationships. The six methods are not six compulsory lesson stages. No underlying experiments were reanalyzed.
 - [Pashler and colleagues](../references/pashler-2007-organizing-instruction.md): the official overview of recommendations 2, 3, 4 and 7 supports the selected example, representation and questioning considerations. The full guide and primary studies are outside this inspection.
 - [Richards](../references/richards-2022-morphology.md): PDF text on pages 16–18 supplies the subject analysis for the morphology contrast, not evidence for a teaching method. The concrete cases and coaching implications are authored here.
+
+- [Eberly Center](../references/cmu-eberly-assessment-alignment.md): the opening discussion and objective/activity table support distinguishing intended thinking from assessment format. Our overlapping question menu, reflection entry and token prompts are authored explanatory choices, not a validated taxonomy or an efficacy claim.
 
 The explanation responsibilities, connecting representation, lesson and conditional decisions are KPS-authored integration. None of these sources publishes this complete Model or validates its AI implementation.
 
