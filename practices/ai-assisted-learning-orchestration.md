@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.7.0"
+version: "0.11.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -18,7 +18,7 @@ uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:co
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:instruction-and-scaffolding", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
-references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics"]
+references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics", "ai-coach:reference:pashler-2007-organizing-instruction"]
 ---
 
 # AI Assisted Learning Orchestration
@@ -46,6 +46,16 @@ This is a KPS-authored orchestration procedure, not a new scientific theory, an 
 Bring a safe learning interest, an available conversational AI, and a private place to keep notes. Initial competence, an elaborate map, an API, persistent AI memory, and a completed plan are not prerequisites. Use low-stakes tasks; comply with assessment and training-provider rules. This is not clinical diagnosis, therapy, credential assessment, or unsupervised professional safety training. Do not send private credentials, personal records, or restricted material to an external service.
 
 The learner chooses the goal, can request direct explanation instead of hints, can challenge an assessment, and can pause or stop. Distinguish learning mode from answer-production mode: a complete AI solution can be useful instruction, but it is not evidence that the learner produced it independently. A prompt cannot guarantee that an AI follows these boundaries.
+
+## Coaching responsibilities and adaptable choices
+
+Keep the learner's goal and a coherent capability in view; make the relevant knowledge understandable and accurate; preserve actual responses and assistance; and justify conclusions and next actions from available evidence. Respect the learner's control over scope, pace and continuation. A complete coach explanation is teaching, not evidence that the learner has understood it.
+
+Choose teaching techniques to serve those responsibilities. Direct explanation, worked examples, contrasts, diagrams, demonstrations, discussion, guided practice and retrieval are available options. Use the combination the subject and learner need; a lesson does not have to contain every technique, repeat an example's format or end with a fixed number of questions. Use an existing adequate observation when it answers the pending decision.
+
+For example, correct definitions with an uncertain application may call for a contrasting case; a well-justified application may support a harder problem or synthesis; a practical capability may need observed action rather than another written explanation. These are possibilities, not automatic branches. Choose from the goal, demonstrated readiness, unresolved uncertainty, preferences and constraints. A new lesson need not be triggered by a mistake.
+
+The defaults below support connected teaching, light grouped questions, continuation after feedback and stage summaries with an overview picture. Follow the learner's preferences and adapt the mode or representation when useful; the defaults do not establish a universal teaching sequence. Such adaptation does not permit inventing responses, hiding assistance or treating an untested capability as demonstrated. Examples and templates illustrate choices, while the inline procedure supplies the decisions and evidence boundaries needed without opening another file.
 
 ## Keep the levels distinct
 
@@ -150,11 +160,21 @@ These rows are the learner's proposed learning stages, not Stage1–Stage7 of th
 ## Stage3 Select one current learning task
 
 1. Name a coherent lesson capability within the current stage, informed by the learner's evidence and constraints. State what the learner will explain or do, and identify the connected ideas needed. Scope the lesson before selecting individual checks; the smallest assessable fragment need not be a lesson. Keep later stages at roadmap level and **defer generating future daily questions**.
-2. Prepare the lesson's essential terms, mechanisms, relationships, examples and boundaries, plus a few short, complementary questions with checked criteria. Ask for a brief answer by default; request a reason only where it reveals a relationship needed for the capability. Do not turn every item into a multi-part essay or repeat a distinction already demonstrated. One integrated question can suffice, and there is no fixed quota. Reserve deeper follow-up for an important uncertainty. Preparing the current assessment is permitted; planning every later lesson in detail is unnecessary.
+2. Prepare the knowledge and observable activity needed for the lesson capability, with checked criteria. Choose explanations, examples, representations and relevant boundaries to make the important relationships understandable. For a question-based activity, default to a few short, complementary questions. Ask for a brief answer by default; request a reason only where it reveals a relationship needed for the capability. Do not turn every item into a multi-part essay or repeat a distinction already demonstrated. One integrated question can suffice, and there is no fixed quota. Reserve deeper follow-up for an important uncertainty. Preparing the current assessment is permitted; planning every later lesson in detail is unnecessary.
 3. Use the learner's stated pacing preference. For new learning, default to connected teaching followed by clarification and questions together. Offer guided steps when requested or when a missing prerequisite or procedural decision blocks progress. Record permitted assistance, access resources, prior exposure and a stop/split condition. Keep answers hidden for a baseline, retrieval or independent check. A day label is only scheduling.
 4. Reuse existing agreement rather than repeatedly asking permission. Split an overbroad lesson at a meaningful boundary, preserve the larger relationship, and make clear what remains. If too easy, increase the reasoning demand rather than multiplying trivial questions. Introduce the next lesson and its connection to the goal when continuing. Do not silently switch tasks, expand scope or generate a multi-day batch.
 
 The stable Stage3 heading identifies the current activity; it is not a one-question limit. The activity can be a coherent assessment set. The optional card and existing single `next_task` record can describe that set with numbered prompts and criteria in their text fields. No new schema or required lesson form is introduced.
+
+**Question fit and effort**
+
+Choose the question's purpose, the thinking it should elicit and a sufficient answer format separately. Recall, comparison, explanation, application, prediction, error diagnosis, evidence evaluation and generation are available options, not a sequence to complete. A choice can serve application; a short explanation can reveal a relationship; a practical demonstration may fit an action goal better than text. Select what supplies useful practice or evidence for this learner. Do not infer difficulty from a type label or format, or turn the menu into a question quota.
+
+Before presenting a question, consider its relevance, scope, challenge and answer effort together. Identify the lesson capability it develops or reveals. A prerequisite probe or planned review can reach beyond the current explanation, but make that connection clear; do not introduce an unrelated demand without explanation. Keep a recognizable task and stopping point, with enough context to answer. Estimate the challenge from available responses and support needs, treating that estimate as provisional rather than assigning a fixed ability level.
+
+Adjust reasoning demand separately from the effort of producing an answer. A choice, phrase, calculation, brief reason or demonstration may provide the needed evidence; a long written response is appropriate when constructing that response is part of the capability. State what is sufficient when the scope might be unclear. For example, after teaching an amount per group, “Twelve tokens are shared equally among three groups. Give the amount per group and one brief reason for dividing by three” targets the relationship. “Explain everything about division, measurement and ratios” leaves its scope unclear. Repeating an already demonstrated definition adds little unless a deliberate retrieval or fluency goal justifies it. These examples illustrate fit, not a required sentence pattern or answer length.
+
+Consider the effort of the whole question set, including repeated context changes and several demands hidden inside one item. Keep grouped questions when preferred, but remove redundant or incidental demands and offer a smaller coherent part if needed. An integration goal may require a substantial problem; do not split away the relationship it is meant to reveal. Increase useful challenge through a new application, comparison or boundary when justified, rather than requiring more words or more repetitions. These are coach decisions, not a checklist to print, a fixed difficulty ladder or an additional form for the learner.
 
 **One task card**
 
@@ -236,9 +256,9 @@ The selected UNSW source and inspection limits are recorded in Academic basis an
 1. Restate the criterion and inspect the actual response before giving feedback. Separate observation (“the response omitted units”) from interpretation (“the learner may not distinguish quantities”). Check the task, answer key and source first; an erroneous AI correction is not a learner deficit.
 2. Compare each relevant feature with the criterion. Record **meets**, **does not yet meet**, **uncertain** or **not evaluated**, with the supporting observation. These are local descriptive judgments, not standardized grades. The same AI's unsupported opinion remains unverified; use an inspected source, a reproducible calculation/check, or a competent human where required. Keep evidence and interpretation separate. When meaning is part of the target, distinguish correct notation or terminology from the explanation of its significance. If that relationship is unobserved and needed for the next decision, ask briefly for its meaning or application to a contrasting case; do not repeat the check when the response already supplies it. If the interpretation is mistaken, explain the connection before adding more notation, then preserve the next response as a separate attempt under the actual help conditions.
 3. For a question set, review the answers together: state what was supported, identify specific discrepancies, explain their checked basis and connect errors that share an underlying misunderstanding. Retain each answer's evidence and help conditions; prioritize useful corrections rather than forcing one feedback point or adding a follow-up for every item. Offer a hint, simpler example, direct explanation or pause. Preserve the original answer before correction and assign a new attempt identifier when help changes the conditions.
-4. If the obstacle is unclear or repeats, investigate it inline. List plausible explanations, including ambiguous instructions and missing knowledge. Ask one short question that would distinguish them. For the rate example, “What does the three count?” probes denominator meaning; providing already matched units helps distinguish a conversion issue from a ratio issue. An inconclusive probe stays inconclusive. Do not infer intelligence, motivation, a learning style or a clinical condition.
+4. If the obstacle is unclear or repeats, investigate it inline. First check whether the question itself is unclear, combines too many demands or requires untaught knowledge. Clarify the requested output before judging understanding; reduce incidental demands or teach a missing prerequisite when that is the obstacle. If the distinction is already demonstrated, choose a useful application or move on instead of repeating easier items. Take reported excessive effort or boredom seriously and adjust the activity with the learner. Silence, short answers or one error do not establish boredom, disengagement or inability. When the cause remains uncertain, list plausible explanations and ask one short question that would distinguish them. For the rate example, “What does the three count?” probes denominator meaning; providing already matched units helps distinguish a conversion issue from a ratio issue. An inconclusive probe stays inconclusive. Do not infer intelligence, motivation, a learning style or a clinical condition.
 5. Decide whether another instruction attempt or a new independent check is appropriate. Reuse the agreed assistance conditions for a fresh comparable question without answer-generating help; retain access accommodations. Ask about a material change in conditions, not permission for every routine next step. Do not overwrite an assisted revision as the baseline or demand a redundant new test when an existing observation adequately answers the decision.
-6. Give concise feedback, then carry out one next action. When the lesson evidence is sufficient and no blocking gap remains, introduce and teach the next lesson in the same reply, ending at its light assessment and waiting for actual answers. If this closes a learning stage, first provide the Stage6 summary. If an important misunderstanding blocks the next lesson, clarify that relationship and ask only the needed follow-up instead. Record nonblocking gaps for a later revisit. Respect a request to pause, a changed goal or a scope boundary; when the overall goal is complete, close the programme. Do not end routine feedback with “Shall we continue?” or generate the next learner reply.
+6. Give concise feedback, then carry out one next action justified by the goal, available evidence and learner preferences. Explain briefly why clarification, practice, application, retrieval, synthesis or a next lesson is useful; do not assume every error has the same cause or silently drop an unrelated unresolved issue. When the lesson evidence is sufficient and no blocking gap remains, default to introducing and teaching the next lesson in the same reply, ending at its relevant activity and waiting for actual responses. If this closes a learning stage, first provide the Stage6 summary. If an important misunderstanding blocks the next lesson, clarify that relationship and ask only the needed follow-up instead. Record nonblocking gaps for a later revisit. Respect a request to pause, a changed goal or a scope boundary; when the overall goal is complete, close the programme. Do not end routine feedback with “Shall we continue?” or generate the next learner reply.
 
 | Actual observation or condition | Action now | What not to claim |
 |---|---|---|
@@ -271,7 +291,7 @@ For example only, “4” would leave units and the divisor's meaning unobserved
 3. Distinguish four decisions: finish this task or assessment set, finish the lesson, move within or beyond this learning stage, and conclude something about the overall target. Close the lesson against its agreed capability and evidence across the relevant answers; a correct fragment or completed explanation is insufficient. State remaining gaps or an agreed pause, and keep immediate understanding separate from practical control and retention. Evidence for one decision does not automatically justify the others. Advancing provisionally is a learning decision, not certification of mastery.
 4. Revise the **high-level** sequence with the learner when relevant evidence or circumstances justify it: advance, repeat a relationship, split an overbroad stage, combine co-requisites, reorder, bypass already demonstrated work or defer an unrelated branch. State the actual observation, source correction or changed preference and **keep the old plan version**. Stable stage/task IDs are not reused for different capabilities; preserve retired IDs in the history. Do not rewrite the roadmap after every answer if only the current task needs adjustment, or populate future daily questions merely because a stage is listed.
 5. Check the conceptual map and prerequisite hypotheses too. A task may reveal a wrong source link or unnecessary prerequisite. Correct the representation rather than making the learner follow an erroneous plan. A changed goal may justify a new scoped plan; it does not erase what was previously observed.
-6. When a learning stage ends, provide its summary before moving on; for a pause or provisional transition, label the summary accordingly. Explain the central mechanism and how the stage's ideas connect, rather than listing lesson titles. Include one checked overview picture with essential meaning also in text. Reuse a suitable illustration or create one with available tools; check labels, arrows and examples before embedding it. If an image cannot be supplied, give the text summary now and say that the picture remains unavailable; do not invent an asset or link. Additional pictures are optional.
+6. When a learning stage ends, provide its summary before moving on; for a pause or provisional transition, label the summary accordingly. Explain the central mechanism and how the stage's ideas connect, rather than listing lesson titles. By default, include one checked overview picture with essential meaning also in text; adapt the representation to the learner's preferences and access needs. Reuse a suitable illustration or create one with available tools; check labels, arrows and examples before embedding it. If an image cannot be supplied, give the text summary now and say that the picture remains unavailable; do not invent an asset or link. Additional pictures are optional.
 7. In that summary, separate what was taught from what actual replies demonstrated, under which assistance, and what remains uncertain or untested. An introductory pass is not retained knowledge or practical mastery. Name the next stage's purpose, then begin its first lesson in the same reply when continuation is appropriate. Save the summary at the end of its numbered stage file, with the picture embedded beside it; do not put learner results in the public subject outline or domain Model. Use `images/` paths from the overview and `../images/` paths from a file in `stages/`, checking the actual target. Update the dated current assessment in the overview with supported capabilities, links to actual observations and assistance, open gaps and the next action. Do this at a stage boundary or when meaningful evidence changes a conclusion; it does not require a new test after every reply. Preserve the initial assessment and earlier consequential judgments in the evidence record. If a judgment or criterion changes, record the reason and avoid treating unlike observations as a direct measure of improvement. Plain Markdown is sufficient. If no private destination is available, supply the summary in the conversation for the learner to save and do not claim it was stored.
 8. At a programme checkpoint, examine the overall target against relevant tasks, including later or changed-context evidence only when collected. State unmeasured areas and alternative explanations for improvement. Extra study, prior exposure, changed difficulty or a corrected key may explain a difference; a single learner's before/after result does not isolate an AI treatment effect.
 
@@ -336,6 +356,9 @@ This configuration suggestion is authored, not guaranteed to control any AI prod
 ```text
 Act as my educational coach for one continuing learning programme.
 Overall target and constraints: [fill]. Current plan/resume record: [fill or none].
+Use examples and templates as illustrations, not scripts. Choose explanations,
+representations and activities for my goal, current evidence and preferences.
+Preserve accuracy, actual responses, assistance and uncertainty in any format.
 For a new broad goal, first ask for a concise self-assessment, then—when safe
 and answerable—one pre-instruction baseline response before exposing its answer.
 Keep self-reports separate from observed performance. Make a compact, sourced
@@ -347,10 +370,15 @@ Stages may combine subsystems. For a bounded task, enter directly and backfill
 only useful context. Keep stage IDs distinct from procedural StageN and day labels.
 Name the current lesson capability within its stage; a lesson can span sessions.
 Scope a coherent lesson before choosing its checks. Prepare its connected
-content and a few short complementary questions with checked criteria,
-allowed help and a stop/split condition. Do not pre-generate future days' detailed tasks.
+content and an appropriate activity; for questions, prefer a few short complementary
+ones with checked criteria, allowed help and a stop/split condition.
+Match questions to the lesson, current evidence and available support. Make the task
+and sufficient response clear; distinguish reasoning difficulty from writing effort.
+Consider the burden of the whole set. If it is confusing or overwhelming, clarify
+or narrow a coherent part; if the capability is demonstrated, choose useful new work.
+Treat my reports of effort or boredom as reasons to adapt, not as an ability diagnosis. Do not pre-generate future days' detailed tasks.
 Explain connected knowledge when needed: context, essential terms, relationships,
-reasons, a checked example and relevant boundaries. Show important decisions in
+reasons and relevant boundaries; use a checked example when useful. Show important decisions in
 a demonstration when useful; connect words, diagrams and equations explicitly.
 Default to teaching the connected lesson, inviting clarification, then presenting
 its questions together. Follow my stated pacing preference; use guided questions
@@ -368,11 +396,13 @@ Review the answers together, preserve unanswered items as unobserved, and addres
 shared misunderstandings. Keep questions light; do not demand a detailed reason for
 every answer or retest an already demonstrated distinction. Ask a deeper follow-up
 only for an important gap. Judge completion against the lesson capability.
-After feedback, begin the next lesson in the same reply within our agreed scope.
+After feedback, begin the next lesson in the same reply within our agreed scope
+when appropriate; otherwise carry out the useful clarification, practice, retrieval
+or synthesis justified by the goal and evidence.
 If a gap blocks progress, address it first. Wait after presenting the next questions;
 never supply my answers or ask routine permission to continue. Respect pauses and stop
 when the agreed goal is complete. At each stage boundary, summarize connected ideas
-with one checked overview picture, actual demonstrated understanding and open gaps,
+with one checked overview picture by default, actual demonstrated understanding and open gaps,
 then introduce the next stage and start its first lesson when appropriate.
 Keep records private. Preserve the initial assessment and original answers; keep a dated
 current assessment with evidence links, help conditions and remaining gaps in the overview.
@@ -417,7 +447,14 @@ The named scholarly ideas below support selected distinctions. The seven-stage o
 
 - **Singing example subject basis:** selected sections of Wolfe, Garnier and Smith's UNSW voice-acoustics essay support the bounded subject explanation in Stage4. The lesson design and questions are authored adaptations, not a tested intervention. [Source record](../references/wolfe-garnier-smith-2009-voice-acoustics.md).
 
+
+- **Question readiness and support:** selected text in Pashler and colleagues' IES guide, printed pages 4, 10 and 29, discusses changing example support with expertise and deeper explanatory questions when foundational knowledge is available. The relevance, scope, challenge and answer-effort decisions here are authored adaptations, not a validated difficulty scale or universal question quota. [Source record](../references/pashler-2007-organizing-instruction.md).
+
 ## Optional specialist reading
+
+The [question classification](../models/instruction-and-scaffolding.md#thinking-requested) explains thinking types, response formats and purposes. Stage3 retains the selection decisions inline; the classification is optional explanatory detail, not another procedure.
+
+The optional [worked-example guide](../guides/WORKED-EXAMPLE.md#connected-lesson-example) illustrates a transition between two lessons. Its teaching sequence and question count are not requirements.
 
 These links add detail and provenance; the actions, interpretation and fallback needed for the master workflow are already present above.
 
