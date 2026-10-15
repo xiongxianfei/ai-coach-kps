@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.3.0"
+version: "0.4.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -120,7 +120,7 @@ A question set can reveal relationships across answers. Correct definitions alon
 
 ## Questioning and learner explanation
 
-Questions can elicit different kinds of work: naming, calculating, explaining a reason, predicting a change, comparing cases or finding a boundary. Their usefulness depends on what the lesson is trying to develop. “What is the answer?” may reveal a quotient; “Why is four the divisor?” addresses its interpretation.
+Questions can elicit different kinds of work: naming, calculating, explaining a reason, predicting a change, comparing cases or finding a boundary. Their usefulness depends on what the lesson is trying to develop. A brief comparison or prediction may expose the relevant distinction without a long explanation. More elaborate reasoning is useful when it resolves a material uncertainty; it is not a necessary response format for every check. “What is the answer?” may reveal a quotient; “Why is four the divisor?” addresses its interpretation.
 
 When the intended capability includes meaning, correct notation and an adequate interpretation are separate response features. An accurate grouping can leave its significance unobserved. An explanation of what it means, or a justified choice of a contrasting situation, can supply the missing evidence. If the relationship is then taught, the subsequent answer is a response after clarification; it does not retroactively supply independent understanding in the original attempt. An already adequate explanation needs no redundant extra question.
 
@@ -184,7 +184,7 @@ In live use, the coach waits here. No actual reply or assessment is recorded in 
 | Correct explanation without answer help | The current task supports the intended relationship | Choose another relevant application or close the lesson; later retention remains unobserved |
 | No reply | No learner evidence exists | Wait, clarify or record a pause |
 
-These are conditional follow-up alternatives, not a required sequence. The single task illustrates a narrow capability; it does not require all lessons to have that scope or forbid presenting complementary questions together. At a lesson close, the meaningful record is what was explained, what the learner actually produced, under what help, and one next action. There is no automatic stage-completion claim or requirement to finish the lesson in one day.
+These are conditional follow-up alternatives, not a required sequence. The single task illustrates a narrow capability; it does not require all lessons to have that scope or forbid presenting complementary questions together. At a lesson close, the meaningful record is what was explained, what the learner actually produced, under what help, and one next action. Feedback can connect directly to teaching the next lesson within the existing learning agreement; a new permission turn is not inherent in the instructional relationship. An unresolved prerequisite can instead make a focused repair the appropriate continuation. The master Practice owns these delivery choices and the stage-summary procedure. There is no automatic stage-completion claim or requirement to finish the lesson in one day.
 
 ## Interfaces with other domains
 

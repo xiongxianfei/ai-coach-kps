@@ -18,7 +18,27 @@ The JSON record is a local reporting convention for private use, not a validated
 
 The [master Practice](../practices/ai-assisted-learning-orchestration.md) includes a complete plain-text resume record, so JSON and separate files are optional. Existing `plan_id`, `plan_version`, `learning_stage_id` and `learning_task_id` connect an attempt to the programme when those records exist. No new required schema fields are introduced. Keep the overall target, stage decisions and task attempts distinct, and never fill a learner response merely to complete a template.
 
+## Stage summaries and private storage
+
+Start with one private Markdown learning record per subject, using a heading for each learning stage. Keep the current target and route, actual attempts and feedback, stage summaries, and next step distinguishable within that file. Existing separate records can be linked without copying them. Keep original responses intact when adding a summary or assisted revision.
+
+For example, beneath a learner-chosen private directory **outside every public repository**:
+
+```text
+learning-records/
+  singing/
+    learning-record.md
+    images/
+      voice-production-overview.png
+```
+
+Inside that private Markdown file, embed the illustration beside its stage summary with ordinary syntax such as `![Voice production overview](images/voice-production-overview.png)`. This is an illustrative path, not a file created by this guide. Use a descriptive filename for the actual image and check that it exists. Keep reusable subject knowledge and original illustration provenance in its owning subject project; a private copy or link supports the learner's summary. Never copy personal answers, judgments or progress into the public Model or outline.
+
+A useful stage summary connects the knowledge, embeds one checked overview picture, distinguishes demonstrated understanding and actual assistance from open or untested areas, and explains the next stage's purpose. It is a summary of evidence, not a replacement for it or a mastery certificate. Mark a pause or provisional transition explicitly. Additional pictures are optional. Do not claim persistent storage or a generated image unless the corresponding action occurred; when no private destination is available, provide the summary in the conversation for the learner to save.
+
 ## Start a private record
+
+A plain private note is sufficient. If structured JSON is useful instead, use the existing optional record:
 
 1. Copy data/session-record-template.json outside the public repository.
 2. Specify the goal, task and criterion. Keep identifiers local and avoid unnecessary personal information.
@@ -26,7 +46,7 @@ The [master Practice](../practices/ai-assisted-learning-orchestration.md) includ
 4. Leave unobserved events and unknown fields blank. Do not turn a missing response into a numerical failure.
 5. Run python3 tools/check_record.py /path/to/private-record.json to inspect declarations. Do not upload the private file to an AI service unless appropriate.
 
-For a multi-episode goal, keep the [planning record](LEARNING-WORKFLOW.md) separately. Reference a plan version and stable learning-stage ID in your private note. The plan holds intended activities; this session record holds actual responses and assistance. Neither a plan edit nor a checked map link changes the original performance record.
+For a multi-episode goal, keep the [planning record](LEARNING-WORKFLOW.md) logically separate from observations, as sections in the same private Markdown file or separate existing records. Reference a plan version and stable learning-stage ID in your private note. The plan holds intended activities; this session record holds actual responses and assistance. Neither a plan edit nor a checked map link changes the original performance record.
 
 ## Link a single task to its plan when available
 

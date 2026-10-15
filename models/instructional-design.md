@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instructional-design"
 type: "model"
-version: "0.3.0"
+version: "0.4.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instructional Design"
@@ -85,7 +85,7 @@ The [Instruction and Scaffolding Model](instruction-and-scaffolding.md) develops
 
 Choose the coherent lesson capability before dividing its assessment into questions. A question that reveals one distinction may be only a check within a lesson; it does not define the lesson's full scope. Conversely, a lesson need not survey an entire domain. A useful boundary keeps together the relationships needed for its intended application and leaves unrelated detail for later.
 
-A short assessment set can sample complementary features of that capability: an explanation, an application and a boundary case, where each is relevant. This is not a mandatory three-question template. For equal sharing, calculating a share, explaining the divisor and distinguishing an average from equal individual amounts address different parts of the same capability. Reversing the wording of an already answered question may add little evidence.
+A short assessment set can sample complementary features of that capability: an explanation, an application and a boundary case, where each is relevant. This is not a mandatory three-question template. For equal sharing, calculating a share, explaining the divisor and distinguishing an average from equal individual amounts address different parts of the same capability. Reversing the wording of an already answered question may add little evidence. Response length and evidential value are different: a short prediction with a reason can expose the target relationship, while several lengthy paraphrases may leave application unobserved. The necessary reasoning determines the check, not a quota of questions or an essay requirement. Light checking does not make recognition alone sufficient when the target is explanation.
 
 Preparing the current lesson and its assessment set does not fix all future lessons in advance. Questions need checked criteria and declared assistance conditions, and can change when clarification reveals a problem. A lesson is complete for the agreed purpose when the evidence covers its capability sufficiently, or is paused explicitly when it does not. One correct sub-answer, a question count or the end of an explanation is not by itself a completion rule. Delayed retention and practical performance still require their own observations.
 
@@ -134,7 +134,7 @@ Adaptation connects an observation to a reason for changing a design. It is not 
 
 For example, comparing £0.005/g with £4.50/kg numerically suggests a unit mismatch. Repeating elementary division may leave that relationship untouched. Correctly calculating both rates but choosing the lower package price may instead indicate confusion about the criterion. These are competing interpretations of hypothetical responses, not diagnostic labels or observed learner results.
 
-The [Assessment and Feedback Model](assessment-and-feedback.md) explains how to bound such inferences. The design consequence can be another example, clarification, altered support, a changed task or a revised route. The master Practice chooses one next action with the learner; this Model does not prescribe a universal adaptation policy.
+The [Assessment and Feedback Model](assessment-and-feedback.md) explains how to bound such inferences. The design consequence can be another example, clarification, altered support, a changed task or a revised route. The master Practice carries out one next action within the learner's existing agreement; this Model does not prescribe a universal adaptation policy. A gap that prevents the next activity differs from one that can remain open during further learning. A stage summary connects the knowledge taught, the evidence actually observed and the limits of the transition decision. The summary is not itself a new observation: explaining a relationship to the learner does not establish that the learner can use it. A reusable subject overview and a learner's progress account therefore have different responsibilities, even when the latter embeds the former's illustration.
 
 ## A connected design example
 

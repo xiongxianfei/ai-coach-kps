@@ -24,7 +24,7 @@ The [body-of-knowledge outline](docs/body-of-knowledge-outline.md) shows nine co
 
 **For a new broad subject, start with a brief learner self-assessment and (when appropriate) a small pre-instruction baseline check.** Then build a source-grounded map of the subject's major explanatory areas or subsystems, their boundaries and cross-links; propose a few high-level, revisable capability stages. These are not necessarily one stage per subsystem, and the plan is not a complete calendar of questions.
 
-**Prepare the current coherent lesson:** connected explanation and examples → clarification opportunity → short assessment set → real learner responses → checked combined feedback → one next decision. Follow the learner's pace; guided questions remain available when useful. For baseline or retrieval, the question may come before instruction. The coach waits for the reply, distinguishes assisted from independent evidence, and updates the high-level stages only when evidence or learner circumstances warrant it. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
+**Prepare the current coherent lesson:** connected explanation and examples → clarification opportunity → short assessment set → real learner responses → brief checked feedback → next lesson or focused repair. Follow the learner's pace; guided questions remain available when useful. For baseline or retrieval, the question may come before instruction. The coach waits for the reply, distinguishes assisted from independent evidence, and updates the high-level stages only when evidence or learner circumstances warrant it. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
 
 The master contains its own worked example, task card, assessment branches and blank resume record. References provide support and optional depth, not missing instructions. Subject-specific facts still need an inspectable source; a complete procedure does not make an AI an expert.
 
@@ -43,14 +43,14 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## Choose a coherent lesson
 
-[Coherent lessons and the wider plan](guides/LEARNING-WORKFLOW.md) connects the goal, lesson capability, essential knowledge and assessment. Several related questions can be presented together after teaching. The subject panorama and adaptive stage plan provide orientation; a precise small task can still start directly. Lesson scope and interaction pace are adjustable, authored choices rather than universal learning laws.
+[Coherent lessons and the wider plan](guides/LEARNING-WORKFLOW.md) connects the goal, lesson capability, essential knowledge and assessment. A few short, complementary questions can be presented together after teaching. Feedback leads directly into the next lesson within the agreed scope, unless a blocking gap needs attention or the learner pauses. Each learning stage ends with a connected summary and one overview picture, saved with actual progress and remaining gaps in a private learning record outside public repositories. The subject panorama and adaptive stage plan provide orientation; a precise small task can still start directly. Lesson scope and interaction pace are adjustable, authored choices rather than universal learning laws.
 
 ## First use
 
 1. For a broad goal, record a concise self-assessment and, if useful, a pre-instruction baseline response. Sketch the subject's source-grounded explanatory areas, selected connections and a small high-level stage roadmap. For an already bounded task, start directly without a compulsory survey; prior agreement and actual evidence can be reused.
 2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Detail **the current lesson and assessment**, not all future days. Reuse agreement on scope and pacing, and state outputs, criteria, answer-help boundaries and when to stop or split. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
-4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
+4. Give a bounded interpretation and begin the next lesson or needed repair; summarize at stage boundaries. Stop when the learner pauses or the agreed goal is complete. A prompt does not create memory, scheduling, expertise or learning by itself.
 
 ## What is included
 

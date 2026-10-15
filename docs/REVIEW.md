@@ -86,6 +86,14 @@ The coherent-lesson refinement separates conceptual lesson scope from interactio
 
 This public review record contains no observed learner data, controlled learning outcomes, usability or accessibility study, behavior-enforcement result or causal comparison. It makes no latent learner diagnosis or inference about an actual memory trace. The record checker validates declarations only.
 
+## Lesson continuation and stage summary review
+
+On 2026-10-15 the authoring assistant refined the existing coaching Practice for lighter complementary questions, feedback followed by the next lesson within existing agreement, and a connected summary at each learning-stage boundary. The summary includes one checked overview picture, actual evidence and assistance, open gaps and the next stage. A single private learning record per subject can hold stage summaries with embedded images; no learner record or new image was created or published by this change.
+
+The author walkthrough traced sufficient lesson evidence, a blocking misconception, a nonblocking gap, an absent or partial reply, a requested pause, completion of the overall goal, and a provisional stage transition. The procedure waits for real answers, avoids redundant checks, preserves assistance conditions and distinguishes continuing from mastery. Missing storage or image tools receive an explicit limitation rather than an invented artifact. The singing question bank was shortened and its author criteria checked against the existing subject explanation; no private answer or performance claim was added.
+
+The two amended Models explain response demands, evidence and continuation relationships; delivery rules remain in the master Practice. The dependent summaries in Knowledge Representation, Instructional Design, Instruction and Scaffolding, and the master were compared with the changes before accepting fingerprints. Existing Cognitive Apprenticeship and IES Reference records were inspected for their limits; no new external source inspection or strengthened efficacy claim is reported. The new pacing and summary defaults are authored design choices. Core principles, Practice stage anchors, existing tests, record schemas and pinned tools remain unchanged. This is an AI-assisted editorial walkthrough, not an observed learner trial or independent scientific review; executed check results belong in the PR.
+
 ## Next review tasks
 
 Prioritize expert review of AI-specific adaptation, appropriate assessments for each target subject, missing full-text access, learner-agency tradeoffs and real usability. Test one bounded Practice with consent before scaling. Publish observed outcomes only under appropriate rights and privacy conditions, and keep them distinct from the scientific library.
