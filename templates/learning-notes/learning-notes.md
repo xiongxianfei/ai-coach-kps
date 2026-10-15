@@ -4,7 +4,10 @@ language: "KPS 9.x"
 
 # Learning notes
 
-Adapt the headings, order and detail to your learning. Be flexible about presentation; be precise about meaning and evidence. Remove these instructions from your finished notes.
+> **Template guidance — remove before use**
+>
+> Adapt the headings, order and detail to your learning.
+> Be flexible about presentation; be precise about meaning and evidence.
 
 ## Goal
 
