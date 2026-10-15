@@ -19,9 +19,9 @@ Nine domains organize the subject by explanatory responsibility. Each section na
 
 ## Overview
 
-![Nine AI Coach knowledge domains: Learning and cognition; Knowledge representation; Instructional design; Instruction and scaffolding; Assessment and feedback; Memory and transfer; Motivation and self-regulation; Human–AI interaction; Evaluation of AI-assisted learning. Selected connections show representation informing design, assessment adjusting instruction, and retention and transfer supplying evaluation outcomes.](../diagrams/body-of-knowledge-overview.png)
+![Nine AI Coach knowledge domains: Learning and cognition; Memory and transfer; Motivation and self-regulation; Knowledge representation; Instructional design; Instruction and scaffolding; Assessment and feedback; Human–AI interaction; Evaluation of AI-assisted learning. Selected connections show representation informing design, assessment adjusting instruction, and retention and transfer supplying evaluation outcomes.](../diagrams/body-of-knowledge-overview.png)
 
-The domains answer different questions about the same learning situation. Knowledge representation informs instructional design; assessment and feedback can adjust instruction and scaffolding; memory and transfer supplies outcomes for evaluation. These are selected connections, not a complete causal model or a sequence of compulsory stages. The text below contains the essential content independently of the image. The illustration retains “knowledge areas” as an equivalent plain-language label; its names and relationships are unchanged.
+The domains answer different questions about the same learning situation. Knowledge representation informs instructional design; assessment and feedback can adjust instruction and scaffolding; memory and transfer supplies outcomes for evaluation. These are selected connections, not a complete causal model or a sequence of compulsory stages. The text below contains the essential content independently of the image.
 
 Original AI-generated illustration, produced for this project with the built-in image generation tool. No third-party figure was copied. The [generation prompt](../diagrams/body-of-knowledge-overview.prompt.txt) records the intended labels and relationships; the illustration makes no measured-effect claim.
 
@@ -30,14 +30,16 @@ Original AI-generated illustration, produced for this project with the built-in 
 | Domain | Responsibility | Main coverage |
 |---|---|---|
 | [Learning and cognition](#learning-and-cognition) | Explain how understanding and skill develop | Prior knowledge; attention; working memory; cognitive load; mental representations; conceptual change; expertise; context |
+| [Memory and transfer](#memory-and-transfer) | Explain availability and use of learning over time and contexts | Encoding and forgetting; retrieval; spacing; interleaving; retention; transfer |
+| [Motivation and self-regulation](#motivation-and-self-regulation) | Explain how learners direct and sustain learning | Goals and values; self-efficacy; agency; planning and monitoring; calibration; reflection; emotion and social support |
 | [Knowledge representation](#knowledge-representation) | Represent what a subject contains and how its ideas connect | Boundaries; concepts and propositions; explanatory subsystems; concept maps; multiple representations; source grounding |
 | [Instructional design](#instructional-design) | Translate a capability goal into a justified learning design | Objectives; task analysis; prerequisites; sequencing; task difficulty; alignment; adaptation |
 | [Instruction and scaffolding](#instruction-and-scaffolding) | Explain how assistance supports increasingly independent activity | Explanations; worked examples; modeling; questioning; self-explanation; scaffolding and fading; guided and independent practice |
 | [Assessment and feedback](#assessment-and-feedback) | Interpret responses and inform improvement | Baselines; evidence and criteria; assessment quality; error interpretation; feedback; assistance conditions |
-| [Memory and transfer](#memory-and-transfer) | Explain availability and use of learning over time and contexts | Encoding and forgetting; retrieval; spacing; interleaving; retention; transfer |
-| [Motivation and self-regulation](#motivation-and-self-regulation) | Explain how learners direct and sustain learning | Goals and values; self-efficacy; agency; planning and monitoring; calibration; reflection; emotion and social support |
 | [Human–AI interaction](#human-ai-interaction) | Explain the possibilities and limits of learning through an AI interface | Dialogue; grounding and verification; context and tools; reliance; accessibility; privacy and control |
 | [Evaluation of AI-assisted learning](#evaluation-of-ai-assisted-learning) | Judge the quality and effects of the coaching approach | Outcomes; comparisons; confounding; generalizability; usability; unintended effects |
+
+The reading order moves from the learner to represented knowledge, instructional design and support, evidence, and the AI medium and its evaluation. It is an explanatory order, not a prerequisite chain or the coaching process. The [six-step Practice overview](../practices/ai-assisted-learning-orchestration.md#default-planning-handoff) shows how these domains contribute to actual coaching decisions.
 
 ## Scope and boundaries
 
@@ -66,31 +68,62 @@ This domain asks how a learner develops a usable understanding or skill. It conc
 | Expertise and skill development | Differences in organized knowledge, strategies and increasingly independent performance | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) describes expert content and supported participation; a fuller account of expertise is missing |
 | Context and individual variation | Learning across situations, cultures, languages and adult circumstances | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md); domain applicability and adult variation need local explanation |
 
+## Memory and transfer
+
+This domain asks whether learning remains available and can be used when time, cues or context change. It concerns learning processes and practice conditions. Assessment provides observations of those outcomes; evaluation considers what caused them and how far conclusions extend.
+
+| Topic | What the explanation needs to cover | Existing explanation and gap |
+|---|---|---|
+| Encoding and forgetting | How information becomes retrievable and why later access can fail | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md); detailed memory mechanisms remain missing |
+| Retrieval practice | Reconstructing encountered knowledge and separating recall from correction | Partial: [Retrieval Practice](../methods/retrieval-practice.md) and [Testing Effect](../principles/testing-effect.md), including comparison limits |
+| Spacing | Temporal distribution, retention goals and actual intervals | Partial: [Spacing Effect](../principles/spacing-effect.md); no individualized scheduling algorithm is established |
+| Interleaving and practice variation | Changing categories, examples or contexts, separately from spacing | Source only for alternating examples and problems: [IES overview](../references/pashler-2007-organizing-instruction.md); category-interleaving claims need their own evidence |
+| Retention and performance | Immediate success, later availability and the conditions of observation | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) |
+| Transfer | Applying a relationship to a changed representation, context or reasoning demand | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) supplies the distinction; mechanisms and conditions for transfer remain missing |
+
+## Motivation and self regulation
+
+This domain asks how learners choose, monitor and sustain learning. It includes motivational, cognitive, behavioral and affective dimensions. The learner's confidence is a judgment to examine, not a substitute for demonstrated capability; the coach's proposed plan is not the learner's own regulation.
+
+| Topic | What the explanation needs to cover | Existing explanation and gap |
+|---|---|---|
+| Goals and values | Purpose, interest, perceived value and competing demands | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md) names the broad dimensions; mechanisms need fuller explanation |
+| Self-efficacy and motivation | Beliefs about capability, persistence and context | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md) identifies relevant sections; detailed source inspection remains necessary |
+| Agency and choice | Learner control, assistance preferences and responsibility | Partial context: [Self-Regulated Learning](../concepts/self-regulated-learning.md); consent and autonomy commitments also have a normative basis |
+| Planning and monitoring | Selecting strategies, observing progress and controlling study | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md), without claiming a complete named phase model |
+| Metacognitive calibration | Comparing judgments with performance under stated conditions | Partial: [Metacognitive Calibration](../concepts/metacognitive-calibration.md); measurement methods remain open |
+| Reflection and strategy revision | Interpreting an attempt and changing how one learns | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) and [Self-Regulated Learning](../concepts/self-regulated-learning.md) |
+| Emotion and social support | Frustration, effort, belonging, collaboration and help-seeking | Partial: the sociology dimension of [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md); broader explanation remains missing |
+
 ## Knowledge representation
 
 This domain asks what belongs in the subject and what relationships make it understandable. Its output is a representation of knowledge. Instructional design separately decides which relationships matter for a learner's route; a conceptual connection does not establish a prerequisite.
 
+The [Knowledge Representation Model](../models/knowledge-representation.md) connects the topics below in one introductory explanation with a worked comparison and its own illustration.
+
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Subject boundaries and knowledge domains | Scope, omissions, responsibilities and useful overlap between domains | Gap: current outlines are authored coverage choices; no standalone scholarly account of domain analysis is included |
-| Concepts and propositions | Terms, meanings and labeled relationships that express a claim | Partial: [Concept Map](../concepts/concept-map.md) defines the representation and its limits |
-| Explanatory subsystems and interfaces | What each system explains and how its variables or outputs connect to another | Gap: selecting appropriate domain systems needs inspected subject sources; the coach must not invent a universal partition |
-| Concept mapping | Focus questions, hierarchy, cross-links and revision | Partial: [Concept Mapping](../methods/concept-mapping.md) gives the operation; map accuracy remains a separate check |
-| Multiple representations | Relationships between verbal, graphical, concrete and abstract accounts | Source only: [IES recommendation overview](../references/pashler-2007-organizing-instruction.md); detailed conditions need inspection |
-| Source grounding and uncertainty | Provenance, inspected scope, conflicting accounts and revisable claims | Gap: repository policies specify authoring behavior; broader knowledge about source evaluation is not yet explained |
+| Subject boundaries and knowledge domains | Scope, omissions, responsibilities and useful overlap between domains | [Scope and explanatory responsibility](../models/knowledge-representation.md#scope-and-explanatory-responsibility) introduces focus and omissions; formal domain-analysis methods remain open |
+| Concepts and propositions | Terms, meanings and labeled relationships that express a claim | [Concepts propositions and relationships](../models/knowledge-representation.md#concepts-propositions-and-relationships) explains meanings and typed links; [Concept Map](../concepts/concept-map.md) retains the published terminology |
+| Explanatory subsystems and interfaces | What each system explains and how its variables or outputs connect to another | [Domains subsystems and interfaces](../models/knowledge-representation.md#domains-subsystems-and-interfaces) explains responsibilities and exchanged quantities; specific subjects still require disciplinary sources |
+| Concept mapping | Focus questions, hierarchy, cross-links and revision | [Outlines maps and learning routes](../models/knowledge-representation.md#outlines-maps-and-learning-routes) distinguishes outputs; [Concept Mapping](../methods/concept-mapping.md) supplies the construction procedure |
+| Multiple representations | Relationships between verbal, graphical, concrete and abstract accounts | [Connected representations](../models/knowledge-representation.md#connected-representations) and the worked comparison explain meaning across forms; detailed learning mechanisms remain open |
+| Source grounding and uncertainty | Provenance, inspected scope, conflicting accounts and revisable claims | [Sources uncertainty and revision](../models/knowledge-representation.md#sources-uncertainty-and-revision) gives introductory distinctions; comprehensive evidence appraisal remains open |
 
 ## Instructional design
 
 This domain asks how a goal becomes a coherent set of learning opportunities. It concerns proposed capabilities, tasks and their relationships. Instruction and scaffolding concerns the help offered during those tasks; assessment examines what responses support concluding.
 
+The [Instructional Design Model](../models/instructional-design.md) connects the topics below through a capability goal, task demands, support and evidence, with its own illustration.
+
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Capability objectives and alignment | Observable capabilities and matching content, activities and criteria | Partial: [Assessment Triangle](../models/assessment-triangle.md) aligns competence, observation and interpretation; instructional-design coverage is incomplete |
-| Task analysis | Component demands, integration and meaningful units of work | Gap: no standalone account; one task at a time is currently an authored workflow choice |
-| Prerequisites and corequisites | Required preparation, helpful background and capabilities learned together | Gap: a map edge alone does not justify a required-before relation |
-| Sequencing and learning progressions | Complexity, diversity and evidence for proposed routes | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md); [learning-progressions source](../references/national-research-council-2007-learning-progressions.md) bounds terminology |
-| Task difficulty and practice selection | How demand changes with knowledge, support and the target capability | Partial: [Instructional Scaffolding](../concepts/instructional-scaffolding.md) covers support; difficulty selection needs deeper treatment |
-| Adaptive instructional decisions | Reasons to revisit, bypass, split, combine or reorder work | Gap: local adaptation rules exist in Practices but are not an established adaptive-instruction model |
+| Capability objectives and alignment | Observable capabilities and matching content, activities and criteria | [Capability objectives and alignment](../models/instructional-design.md#capability-objectives-and-alignment) connects goals, activities and evidence; broader design frameworks remain open |
+| Task analysis | Component demands, integration and meaningful units of work | [Task analysis and meaningful integration](../models/instructional-design.md#task-analysis-and-meaningful-integration) explains a local decomposition; formal analysis methods need deeper coverage |
+| Prerequisites and corequisites | Required preparation, helpful background and capabilities learned together | [Prerequisites and corequisites](../models/instructional-design.md#prerequisites-and-corequisites) explains task-dependent relations; no universal prerequisite graph is established |
+| Sequencing and learning progressions | Complexity, diversity and evidence for proposed routes | [Sequencing and learning progressions](../models/instructional-design.md#sequencing-and-learning-progressions) distinguishes a provisional route from a researched progression; subject-specific sequence evidence remains open |
+| Task difficulty and practice selection | How demand changes with knowledge, support and the target capability | [Task demand support and practice](../models/instructional-design.md#task-demand-support-and-practice) explains changing demands and help; no optimized difficulty or schedule is supplied |
+| Adaptive instructional decisions | Reasons to revisit, bypass, split, combine or reorder work | [Adaptation from evidence](../models/instructional-design.md#adaptation-from-evidence) and the connected design example explain conditional changes; actual coaching decisions remain authored Practice content |
 
 ## Instruction and scaffolding
 
@@ -119,33 +152,6 @@ The [Assessment and Feedback Model](../models/assessment-and-feedback.md) is the
 | Formative interpretation | Using evidence to choose instruction and investigating competing explanations | [Interpretation and competing explanations](../models/assessment-and-feedback.md#interpretation-and-competing-explanations) connects the distinctions to an example; subject-specific misconception accounts remain outside this general Model |
 | Feedback and revision | Information about the work, actionable discrepancies and subsequent use | [Feedback and revision](../models/assessment-and-feedback.md#feedback-and-revision) explains the relationship; timing and context-dependent effects still need fuller treatment |
 | Assistance and evidence conditions | Original versus corrected answers, hints, answer exposure and access supports | [Assistance and evidence conditions](../models/assessment-and-feedback.md#assistance-and-evidence-conditions) and the [connected comparison example](../models/assessment-and-feedback.md#a-connected-comparison-example); no universal mastery threshold is supplied |
-
-## Memory and transfer
-
-This domain asks whether learning remains available and can be used when time, cues or context change. It concerns learning processes and practice conditions. Assessment provides observations of those outcomes; evaluation considers what caused them and how far conclusions extend.
-
-| Topic | What the explanation needs to cover | Existing explanation and gap |
-|---|---|---|
-| Encoding and forgetting | How information becomes retrievable and why later access can fail | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md); detailed memory mechanisms remain missing |
-| Retrieval practice | Reconstructing encountered knowledge and separating recall from correction | Partial: [Retrieval Practice](../methods/retrieval-practice.md) and [Testing Effect](../principles/testing-effect.md), including comparison limits |
-| Spacing | Temporal distribution, retention goals and actual intervals | Partial: [Spacing Effect](../principles/spacing-effect.md); no individualized scheduling algorithm is established |
-| Interleaving and practice variation | Changing categories, examples or contexts, separately from spacing | Source only for alternating examples and problems: [IES overview](../references/pashler-2007-organizing-instruction.md); category-interleaving claims need their own evidence |
-| Retention and performance | Immediate success, later availability and the conditions of observation | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) |
-| Transfer | Applying a relationship to a changed representation, context or reasoning demand | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) supplies the distinction; mechanisms and conditions for transfer remain missing |
-
-## Motivation and self regulation
-
-This domain asks how learners choose, monitor and sustain learning. It includes motivational, cognitive, behavioral and affective dimensions. The learner's confidence is a judgment to examine, not a substitute for demonstrated capability; the coach's proposed plan is not the learner's own regulation.
-
-| Topic | What the explanation needs to cover | Existing explanation and gap |
-|---|---|---|
-| Goals and values | Purpose, interest, perceived value and competing demands | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md) names the broad dimensions; mechanisms need fuller explanation |
-| Self-efficacy and motivation | Beliefs about capability, persistence and context | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md) identifies relevant sections; detailed source inspection remains necessary |
-| Agency and choice | Learner control, assistance preferences and responsibility | Partial context: [Self-Regulated Learning](../concepts/self-regulated-learning.md); consent and autonomy commitments also have a normative basis |
-| Planning and monitoring | Selecting strategies, observing progress and controlling study | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md), without claiming a complete named phase model |
-| Metacognitive calibration | Comparing judgments with performance under stated conditions | Partial: [Metacognitive Calibration](../concepts/metacognitive-calibration.md); measurement methods remain open |
-| Reflection and strategy revision | Interpreting an attempt and changing how one learns | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) and [Self-Regulated Learning](../concepts/self-regulated-learning.md) |
-| Emotion and social support | Frustration, effort, belonging, collaboration and help-seeking | Partial: the sociology dimension of [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md); broader explanation remains missing |
 
 ## Human AI interaction
 
@@ -208,6 +214,6 @@ The nine-domain arrangement is a KPS editorial synthesis. The following sources 
 
 The [master coaching Practice](../practices/ai-assisted-learning-orchestration.md) applies knowledge from several domains in each session. Its learner assessment, subject orientation, capability roadmap, task selection, teaching and adaptation are operational decisions. They are not the divisions of this body of knowledge and do not require a learner to study the entire outline first.
 
-Assessment and feedback now has an integrated introductory domain Model. Other current explanations provide bounded entry points to concept mapping, guided instruction, retrieval and self-regulation. The broadest explanation gaps are cognition, instructional design and human–AI interaction. Inspect appropriate source passages and improve a useful connected explanation before creating more files. Preserve the distinction between source-supported meaning, authored coaching choices and actual learner evidence.
+Knowledge representation, Instructional design, and Assessment and feedback now have integrated introductory domain Models, each with an embedded overview illustration. Their topic tables retain unresolved depth and evidence limits. Other current explanations provide bounded entry points to guided instruction, retrieval and self-regulation. The broadest explanation gaps include cognition, memory and transfer, motivation, human–AI interaction and evaluation. Inspect appropriate source passages and improve a useful connected explanation before creating more files. Preserve the distinction between source-supported meaning, authored coaching choices and actual learner evidence.
 
 The outline and illustration can be revised as coverage improves. Additional topic illustrations are optional. [The knowledge index](INDEX.md) remains the generated catalog by KPS role; this outline remains the reader's subject coverage view.

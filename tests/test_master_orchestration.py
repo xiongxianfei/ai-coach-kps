@@ -207,8 +207,8 @@ class MasterContentTests(unittest.TestCase):
         summary = section(text, 'Summary')
         handoff = section(text, 'Default planning handoff')
         self.assertIn('self-assessment and an optional pre-instruction diagnostic', summary)
-        for phrase in ('Understand the learner', 'Clarify the subject',
-                       'Propose learning stages', 'Start learning', 'Adapt from evidence',
+        for phrase in ('Assess the learner', 'Map the subject',
+                       'Propose learning stages', 'Select one task', 'Teach and assess', '6. Adapt',
                        'Do not pre-generate', 'high-level'):
             self.assertIn(phrase, handoff)
 
