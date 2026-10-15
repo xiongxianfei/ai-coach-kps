@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:richards-2022-morphology"
 type: "reference"
-version: "0.1.1"
+version: "0.1.2"
 language: "KPS 9.x"
 status: "draft"
 creator: "Norvin W. Richards"
@@ -23,7 +23,7 @@ The lecture connects alternative attachment structures with different interpreta
 
 ## Summary
 
-This subject source supports the bounded word analysis in the Instruction and Scaffolding Model and the master Practice's connected lesson example. It does not supply evidence for the effectiveness of our coaching guidance.
+This subject source supports the bounded word analysis in the Instruction and Scaffolding Model and the worked-example guide's connected English lessons. It does not supply evidence for the effectiveness of our coaching guidance.
 
 ## Publication identity
 
