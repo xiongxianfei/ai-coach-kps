@@ -1,0 +1,13 @@
+Create a premium educational infographic, landscape 1536x1024, warm ivory paper, elegant navy headings, highly readable typography, refined teal and gold watercolor drawings, clean precise relationships. Title: Instructional Design. Subtitle: Connect a capability goal to meaningful learning opportunities.
+Main upper diagram: three large cards forming a triangle:
+Capability: What should the learner be able to do?
+Activity: What will the learner attempt?
+Evidence: What would the response show?
+Connect every pair with simple double-headed lines labelled Alignment, no chronological arrows.
+Below: a wide illustration of a branching path, called Provisional learning route. Three capability milestones: Interpret quantities / Explain a rate / Justify a comparison. Under path: Entry and order depend on the learner.
+Side callout: Learner evidence and constraints inform the design.
+Lower two inset cards:
+Task demands: units • representations • integration
+Support: demonstration • hints • independent attempt
+Bottom footer: Adapt from actual responses. One success does not establish lasting learning.
+Draw an elegant small package-and-calculator illustration; use no numerical data. Emphasize the alignment relationship and revisable route, not a compulsory algorithm. Professional textbook quality, spacious readable layout. No extra slogans, logos or made-up citations.

@@ -31,6 +31,12 @@ class PublicationTests(unittest.TestCase):
         self.mutate('concepts/feedback.md',lambda m:m.update(references=[]));self.has_error('alignment-dependency')
     def test_wrong_alignment_relation(self):
         self.mutate('models/assessment-triangle.md',lambda m:m['source_alignment'][0].update(relation='endorsed-by-source'));self.has_error('alignment-relation')
+    def test_synthesis_requires_authorship(self):
+        self.mutate('models/assessment-and-feedback.md',lambda m:m.update(basis_kind='published theory'));self.has_error('synthesis-authorship')
+    def test_synthesis_requires_source_contribution(self):
+        self.mutate('models/assessment-and-feedback.md',lambda m:m['source_alignment'][0].pop('contribution'));self.has_error('synthesis-contribution')
+    def test_synthesis_relation_is_model_only(self):
+        self.mutate('concepts/feedback.md',lambda m:m['source_alignment'][0].update(relation='synthesis-contribution',contribution='Constructed mutation'));self.has_error('alignment-relation')
     def test_no_unsupported_review(self):
         self.mutate('principles/testing-effect.md',lambda m:m.update(reviewed='2026-10-12',status='active'));self.has_error('unsupported-promotion')
     def test_application_authorship(self):

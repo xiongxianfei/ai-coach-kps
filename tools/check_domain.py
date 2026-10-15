@@ -5,7 +5,7 @@ from pathlib import Path
 import json,hashlib,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import validate as v
-ALLOWED={'concept':{'definition-paraphrase'},'principle':{'scoped-empirical-finding','methodological-relationship'},'model':{'published-model-subset'},'method':{'published-procedure-summary'}}
+ALLOWED={'concept':{'definition-paraphrase'},'principle':{'scoped-empirical-finding','methodological-relationship'},'model':{'published-model-subset','synthesis-contribution'},'method':{'published-procedure-summary'}}
 
 def inspect(root=ROOT):
     root=Path(root);errors=[];docs=[]
@@ -42,6 +42,10 @@ def inspect(root=ROOT):
             if ident not in m.get('references',[]):errors.append('alignment-dependency:'+name)
             if a.get('relation') not in ALLOWED[typ]:errors.append('alignment-relation:'+name)
             if not isinstance(a.get('locator'),str) or not a['locator'].strip():errors.append('alignment-locator:'+name)
+            if a.get('relation')=='synthesis-contribution':
+                basis=m.get('basis_kind','')
+                if not isinstance(basis,str) or 'KPS-authored' not in basis or 'synthesis' not in basis.lower():errors.append('synthesis-authorship:'+name)
+                if not isinstance(a.get('contribution'),str) or not a['contribution'].strip():errors.append('synthesis-contribution:'+name)
         if not v.section(d,'Source alignment'):errors.append('missing-visible-alignment:'+name)
         if not any('limit' in h.lower() for n,h in d.headings):errors.append('missing-limits:'+name)
     try:

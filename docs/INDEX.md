@@ -82,8 +82,11 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Models
 
+- [Assessment and Feedback](../models/assessment-and-feedback.md) — A response becomes useful evidence when it is interpreted against a clear capability and criterion; feedback connects that interpretation to something the learner can understand and revise.
 - [Assessment Triangle](../models/assessment-triangle.md) — Assessment connects a model of cognition, observations and their interpretation.
 - [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) — The published framework relates contextual expertise, guided participation and increasingly independent activity.
+- [Instructional Design](../models/instructional-design.md) — A learning design connects the intended capability, the activity and the evidence of success. Its route is a proposal informed by the learner and revised when actual responses or circumstances justify change.
+- [Knowledge Representation](../models/knowledge-representation.md) — A useful representation makes the subject's important relationships explicit while preserving their meaning, scope and uncertainty. Its organization helps someone reason about a question; it does not by itself establish a teaching order or show what a learner knows.
 
 ## Methods
 

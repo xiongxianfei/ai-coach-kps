@@ -1,0 +1,11 @@
+Edit this AI Coach overview into a beautiful, highly readable educational illustration, preserving its warm ivory paper, navy typography, teal and gold watercolor illustrations, 3 by 3 grid, landscape aspect ratio and selected-connections strip. Reorder the entire cards INCLUDING their illustrations to this exact row-major order:
+Row1: Learning and cognition | Memory and transfer | Motivation and self-regulation
+Row2: Knowledge representation | Instructional design | Instruction and scaffolding
+Row3: Assessment and feedback | Human–AI interaction | Evaluation of AI-assisted learning
+Keep original titles, short subtitles and illustrations attached to the correct domain, no repeated or missing cards. Improve small text clarity. For Knowledge representation simplify node labels and show explicit labelled relation Concept — illustrated by → Example. Keep the title AI Coach / Body of knowledge.
+Keep selected connections:
+Knowledge representation → informs → Instructional design
+Assessment and feedback → adjusts → Instruction and scaffolding
+Memory and transfer → supplies outcomes for → Evaluation of AI-assisted learning
+Footer exact: Connected knowledge domains, not compulsory learning stages.
+No arrows joining the nine cards into a sequence. No brand marks. Aim for polished editorial textbook illustration with meticulous legibility.

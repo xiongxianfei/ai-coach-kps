@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.2.0"
+version: "0.2.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -15,7 +15,7 @@ stage_order: "recommended; resume at the current decision rather than repeat eve
 stage_titles: ["Stage1 Establish the overall target and learning agreement", "Stage2 Orient to the subject and propose learning stages", "Stage3 Select one current learning task", "Stage4 Teach question and preserve the learner response", "Stage5 Assess the response and adapt assistance", "Stage6 Evaluate stage evidence and revise the programme", "Stage7 Retrieve review and resume or close"]
 composes: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai", "ai-coach:practice:self-regulated-learning-with-ai", "ai-coach:practice:formative-assessment-with-ai", "ai-coach:practice:retrieval-and-distributed-practice-with-ai", "ai-coach:practice:evaluation-of-ai-assisted-learning"]
 uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:concept-map", "ai-coach:concept:instructional-scaffolding", "ai-coach:concept:formative-assessment", "ai-coach:concept:learning-performance-distinction"]
-uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle"]
+uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
 references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008"]
@@ -58,15 +58,33 @@ A subject panorama describes major areas; a goal concept map describes selected 
 
 ## Default planning handoff
 
-| Planning step | Minimum visible output | Constraint |
+The six-step overview describes the coaching process. The linked StageN sections retain the detailed procedure; step 5 combines teaching and feedback, while step 6 includes later review and resumption. Knowledge domains explain these decisions and are not six curriculum modules.
+
+| Coaching step | Minimum visible output | Constraint |
 |---|---|---|
-| Understand the learner | Self-reported prior experience, constraints and any actual baseline response, with help and answer exposure recorded | Confidence is not a competence score; an unavailable baseline is marked unknown |
-| Clarify the subject | A compact map of candidate explanatory areas or subsystems: each area's question, boundary, selected relation, source status and notable omissions | Do not impose a universal taxonomy, pretend areas are isolated, or equate labels with understanding |
-| Propose learning stages | A few broad, revisable capabilities with stable IDs, likely relationships, candidate checks and justified prerequisite hypotheses | Stages may integrate several subject areas; scientific relationships are not automatically teaching prerequisites |
-| Start learning | Exactly one current meaningful task, its input, expected reply, checked criterion, permitted help and stop/split rule | Do not pre-generate the detailed questions, answers or fixed calendar for all later stages |
-| Adapt from evidence | Preserved original attempt, feedback/verification basis and one next decision; revise the high-level roadmap only when warranted | Assisted success, a self-rating or a single ambiguous answer is not proof of stage completion |
+| 1. Assess the learner | Agreed goal, brief self-assessment, constraints and any useful pre-instruction baseline response, with help and answer exposure recorded | Confidence is not a competence score; an unavailable baseline is marked unknown |
+| 2. Map the subject | A compact map of candidate explanatory domains or subsystems: each area's question, boundary, selected relation, source status and notable omissions | Do not impose a universal taxonomy, pretend areas are isolated, or equate labels with understanding |
+| 3. Propose learning stages | A few broad, revisable capabilities with stable IDs, likely relationships, candidate checks and justified prerequisite hypotheses | Stages may integrate several subject areas; scientific relationships are not automatically teaching prerequisites |
+| 4. Select one task | Exactly one current meaningful task, its input, expected reply, checked criterion, permitted help and stop/split rule | Do not pre-generate the detailed questions, answers or fixed calendar for all later stages |
+| 5. Teach and assess | Relevant explanation when needed, a question, the learner's actual reply, then checked feedback with original response and assistance preserved | Wait for the real reply; for a baseline or retrieval attempt, ask before teaching the answer |
+| 6. Adapt | One next action based on the evidence and learner's circumstances; revise the high-level roadmap only when warranted | Assisted success, a self-rating or a single ambiguous answer is not proof of stage completion; later retention and transfer require their own observations |
 
 A plan should fit the learner's goal and constraints, not a mandatory number of subsystems or stages. Show the brief roadmap for orientation, then concentrate the dialogue on **the current task**. On a later session reuse the map and plan instead of regenerating them without reason.
+
+## How knowledge domains support the process
+
+| Process step and detailed procedure | Main contributing domains | Decision they help explain |
+|---|---|---|
+| Assess the learner — [Stage1](#stage1-establish-the-overall-target-and-learning-agreement) | Assessment and feedback; Learning and cognition; Motivation and self-regulation | What is known, self-reported or still unobserved, and what the learner wants |
+| Map the subject — [Stage2](#stage2-orient-to-the-subject-and-propose-learning-stages) | Knowledge representation | Which concepts, boundaries and relationships belong in the orientation |
+| Propose learning stages — [Stage2](#stage2-orient-to-the-subject-and-propose-learning-stages) | Instructional design; Learning and cognition; Memory and transfer; Motivation and self-regulation | Which capability route is useful given the goal, evidence and constraints |
+| Select one task — [Stage3](#stage3-select-one-current-learning-task) | Instructional design; Assessment and feedback; Instruction and scaffolding | Which activity, criterion and support can make the next attempt meaningful and interpretable |
+| Teach and assess — [Stage4](#stage4-teach-question-and-preserve-the-learner-response) and [Stage5](#stage5-assess-the-response-and-adapt-assistance) | Instruction and scaffolding; Assessment and feedback; Human–AI interaction | What explanation or help is relevant, what the actual response shows and whether feedback is accurate |
+| Adapt — [Stage6](#stage6-evaluate-stage-evidence-and-revise-the-programme) and [Stage7](#stage7-retrieve-review-and-resume-or-close) | Assessment and feedback; Instructional design; Memory and transfer; Motivation and self-regulation | Whether to clarify, revisit, change support, advance, retrieve later, revise the route or stop |
+
+Human–AI interaction spans all six steps: turn-taking, access, verification, available context and learner control affect every decision. Evaluation of AI-assisted learning examines the quality and effects of the approach over time; it is not an extra effectiveness test required after every reply. A successful task by itself does not establish that the coaching approach caused learning.
+
+The [body of knowledge outline](../docs/body-of-knowledge-outline.md) locates all nine domains. The [Knowledge Representation](../models/knowledge-representation.md), [Instructional Design](../models/instructional-design.md), and [Assessment and Feedback](../models/assessment-and-feedback.md) Models deepen the explanations; the operational instructions remain complete in this Practice.
 
 ## Stage map
 

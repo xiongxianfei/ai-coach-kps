@@ -22,7 +22,7 @@ The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts t
 
 ## Default adaptive roadmap for a new subject
 
-The self-contained master Practice supplies the actual steps; this optional guide summarizes its initial handoff. Do **not** start with a detailed multiweek list of daily questions.
+The self-contained master Practice supplies the [six-step process](../practices/ai-assisted-learning-orchestration.md#default-planning-handoff) and its [connections to knowledge domains](../practices/ai-assisted-learning-orchestration.md#how-knowledge-domains-support-the-process). This optional guide summarizes the handoff to a learning task. Do **not** start with a detailed multiweek list of daily questions.
 
 | Step | What the learner and coach decide | Keep distinct |
 |---|---|---|
@@ -30,7 +30,8 @@ The self-contained master Practice supplies the actual steps; this optional guid
 | 2. Subject areas or subsystems | A compact, source-grounded panorama: each candidate area's central question, boundary, an example and important overlaps | Academic explanatory perspectives versus arbitrary syllabus chapters |
 | 3. High-level stages | A few provisional capabilities, combining areas as useful, with candidate checkpoints and reasoned prerequisites | Subject-map relationships versus instructional prerequisites |
 | 4. One active task | Only the first meaningful, answerable activity with expected response, checked criterion, permitted help and stop/split rule | Day labels versus stable learning-task identities |
-| 5. Evidence-led adaptation | Preserve original answer, actual help and criterion-based feedback; choose one next action | Task success versus independent stage-level or retained learning |
+| 5. Teach and assess | Explain when needed, ask, wait for the actual reply, then give checked feedback; preserve original answer and actual help | Supplied explanation versus learner-generated evidence; baseline and retrieval questions precede answer teaching |
+| 6. Adapt | Choose one next action; revise the roadmap when evidence or circumstances warrant | Task success versus independent stage-level or retained learning |
 
 For English, a panorama might distinguish phonetics, phonology, syntax, semantics and pragmatics by their explanatory questions, while recognizing the cross-cutting role of prosody. A learner's proposed stage could combine syntax and semantics to explain one sentence; there is no one-to-one rule assigning each linguistic area its own week. Show the roadmap for orientation, then work on **one** task. Keep future task details undecided until the learner responds and the evidence is interpreted.
 

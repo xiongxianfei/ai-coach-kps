@@ -37,6 +37,8 @@ Record actual local and archive check results in the change PR. The ordinary val
 
 The full shared validator suite is maintained in Core; this domain checks the pinned copy and validates its actual files. Domain checks require valid scholarly source locators, original application labels, adult scope, unchanged upstream copies and retained provisional status. Record tests use synthetic fixtures only; they do not grade a human answer or establish psychometric validity.
 
+The local source-alignment profile also admits explanatory domain Models using `synthesis-contribution`. Each contribution needs an inspected locator and a description of what the source supports; the Model must identify KPS synthesis authorship. Focused declaration regressions reject missing authorship, missing contributions and use of that relation outside Models. The former exact two-Model inventory assertion was removed because it did not test source faithfulness. The pinned Core validator and upstream authoring files are unchanged; checks still cannot validate the synthesis scientifically.
+
 ## One current task declarations
 
 The optional `next_task` plan entry selects one current proposed task and names its output, checking criterion, assistance boundary and stop/split rule. Its stage ID must exist in the proposal. Optional session-record linkage fields have bounded types and cannot create an observed result. New tests reject unsupported multiple/invalid task declarations and broken plan linkage. These assertions test **format and authorship boundaries**, not whether the task is optimally sized, the criterion is scientifically adequate, or the learner improved.
