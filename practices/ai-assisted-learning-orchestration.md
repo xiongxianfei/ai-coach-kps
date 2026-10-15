@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.7.0"
+version: "0.8.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -18,7 +18,7 @@ uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:co
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:instruction-and-scaffolding", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
-references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics"]
+references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics", "ai-coach:reference:richards-2022-morphology"]
 ---
 
 # AI Assisted Learning Orchestration
@@ -238,7 +238,7 @@ The selected UNSW source and inspection limits are recorded in Academic basis an
 3. For a question set, review the answers together: state what was supported, identify specific discrepancies, explain their checked basis and connect errors that share an underlying misunderstanding. Retain each answer's evidence and help conditions; prioritize useful corrections rather than forcing one feedback point or adding a follow-up for every item. Offer a hint, simpler example, direct explanation or pause. Preserve the original answer before correction and assign a new attempt identifier when help changes the conditions.
 4. If the obstacle is unclear or repeats, investigate it inline. List plausible explanations, including ambiguous instructions and missing knowledge. Ask one short question that would distinguish them. For the rate example, “What does the three count?” probes denominator meaning; providing already matched units helps distinguish a conversion issue from a ratio issue. An inconclusive probe stays inconclusive. Do not infer intelligence, motivation, a learning style or a clinical condition.
 5. Decide whether another instruction attempt or a new independent check is appropriate. Reuse the agreed assistance conditions for a fresh comparable question without answer-generating help; retain access accommodations. Ask about a material change in conditions, not permission for every routine next step. Do not overwrite an assisted revision as the baseline or demand a redundant new test when an existing observation adequately answers the decision.
-6. Give concise feedback, then carry out one next action. When the lesson evidence is sufficient and no blocking gap remains, introduce and teach the next lesson in the same reply, ending at its light assessment and waiting for actual answers. If this closes a learning stage, first provide the Stage6 summary. If an important misunderstanding blocks the next lesson, clarify that relationship and ask only the needed follow-up instead. Record nonblocking gaps for a later revisit. Respect a request to pause, a changed goal or a scope boundary; when the overall goal is complete, close the programme. Do not end routine feedback with “Shall we continue?” or generate the next learner reply.
+6. Give concise feedback, then carry out one next action. Explain briefly which observed strength or gap makes the next capability useful; do not assume every error has the same cause or silently drop an unrelated unresolved issue. When the lesson evidence is sufficient and no blocking gap remains, introduce and teach the next lesson in the same reply, ending at its light assessment and waiting for actual answers. If this closes a learning stage, first provide the Stage6 summary. If an important misunderstanding blocks the next lesson, clarify that relationship and ask only the needed follow-up instead. Record nonblocking gaps for a later revisit. Respect a request to pause, a changed goal or a scope boundary; when the overall goal is complete, close the programme. Do not end routine feedback with “Shall we continue?” or generate the next learner reply.
 
 | Actual observation or condition | Action now | What not to claim |
 |---|---|---|
@@ -329,6 +329,71 @@ Learner agreement and changes requested: NOT RECORDED
 
 To use existing optional JSON records, keep the overall target and stage plan under `plan_id` and `version`. Relate a task/attempt using `plan_id`, `plan_version`, `learning_stage_id`, `learning_task_id` and `attempt_id`. These identifiers only connect declarations; they do not prove the records exist or the learner succeeded. A plan contains intentions; each observation contains an actual response and conditions. No new application or record file is required to follow this Practice.
 
+## Connected lesson example
+
+This constructed example shows how feedback can motivate the next lesson within a stage about relating linguistic structure, meaning and contextual evidence. Every response and note below is fictional, not a transcript or learner result. Lesson numbers indicate an illustrative sequence, not days or a required teaching format. The word analysis follows Richards, *More morphology*, numbered pages 16–18; the situations, inference checks and coaching decisions are authored applications. This source does not establish interpretation preferences or coaching effectiveness.
+
+### Lesson 1 Connect word structure with meaning
+
+The capability is to explain two analyses of *unlockable*, including what each part contributes. A base is the expression an affix attaches to. Here, one *un-* attaches to a verb and reverses its action; another attaches to an adjective and negates its property. *-able* combines with a verb to express possibility. Build the interpretation from the inside outward:
+
+| Structure | Contributions | Resulting interpretation |
+|---|---|---|
+| `[[un + lock] + able]` | Form the verb *unlock*, then apply *-able* | Can be unlocked |
+| `[un + [lock + able]]` | Form *lockable*, then negate that property | Cannot be locked |
+
+The letters alone do not display this grouping. For a working door that can be locked and then opened with its key, the first interpretation applies and the second does not. Calling the first interpretation true therefore does not make the second true; these are different claims about what can be done.
+
+An application task asks the learner to explain both groupings and consider this report: “The caretaker called the door unlockable. She was carrying a key.” Does the report establish which meaning she intended? The teaching table remains available, so this is supported application, not a hidden-answer baseline. In live coaching, present the task and wait before feedback.
+
+**Fictional response for illustration:** “With un- on lock, it means reverse locking, then able means possible. With un- on lockable, it means not possible to lock. Because she carries a key, she definitely means it can be unlocked.”
+
+The response connects the parts to both meanings under the available support. The word *definitely* goes beyond the evidence: carrying a key does not establish that it operates this door or that the caretaker intended that reading. This is a localized inference problem, not evidence that all the morphological analysis needs reteaching.
+
+### Feedback and the next lesson choice
+
+A possible coach reply is:
+
+> Your two explanations connect the groupings to their meanings correctly. Carrying a key makes the unlocking interpretation worth considering, but it does not establish the caretaker's intention: the key could belong to another door. The unresolved question is how to distinguish an available meaning from evidence about a particular situation. We will use the two meanings you just explained to examine that distinction next.
+
+The first lesson's supported word-analysis task can be recorded as meeting its local criterion in this fictional case. Contextual inference remains open; the correction is teaching, not a new successful learner response. The next lesson directly develops that open relationship, so no routine permission question or duplicate test of both definitions is needed. If the original response instead confused the meanings, repair that distinction before using it as a premise. Other observed gaps would remain noted separately.
+
+### Lesson 2 Distinguish meanings from contextual evidence
+
+The central question is: **What does each meaning claim, and what does the available evidence actually establish?** Three things must stay distinct: the interpretations made available by the word structure, whether an interpretation fits the described situation, and what a particular speaker intended.
+
+Start with a concrete case. A door's mechanism engages when locked, and the correct key releases it. The description supports both the ability to lock it and the ability to unlock it. Consequently, “can be unlocked” fits, while “cannot be locked” conflicts with the stated facts. Knowing that one reading fits the facts still differs from directly observing a speaker's intention; a speaker might be mistaken or using a different context.
+
+Now change one condition: the mechanism is broken so that the door cannot be secured by locking. “Cannot be locked” fits this description. That fact alone does not tell us whether some already engaged lock can be released. The two readings answer different questions; do not infer one capability merely by reversing the truth of the other description.
+
+Return to the caretaker carrying a key. Unlike the explicit facts about the mechanism, this observation leaves important information unspecified. It gives a possible reason to consider unlocking, but the key might be unrelated. A direct clarification such as “I mean that the door cannot be locked” would explicitly identify the intended reading, though it would not by itself verify the mechanism's physical condition.
+
+The relationship is therefore: **word structure supplies the two analyses; the stated facts let us check their application; additional context can inform an interpretation without automatically settling intention or factual truth.** This is a bounded explanatory comparison, not a claim that language processing always follows three successive steps. Its wording and representations can be adapted without losing these distinctions.
+
+### Complementary application and the wait boundary
+
+After the explanation and any clarification, present two short tasks together:
+
+1. A cabinet can be locked and its correct key opens it. Which reading of *unlockable* fits these facts, and which conflicts with them? Give one brief reason.
+2. A technician calls another cabinet “unlockable” while carrying a replacement lock. Does that establish the intended meaning? Name one short clarification that would distinguish the readings.
+
+The first task checks applying the meanings to explicit facts; the second checks the limit of circumstantial evidence. If an existing response already establishes one distinction, omit its duplicate. Further questions are justified by remaining uncertainty, not by a fixed quota.
+
+**Stop here in live delivery and wait for the actual reply.** There is no fictional second response or automatic lesson-completion claim.
+
+For author review only: task 1 supports “can be unlocked” and rules out “cannot be locked” under the stated facts. Task 2 does not establish the intention; the replacement may concern this cabinet or another, and a clarification can ask which of the two meanings the technician intends. Preserve both the answer and actual assistance. These keys are visible in the published example; use fresh, checked material if an unexposed assessment is needed. Success with cabinets would support a bounded application, not general competence with every kind of linguistic ambiguity or delayed retention.
+
+### A concise learning note update
+
+In a real programme, keep the lesson outline and meaningful responses in the current numbered stage file. For this fictional example, the update would retain:
+
+- **Original response and conditions:** the Lesson 1 response above, explicitly labeled fictional here; the teaching table was available. In actual notes, retain the real response and help instead.
+- **Feedback:** both meanings explained; certainty about speaker intention unsupported. The correction and counterexample came from the coach.
+- **Current position:** supported word analysis in the constructed case; the inference distinction has been explained but not yet demonstrated in a subsequent reply. Practical checks of a door and delayed retention were not performed.
+- **Next action:** wait for the Lesson 2 application responses. Keep the stage open; add its final connected summary and overview picture only at the stage boundary.
+
+The overview can link to that evidence and carry the pending action; it need not duplicate the conversation. No new note fields or compulsory lesson headings follow from this example. Be flexible about presentation; be precise about meaning and evidence.
+
 ## Opening prompt and one turn contract
 
 This configuration suggestion is authored, not guaranteed to control any AI product. It assumes neither browsing nor code execution.
@@ -416,6 +481,8 @@ The named scholarly ideas below support selected distinctions. The seven-stage o
 - **Retrieval and spacing:** the Karpicke and Blunt (2011) and Cepeda et al. (2008) records concern particular tasks and comparisons. Stage7 retains their distinction between retrieval activity and temporal distribution; its schedule is locally chosen, not a tested AI protocol. [Retrieval source record](../references/karpicke-blunt-2011-retrieval-practice.md), [spacing source record](../references/cepeda-2008-temporal-ridgeline.md).
 
 - **Singing example subject basis:** selected sections of Wolfe, Garnier and Smith's UNSW voice-acoustics essay support the bounded subject explanation in Stage4. The lesson design and questions are authored adaptations, not a tested intervention. [Source record](../references/wolfe-garnier-smith-2009-voice-acoustics.md).
+
+- **Connected English lesson subject basis:** Richards's MIT morphology lecture, numbered pages 16–18, supplies the two attachment analyses and meanings of *unlockable*. The door and cabinet situations, contextual reasoning and lesson transition are authored illustrations, not findings about learner performance or interpretation preferences. [Source record](../references/richards-2022-morphology.md).
 
 ## Optional specialist reading
 

@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:richards-2022-morphology"
 type: "reference"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 creator: "Norvin W. Richards"
@@ -23,7 +23,7 @@ The lecture connects alternative attachment structures with different interpreta
 
 ## Summary
 
-This subject source supports a bounded example in the Instruction and Scaffolding Model. It does not supply evidence for the effectiveness of our coaching guidance.
+This subject source supports the bounded word analysis in the Instruction and Scaffolding Model and the master Practice's connected lesson example. It does not supply evidence for the effectiveness of our coaching guidance.
 
 ## Publication identity
 
@@ -35,4 +35,4 @@ Numbered pages 16–18 distinguish reversive un- on verbs, negative un- on adjec
 
 ## Nonclaims
 
-This is a selected instructional analysis, not a comprehensive account of English morphology or an empirical study of interpretation preferences. The door situations and coaching implications are authored applications. No user conversation, learner results, source figures or full lecture are reproduced. The example does not establish a universal meaning-first teaching sequence.
+This is a selected instructional analysis, not a comprehensive account of English morphology or an empirical study of interpretation preferences. The door and cabinet situations, contextual inference checks and coaching implications are authored applications. No user conversation, learner results, source figures or full lecture are reproduced. The example does not establish a universal meaning-first teaching sequence.
