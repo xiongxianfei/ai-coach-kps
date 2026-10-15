@@ -62,7 +62,7 @@ The Models include two published frameworks, Cognitive Apprenticeship and the As
 
 The full package remains **provisional**. Some definitions are supported by selected full passages, others only by publisher abstracts. No systematic review, independent expert approval, learner study, model evaluation or live coaching trial is claimed. A scientific source does not validate every AI application derived from it.
 
-General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. [Review](docs/REVIEW.md) records inspection, indirectness, open questions and specific remaining work.
+General learning research and AI-specific studies are distinguished. A structured college physics tutor and a high-school mathematics field experiment do not directly establish effectiveness for every self-directed adult or generic chatbot. The [source register](references/README.md) leads to inspection scopes and evidence limits; unresolved knowledge gaps remain in the owning Models and Practices.
 
 ## Architecture and independence
 
@@ -72,9 +72,9 @@ This repository stands alone. It does not require the English Linguistics or Lea
 
 ## Repository layout
 
-The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and review guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
+The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
 
-Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), [reader and diagram guide](docs/READING-AND-DIAGRAMS.md), and [scientific review](docs/REVIEW.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
+Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), and [reader and diagram guide](docs/READING-AND-DIAGRAMS.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
 
 **Root cleanup changes document locations**. Links to former root-level guide or generated files will need updating in external notes. Stable KPS knowledge IDs, Practice stage anchors, the 10.2.0 Core lock and the 9.1.0 validation semantics are unchanged. See the mapping table in [validation and compatibility](docs/VALIDATION.md) before migrating external links.
 

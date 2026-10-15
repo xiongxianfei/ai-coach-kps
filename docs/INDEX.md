@@ -98,4 +98,4 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Sources and review
 
-[Source register](../references/README.md) records inspection limits. [Claim records](../data/claims.json) distinguish research premises from AI application inferences. [Review priorities](REVIEW.md) name missing inspection and evaluation work. All authored knowledge remains provisional.
+[Source register](../references/README.md) records inspection limits. [Claim records](../data/claims.json) distinguish research premises from AI application inferences. References and owning knowledge documents state remaining inspection and explanation gaps. All authored knowledge remains provisional.

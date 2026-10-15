@@ -20,7 +20,7 @@ These conventions help readers move between independently complete documents; a 
 
 ## Reading routes
 
-The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. [Review priorities](REVIEW.md) identify remaining inspection and evaluation.
+The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. Reference inspection limits and the owning knowledge documents identify remaining inspection and explanation gaps.
 
 The [body-of-knowledge outline](body-of-knowledge-outline.md) organizes coverage by knowledge domain, with topic-aligned explanations and gaps. It complements the generated index and does not prescribe a learning sequence.
 

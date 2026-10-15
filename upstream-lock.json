@@ -15,9 +15,9 @@
       "reuse": "unchanged copy"
     },
     "docs/AUTHORING.md": {
-      "sha256": "c511b6ffeb70547e7f6b1419a1bdcc2be8bbcc2179ad89cb81444bab968dfce1",
+      "sha256": "15ef89aca3c43eb65bf9e72062cea465a17805a4da8c7330799c7131e05f432d",
       "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted and the domain-test command retained; original checksum retained",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
       "upstream_path": "AUTHORING.md"
     },

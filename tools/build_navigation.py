@@ -39,11 +39,11 @@ def generate(root=ROOT):
                 index+=f'  {label}; original KPS application, effectiveness not established.\n'
                 for h in d.meta['stage_titles']:
                     index+=f'  - [{h}](../{p}#{v.slug(h)})\n'
-    index+='\n## Sources and review\n\n[Source register](../references/README.md) records inspection limits. [Claim records](../data/claims.json) distinguish research premises from AI application inferences. [Review priorities](REVIEW.md) name missing inspection and evaluation work. All authored knowledge remains provisional.\n'
+    index+='\n## Sources and review\n\n[Source register](../references/README.md) records inspection limits. [Claim records](../data/claims.json) distinguish research premises from AI application inferences. References and owning knowledge documents state remaining inspection and explanation gaps. All authored knowledge remains provisional.\n'
     sr=opener('Source register','Every source record identifies what was inspected and what the source does not establish.')
     sr+='\n## Publications\n\n'
     for p,d in refs:sr+=f'- [{d.meta["publication"]}]({Path(p).name}) — {d.meta["access_extent"]}\n'
-    sr+='\n## Rights and applicability\n\nNo external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../docs/REVIEW.md).\n'
+    sr+='\n## Rights and applicability\n\nNo external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. Consult each Reference for its inspection scope and applicability limits.\n'
     return {'docs/INDEX.md':index,'references/README.md':sr}
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();stale=[]

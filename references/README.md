@@ -41,4 +41,4 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Rights and applicability
 
-No external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. See [source review](../docs/REVIEW.md).
+No external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. Consult each Reference for its inspection scope and applicability limits.
