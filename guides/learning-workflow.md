@@ -36,7 +36,23 @@ Reuse a suitable subject illustration or create one with available tools, checki
 
 An introductory pass, provisional move forward and demonstrated stage capability are different conclusions. Use the description supported by the observations; practical performance and delayed retention remain untested until observed. An existing adequate response can support the decision without a duplicate stage test. When continuing is appropriate, follow the summary with the next stage's purpose and first lesson in the same reply, then wait for answers.
 
-Keep learner summaries under stage headings in one private learning record per subject, outside public repositories, with their pictures embedded beside the text. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](learning-records.md#stage-summaries-and-private-storage) for a minimal layout. No new template, schema or tracking system is required.
+Keep learner summaries under stage headings in a private record, or in separate stage files when the programme grows, with pictures embedded beside the text. The overview retains the goal, roadmap, current assessment and next action; the initial assessment preserves starting evidence. All completed learner records stay outside public repositories. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](learning-records.md#stage-summaries-and-private-storage) for a minimal layout. No new template, schema or tracking system is required.
+
+## Maintain the learning record
+
+The [learning-records guide](learning-records.md) owns the file layout and evidence distinctions. Use one file for a small goal, or an overview, initial assessment and stage files for a larger programme. Record maintenance supports the lesson; it does not require another question or confirmation at every step.
+
+| Occasion | Useful update |
+|---|---|
+| Begin | Record the goal and preferences, preserve self-report and actual baseline evidence separately, and mark unobserved capabilities unknown. Establish a provisional current assessment from the available evidence. |
+| Teach and receive a reply | Keep useful connected explanations and meaningful responses in the current stage. Preserve the original answer, actual assistance and checked feedback separately; skip routine conversational filler. |
+| Evidence changes a conclusion | Update the dated current assessment with a link to the observation and its conditions. Preserve a superseded consequential judgment with the reason for correction in the stage notes. |
+| Finish or pause a stage | Add the connected summary and overview picture, identify supported understanding and open gaps, then update the roadmap, current assessment and next action. |
+| Resume | Read the overview, current stage and cited evidence needed for the pending decision. Ask only for missing context or changed circumstances; do not restart the baseline automatically. |
+| Change the goal or route | Record the changed scope and reason, retain the original assessment and earlier evidence, and keep stage identifiers stable. |
+| Find a reusable knowledge gap | Check the proposed explanation, improve the owning knowledge file within the authorized scope, and link back from the note without publishing personal records. |
+
+The current assessment summarizes available evidence; it does not require a new test at every update. Assisted success cannot silently become independent performance, and a planned later check remains a plan. When no private storage is available, provide a compact update for the learner to save without claiming persistent memory or completed file writes.
 
 ## Default adaptive roadmap for a new subject
 
