@@ -16,7 +16,7 @@ A Practice-first, domain-independent knowledge package for independent adults us
 
 ## Understand the subject
 
-The [body-of-knowledge outline](docs/body-of-knowledge-outline.md) shows nine connected areas behind AI coaching, one overall illustration, existing explanations and the topics still missing. Use it to understand what the subject covers. The learning Practices below apply that knowledge to a learner's goal; the outline is not a compulsory learning route.
+The [body-of-knowledge outline](docs/body-of-knowledge-outline.md) shows nine connected knowledge domains behind AI coaching, one overall illustration, existing explanations and the topics still missing. Use it to understand what the subject covers. The learning Practices below apply that knowledge to a learner's goal; the outline is not a compulsory learning route.
 
 ## Start and stay in the master Practice
 
@@ -54,9 +54,9 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## What is included
 
-There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
+There are **23 knowledge objects**: seven Concepts, three Principles, three Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
-The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
+The Models include two published frameworks, Cognitive Apprenticeship and the Assessment Triangle, and the explicitly authored [Assessment and Feedback](models/assessment-and-feedback.md) domain synthesis. The latter connects source-grounded explanations without claiming a published unified theory or a validated AI intervention. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
 ## Evidence and outcome boundaries
 
@@ -66,7 +66,7 @@ General learning research and AI-specific studies are distinguished. A structure
 
 ## Architecture and independence
 
-KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. No new AI coaching theory is invented as a standalone Model. [ALIGNMENT](docs/SCIENTIFIC-POLICY.md) explicitly adopts a domain version of Core's professional source-alignment policy.
+KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. Domain Models may integrate inspected source contributions under explicitly declared authorship and limits; original coaching procedures remain in Practices. [ALIGNMENT](docs/SCIENTIFIC-POLICY.md) explicitly adopts a domain version of Core's professional source-alignment policy.
 
 This repository stands alone. It does not require the English Linguistics or Learning and Teaching KPS packages, an Obsidian plugin, an API key or an installed agent. It is knowledge and guidance, not a deployed chatbot. Ordinary relative Markdown links work without a knowledge-graph viewer.
 

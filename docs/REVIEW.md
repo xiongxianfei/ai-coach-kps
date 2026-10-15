@@ -62,6 +62,16 @@ A constructed unit-price comparison was traced across the areas to check that th
 
 Validation, domain checks, generated-navigation checks, all 142 existing unit tests and whitespace checks passed. One heading was adjusted to the pinned heading profile during validation. No canonical knowledge object or existing dependency source changed, and no dependency fingerprints needed acceptance. No tests, scripts or renderer were added. The source register was regenerated; its three new summaries match the source records' limited contributions.
 
+## Domain explanation refinement
+
+On 2026-10-15 the outline adopted knowledge domain for its existing nine divisions. The illustration and its prompt remain unchanged, with “knowledge areas” explained as an equivalent label. The new Assessment and Feedback Model connects all six outline topics to a self-contained explanation with a linked Contents, an explicit representation, a constructed comparison example and interfaces to the other domains. The two published framework Models and all coaching Practices retain their text and identities.
+
+The NRC 2001 source was reinspected for selected Chapter 2 passages within pp. 37–51, extending the recorded scope to assessment purposes and validity, reliability, fairness and uncertainty. Sadler's publisher abstract, the feedback review's abstract and introductory passages, and the learning–performance abstract on the authors' PDF host were rechecked within their existing substantive limits. No full-text Sadler review, source-figure reuse, underlying-study reanalysis or independent scientific approval is claimed. Source alignment identifies each contribution to the synthesis rather than attributing the whole explanation to any publication.
+
+Before accepting fingerprints, the authoring assistant compared the NRC addition with the unchanged Assessment Triangle and the master, planning, evaluation and formative-assessment Practices' summaries and source uses. Their narrower claims still fit. The new Model's local accounts were compared with its supporting Concepts, framework and formative Practice. Arithmetic, changed winning package, Contents hierarchy, all six topic links, unchanged existing frameworks and illustration, and LF text were checked. A links-hidden reading supports tracing the constructed task from criterion through observed response, competing interpretation, feedback and a distinct later observation; it is not an actual learner result.
+
+The local policy and domain checker now admit explicitly authored, source-grounded explanatory Models. Three focused declaration regressions replace the obsolete fixed Model inventory test. All 144 tests, package validation, domain checks, navigation freshness and whitespace checks pass locally. No new script, image, record schema or pinned Core change was introduced. Detailed measurement theory and real educational evaluation remain outside this introductory explanation.
+
 ## What remains untested
 
 No real adult learner used these Practices under observation; no live model session, behavior-enforcement test, delayed retention study, transfer study, usability trial, accessibility audit or causal comparison was performed. No latent learner diagnosis or actual memory trace is inferred. The record checker validates declarations only.

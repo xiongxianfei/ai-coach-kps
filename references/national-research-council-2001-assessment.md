@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:nrc-2001"
 type: "reference"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 creator: "National Research Council; James W. Pellegrino, Naomi Chudowsky and Robert Glaser, editors"
@@ -11,8 +11,8 @@ date_basis: "Bibliographic year shown in the inspected publication."
 doi: "10.17226/10019"
 source_type: "research synthesis and assessment framework"
 evidence_family: "nrc-2001"
-accessed: "2026-10-12"
-access_extent: "Hosted HTML of Chapter 2, particularly printed pages 42 to 51, inspected for assessment reasoning and the triangle. The source figures and balance-scale data are not copied or used as our examples."
+accessed: "2026-10-15"
+access_extent: "Official HTML Chapter 2: selected Purposes of Assessment and Precision and Imprecision passages within printed pages 37 to 43, plus Assessment Triangle and vertex relationships within pages 44 to 51. Reinspection extends the previous assessment-reasoning scope to purpose, validity, reliability and fairness. Source figures, balance-scale data and underlying studies were not reviewed or reproduced for this addition."
 reviewed: null
 ---
 
@@ -38,13 +38,15 @@ This record identifies a specific publication and the material inspected for thi
 
 ## Inspection extent
 
-Accessed 2026-10-12. Hosted HTML of Chapter 2, particularly printed pages 42 to 51, inspected for assessment reasoning and the triangle. The source figures and balance-scale data are not copied or used as our examples.
+Initially accessed 2026-10-12 for assessment reasoning and the triangle. Reinspected 2026-10-15: selected official HTML passages within Chapter 2 printed pages 37–51, adding purposes of assessment, validity, reliability, fairness and uncertainty. The source figures and balance-scale data are not copied or used as our examples.
 
-**Locator:** Chapter 2: Assessment as a Process of Reasoning from Evidence; The Assessment Triangle; relationships among the three vertices
+**Locator:** Chapter 2: Purposes of Assessment; Precision and Imprecision in Assessment; Assessment as a Process of Reasoning from Evidence; The Assessment Triangle; Relationships Among the Three Vertices of the Assessment Triangle.
 
 ## Located contribution
 
 The assessment triangle relates cognition, observation and interpretation. These mutually dependent elements must fit the intended inference; an observed response is not a direct view of competence.
+
+The additional passages distinguish instructional, attainment and program-evaluation purposes. They relate validity to intended interpretations, reliability to consistency and fairness to access and comparable interpretation. These support introductory distinctions, not numerical reliability estimates or an automated grading design.
 
 ## Limits and nonclaims
 

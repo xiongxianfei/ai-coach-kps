@@ -113,8 +113,6 @@ class PracticeIntegrationTests(unittest.TestCase):
     def test_planning_remains_authored_and_provisional(self):
         doc=validate.parse(ROOT/P)
         self.assertIn('KPS',doc.meta['basis_kind']);self.assertEqual('provisional',doc.meta['evidence_status']);self.assertIsNone(doc.meta['reviewed']);self.assertEqual(6,len(doc.meta['stage_titles']))
-    def test_no_new_fake_model(self):
-        self.assertEqual(['assessment-triangle.md','cognitive-apprenticeship.md'],sorted(p.name for p in (ROOT/'models').glob('*.md')))
     def test_terminology_and_sources(self):
         for path in ('concepts/concept-map.md','methods/concept-mapping.md'):
             doc=validate.parse(ROOT/path)

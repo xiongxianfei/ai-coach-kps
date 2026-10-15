@@ -82,6 +82,7 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Models
 
+- [Assessment and Feedback](../models/assessment-and-feedback.md) — A response becomes useful evidence when it is interpreted against a clear capability and criterion; feedback connects that interpretation to something the learner can understand and revise.
 - [Assessment Triangle](../models/assessment-triangle.md) — Assessment connects a model of cognition, observations and their interpretation.
 - [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) — The published framework relates contextual expertise, guided participation and increasingly independent activity.
 

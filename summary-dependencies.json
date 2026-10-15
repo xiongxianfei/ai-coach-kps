@@ -41,8 +41,20 @@
       "principles/self-explanation-effect.md": "25dd41b973cc7059041d0ef17f38d6e5906e5f14d333959fa739d2eaf0e11126",
       "references/chi-1994-self-explanation.md": "e33ccfa9d58c453ed8cb32042d96326c2bbdefcad6c8203135cdf2d9ba8ecb12"
     },
+    "models/assessment-and-feedback.md": {
+      "concepts/feedback.md": "cff5f7ab828c0f4e9a0cd41a977292958992758084441e6d6c7ffc3be25449d7",
+      "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",
+      "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "concepts/metacognitive-calibration.md": "90673e6ab0baf7f19e993af23ca9e74ad4b0b956c62b4c816aa7cd297b1b9762",
+      "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
+      "practices/formative-assessment-with-ai.md": "6c52765cb814bb144bb414e26053e6fc90fa3b855970dbba6637866fb7c40da0",
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
+      "references/sadler-1989-formative-assessment.md": "7a227f788c1bdf5b617700bba6d00cdcad45068eae53b12984a421719066ab50",
+      "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66",
+      "references/wisniewski-zierer-hattie-2020-feedback.md": "3167d808fe18280136e119c4378709d3c876bcc34b683cdf9f031305d485d4a1"
+    },
     "models/assessment-triangle.md": {
-      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788"
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac"
     },
     "models/cognitive-apprenticeship.md": {
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3"
@@ -69,7 +81,7 @@
       "references/cepeda-2008-temporal-ridgeline.md": "97c4be64fad86ca52b0bb29091a06a547bc3c1e31593e0f379bcad1bf17ca266",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
       "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
-      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
       "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de",
       "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
@@ -84,7 +96,7 @@
       "practices/evaluation-of-ai-assisted-learning.md": "a251ca0033d185ebd7f21b0d3b8ecc1b7588e9fb17cbbd1fb6e8642f4451a733",
       "practices/self-regulated-learning-with-ai.md": "1dac5f9144afcd406cd33a0f6bf076928637032da36e3aa4c5d3a71fd6d0f275",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
-      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/national-research-council-2007-learning-progressions.md": "c4a1c4a2b0cd668a10bc2a74c12df4fc7b980eba579dac3ef935ff3eeb181a76",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
       "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
@@ -97,7 +109,7 @@
       "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "89f105170f9a25c4a183b2fea18072f56f8cd36086342b3e9063d0fceed0ce4a",
       "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
       "references/kestin-2025-ai-tutoring.md": "9e9cb26c147fe204572a37d18051289eb3351ae682443a2c86a4192cc2d4f8df",
-      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/pieschl-2009-metacognitive-calibration.md": "b1d98c66f8815a80f81069f9401a572d157cd2b10b7fef127f1c9a6b4c5ff623",
       "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66"
     },
@@ -110,7 +122,7 @@
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
       "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "89f105170f9a25c4a183b2fea18072f56f8cd36086342b3e9063d0fceed0ce4a",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
-      "references/national-research-council-2001-assessment.md": "99c3331c7de1543422abc0800271c7343383a8ae7be22bb32607e14555e62788",
+      "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/sadler-1989-formative-assessment.md": "7a227f788c1bdf5b617700bba6d00cdcad45068eae53b12984a421719066ab50",
       "references/wisniewski-zierer-hattie-2020-feedback.md": "3167d808fe18280136e119c4378709d3c876bcc34b683cdf9f031305d485d4a1"
     },

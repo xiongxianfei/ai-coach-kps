@@ -22,7 +22,7 @@ These conventions help readers move between independently complete documents; a 
 
 The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. [Review priorities](REVIEW.md) identify remaining inspection and evaluation.
 
-The [body-of-knowledge outline](body-of-knowledge-outline.md) organizes coverage by subject area, with topic-aligned explanations and gaps. It complements the generated index and does not prescribe a learning sequence.
+The [body-of-knowledge outline](body-of-knowledge-outline.md) organizes coverage by knowledge domain, with topic-aligned explanations and gaps. It complements the generated index and does not prescribe a learning sequence.
 
 ## Link procedure
 
@@ -49,7 +49,7 @@ These relationships are sufficiently compact for text, so no D2/SVG assets are c
 
 The overview Practice adds a compact text flow and local tables. Conceptual connections, selected-goal links, stage requirements and feedback decisions are explained separately. The text layout does not imply that knowledge forms a prerequisite tree.
 
-The body-of-knowledge outline owns one overall PNG illustration and its generation prompt in `diagrams/`. It shows nine knowledge areas and three selected connections, with the same content available as text in the outline. It is an original AI-generated orientation aid, not a metadata dependency graph or evidence of visual-learning effectiveness. Additional subtopic illustrations are optional and chosen for reader need.
+The body-of-knowledge outline owns one overall PNG illustration and its generation prompt in `diagrams/`. It shows nine knowledge domains, labeled “knowledge areas” in the illustration, and three selected connections, with the same content available as text in the outline. It is an original AI-generated orientation aid, not a metadata dependency graph or evidence of visual-learning effectiveness. Additional subtopic illustrations are optional and chosen for reader need.
 
 ## Future image procedure
 

@@ -11,23 +11,23 @@ This outline describes the knowledge needed to help independent adults understan
 
 ## Key takeaway
 
-Understand the connected knowledge areas behind coaching, then use a learning Practice to apply them to a learner's goal.
+Understand the connected knowledge domains behind coaching, then use a learning Practice to apply them to a learner's goal.
 
 ## Summary
 
-Nine areas organize the subject by explanatory responsibility. Each section names the topics to cover, aligns existing explanations with those topics and makes gaps visible. This is a project coverage outline, not a universal taxonomy, a validated curriculum or a claim that nine independent mechanisms explain all learning. Numbering supports navigation and does not prescribe a study order.
+Nine domains organize the subject by explanatory responsibility. Each section names the topics to cover, aligns existing explanations with those topics and makes gaps visible. This is a project coverage outline, not a universal taxonomy, a validated curriculum or a claim that nine independent mechanisms explain all learning. The outline provides navigation and does not prescribe a study order.
 
 ## Overview
 
-![Nine AI Coach knowledge areas: Learning and cognition; Knowledge representation; Instructional design; Instruction and scaffolding; Assessment and feedback; Memory and transfer; Motivation and self-regulation; Human–AI interaction; Evaluation of AI-assisted learning. Selected connections show representation informing design, assessment adjusting instruction, and retention and transfer supplying evaluation outcomes.](../diagrams/body-of-knowledge-overview.png)
+![Nine AI Coach knowledge domains: Learning and cognition; Knowledge representation; Instructional design; Instruction and scaffolding; Assessment and feedback; Memory and transfer; Motivation and self-regulation; Human–AI interaction; Evaluation of AI-assisted learning. Selected connections show representation informing design, assessment adjusting instruction, and retention and transfer supplying evaluation outcomes.](../diagrams/body-of-knowledge-overview.png)
 
-The areas answer different questions about the same learning situation. Knowledge representation informs instructional design; assessment and feedback can adjust instruction and scaffolding; memory and transfer supplies outcomes for evaluation. These are selected connections, not a complete causal model or a sequence of compulsory stages. The text below contains the essential content independently of the image.
+The domains answer different questions about the same learning situation. Knowledge representation informs instructional design; assessment and feedback can adjust instruction and scaffolding; memory and transfer supplies outcomes for evaluation. These are selected connections, not a complete causal model or a sequence of compulsory stages. The text below contains the essential content independently of the image. The illustration retains “knowledge areas” as an equivalent plain-language label; its names and relationships are unchanged.
 
 Original AI-generated illustration, produced for this project with the built-in image generation tool. No third-party figure was copied. The [generation prompt](../diagrams/body-of-knowledge-overview.prompt.txt) records the intended labels and relationships; the illustration makes no measured-effect claim.
 
 ## Overall outline
 
-| Area | Responsibility | Main coverage |
+| Domain | Responsibility | Main coverage |
 |---|---|---|
 | [Learning and cognition](#learning-and-cognition) | Explain how understanding and skill develop | Prior knowledge; attention; working memory; cognitive load; mental representations; conceptual change; expertise; context |
 | [Knowledge representation](#knowledge-representation) | Represent what a subject contains and how its ideas connect | Boundaries; concepts and propositions; explanatory subsystems; concept maps; multiple representations; source grounding |
@@ -41,21 +41,21 @@ Original AI-generated illustration, produced for this project with the built-in 
 
 ## Scope and boundaries
 
-The unit of interest is an adult learner using a conversational AI with suitable subject material. The outline includes knowledge about learning, instruction, evidence and the interaction medium. Language, culture, prior experience, disability and access conditions cut across the areas; they are not fixed learner types.
+The unit of interest is an adult learner using a conversational AI with suitable subject material. The outline includes knowledge about learning, instruction, evidence and the interaction medium. Language, culture, prior experience, disability and access conditions cut across the domains; they are not fixed learner types.
 
 Subject facts remain owned by the relevant subject library. English phonology, for example, is content that a coach may help someone learn; the AI Coach library explains how to select, support and interpret that learning activity. Model training, deployment infrastructure, clinical diagnosis, credentialing and institutional policy administration are outside the present scope. Relevant interface limits and privacy responsibilities remain in scope.
 
-A knowledge area groups explanatory questions. A subsystem Model would need to explain a coherent set of entities, relationships, mechanisms and interfaces. This outline does not assert that every area is already such a subsystem. The existing Cognitive Apprenticeship and Assessment Triangle files retain their published identities and can contribute to more than one area. New Models must satisfy the [source-alignment policy](SCIENTIFIC-POLICY.md); an empty coverage row is not a reason to invent a theory.
+A knowledge domain groups coherent explanatory questions. Here, “domain” and the earlier “area” name the same nine divisions; neither implies an independently functioning component. Each domain can develop one self-contained Model of its essential concepts, mechanisms, examples, boundaries and interfaces. The existing Cognitive Apprenticeship and Assessment Triangle files retain their published identities as supporting frameworks. Source-grounded explanatory syntheses are explicitly distinguished from published frameworks under the [source-alignment policy](SCIENTIFIC-POLICY.md#domain-models-and-published-frameworks). Missing coverage is developed as explanation, not filled with empty Model files.
 
 ## Reading coverage
 
-The table entries describe document coverage, not learner achievement or scientific approval. **Partial** means a local explanation covers a named subset; **source only** means a relevant source record exists but a local explanation is missing; **gap** means the topic needs a suitable inspected basis and an explanation. No entire area is marked complete. Source access may be limited even when a local explanation exists.
+The table entries describe document coverage, not learner achievement or scientific approval. **Partial** means a local explanation covers a named subset; **source only** means a relevant source record exists but a local explanation is missing; **gap** means the topic needs a suitable inspected basis and an explanation. No entire domain is marked complete. Source access may be limited even when a local explanation exists.
 
 The tables link explanatory knowledge and sources. Authored coaching Practices are applications and do not count as academic coverage merely because they mention a topic. Topics can appear at several interfaces without requiring duplicate canonical definitions or one file per row.
 
 ## Learning and cognition
 
-This area asks how a learner develops a usable understanding or skill. It concerns the processes and representations involved in learning; instructional design concerns how to arrange opportunities to learn. Memory is introduced here as a cognitive process and developed under Memory and transfer for retention and later use.
+This domain asks how a learner develops a usable understanding or skill. It concerns the processes and representations involved in learning; instructional design concerns how to arrange opportunities to learn. Memory is introduced here as a cognitive process and developed under Memory and transfer for retention and later use.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -68,11 +68,11 @@ This area asks how a learner develops a usable understanding or skill. It concer
 
 ## Knowledge representation
 
-This area asks what belongs in the subject and what relationships make it understandable. Its output is a representation of knowledge. Instructional design separately decides which relationships matter for a learner's route; a conceptual connection does not establish a prerequisite.
+This domain asks what belongs in the subject and what relationships make it understandable. Its output is a representation of knowledge. Instructional design separately decides which relationships matter for a learner's route; a conceptual connection does not establish a prerequisite.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Subject boundaries and explanatory areas | Scope, omissions, responsibilities and useful overlap between areas | Gap: current outlines are authored coverage choices; no standalone scholarly account of domain analysis is included |
+| Subject boundaries and knowledge domains | Scope, omissions, responsibilities and useful overlap between domains | Gap: current outlines are authored coverage choices; no standalone scholarly account of domain analysis is included |
 | Concepts and propositions | Terms, meanings and labeled relationships that express a claim | Partial: [Concept Map](../concepts/concept-map.md) defines the representation and its limits |
 | Explanatory subsystems and interfaces | What each system explains and how its variables or outputs connect to another | Gap: selecting appropriate domain systems needs inspected subject sources; the coach must not invent a universal partition |
 | Concept mapping | Focus questions, hierarchy, cross-links and revision | Partial: [Concept Mapping](../methods/concept-mapping.md) gives the operation; map accuracy remains a separate check |
@@ -81,7 +81,7 @@ This area asks what belongs in the subject and what relationships make it unders
 
 ## Instructional design
 
-This area asks how a goal becomes a coherent set of learning opportunities. It concerns proposed capabilities, tasks and their relationships. Instruction and scaffolding concerns the help offered during those tasks; assessment examines what responses support concluding.
+This domain asks how a goal becomes a coherent set of learning opportunities. It concerns proposed capabilities, tasks and their relationships. Instruction and scaffolding concerns the help offered during those tasks; assessment examines what responses support concluding.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -94,7 +94,7 @@ This area asks how a goal becomes a coherent set of learning opportunities. It c
 
 ## Instruction and scaffolding
 
-This area asks how explanations, demonstrations and support help a learner engage with a task. It connects instructional design to the learner's actual activity. An accurate AI explanation is an instructional input, not evidence that the learner can produce or apply it.
+This domain asks how explanations, demonstrations and support help a learner engage with a task. It connects instructional design to the learner's actual activity. An accurate AI explanation is an instructional input, not evidence that the learner can produce or apply it.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -107,20 +107,22 @@ This area asks how explanations, demonstrations and support help a learner engag
 
 ## Assessment and feedback
 
-This area asks what an observed response warrants concluding and how information about it supports improvement. Assessment relates capability, observation and interpretation; feedback supplies information that may inform another attempt. Evaluation of AI-assisted learning asks the broader question of whether the coaching approach helped.
+This domain asks what an observed response warrants concluding and how information about it supports improvement. Assessment relates capability, observation and interpretation; feedback supplies information that may inform another attempt. Evaluation of AI-assisted learning asks the broader question of whether the coaching approach helped.
+
+The [Assessment and Feedback Model](../models/assessment-and-feedback.md) is the self-contained domain explanation. It integrates source contributions and a constructed comparison example while preserving the Assessment Triangle as a named framework. This is introductory coverage, not a complete measurement theory or a validated coaching intervention.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Starting knowledge and baseline | Self-report, direct observation, prior exposure and pre-instruction conditions | Partial: [Metacognitive Calibration](../concepts/metacognitive-calibration.md) distinguishes judgments and criteria; baseline design needs fuller coverage |
-| Capability and evidence | Tasks that elicit relevant observations and justified interpretation | Partial: [Assessment Triangle](../models/assessment-triangle.md) |
-| Criteria and assessment quality | Meaningful criteria, validity, reliability, fairness and uncertainty | Partial: [Assessment Triangle](../models/assessment-triangle.md) introduces inference limits; detailed measurement concepts are missing |
-| Formative interpretation | Using evidence to choose instruction and investigating competing explanations | Partial: [Formative Assessment](../concepts/formative-assessment.md); the source scope does not establish clinical diagnosis |
-| Feedback and revision | Information about the work, actionable discrepancies and subsequent use | Partial: [Feedback](../concepts/feedback.md); timing and task-dependent effects need fuller treatment |
-| Assistance and evidence conditions | Original versus corrected answers, hints, answer exposure and access supports | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md); live recording rules remain Practice design |
+| Starting knowledge and baseline | Self-report, direct observation, prior exposure and pre-instruction conditions | [Starting knowledge and baseline](../models/assessment-and-feedback.md#starting-knowledge-and-baseline) distinguishes the evidence; detailed baseline instrument design remains open |
+| Capability and evidence | Tasks that elicit relevant observations and justified interpretation | [Capability and criteria](../models/assessment-and-feedback.md#capability-and-criteria), [tasks and responses](../models/assessment-and-feedback.md#tasks-and-observable-responses), and [Assessment Triangle](../models/assessment-triangle.md) supply introductory coverage |
+| Criteria and assessment quality | Meaningful criteria, validity, reliability, fairness and uncertainty | [Validity reliability and fairness](../models/assessment-and-feedback.md#validity-reliability-and-fairness) explains distinctions; psychometric estimation, rubric design and bias analysis need deeper coverage |
+| Formative interpretation | Using evidence to choose instruction and investigating competing explanations | [Interpretation and competing explanations](../models/assessment-and-feedback.md#interpretation-and-competing-explanations) connects the distinctions to an example; subject-specific misconception accounts remain outside this general Model |
+| Feedback and revision | Information about the work, actionable discrepancies and subsequent use | [Feedback and revision](../models/assessment-and-feedback.md#feedback-and-revision) explains the relationship; timing and context-dependent effects still need fuller treatment |
+| Assistance and evidence conditions | Original versus corrected answers, hints, answer exposure and access supports | [Assistance and evidence conditions](../models/assessment-and-feedback.md#assistance-and-evidence-conditions) and the [connected comparison example](../models/assessment-and-feedback.md#a-connected-comparison-example); no universal mastery threshold is supplied |
 
 ## Memory and transfer
 
-This area asks whether learning remains available and can be used when time, cues or context change. It concerns learning processes and practice conditions. Assessment provides observations of those outcomes; evaluation considers what caused them and how far conclusions extend.
+This domain asks whether learning remains available and can be used when time, cues or context change. It concerns learning processes and practice conditions. Assessment provides observations of those outcomes; evaluation considers what caused them and how far conclusions extend.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -133,7 +135,7 @@ This area asks whether learning remains available and can be used when time, cue
 
 ## Motivation and self regulation
 
-This area asks how learners choose, monitor and sustain learning. It includes motivational, cognitive, behavioral and affective dimensions. The learner's confidence is a judgment to examine, not a substitute for demonstrated capability; the coach's proposed plan is not the learner's own regulation.
+This domain asks how learners choose, monitor and sustain learning. It includes motivational, cognitive, behavioral and affective dimensions. The learner's confidence is a judgment to examine, not a substitute for demonstrated capability; the coach's proposed plan is not the learner's own regulation.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -147,7 +149,7 @@ This area asks how learners choose, monitor and sustain learning. It includes mo
 
 ## Human AI interaction
 
-This area asks how the interaction medium changes what a learner and coach can do and know. It covers the interface, reliability and human control. It does not assume that a prompt installs persistent memory, verifies a source or guarantees compliance. Its privacy and agency commitments include normative choices as well as empirical questions.
+This domain asks how the interaction medium changes what a learner and coach can do and know. It covers the interface, reliability and human control. It does not assume that a prompt installs persistent memory, verifies a source or guarantees compliance. Its privacy and agency commitments include normative choices as well as empirical questions.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -160,7 +162,7 @@ This area asks how the interaction medium changes what a learner and coach can d
 
 ## Evaluation of AI assisted learning
 
-This area asks whether a coaching approach produces useful learning under specified conditions. It uses assessment evidence but adds questions about comparison, cause, context and unintended effects. A usable interface or correct AI answer is a different outcome from learner understanding or retention.
+This domain asks whether a coaching approach produces useful learning under specified conditions. It uses assessment evidence but adds questions about comparison, cause, context and unintended effects. A usable interface or correct AI answer is a different outcome from learner understanding or retention.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
@@ -171,9 +173,9 @@ This area asks whether a coaching approach produces useful learning under specif
 | Usability and access | Whether people can understand, operate and resume the coaching process | Gap: no observed adult usability or accessibility evaluation exists for this package |
 | Unintended effects and tradeoffs | Dependence, incorrect feedback, time demands, exclusion and privacy costs | Source only for selected concerns: [UNESCO overview](../references/unesco-2023-generative-ai-guidance.md) and [guardrails study](../references/bastani-2025-generative-ai-guardrails.md); no comprehensive risk assessment is claimed |
 
-## Connections between areas
+## Connections between domains
 
-These relationships explain why the areas belong together. They are authored orientation statements, not measured causal coefficients or prerequisites.
+These relationships explain why the domains belong together. They are authored orientation statements, not measured causal coefficients or prerequisites.
 
 | Connection | Meaning and boundary |
 |---|---|
@@ -189,7 +191,7 @@ For a constructed example, suppose a learner wants to explain a unit-price compa
 
 ## Source basis and inspection limits
 
-The nine-area arrangement is a KPS editorial synthesis. The following sources inform coverage and distinctions; none establishes this exact partition or a universally best coaching sequence. Topics marked as gaps are questions to develop, not unsupported explanations disguised as established theory.
+The nine-domain arrangement is a KPS editorial synthesis. The following sources inform coverage and distinctions; none establishes this exact partition or a universally best coaching sequence. Topics marked as gaps are questions to develop, not unsupported explanations disguised as established theory.
 
 | Source | Contribution to the outline | Inspected basis and limit |
 |---|---|---|
@@ -204,8 +206,8 @@ The nine-area arrangement is a KPS editorial synthesis. The following sources in
 
 ## Relation to coaching and further development
 
-The [master coaching Practice](../practices/ai-assisted-learning-orchestration.md) applies knowledge from several areas in each session. Its learner assessment, subject orientation, capability roadmap, task selection, teaching and adaptation are operational decisions. They are not the divisions of this body of knowledge and do not require a learner to study the entire outline first.
+The [master coaching Practice](../practices/ai-assisted-learning-orchestration.md) applies knowledge from several domains in each session. Its learner assessment, subject orientation, capability roadmap, task selection, teaching and adaptation are operational decisions. They are not the divisions of this body of knowledge and do not require a learner to study the entire outline first.
 
-Current explanations are strongest as bounded entry points to concept mapping, guided instruction, assessment, retrieval and self-regulation. The broadest explanation gaps are cognition, instructional design and human–AI interaction. Inspect appropriate source passages and improve a useful connected explanation before creating more files. Preserve the distinction between source-supported meaning, authored coaching choices and actual learner evidence.
+Assessment and feedback now has an integrated introductory domain Model. Other current explanations provide bounded entry points to concept mapping, guided instruction, retrieval and self-regulation. The broadest explanation gaps are cognition, instructional design and human–AI interaction. Inspect appropriate source passages and improve a useful connected explanation before creating more files. Preserve the distinction between source-supported meaning, authored coaching choices and actual learner evidence.
 
 The outline and illustration can be revised as coverage improves. Additional topic illustrations are optional. [The knowledge index](INDEX.md) remains the generated catalog by KPS role; this outline remains the reader's subject coverage view.

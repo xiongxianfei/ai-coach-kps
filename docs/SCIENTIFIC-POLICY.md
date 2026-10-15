@@ -24,15 +24,25 @@ The following source relationships govern independently reusable scientific obje
 |---|---|---|
 | Concept | Located scholarly characterization or definition | A fashionable term with an unrelated citation |
 | Principle | Scoped empirical result or supported methodological relationship | A normative coaching rule written as a declaration |
-| Model | An identified published representation, with a faithful subset and limits | A newly invented coaching cycle given a theorist's name |
+| Model | A faithful subset of a published representation, or an explicitly authored explanatory synthesis with located source contributions and limits | An unsupported theory, an original workflow disguised as a scientific model, or implied endorsement by cited authors |
 | Method | A recognizable published operation and inspected procedural basis | An original prompt chain presented as a validated intervention |
 | Practice | Explicit KPS application synthesis with usable actions | A list of links or a claim that it was empirically tested |
 
-No standalone original workflow Models or Methods are included. Local prompt contracts, aid categories and record schemas are specifications or Practice content. They are not scientific Principles.
+Original coaching workflows remain in Practices. Local prompt contracts, aid categories and record schemas are specifications or Practice content. They are not scientific Principles. A domain Model may integrate source-grounded explanations without claiming that the integrated representation was published or empirically validated as a whole.
+
+## Domain Models and published frameworks
+
+A knowledge domain groups related explanatory questions; it need not be an independently functioning component. Aim for one self-contained domain Model that explains the essential concepts, mechanisms, relationships, examples, boundaries and interfaces. Let the subject determine the headings and depth. A coverage gap does not require a new file for every topic.
+
+Published frameworks retain their names and meanings. A broader domain Model can explain their relevant contributions locally and link to them for depth. Preserve useful supporting Concepts, Principles and Methods; neither a citation list nor a collection of links supplies the domain explanation.
+
+For an authored explanatory synthesis, `basis_kind` must identify it as KPS-authored and a synthesis. Each source alignment uses `synthesis-contribution`, with a real Reference ID, inspected passage locator and a nonempty `contribution` describing the supported part. Explain these contributions visibly in Source alignment. Separate source-supported claims from the connective representation, constructed examples and application choices authored here. No minimum source count, fixed content quota or compulsory learning sequence is implied.
+
+The integrated account remains provisional. Clearly state its limits, disagreements or unresolved mechanisms where relevant. Prompts and decisions for conducting a coaching session belong in Practices even when a Model explains why those decisions matter. This local admission policy extends the domain profile; it does not change the pinned Core validator, the five KPS roles or upstream source files.
 
 ## Alignment records
 
-Each non-Practice object declares source_alignment with a Reference ID, a documentation relation and an actual passage locator. Allowed relations are definition-paraphrase, scoped-empirical-finding, methodological-relationship, published-model-subset and published-procedure-summary. The published-model-subset relation explicitly describes an academic framework rather than a standards-body model; this is a domain profile, not silent equivalence to Core's standard-model-subset relation.
+Each non-Practice object declares source_alignment with a Reference ID, a documentation relation and an actual passage locator. Allowed relations are definition-paraphrase, scoped-empirical-finding, methodological-relationship, published-model-subset, published-procedure-summary and, for Models only, synthesis-contribution. The published-model-subset relation describes a faithful academic-framework subset; synthesis-contribution identifies support for part of our integration, not publication of the whole. These are domain profile declarations, not silent equivalence to Core's standard-model-subset relation.
 
 These declarations do not express formal ontology equivalence. Named sources support meanings only to their inspected extent. Source-defined scope takes precedence over local paraphrase.
 
@@ -88,4 +98,4 @@ Assisted task completion, immediate independent performance, delayed retention a
 
 ## Research scope
 
-The original source search was targeted to the five specialist Practices, not systematic or exhaustive. Selected academic sources span research designs and populations. Adolescent and classroom evidence has explicit indirectness for independent adults. Named cognitive and assessment Models are limited source-faithful summaries, not a new theory of the learner or a causal model of an LLM.
+The original source search was targeted to the five specialist Practices, not systematic or exhaustive. Selected academic sources span research designs and populations. Adolescent and classroom evidence has explicit indirectness for independent adults. Named published frameworks remain limited source-faithful summaries. Domain Models integrate identified contributions without claiming a newly validated theory of the learner or a causal model of an LLM.
