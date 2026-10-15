@@ -20,7 +20,7 @@ These conventions help readers move between independently complete documents; a 
 
 ## Reading routes
 
-The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. [Review priorities](REVIEW.md) identify remaining inspection and evaluation.
+The [knowledge index](INDEX.md) combines Practice entry points, stage links and academic objects by role. Canonical naming and source alignments remain in each object; [claim records](../data/claims.json) preserve source support and application limits. Reference inspection limits and the owning knowledge documents identify remaining inspection and explanation gaps.
 
 The [body-of-knowledge outline](body-of-knowledge-outline.md) organizes coverage by knowledge domain, with topic-aligned explanations and gaps. It complements the generated index and does not prescribe a learning sequence.
 
@@ -49,11 +49,11 @@ These relationships are sufficiently compact for text, so no D2/SVG assets are c
 
 The overview Practice adds a compact text flow and local tables. Conceptual connections, selected-goal links, stage requirements and feedback decisions are explained separately. The text layout does not imply that knowledge forms a prerequisite tree.
 
-The body-of-knowledge outline owns one overall PNG illustration and its generation prompt in `diagrams/`. It shows nine knowledge domains, labeled “knowledge areas” in the illustration, and three selected connections, with the same content available as text in the outline. It is an original AI-generated orientation aid, not a metadata dependency graph or evidence of visual-learning effectiveness. Additional subtopic illustrations are optional and chosen for reader need.
+The body-of-knowledge outline owns one overall PNG illustration and its generation prompt in `diagrams/`. It shows nine knowledge domains and three selected connections, with the same content available as text in the outline. It is an original AI-generated orientation aid, not a metadata dependency graph or evidence of visual-learning effectiveness. Additional subtopic illustrations are optional and chosen for reader need.
 
 Each developed domain Model owns one overall summary illustration, embedded after its introduction and before Contents, with meaningful alternative text and a short explanation. Develop the Model's explanation first, then illustrate its key ideas and relationships. Store the PNG and prompt together under `diagrams/` using the domain name. The outline links to the Model rather than duplicating its image. Additional detail illustrations remain optional.
 
-The [Assessment and Feedback Model](../models/assessment-and-feedback.md) owns `assessment-and-feedback-overview.png` and its matching prompt. It illustrates criteria, task conditions, the actual response, bounded interpretation, feedback and a distinct new observation, alongside the Model's constructed unit-price comparison. The other eight domain summaries will accompany their Models as those explanations are developed; an outline gap is not a completed Model to illustrate.
+The [Assessment and Feedback Model](../models/assessment-and-feedback.md) owns `assessment-and-feedback-overview.png` and its matching prompt. It illustrates criteria, task conditions, the actual response, bounded interpretation, feedback and a distinct new observation, alongside the Model's constructed unit-price comparison. The [Knowledge Representation](../models/knowledge-representation.md), [Instructional Design](../models/instructional-design.md), and [Instruction and Scaffolding](../models/instruction-and-scaffolding.md) Models also embed their own PNG summaries with matching prompts. The instruction illustration connects explanation, activity, actual response and adjusted support, with a constructed equal-sharing example. The remaining domain summaries will accompany their Models as those explanations are developed; an outline gap is not a completed Model to illustrate.
 
 ## Future image procedure
 

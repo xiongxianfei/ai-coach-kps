@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instructional-design"
 type: "model"
-version: "0.1.0"
+version: "0.4.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instructional Design"
@@ -21,7 +21,7 @@ A learning design connects the intended capability, the activity and the evidenc
 
 ## Summary
 
-This Model explains how goals, content, tasks, support and evidence constrain one another. It covers capability alignment, task analysis, prerequisites, sequencing, task demand and adaptation through a constructed unit-price example. It is a KPS-authored integration of selected published contributions, not a universal instructional algorithm. Coaching actions and prompts remain in the [master Practice](../practices/ai-assisted-learning-orchestration.md).
+This Model explains how goals, content, tasks, support and evidence constrain one another. It covers capability alignment, stages and lessons, content selection, task analysis, prerequisites, sequencing, task demand and adaptation through a constructed unit-price example. It is a KPS-authored integration of selected published contributions, not a universal instructional algorithm. Coaching actions and prompts remain in the [master Practice](../practices/ai-assisted-learning-orchestration.md).
 
 ![Instructional Design connects capability, activity and evidence through alignment. A provisional route links interpreting quantities, explaining a rate and justifying a comparison. Learner evidence, task demands, support and constraints inform the design.](../diagrams/instructional-design-overview.png)
 
@@ -30,6 +30,8 @@ The triangle expresses mutual alignment rather than a three-step sequence. The r
 ## Contents
 
 - [Capability objectives and alignment](#capability-objectives-and-alignment)
+- [From subject coverage to lessons](#from-subject-coverage-to-lessons)
+- [Choosing lesson content and scope](#choosing-lesson-content-and-scope)
 - [Task analysis and meaningful integration](#task-analysis-and-meaningful-integration)
 - [Prerequisites and corequisites](#prerequisites-and-corequisites)
 - [Sequencing and learning progressions](#sequencing-and-learning-progressions)
@@ -55,6 +57,37 @@ The [Assessment Triangle](assessment-triangle.md) connects an account of compete
 | Conditions | Which sources, tools, assistance and constraints apply? | A supplied answer can be mistaken for independent performance |
 
 These elements constrain each other. A calculator can remove arithmetic burden while preserving the goal of interpreting a rate. If unaided division is the goal, the same tool changes what the response can establish. Neither condition is universally better; its relevance depends on the capability.
+
+## From subject coverage to lessons
+
+Subject coverage and learning organization answer different questions. The following distinctions are our practical vocabulary for designing lessons, not a new standardized taxonomy:
+
+| Level | Responsibility | Constructed example |
+|---|---|---|
+| Body of knowledge outline | Identify what the subject covers and how domains connect | Quantities, operations, ratios and their relationships |
+| Overall target | Select a useful capability from that subject | Justify comparisons on a common basis |
+| Learning stage | Develop a broader capability that may combine domains | Compute and interpret per-unit quantities |
+| Lesson within a stage | Develop a focused capability through connected explanation and activity | Explain why dividing a total by a group count gives an amount per group |
+| Task within a lesson | Give one meaningful opportunity to reason or act | Calculate an amount per group and justify the divisor |
+| Attempt | Record the actual response and help | A learner's explanation, if supplied; otherwise unobserved |
+
+A lesson can contain several connected tasks, presented together or in guided steps. Lesson scope describes what belongs together conceptually; interaction pace describes when the learner responds. Neither determines the other. A day or session describes scheduling: one session can contain several lessons, and a lesson can span sessions. These distinctions prevent a daily quota from silently deciding conceptual scope. A narrowly focused question may need only one lesson and one task; the vocabulary does not require an elaborate plan.
+
+The outline informs what knowledge is available. The learner's goal selects a route through it. The stage provides context for a lesson, while evidence from tasks informs whether its scope or support should change. Coverage of a topic, completion of a lesson and demonstrated stage capability remain different claims.
+
+## Choosing lesson content and scope
+
+A lesson needs a central question and a capability, such as explaining an amount per group. Evidence is chosen alongside the content: a quotient alone cannot show whether the learner understands the divisor, so the task also asks for that relationship. This creates a reason to explain the meanings of the quantities rather than merely supply a formula.
+
+The essential content includes the terms, prerequisite meanings, relationships, worked reasoning and boundaries needed for the capability. For equal sharing, that means total, group count, amount per group, division and the equal-group assumption. General algebra is related but unnecessary for this introductory lesson. A learner unfamiliar with multiplication may need a concrete distribution example; a learner who already explains the relation may need a different application instead.
+
+The [Instruction and Scaffolding Model](instruction-and-scaffolding.md) develops how to turn that selection into a connected explanation. Content responsibilities are flexible: a mechanism, proof, contrast or demonstration can be appropriate depending on the subject. No fixed list of headings, word limit or one-concept rule defines a lesson.
+
+Choose the coherent lesson capability before dividing its assessment into questions. A question that reveals one distinction may be only a check within a lesson; it does not define the lesson's full scope. Conversely, a lesson need not survey an entire domain. A useful boundary keeps together the relationships needed for its intended application and leaves unrelated detail for later.
+
+A short assessment set can sample complementary features of that capability: an explanation, an application and a boundary case, where each is relevant. This is not a mandatory three-question template. For equal sharing, calculating a share, explaining the divisor and distinguishing an average from equal individual amounts address different parts of the same capability. Reversing the wording of an already answered question may add little evidence. Response length and evidential value are different: a short prediction with a reason can expose the target relationship, while several lengthy paraphrases may leave application unobserved. The necessary reasoning determines the check, not a quota of questions or an essay requirement. Light checking does not make recognition alone sufficient when the target is explanation.
+
+Preparing the current lesson and its assessment set does not fix all future lessons in advance. Questions need checked criteria and declared assistance conditions, and can change when clarification reveals a problem. A lesson is complete for the agreed purpose when the evidence covers its capability sufficiently, or is paused explicitly when it does not. One correct sub-answer, a question count or the end of an explanation is not by itself a completion rule. Delayed retention and practical performance still require their own observations.
 
 ## Task analysis and meaningful integration
 
@@ -101,7 +134,7 @@ Adaptation connects an observation to a reason for changing a design. It is not 
 
 For example, comparing £0.005/g with £4.50/kg numerically suggests a unit mismatch. Repeating elementary division may leave that relationship untouched. Correctly calculating both rates but choosing the lower package price may instead indicate confusion about the criterion. These are competing interpretations of hypothetical responses, not diagnostic labels or observed learner results.
 
-The [Assessment and Feedback Model](assessment-and-feedback.md) explains how to bound such inferences. The design consequence can be another example, clarification, altered support, a changed task or a revised route. The master Practice chooses one next action with the learner; this Model does not prescribe a universal adaptation policy.
+The [Assessment and Feedback Model](assessment-and-feedback.md) explains how to bound such inferences. The design consequence can be another example, clarification, altered support, a changed task or a revised route. The master Practice carries out one next action within the learner's existing agreement; this Model does not prescribe a universal adaptation policy. A gap that prevents the next activity differs from one that can remain open during further learning. A stage summary connects the knowledge taught, the evidence actually observed and the limits of the transition decision. The summary is not itself a new observation: explaining a relationship to the learner does not establish that the learner can use it. A reusable subject overview and a learner's progress account therefore have different responsibilities, even when the latter embeds the former's illustration.
 
 ## A connected design example
 

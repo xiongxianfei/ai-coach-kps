@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:self-regulated-learning-with-ai"
 type: "practice"
-version: "0.2.0"
+version: "0.2.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Self Regulated Learning With an AI Coach"
@@ -43,7 +43,9 @@ Then use this Practice to execute the next chosen learning episode. Return the a
 
 ## One task for this learning episode
 
-Start with one meaningful response to produce and check, not a chapter or a list of topics. If a subject panorama or goal map already exists, locate this task within it; **do not block a well-defined small task** while constructing a new panorama. Agree on the source, output, criterion, actual answer-help boundary and an end or split condition. Ask the AI to present one task and await the learner's response. The learner may request a verified explanation or stop. Record the attempt and choose just one next action. See [the one-task guide](../guides/LEARNING-WORKFLOW.md) for a reusable card.
+Start with one meaningful response to produce and check, not a chapter or a list of topics. If a subject panorama or goal map already exists, locate this task within it; **do not block a well-defined small task** while constructing a new panorama. Agree on the source, output, criterion, actual answer-help boundary and an end or split condition. Ask the AI to present one task and await the learner's response. The learner may request a verified explanation or stop. Record the attempt and choose just one next action. See [the lesson and task guide](../guides/learning-workflow.md) for a reusable card.
+
+A bounded activity may contain related questions answered together after a connected explanation. This specialist entry does not set the size of every lesson or require an interruption after each small idea; use the master Practice for the broader lesson cycle.
 
 ## Stage map
 
@@ -164,7 +166,7 @@ Complete a session when the learner has an inspectable attempt, a justified inte
 
 ## Private record template
 
-Use [the blank session record](../data/session-record-template.json) outside the public repository. The [record guide](../guides/SESSION-RECORDS.md) distinguishes planned, missing, assisted and independently checked observations. Do not replace the raw attempt with the corrected version.
+Use [the blank session record](../data/session-record-template.json) outside the public repository. The [record guide](../guides/learning-records.md) distinguishes planned, missing, assisted and independently checked observations. Do not replace the raw attempt with the corrected version.
 
 ## Academic basis and adaptation
 

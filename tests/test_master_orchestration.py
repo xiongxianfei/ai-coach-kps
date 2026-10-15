@@ -129,7 +129,7 @@ class MasterContentTests(unittest.TestCase):
         self.assertIn('A score or demonstrated failure', s)
     def test_task_stage_target_decisions_are_separate(self):
         s = section(self.text(), STAGES[5])
-        self.assertIn('Distinguish three decisions', s)
+        self.assertIn('Evidence for one decision does not automatically justify the others', s)
         self.assertIn('Advancing provisionally', s)
         self.assertIn('does not isolate an AI treatment effect', s)
     def test_revision_and_pause_are_not_erasure(self):
@@ -208,7 +208,7 @@ class MasterContentTests(unittest.TestCase):
         handoff = section(text, 'Default planning handoff')
         self.assertIn('self-assessment and an optional pre-instruction diagnostic', summary)
         for phrase in ('Assess the learner', 'Map the subject',
-                       'Propose learning stages', 'Select one task', 'Teach and assess', '6. Adapt',
+                       'Propose learning stages', 'Teach and assess', '6. Adapt',
                        'Do not pre-generate', 'high-level'):
             self.assertIn(phrase, handoff)
 
@@ -237,9 +237,8 @@ class MasterContentTests(unittest.TestCase):
             self.assertIn(phrase, s)
         self.assertIn('Constructed English orientation', s)
 
-    def test_only_one_meaningful_task_is_detailed(self):
+    def test_current_activity_has_boundary_and_criterion(self):
         s = section(self.text(), STAGES[2])
-        self.assertIn('smallest meaningful, assessable part', s)
         self.assertIn('defer generating future daily questions', s)
         self.assertIn('Do not silently switch tasks', s)
         self.assertIn('criterion', s)
@@ -255,7 +254,7 @@ class MasterContentTests(unittest.TestCase):
     def test_opening_prompt_enforces_planning_and_reply_boundaries(self):
         s = section(self.text(), 'Opening prompt and one turn contract')
         for phrase in ('self-assessment', 'pre-instruction baseline',
-                       'subsystem', 'high-level', 'exactly ONE',
+                       'subsystem', 'high-level',
                        'Do not pre-generate', 'WAIT for my real response',
                        'preserve old versions'):
             self.assertIn(phrase, s)

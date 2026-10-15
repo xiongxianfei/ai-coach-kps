@@ -37,7 +37,7 @@ A **constructed panorama** locates unit-price reasoning in quantitative reasonin
 | Allowed support | An accessible text display; verified explanation on request is recorded as instructional assistance |
 | Stop or split | After one response and checking, proceed to a rate task, teach the missing unit relation, or pause |
 
-This is a proposed Day 1 *example*, not an actual day, interview, test or observed learning result. It is small without being mere disconnected vocabulary. The broader plan may have other stages, but they are not silently assigned as additional Day 1 requirements. See [One Learning Task at a Time](LEARNING-WORKFLOW.md).
+This is a proposed Day 1 *example*, not an actual day, interview, test or observed learning result. It is small without being mere disconnected vocabulary. The broader plan may have other stages, but they are not silently assigned as additional Day 1 requirements. See [One Learning Task at a Time](learning-workflow.md).
 
 ## Coaching choices
 

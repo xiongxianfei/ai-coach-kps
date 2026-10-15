@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:cepeda-2006"
 type: "reference"
-version: "0.1.0"
+version: "0.1.1"
 language: "KPS 9.x"
 status: "draft"
 creator: "Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted and Doug Rohrer"
@@ -48,7 +48,7 @@ Distributed practice varies the temporal separation of learning episodes; spacin
 
 ## Limits and nonclaims
 
-This is verbal-recall evidence, not proof of an optimal calendar for all conceptual, procedural or motor learning. The Method gives only the basic operation, not an exact experimental replication.
+This is verbal-recall evidence, not proof of an optimal calendar for all conceptual, procedural or motor learning. Abstract-only inspection did not justify admitting a detailed Distributed Practice Method. The basic temporal design in the retrieval and distributed practice workflow is a KPS-authored application, not an exact experimental replication. Fuller procedural inspection is needed before strengthening that account.
 
 ## Nonclaims
 
