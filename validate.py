@@ -20,6 +20,13 @@ from urllib.parse import unquote, urlsplit
 
 VALIDATOR_VERSION = "9.1.0"
 
+# Local adaptation: copyable private-note scaffolds have no knowledge summaries.
+# All other structural and link checks still apply; knowledge objects cannot opt out.
+LEARNING_NOTE_TEMPLATES = frozenset({
+    "templates/learning-notes/learning-notes.md",
+    "templates/learning-notes/stages/01-stage-name.md",
+})
+
 CORE = {"concept", "principle", "model", "method", "practice"}
 FOLDERS = {k: k + 's' for k in CORE}
 RELATIONS = {"uses_concepts":"concept", "uses_principles":"principle", "uses_models":"model", "uses_methods":"method", "uses_practices":"practice", "composes":"practice", "references":"reference", "related_knowledge":None}
@@ -196,9 +203,11 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
         for h,c in counts.items():
             if c>1:error('duplicate-heading',path,h)
             if not SIMPLE.fullmatch(h):error('heading-profile',path,h)
-        for wanted in ('Key takeaway','Summary'):
-            if not any(h==wanted for n,h in doc.headings):error('local-summary',path,'missing '+wanted)
-            elif not meaningful(section(doc,re.escape(wanted))):error('local-summary',path,'empty '+wanted)
+        is_note_template = path.relative_to(root).as_posix() in LEARNING_NOTE_TEMPLATES and not typ and not m.get('id')
+        if not is_note_template:
+            for wanted in ('Key takeaway','Summary'):
+                if not any(h==wanted for n,h in doc.headings):error('local-summary',path,'missing '+wanted)
+                elif not meaningful(section(doc,re.escape(wanted))):error('local-summary',path,'empty '+wanted)
         if re.search(r'<\s*a\b[^>]*\b(?:id|name)\s*=',doc.live,re.I):error('html-anchor',path,'custom HTML anchor is outside this profile')
         if re.search(r'\[\[[^\]]+\]\]',doc.live):error('wikilink',path,'application-specific wikilink')
         ident=m.get('id')

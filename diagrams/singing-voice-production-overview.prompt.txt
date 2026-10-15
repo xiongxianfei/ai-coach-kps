@@ -1,0 +1,30 @@
+Use case: scientific-educational. Create a premium textbook summary poster for an adult beginner's singing lesson, landscape 1536x1024 or higher, with beautifully crafted scientific illustration, subtle watercolor texture on warm ivory, navy typography, teal airflow, amber vocal folds, muted violet tract accents. Exceptionally clear readable English lettering, spacious composition, no decorative filler, no branding.
+
+Title exactly: "How the singing voice works"
+Subtitle exactly: "Stage 1 • Understand sound production and control"
+
+Main visual: a coherent left-to-right explanatory flow, with generous space and labelled arrows, NOT a medical diagnosis.
+1. "Respiration" with an elegant simplified lungs-and-diaphragm illustration. Caption: "Supplies pressure and airflow".
+2. "Phonation" with an enlarged schematic of two vocal folds around an air passage, not a stretched string. Caption: "Vibrating folds modulate airflow".
+3. "Resonance" with a tasteful sagittal mouth-and-throat schematic, the mouth opening forward and the tongue correctly in the oral cavity. Caption: "The tract shapes frequency strengths".
+4. "Heard sound" with a subtle ear and sound waves illustration.
+Connect Respiration to Phonation with an arrow labelled "drives"; Phonation to Resonance labelled "sound source"; Resonance to Heard sound labelled "shaped sound".
+Above the tract card place a fourth process "Articulation" with tiny tongue/lips icons, connected down to the tract by an arrow labelled "changes shape and openings".
+Above Phonation place a restrained callout "Muscles adjust position and tension", its arrow pointing to the folds.
+A visible curved dashed return arrow FROM the vocal tract BACK TO the folds, labelled "can influence vibration". The main flow is a useful approximation, not independent boxes.
+
+Bottom third: three beautiful restrained outcome cards:
+"Pitch" / "Heard height"
+"Loudness" / "Perceived strength"
+"Timbre" / "Tone quality"
+No arrows implying a one-to-one mapping of an organ to an outcome.
+Below them two concise truths:
+"Airflow supplies energy; muscles set the conditions."
+"One physical adjustment can affect several sound properties."
+Small final footer: "Simplified explanatory model • A sound does not reveal a unique physical cause"
+
+Keep all required text exact and readable. Show no learner scores, completion certificates, anatomical pathology, source logos, performance results or exercises. This is a new original illustration, not a copied figure. Anatomical drawings schematic and credible; relationships and text accuracy take priority over detail.
+
+Revision after visual review
+
+Edit this educational illustration with one narrow correction only: in the Respiration lungs panel, REMOVE the two teal upward arrows drawn underneath the diaphragm, including their glow. Air does not originate in the abdomen or pass through the diaphragm. Preserve the diaphragm anatomy and the central airflow arrow within the airway above the diaphragm. Keep every other illustration, label, arrow, color, text, spacing and dimension exactly the same. Do not add any new text or alter anatomy elsewhere.

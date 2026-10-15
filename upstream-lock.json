@@ -10,9 +10,11 @@
       "reuse": "unchanged copy"
     },
     "validate.py": {
-      "sha256": "18e7e9a7eb86ace86a1f8fa31f7772b182b488ab0a5ab10c3fce2a2ea4e70f50",
+      "sha256": "85698b40706ab8fd959730fd9604961128ea06c78ea8abefdbe05a1a6ccc41a6",
       "git_blob_sha1": "ad8e9d48c501961e38415719fa5bdba6d78b18d4",
-      "reuse": "unchanged copy"
+      "reuse": "Core 9.1.0 validator locally adapted to exempt two named private learning-note templates from knowledge summary headings; original checksum retained",
+      "upstream_sha256": "18e7e9a7eb86ace86a1f8fa31f7772b182b488ab0a5ab10c3fce2a2ea4e70f50",
+      "upstream_path": "validate.py"
     },
     "docs/AUTHORING.md": {
       "sha256": "15ef89aca3c43eb65bf9e72062cea465a17805a4da8c7330799c7131e05f432d",

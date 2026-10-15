@@ -36,20 +36,20 @@ Reuse a suitable subject illustration or create one with available tools, checki
 
 An introductory pass, provisional move forward and demonstrated stage capability are different conclusions. Use the description supported by the observations; practical performance and delayed retention remain untested until observed. An existing adequate response can support the decision without a duplicate stage test. When continuing is appropriate, follow the summary with the next stage's purpose and first lesson in the same reply, then wait for answers.
 
-Keep learner summaries under stage headings in a private record, or in separate stage files when the programme grows, with pictures embedded beside the text. The overview retains the goal, roadmap, current assessment and next action; the initial assessment preserves starting evidence. All completed learner records stay outside public repositories. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](learning-records.md#stage-summaries-and-private-storage) for a minimal layout. No new template, schema or tracking system is required.
+Keep learner summaries in numbered files under a private `stages/` folder, with pictures embedded beside the text. The overview retains the goal, initial assessment under Starting point, roadmap, and current assessment and next action under Where I am now. All completed learner records stay outside public repositories. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](learning-notes.md#stage-summaries-and-private-storage) for a minimal layout. The copyable templates are optional scaffolds; no software schema or tracking system is required.
 
-## Maintain the learning record
+## Maintain the learning notes
 
-The [learning-records guide](learning-records.md) owns the file layout and evidence distinctions. Use one file for a small goal, or an overview, initial assessment and stage files for a larger programme. Record maintenance supports the lesson; it does not require another question or confirmation at every step.
+The [learning-notes guide](learning-notes.md) owns the file layout and evidence distinctions. Copy the [overview](../templates/learning-notes/learning-notes.md) and [stage](../templates/learning-notes/stages/01-stage-name.md) templates into a private location. The default is `learning-notes.md` plus numbered files in `stages/`, with the initial assessment inside the overview. Record maintenance supports the lesson; it does not require another question or confirmation at every step.
 
 | Occasion | Useful update |
 |---|---|
-| Begin | Record the goal and preferences, preserve self-report and actual baseline evidence separately, and mark unobserved capabilities unknown. Establish a provisional current assessment from the available evidence. |
-| Teach and receive a reply | Keep useful connected explanations and meaningful responses in the current stage. Preserve the original answer, actual assistance and checked feedback separately; skip routine conversational filler. |
+| Begin | Record the goal and preferences, preserve self-report and actual baseline evidence distinctly under Starting point, and mark unobserved capabilities unknown. Establish a provisional current assessment from the available evidence. |
+| Teach and receive a reply | Keep a provisional lesson outline at the top of the current stage, followed by important learner-written notes, useful explanations and meaningful responses. Preserve the original answer, actual assistance and checked feedback separately; skip routine conversational filler. |
 | Evidence changes a conclusion | Update the dated current assessment with a link to the observation and its conditions. Preserve a superseded consequential judgment with the reason for correction in the stage notes. |
 | Finish or pause a stage | Add the connected summary and overview picture, identify supported understanding and open gaps, then update the roadmap, current assessment and next action. |
 | Resume | Read the overview, current stage and cited evidence needed for the pending decision. Ask only for missing context or changed circumstances; do not restart the baseline automatically. |
-| Change the goal or route | Record the changed scope and reason, retain the original assessment and earlier evidence, and keep stage identifiers stable. |
+| Change the goal or route | Record the changed scope and reason, retain the original assessment and earlier evidence, and keep existing stage identifiers stable. If stage order changes, update numeric filenames and affected links together. |
 | Find a reusable knowledge gap | Check the proposed explanation, improve the owning knowledge file within the authorized scope, and link back from the note without publishing personal records. |
 
 The current assessment summarizes available evidence; it does not require a new test at every update. Assisted success cannot silently become independent performance, and a planned later check remains a plan. When no private storage is available, provide a compact update for the learner to save without claiming persistent memory or completed file writes.
@@ -137,7 +137,7 @@ The prerequisite register is a set of task-sensitive hypotheses, not a fourth kn
 2. Inspect [the constructed example](../data/two-level-learning-plan-example.json). It demonstrates syntax and hypothetical design only. No source review, learner agreement or performance is invented by the example.
 3. Fill the panorama before zooming to the goal map. Existing checked panoramas can be reused; keep the versions and scope visible. Select `proposed_plan` when the records contain a usable proposal, or `constructed_example` for explicitly invented demonstration data.
 4. Use stable region, concept and learning-stage IDs. `order` is a replaceable display position, not the stage identity or proof of developmental necessity. A stage ID such as `normalize` remains unchanged when reordered. This differs from the repository Practice's navigable StageN headings.
-5. Keep the learner's actual response in a separate [session record](learning-records.md). Refer to it privately in the prerequisite evidence or revision history rather than copying it into the public knowledge base.
+5. Keep the learner's actual response in a separate [session record](learning-notes.md). Refer to it privately in the prerequisite evidence or revision history rather than copying it into the public knowledge base.
 
 ## Choose one current task
 

@@ -16,7 +16,7 @@ The supporting library is newly authored as bounded source-aligned summaries. Th
 
 ## Upstream copies
 
-validate.py and LICENSE remain unchanged copies from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. docs/AUTHORING.md and docs/TEMPLATES.md adapt local documentation links; docs/AUTHORING.md also names the local domain-test command. The copied regression suite was removed; its original source and digest remain recorded in upstream-lock.json. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
+LICENSE remains an unchanged copy from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. The validator from that release has a disclosed local exception for two private-note templates; its original and local digests are retained in upstream-lock.json. docs/AUTHORING.md and docs/TEMPLATES.md adapt local documentation links; docs/AUTHORING.md also names the local domain-test command. The copied regression suite was removed; its original source and digest remain recorded in upstream-lock.json. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
 
 ## Original material
 
@@ -24,7 +24,7 @@ The domain-specific Practices, summaries, infrastructure, tests and synthetic ex
 
 ## External publications
 
-Twenty Reference records identify actual publications and their inspection boundaries. Publisher articles, PDFs, images, tests, datasets and media remain under their own licenses. The package does not distribute them or claim full-text access when only an abstract or publication overview was inspected. The body-of-knowledge and Assessment and Feedback illustrations were generated for this project with the built-in image generation tool; each prompt is retained alongside its PNG. They are not reproduced source figures or institutional endorsements.
+Reference records identify actual publications and their inspection boundaries. Publisher articles, PDFs, images, tests, datasets and media remain under their own licenses. The package does not distribute them or claim full-text access when only an abstract or publication overview was inspected. The body-of-knowledge and Assessment and Feedback illustrations were generated for this project with the built-in image generation tool; each prompt is retained alongside its PNG. The singing voice-production illustration is reused from an original AI-generated learning illustration, with its generation prompt retained beside the PNG; it contains no learner results. These are not reproduced source figures or institutional endorsements.
 
 ## Privacy
 

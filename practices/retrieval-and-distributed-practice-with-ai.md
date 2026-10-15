@@ -129,7 +129,7 @@ Later observation and actual interval: [fill or unknown]
 Next design choice and reason: [fill]
 ```
 
-Do not commit personal review records or private source excerpts. See [record interpretation](../guides/learning-records.md).
+Do not commit personal review records or private source excerpts. See [record interpretation](../guides/learning-notes.md).
 
 ## Academic basis and adaptation
 
