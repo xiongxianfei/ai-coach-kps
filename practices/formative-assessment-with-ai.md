@@ -36,7 +36,7 @@ This Practice is for educational obstacles in a bounded adult learning task. It 
 
 ## One obstacle and one discriminating probe
 
-Enter with **one observed discrepancy**, its task, a credible criterion and actual assistance information. Check whether the task or reference is wrong before inferring a learner difficulty. Choose a small probe whose answers would lead to different instructional decisions; ask it before presenting multiple new explanations. Return one concrete next learning task or an explicit reason to pause, not a global learner diagnosis. Use [the one-task guide](../guides/LEARNING-WORKFLOW.md) when the instructional response needs to be scoped further.
+Enter with **one observed discrepancy**, its task, a credible criterion and actual assistance information. Check whether the task or reference is wrong before inferring a learner difficulty. Choose a small probe whose answers would lead to different instructional decisions; ask it before presenting multiple new explanations. Return one concrete next learning task or an explicit reason to pause, not a global learner diagnosis. Use [the lesson and task guide](../guides/LEARNING-WORKFLOW.md) when the instructional response needs to be scoped further.
 
 ## Stage map
 

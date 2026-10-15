@@ -36,7 +36,7 @@ Use for learner-owned, low-stakes evaluation. The learner can decline or stop. T
 
 ## One learning claim to evaluate
 
-Select **one bounded claim** about a capability under declared resources, such as an independent explanation on an unfamiliar task. Reuse available task records instead of imposing a redundant test. If the claim concerns later retention or changed-context application, leave it pending until the necessary observation actually occurs. Conclude with one justified next check or learning task. The [one-task guide](../guides/LEARNING-WORKFLOW.md) supports task scoping but does not define a universal mastery threshold.
+Select **one bounded claim** about a capability under declared resources, such as an independent explanation on an unfamiliar task. Reuse available task records instead of imposing a redundant test. If the claim concerns later retention or changed-context application, leave it pending until the necessary observation actually occurs. Conclude with one justified next check or learning task. The [lesson and task guide](../guides/LEARNING-WORKFLOW.md) supports task scoping but does not define a universal mastery threshold.
 
 ## Stage map
 

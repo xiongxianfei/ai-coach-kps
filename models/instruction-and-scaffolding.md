@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.2.0"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -35,6 +35,7 @@ The arrows express opportunities and informational relationships, not guaranteed
 - [Building a connected explanation](#building-a-connected-explanation)
 - [Demonstration and representations](#demonstration-and-representations)
   - [Connecting structure to meaning](#connecting-structure-to-meaning)
+- [Lesson scope and interaction pace](#lesson-scope-and-interaction-pace)
 - [Questioning and learner explanation](#questioning-and-learner-explanation)
 - [Scaffolding and changing responsibility](#scaffolding-and-changing-responsibility)
 - [Interpreting misunderstanding](#interpreting-misunderstanding)
@@ -107,6 +108,16 @@ The first case can still involve a door that can be locked. It therefore need no
 
 The teaching point is the correspondence among representation, interpretation and situation. Repeating the brackets with more labels leaves that correspondence unexplained if the meanings are still missing. Explaining each contribution and comparing a concrete case addresses the relationship directly. This is an authored instructional application of a bounded linguistic analysis, not evidence that every context favors both readings equally or that this teaching order is universally best.
 
+## Lesson scope and interaction pace
+
+A coherent explanation can connect several concepts before a response is requested. Breaking it after every definition changes the interaction but does not necessarily expose a new reasoning demand. Explanation length and question frequency are separate design choices: a complete explanation is complete relative to the lesson capability, not encyclopedic coverage of the subject.
+
+Two arrangements remain available. A connected explanation followed by a short question set keeps the relationships in view before assessment. Guided interaction introduces a meaningful part and uses a response to inform subsequent support. The latter can be useful when a procedure depends on earlier decisions, a prerequisite is uncertain, or the learner asks for stepwise help. Neither arrangement is a fixed learner type or a universal best sequence.
+
+Cognitive Apprenticeship supplies whole-task context and adjustable support; the IES overview includes alternating worked examples with problems. Neither source establishes that all teaching must precede all questions, or that every small idea needs an immediate check. The lesson pacing choice and default delivery cycle belong to the master Practice.
+
+A question set can reveal relationships across answers. Correct definitions alongside a mistaken application suggest a different gap from uniformly missing terminology. Feedback can therefore address the common misunderstanding while retaining the evidence for each answer. An unanswered item remains unobserved; it is not filled from another answer or treated as failure automatically.
+
 ## Questioning and learner explanation
 
 Questions can elicit different kinds of work: naming, calculating, explaining a reason, predicting a change, comparing cases or finding a boundary. Their usefulness depends on what the lesson is trying to develop. “What is the answer?” may reveal a quotient; “Why is four the divisor?” addresses its interpretation.
@@ -173,7 +184,7 @@ In live use, the coach waits here. No actual reply or assessment is recorded in 
 | Correct explanation without answer help | The current task supports the intended relationship | Choose another relevant application or close the lesson; later retention remains unobserved |
 | No reply | No learner evidence exists | Wait, clarify or record a pause |
 
-These are alternatives, not a batch of future tasks. At a lesson close, the meaningful record is what was explained, what the learner actually produced, under what help, and one next action. There is no automatic stage-completion claim or requirement to finish the lesson in one day.
+These are conditional follow-up alternatives, not a required sequence. The single task illustrates a narrow capability; it does not require all lessons to have that scope or forbid presenting complementary questions together. At a lesson close, the meaningful record is what was explained, what the learner actually produced, under what help, and one next action. There is no automatic stage-completion claim or requirement to finish the lesson in one day.
 
 ## Interfaces with other domains
 

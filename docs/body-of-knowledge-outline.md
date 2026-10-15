@@ -129,7 +129,7 @@ The [Instructional Design Model](../models/instructional-design.md) connects the
 
 This domain asks how explanations, demonstrations and support help a learner engage with a task. It connects instructional design to the learner's actual activity. An accurate AI explanation is an instructional input, not evidence that the learner can produce or apply it.
 
-The [Instruction and Scaffolding Model](../models/instruction-and-scaffolding.md) explains these relationships through a worked lesson and an embedded illustration. It provides introductory coverage with remaining source and depth limits.
+The [Instruction and Scaffolding Model](../models/instruction-and-scaffolding.md) explains these relationships through a worked lesson and an embedded illustration. Its [lesson scope and pacing](../models/instruction-and-scaffolding.md#lesson-scope-and-interaction-pace) section distinguishes connected teaching from the timing of questions. It provides introductory coverage with remaining source and depth limits.
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|

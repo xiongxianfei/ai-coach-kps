@@ -32,7 +32,7 @@ For a multi-episode goal, keep the [planning record](LEARNING-WORKFLOW.md) separ
 
 The optional `learning_task_id` identifies the bounded task currently being attempted, whether or not a formal plan exists. Optional `plan_id`, `plan_version` and `learning_stage_id` can relate this private observation to the corresponding plan version and stable learning-stage ID. If a stage link is supplied, a plan ID and version are required; these are declarations, **not** proof that the referenced plan or task actually exists. Omit the fields or leave them `null` for standalone learning tasks. A learner may produce several attempts for one task, each preserving its real help and conditions.
 
-Use the [one-task guide](LEARNING-WORKFLOW.md) to select an immediate observable output and criterion. The checker validates identifier shapes and observation declarations, but cannot inspect or certify an external private plan or infer mastery from one success.
+Use the [lesson and task guide](LEARNING-WORKFLOW.md) to select an immediate observable output and criterion. The checker validates identifier shapes and observation declarations, but cannot inspect or certify an external private plan or infer mastery from one success.
 
 ## Assistance and verification
 

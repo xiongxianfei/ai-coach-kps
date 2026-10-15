@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instructional-design"
 type: "model"
-version: "0.2.0"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instructional Design"
@@ -71,7 +71,7 @@ Subject coverage and learning organization answer different questions. The follo
 | Task within a lesson | Give one meaningful opportunity to reason or act | Calculate an amount per group and justify the divisor |
 | Attempt | Record the actual response and help | A learner's explanation, if supplied; otherwise unobserved |
 
-A lesson can contain several connected tasks presented one at a time. A day or session describes scheduling: one session can contain several lessons, and a lesson can span sessions. These distinctions prevent a daily quota from silently deciding conceptual scope. A narrowly focused question may need only one lesson and one task; the vocabulary does not require an elaborate plan.
+A lesson can contain several connected tasks, presented together or in guided steps. Lesson scope describes what belongs together conceptually; interaction pace describes when the learner responds. Neither determines the other. A day or session describes scheduling: one session can contain several lessons, and a lesson can span sessions. These distinctions prevent a daily quota from silently deciding conceptual scope. A narrowly focused question may need only one lesson and one task; the vocabulary does not require an elaborate plan.
 
 The outline informs what knowledge is available. The learner's goal selects a route through it. The stage provides context for a lesson, while evidence from tasks informs whether its scope or support should change. Coverage of a topic, completion of a lesson and demonstrated stage capability remain different claims.
 
@@ -83,7 +83,11 @@ The essential content includes the terms, prerequisite meanings, relationships, 
 
 The [Instruction and Scaffolding Model](instruction-and-scaffolding.md) develops how to turn that selection into a connected explanation. Content responsibilities are flexible: a mechanism, proof, contrast or demonstration can be appropriate depending on the subject. No fixed list of headings, word limit or one-concept rule defines a lesson.
 
-The first task should be concrete enough to use now, with a checked criterion and assistance conditions. Later tasks remain candidates. A reply can justify revisiting a relationship, moving to another example, reducing support or closing the lesson. A useful stopping boundary is enough evidence for the current decision, or an agreed pause because of time, uncertainty or changed circumstances; it is not automatic completion after a fixed task count.
+Choose the coherent lesson capability before dividing its assessment into questions. A question that reveals one distinction may be only a check within a lesson; it does not define the lesson's full scope. Conversely, a lesson need not survey an entire domain. A useful boundary keeps together the relationships needed for its intended application and leaves unrelated detail for later.
+
+A short assessment set can sample complementary features of that capability: an explanation, an application and a boundary case, where each is relevant. This is not a mandatory three-question template. For equal sharing, calculating a share, explaining the divisor and distinguishing an average from equal individual amounts address different parts of the same capability. Reversing the wording of an already answered question may add little evidence.
+
+Preparing the current lesson and its assessment set does not fix all future lessons in advance. Questions need checked criteria and declared assistance conditions, and can change when clarification reveals a problem. A lesson is complete for the agreed purpose when the evidence covers its capability sufficiently, or is paused explicitly when it does not. One correct sub-answer, a question count or the end of an explanation is not by itself a completion rule. Delayed retention and practical performance still require their own observations.
 
 ## Task analysis and meaningful integration
 

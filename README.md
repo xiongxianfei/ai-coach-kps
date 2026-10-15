@@ -8,7 +8,7 @@ status: "draft"
 
 ## Key takeaway
 
-Start with a bounded adult learning task and preserve the evidence of what the learner actually did.
+Teach a coherent lesson at the adult learner's preferred pace and preserve the evidence of what they actually did.
 
 ## Summary
 
@@ -20,11 +20,11 @@ The [body-of-knowledge outline](docs/body-of-knowledge-outline.md) shows nine co
 
 ## Start and stay in the master Practice
 
-[AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) is the primary entry for **overall target → learning stages → individual tasks**. Its seven procedural stages contain the planning, instruction, question–response–assessment loop, difficulty investigation, retrieval, revision and resume instructions **inline**. You do not need to open the five specialist files to carry out the master workflow.
+[AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) is the primary entry for **overall target → learning stages → coherent lessons → assessment tasks**. Its seven procedural stages contain the planning, instruction, question–response–assessment loop, difficulty investigation, retrieval, revision and resume instructions **inline**. You do not need to open the five specialist files to carry out the master workflow.
 
 **For a new broad subject, start with a brief learner self-assessment and (when appropriate) a small pre-instruction baseline check.** Then build a source-grounded map of the subject's major explanatory areas or subsystems, their boundaries and cross-links; propose a few high-level, revisable capability stages. These are not necessarily one stage per subsystem, and the plan is not a complete calendar of questions.
 
-**Work out only the current meaningful task in detail:** relevant knowledge when needed → question or activity → real learner response → criterion-based assessment and feedback → one next decision. For baseline or retrieval, the question may come before instruction. The coach waits for the reply, distinguishes assisted from independent evidence, and updates the high-level stages only when evidence or learner circumstances warrant it. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
+**Prepare the current coherent lesson:** connected explanation and examples → clarification opportunity → short assessment set → real learner responses → checked combined feedback → one next decision. Follow the learner's pace; guided questions remain available when useful. For baseline or retrieval, the question may come before instruction. The coach waits for the reply, distinguishes assisted from independent evidence, and updates the high-level stages only when evidence or learner circumstances warrant it. A daily label is optional; it is not a KPS StageN or a compulsory deadline.
 
 The master contains its own worked example, task card, assessment branches and blank resume record. References provide support and optional depth, not missing instructions. Subject-specific facts still need an inspectable source; a complete procedure does not make an AI an expert.
 
@@ -32,7 +32,7 @@ The master contains its own worked example, task card, assessment branches and b
 
 | Current task | Entry Practice | Output |
 |---|---|---|
-| Coordinate the full learning journey in one file | [AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) | Overall target, stage plan, one current task, real response, bounded assessment and resume record |
+| Coordinate the full learning journey in one file | [AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) | Overall target, stage plan, coherent lesson, actual responses, bounded assessment and resume record |
 | Orient to a subject and plan a learning route | [Concept Mapping and Instructional Sequencing With an AI Coach](practices/concept-mapping-and-instructional-sequencing-with-ai.md) | A panorama, goal map and evidence-revisable stage plan |
 | Learn one concept or safe skill | [Self-Regulated Learning With an AI Coach](practices/self-regulated-learning-with-ai.md) | A target, source, original attempts, feedback and a next independent check |
 | Understand a recurring task difficulty | [Formative Assessment With an AI Coach](practices/formative-assessment-with-ai.md) | Competing explanations, a probe and a justified instructional decision |
@@ -41,20 +41,20 @@ The master contains its own worked example, task card, assessment branches and b
 
 Begin with the task that fits. The package does not require reading the full library or completing all six Practices. The master composes the specialist functions inline; the table also permits direct specialist entry. Each stage places actions, explanation and fallback together; stage numbers are a recommended route, not proof of prerequisites.
 
-## Start with one manageable task
+## Choose a coherent lesson
 
-[One Learning Task at a Time](guides/LEARNING-WORKFLOW.md) is the shared KPS application convention: locate the goal, select **one meaningful task**, define its observable output and checking criterion, agree on assistance, attempt it, then use the evidence to choose the next action. The subject panorama and adaptive stage plan provide orientation; they are **not** prerequisites for a clearly bounded small task or a demand to finish a whole subject on Day 1. Task size is adjustable and not defined by a fixed number of minutes. This design choice is not asserted as a universal scientific principle.
+[Coherent lessons and the wider plan](guides/LEARNING-WORKFLOW.md) connects the goal, lesson capability, essential knowledge and assessment. Several related questions can be presented together after teaching. The subject panorama and adaptive stage plan provide orientation; a precise small task can still start directly. Lesson scope and interaction pace are adjustable, authored choices rather than universal learning laws.
 
 ## First use
 
 1. For a broad goal, record a concise self-assessment and, if useful, a pre-instruction baseline response. Sketch the subject's source-grounded explanatory areas, selected connections and a small high-level stage roadmap. For an already bounded task, start directly without a compulsory survey; prior agreement and actual evidence can be reused.
-2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Detail **only the current meaningful task**, not all future days. Agree on its output, criterion, answer-help boundary and when to stop or split it. Do not paste private data or trust an uninspected AI bibliography.
+2. Use the self-contained master for the continuing programme, or enter a specialist directly for a bounded need. Detail **the current lesson and assessment**, not all future days. Reuse agreement on scope and pacing, and state outputs, criteria, answer-help boundaries and when to stop or split. Do not paste private data or trust an uninspected AI bibliography.
 3. Preserve your attempt before feedback. Record actual hints and answer exposure, not just what was requested.
 4. End with a bounded interpretation and next action. A prompt does not create memory, scheduling, expertise or learning by itself.
 
 ## What is included
 
-There are **26 knowledge objects**: seven Concepts, three Principles, six Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty-one Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
+There are **26 knowledge objects**: seven Concepts, three Principles, six Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty-two Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
 The Models include two published frameworks, Cognitive Apprenticeship and the Assessment Triangle, and four explicitly authored domain syntheses: [Knowledge Representation](models/knowledge-representation.md), [Instructional Design](models/instructional-design.md), [Instruction and Scaffolding](models/instruction-and-scaffolding.md), and [Assessment and Feedback](models/assessment-and-feedback.md). Each embeds its own overview illustration and connects source-grounded explanations without claiming a published unified theory or a validated AI intervention. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 

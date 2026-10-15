@@ -4,29 +4,29 @@ package_version: "0.4.0"
 status: "draft"
 ---
 
-# One learning task and the wider plan
+# Coherent lessons and the wider plan
 
 ## Key takeaway
 
-Use one meaningful, observable current task while retaining revisable subject and goal maps when they are useful.
+Teach connected knowledge for a coherent lesson capability, then assess it at the agreed pace and adapt from actual responses.
 
 ## Summary
 
-This reader guide combines the one-task-at-a-time convention and the optional two-level learning-plan record instructions. It distinguishes the current task, panorama, goal concept map, proposed learning episodes and actual observations. No fixed task duration, planning software, or validated mastery score is required.
+This reader guide connects lesson scope, flexible interaction pacing and the optional two-level learning-plan record. It distinguishes subject coverage, learning stages, lessons, assessment activities and actual observations. No fixed task duration, planning software, or validated mastery score is required.
 
 ## One continuing programme without document switching
 
-The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts the full procedure in one file. Define the overall target, identify provisional learning stages, select one current task, teach or ask for retrieval, wait for the real reply, assess against an inspectable criterion and choose the next action. Preserve actual attempts separately from plan revisions, and resume from the current decision instead of restarting the whole procedure.
+The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts the full procedure in one file. Define the overall target, identify provisional learning stages, scope a coherent lesson, teach connected content, invite clarification, present its assessment, wait for real answers, give checked feedback and choose the next action. Preserve actual attempts separately from plan revisions, and resume from the current decision instead of restarting the whole procedure.
 
-**Overall target → learning stage → lesson → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. A lesson develops a focused capability through connected explanation and one or more tasks, presented one at a time. A day can contain several lessons, or a lesson can span days; day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
+**Overall target → learning stage → lesson → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. A lesson develops a focused capability through connected explanation and one or more tasks, presented together or in guided steps. A day can contain several lessons, or a lesson can span days; day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
 
 ## Explain knowledge within the lesson
 
 The subject outline describes coverage; the learner's goal selects relevant knowledge. A stage organizes a broader capability, while a lesson focuses on a meaningful part. Select essential content and a checking criterion together: what must the learner understand to produce the intended response?
 
-For new learning, orient to the question, explain the necessary terms and relationships, show why the result or procedure follows, and use a checked demonstration when useful. Connect any picture or equation to the same meaning in words. Include a relevant boundary or contrast, then ask for an application or explanation and wait for the actual reply. The [Instruction and Scaffolding Model](../models/instruction-and-scaffolding.md) supplies a worked lesson; the master Practice keeps the delivery steps inline.
+For new learning, orient to the question, explain the necessary terms and relationships, show why the result or procedure follows, and use a checked demonstration when useful. Connect any picture or equation to the same meaning in words. Include relevant boundaries and contrasts. Default to presenting the connected explanation before a short assessment set, with an opportunity to clarify anything unclear. Each question should add useful evidence, such as interpretation, application or limits; there is no fixed question quota. Wait for the actual answers, review them together and revisit only remaining gaps. The [Instruction and Scaffolding Model](../models/instruction-and-scaffolding.md) supplies a worked lesson; the master Practice keeps the delivery steps inline.
 
-These are flexible content responsibilities, not compulsory lesson headings. For a baseline or retrieval task, ask before revealing the answer. Feedback and the next action follow the learner's actual response. A lesson focus can be an ordinary note; no new required record field or lesson form is introduced.
+These are flexible content responsibilities, not compulsory lesson headings. Follow the learner's pacing preference. Guided questions during teaching remain useful when requested or when a prerequisite or procedural decision needs checking; an interruption after each small idea is not required. Complete means sufficient for the lesson goal, not exhaustive coverage of a domain. For a baseline or retrieval task, ask before revealing the answer. Feedback and the next action follow the learner's actual response. A lesson focus can be an ordinary note; no new required record field or lesson form is introduced.
 
 ## Default adaptive roadmap for a new subject
 
@@ -37,30 +37,30 @@ The self-contained master Practice supplies the [six-step process](../practices/
 | 1. Learner starting point | Short self-report on goals, prior experience and constraints; optionally one checked response collected **before instruction** | Self-reported confidence versus observed competence; unknown is not failed |
 | 2. Subject areas or subsystems | A compact, source-grounded panorama: each candidate area's central question, boundary, an example and important overlaps | Academic explanatory perspectives versus arbitrary syllabus chapters |
 | 3. High-level stages | A few provisional capabilities, combining areas as useful, with candidate checkpoints and reasoned prerequisites | Subject-map relationships versus instructional prerequisites |
-| 4. One active task | Only the first meaningful, answerable activity with expected response, checked criterion, permitted help and stop/split rule | Day labels versus stable learning-task identities |
-| 5. Teach and assess | Explain when needed, ask, wait for the actual reply, then give checked feedback; preserve original answer and actual help | Supplied explanation versus learner-generated evidence; baseline and retrieval questions precede answer teaching |
+| 4. Lesson and assessment | Coherent capability, connected content and a current activity or question set with checked criteria, permitted help and stop/split rule | Lesson scope versus interaction pace and day labels |
+| 5. Teach and assess | Teach the connected lesson, invite clarification, present questions at the agreed pace, wait, then review answers together; preserve original responses and actual help | Supplied explanation versus learner-generated evidence; baseline and retrieval questions precede answer teaching |
 | 6. Adapt | Choose one next action; revise the roadmap when evidence or circumstances warrant | Task success versus independent stage-level or retained learning |
 
-For English, a panorama might distinguish phonetics, phonology, syntax, semantics and pragmatics by their explanatory questions, while recognizing the cross-cutting role of prosody. A learner's proposed stage could combine syntax and semantics to explain one sentence; there is no one-to-one rule assigning each linguistic area its own week. Show the roadmap for orientation, then work on **one** task. Keep future task details undecided until the learner responds and the evidence is interpreted.
+For English, a panorama might distinguish phonetics, phonology, syntax, semantics and pragmatics by their explanatory questions, while recognizing the cross-cutting role of prosody. A learner's proposed stage could combine syntax and semantics to explain one sentence; there is no one-to-one rule assigning each linguistic area its own week. Show the roadmap for orientation, then prepare **the current lesson and its assessment**. Keep later lessons provisional; the current assessment can include several related questions.
 
-## One task at a time
+## Scope before questions
 
-Begin with one meaningful learning task and a real check; expand only when the task or evidence calls for it.
+Choose a coherent lesson capability first, then the activity or questions that can reveal it. A focused diagnostic, retrieval task or direct explanation can still be used on its own.
 
 ## Find the next task
 
 1. **Locate the goal.** For a new subject, use a brief panoramic orientation and a goal-specific concept map to locate one meaningful capability; reuse an existing checked map if available. For a well-defined small question, begin directly and backfill the map only if it helps. The panorama is context, not a compulsory preliminary study session.
-2. **Choose one observable output.** Ask what the learner can explain, solve, compare, identify or demonstrate at the end. Prefer one relevant relationship or decision to isolated trivia. If the task requires several distinct capabilities that are not yet available, select a first useful part rather than making a miniature syllabus.
+2. **Choose the lesson capability and evidence.** Ask what the learner should explain or do, which ideas must connect, and what responses would demonstrate that capability. Select complementary questions or an integrated activity. Do not make each definition a separate lesson; split when the scope genuinely exceeds the learner's preparation or constraints.
 3. **State the task boundary.** Agree on the input or reference, response to produce, permissible answer assistance and access supports, criterion for checking, and conditions for stopping or splitting. A deadline or time box is optional and locally chosen, not an empirically guaranteed optimal duration.
 4. **Attempt before feedback when appropriate.** Keep the original response and the actual assistance. A full explanation or worked example is legitimate when prerequisites are absent or the learner requests it, but it is not an independent attempt.
-5. **Check and decide once.** Compare the response with a credible criterion. Choose *continue*, *revisit*, *split*, *increase the challenge*, *defer*, or *stop*, and note the reason. Never mark delayed retention or transfer as observed merely because the next task is planned.
+5. **Review and decide.** Compare the available responses with their criteria, explain common misunderstandings together, and leave unanswered parts unobserved. Judge lesson completion against the full agreed capability, not a single correct sub-answer. Choose *continue*, *revisit*, *split*, *increase the challenge*, *defer*, or *stop*, and note the reason. Never mark delayed retention or transfer as observed merely because the next task is planned.
 
 ## A usable one task card
 
 | Field | What to write |
 |---|---|
 | Goal and location | What larger capability and map region this task serves, if known |
-| Next task | One concrete question or action within a defined, authorized scope |
+| Next task | A bounded activity or related question set within a defined, authorized scope |
 | Observable output | The response, explanation or artifact the learner will produce |
 | Checking criterion | What evidence would support or challenge success on **this** task |
 | Assistance boundary | Allowed tools, answer hints, source access and accommodations |
@@ -115,9 +115,9 @@ The prerequisite register is a set of task-sensitive hypotheses, not a fourth kn
 
 ## Choose one current task
 
-A learning plan can contain several provisional stages while presenting **one next task** for immediate work. Use the optional `next_task` object to specify an `id`, `stage_id`, `task`, `observable_output`, `criterion`, `allowed_resources`, `assistance_boundary` and `stop_rule`. This is a proposed activity, not a learner response or a validated progression. `null` means no next task is selected yet; prior plans without this optional field remain readable by the checker. The ID references a stable learning-stage ID, not the navigable `StageN` headings of a KPS Practice. A day label is optional and never a performance claim.
+A learning plan can contain several provisional stages while selecting **one current activity**, which may be a short assessment set. The optional record retains its existing single `next_task` object; its task and criterion text can contain numbered questions and corresponding criteria. This format does not impose a one-question teaching rule. Use the optional `next_task` object to specify an `id`, `stage_id`, `task`, `observable_output`, `criterion`, `allowed_resources`, `assistance_boundary` and `stop_rule`. This is a proposed activity, not a learner response or a validated progression. `null` means no next task is selected yet; prior plans without this optional field remain readable by the checker. The ID references a stable learning-stage ID, not the navigable `StageN` headings of a KPS Practice. A day label is optional and never a performance claim.
 
-Choose the smallest *meaningful* evidence-producing action, not the smallest dictionary fragment. If important relationships need to be applied together, the next task may be integrative. A ready learner may bypass redundant preliminary episodes with supporting evidence. See [the one-task steps](#find-the-next-task); retain the original map, plan and revision history rather than overwriting earlier decisions.
+Choose evidence that covers the lesson capability rather than minimizing each question. If important relationships need to be applied together, the next task may be integrative. A ready learner may bypass redundant preliminary episodes with supporting evidence. See [the scoping steps](#find-the-next-task); retain the original map, plan and revision history rather than overwriting earlier decisions.
 
 ## Field interpretation
 

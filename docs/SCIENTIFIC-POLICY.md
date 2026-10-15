@@ -72,13 +72,13 @@ New-subject coaching starts with a compact panoramic orientation, followed by a 
 
 ## Master orchestration remains an authored Practice
 
-The sixth Practice coordinates an overall target, learner-specific stages and one task at a time. It contains inline planning, teaching, questioning, assessment, retrieval and adaptation procedures. The five specialists remain self-contained and keep their identities. `composes` declares maintenance relationships, not runtime execution or empirical validation; no composed child contains the master recursively.
+The sixth Practice coordinates an overall target, learner-specific stages, coherent lessons and current assessment activities. It contains inline planning, teaching, questioning, assessment, retrieval and adaptation procedures. The five specialists remain self-contained and keep their identities. `composes` declares maintenance relationships, not runtime execution or empirical validation; no composed child contains the master recursively.
 
 The complete programme workflow is KPS-authored, not a newly established theory of Self-Regulated Learning. Academic provenance does not guarantee that the AI follows a prompt. The master must work without opening repository links; subject truth and appropriate assessment still need credible content and, where necessary, qualified judgment.
 
-## One small task before more content
+## Coherent lessons and flexible pacing
 
-The default immediate unit is one bounded learning task with an observable output and a checking criterion, situated in the larger goal where useful. The panoramic overview should locate that goal without becoming a mandatory comprehensive lecture. Day labels and study durations are adjustable scheduling decisions, not KPS Practice stages or universal learning laws. Sometimes an integrative task is needed; decomposition must preserve meaning. See [the next-task guide](../guides/LEARNING-WORKFLOW.md).
+For new learning, the teaching unit is a coherent lesson capability with connected knowledge and observable assessment criteria. The authored default is a connected explanation, a clarification opportunity, a short assessment set, actual responses and combined feedback. Guided questions remain available when requested or needed; no universal explanation length or question frequency is claimed. Lesson scope and interaction pace are separate decisions. A bounded diagnostic or retrieval task can stand alone. The panoramic overview should locate that goal without becoming a mandatory comprehensive lecture. Day labels and study durations are adjustable scheduling decisions, not KPS Practice stages or universal learning laws. Sometimes an integrative task is needed; decomposition must preserve meaning. See [the next-task guide](../guides/LEARNING-WORKFLOW.md).
 
 ## Roles and consent
 

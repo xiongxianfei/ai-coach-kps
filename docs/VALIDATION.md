@@ -41,7 +41,7 @@ The local source-alignment profile also admits explanatory domain Models using `
 
 ## One current task declarations
 
-The optional `next_task` plan entry selects one current proposed task and names its output, checking criterion, assistance boundary and stop/split rule. Its stage ID must exist in the proposal. Optional session-record linkage fields have bounded types and cannot create an observed result. New tests reject unsupported multiple/invalid task declarations and broken plan linkage. These assertions test **format and authorship boundaries**, not whether the task is optimally sized, the criterion is scientifically adequate, or the learner improved.
+The optional `next_task` plan entry selects one current proposed task and names its output, checking criterion, assistance boundary and stop/split rule. Its stage ID must exist in the proposal. Optional session-record linkage fields have bounded types and cannot create an observed result. New tests reject unsupported multiple/invalid task declarations and broken plan linkage. The single record can describe a related question set in its existing text fields; it does not impose a one-question lesson. These assertions test **format and authorship boundaries**, not whether the task is optimally sized, the criterion is scientifically adequate, or the learner improved.
 
 ## Two level plan declarations
 
