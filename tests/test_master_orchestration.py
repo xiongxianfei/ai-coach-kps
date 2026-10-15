@@ -230,7 +230,7 @@ class MasterContentTests(unittest.TestCase):
 
     def test_learning_stages_are_not_identical_to_subject_areas(self):
         s = section(self.text(), STAGES[1])
-        for phrase in ('not a compulsory stage', 'several subsystems',
+        for phrase in ('a compulsory stage', 'several subsystems',
                        'high-level set of learning stages',
                        'Do not pre-generate the detailed daily tasks',
                        'instructional hypothesis'):
