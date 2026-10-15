@@ -52,6 +52,16 @@ The author inspected a links-hidden reading copy and traced a constructed new-su
 
 The five specialist files and scientific library were preserved byte-for-byte. Composition is one-way from the master; returning to an earlier learning activity is a runtime decision, not a metadata containment cycle. The current-practice summary stays blank. New tests examine declarations and regressions, not actual learner performance. Dependency summaries are reviewed before refreshing fingerprints; normal CI does not accept them automatically.
 
+## Body of knowledge outline review
+
+On 2026-10-15 the authoring assistant added a subject coverage outline with nine areas and 55 topic rows. Existing Concepts, Principles, Models and Methods were inspected to align their actual explanations with those rows. All area coverage remains partial; source-only and missing topics are distinguished. Existing Practices and published Models retain their identities and text. The outline does not classify a Practice mention as an academic explanation or require one Model per area.
+
+New source inspection covered the official How People Learn II contents and introductory Treatment of Evidence and Guide to This Report; the IES 2007 guide's official recommendation overview and evidence ratings; and UNESCO's 2023 guidance publication overview. Three Reference records retain those limited extents. Existing source records keep their original access limits. The new sources locate coverage and concerns, rather than validate the nine-area partition or the coaching workflow.
+
+A constructed unit-price comparison was traced across the areas to check that their responsibilities and interfaces are understandable. The generated overview was visually inspected for all nine area labels, the three selected relationship directions and readable text. Its arithmetic illustration is correct, and its comparison sheets contain no measured outcomes. The image and prompt are stored with the project; essential meaning is also available as text. This is AI-assisted authoring review, not an independent usability, accessibility or scientific evaluation.
+
+Validation, domain checks, generated-navigation checks, all 142 existing unit tests and whitespace checks passed. One heading was adjusted to the pinned heading profile during validation. No canonical knowledge object or existing dependency source changed, and no dependency fingerprints needed acceptance. No tests, scripts or renderer were added. The source register was regenerated; its three new summaries match the source records' limited contributions.
+
 ## What remains untested
 
 No real adult learner used these Practices under observation; no live model session, behavior-enforcement test, delayed retention study, transfer study, usability trial, accessibility audit or causal comparison was performed. No latent learner diagnosis or actual memory trace is inferred. The record checker validates declarations only.

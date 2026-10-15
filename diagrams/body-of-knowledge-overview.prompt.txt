@@ -1,0 +1,23 @@
+Use case: infographic-diagram.
+Create a high-quality editorial overview illustration for the AI Learning Coach knowledge library. Landscape composition, high resolution, warm ivory paper, navy typography, restrained teal, amber and muted blue accents, precise readable type, spacious layout, subtle hand-drawn educational illustrations. This is a body-of-knowledge overview, not a lesson sequence or a software architecture.
+
+Title exactly: "AI Coach"
+Subtitle exactly: "Body of knowledge"
+Use nine equally important illustrated cards in a balanced 3 by 3 grid. No step numbers. Each card must show the following heading and subtitle exactly, with comfortable line breaks:
+"Learning and cognition" / "Attention · prior knowledge · understanding"
+"Knowledge representation" / "Concepts · boundaries · relationships"
+"Instructional design" / "Capabilities · sequencing · tasks"
+"Instruction and scaffolding" / "Explain · demonstrate · support"
+"Assessment and feedback" / "Evidence · criteria · correction"
+"Memory and transfer" / "Retrieve · retain · apply"
+"Motivation and self-regulation" / "Goals · monitoring · learner agency"
+"Human–AI interaction" / "Dialogue · verification · access"
+"Evaluation of AI-assisted learning" / "Outcomes · comparisons · limits"
+
+Small expressive illustrations: attention spotlight on a book, labeled connected concepts, branching route, a worked example beside a learner's attempt, a response and magnifying glass, memory cards and a bridge, a compass and reflection notebook, human dialogue bubbles beside a modest AI panel, two evidence sheets compared. Do not use anatomy drawings, robot teachers, grades, fake scientific charts or logos.
+Below the grid a distinct relationship strip titled "Selected connections" with exactly three compact arrow statements:
+"Knowledge representation → informs → Instructional design"
+"Assessment and feedback → adjusts → Instruction and scaffolding"
+"Memory and transfer → supplies outcomes for → Evaluation of AI-assisted learning"
+Footer exactly: "Connected knowledge areas, not compulsory learning stages."
+All nine headings must be complete and spelled accurately, and readable at normal document width. Do not add other words, charts, numbered paths or claims of proven effectiveness. Opaque background.

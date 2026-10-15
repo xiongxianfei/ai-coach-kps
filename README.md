@@ -14,6 +14,10 @@ Start with a bounded adult learning task and preserve the evidence of what the l
 
 A Practice-first, domain-independent knowledge package for independent adults using conversational AI as a learning coach. One self-contained master Practice coordinates the whole learning programme; five self-contained specialist Practices remain available independently. They are supported by source-aligned academic Concepts, Principles, Models and Methods. AI coaching workflows and prompts are explicitly authored applications, not established theories or tested programs.
 
+## Understand the subject
+
+The [body-of-knowledge outline](docs/body-of-knowledge-outline.md) shows nine connected areas behind AI coaching, one overall illustration, existing explanations and the topics still missing. Use it to understand what the subject covers. The learning Practices below apply that knowledge to a learner's goal; the outline is not a compulsory learning route.
+
 ## Start and stay in the master Practice
 
 [AI-Assisted Learning Orchestration](practices/ai-assisted-learning-orchestration.md) is the primary entry for **overall target → learning stages → individual tasks**. Its seven procedural stages contain the planning, instruction, question–response–assessment loop, difficulty investigation, retrieval, revision and resume instructions **inline**. You do not need to open the five specialist files to carry out the master workflow.
@@ -50,7 +54,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## What is included
 
-There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Seventeen Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
+There are **22 knowledge objects**: seven Concepts, three Principles, two Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
 The Models are actual published frameworks: Cognitive Apprenticeship and the Assessment Triangle. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 

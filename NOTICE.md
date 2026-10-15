@@ -24,7 +24,7 @@ The domain-specific Practices, summaries, infrastructure, tests and synthetic ex
 
 ## External publications
 
-Seventeen Reference records identify actual publications and their inspection boundaries. Publisher articles, PDFs, images, tests, datasets and media remain under their own licenses. The package does not distribute them or claim full-text access when only an abstract was inspected.
+Twenty Reference records identify actual publications and their inspection boundaries. Publisher articles, PDFs, images, tests, datasets and media remain under their own licenses. The package does not distribute them or claim full-text access when only an abstract or publication overview was inspected. The body-of-knowledge illustration was generated for this project with the built-in image generation tool; its prompt is retained alongside the PNG. It is not a reproduced source figure or an institutional endorsement.
 
 ## Privacy
 
