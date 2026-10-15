@@ -17,7 +17,7 @@ These repository-wide instructions apply to knowledge, code, tools and workflows
 
 ## Project purpose
 
-Help independent adult learners understand and apply knowledge through source-grounded explanations and authored AI-assisted learning Practices. Use the [knowledge index](docs/INDEX.md) and [learning workflow](guides/LEARNING-WORKFLOW.md). This repository does not itself implement an autonomous tutor, persistent memory or scheduling.
+Help independent adult learners understand and apply knowledge through source-grounded explanations and authored AI-assisted learning Practices. Use the [knowledge index](docs/INDEX.md) and [learning workflow](guides/learning-workflow.md). This repository does not itself implement an autonomous tutor, persistent memory or scheduling.
 
 ## Core Engineering Principles
 

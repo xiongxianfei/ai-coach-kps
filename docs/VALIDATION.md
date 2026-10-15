@@ -102,8 +102,8 @@ The update reduces root-level files by consolidating overlapping guides and movi
 
 | Former root files | New location |
 |---|---|
-| `ONE-LEARNING-TASK.md`, `LEARNING-PLAN.md` | `guides/LEARNING-WORKFLOW.md` |
-| `RECORDS.md` | `guides/SESSION-RECORDS.md` |
+| `ONE-LEARNING-TASK.md`, `LEARNING-PLAN.md`, `guides/LEARNING-WORKFLOW.md` | `guides/learning-workflow.md` |
+| `RECORDS.md`, `guides/SESSION-RECORDS.md` | `guides/learning-records.md` |
 | `WORKED-EXAMPLE.md` | `guides/WORKED-EXAMPLE.md` |
 | `SCOPE.md`, `ALIGNMENT.md` | `docs/SCIENTIFIC-POLICY.md` |
 | `CHECKS.md`, `COMPATIBILITY.md` | `docs/VALIDATION.md` |

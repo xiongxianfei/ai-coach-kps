@@ -36,7 +36,7 @@ Reuse a suitable subject illustration or create one with available tools, checki
 
 An introductory pass, provisional move forward and demonstrated stage capability are different conclusions. Use the description supported by the observations; practical performance and delayed retention remain untested until observed. An existing adequate response can support the decision without a duplicate stage test. When continuing is appropriate, follow the summary with the next stage's purpose and first lesson in the same reply, then wait for answers.
 
-Keep learner summaries under stage headings in one private learning record per subject, outside public repositories, with their pictures embedded beside the text. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](SESSION-RECORDS.md#stage-summaries-and-private-storage) for a minimal layout. No new template, schema or tracking system is required.
+Keep learner summaries under stage headings in one private learning record per subject, outside public repositories, with their pictures embedded beside the text. A stage summary can link to earlier attempts while preserving original and assisted responses separately. The public subject repository owns reusable explanations and illustrations; its body-of-knowledge outline records coverage, not this learner's progress. The AI coach Practice owns the summarizing procedure. See [private record placement](learning-records.md#stage-summaries-and-private-storage) for a minimal layout. No new template, schema or tracking system is required.
 
 ## Default adaptive roadmap for a new subject
 
@@ -121,7 +121,7 @@ The prerequisite register is a set of task-sensitive hypotheses, not a fourth kn
 2. Inspect [the constructed example](../data/two-level-learning-plan-example.json). It demonstrates syntax and hypothetical design only. No source review, learner agreement or performance is invented by the example.
 3. Fill the panorama before zooming to the goal map. Existing checked panoramas can be reused; keep the versions and scope visible. Select `proposed_plan` when the records contain a usable proposal, or `constructed_example` for explicitly invented demonstration data.
 4. Use stable region, concept and learning-stage IDs. `order` is a replaceable display position, not the stage identity or proof of developmental necessity. A stage ID such as `normalize` remains unchanged when reordered. This differs from the repository Practice's navigable StageN headings.
-5. Keep the learner's actual response in a separate [session record](SESSION-RECORDS.md). Refer to it privately in the prerequisite evidence or revision history rather than copying it into the public knowledge base.
+5. Keep the learner's actual response in a separate [session record](learning-records.md). Refer to it privately in the prerequisite evidence or revision history rather than copying it into the public knowledge base.
 
 ## Choose one current task
 

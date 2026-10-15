@@ -46,13 +46,13 @@ A plain private note is sufficient. If structured JSON is useful instead, use th
 4. Leave unobserved events and unknown fields blank. Do not turn a missing response into a numerical failure.
 5. Run python3 tools/check_record.py /path/to/private-record.json to inspect declarations. Do not upload the private file to an AI service unless appropriate.
 
-For a multi-episode goal, keep the [planning record](LEARNING-WORKFLOW.md) logically separate from observations, as sections in the same private Markdown file or separate existing records. Reference a plan version and stable learning-stage ID in your private note. The plan holds intended activities; this session record holds actual responses and assistance. Neither a plan edit nor a checked map link changes the original performance record.
+For a multi-episode goal, keep the [planning record](learning-workflow.md) logically separate from observations, as sections in the same private Markdown file or separate existing records. Reference a plan version and stable learning-stage ID in your private note. The plan holds intended activities; this session record holds actual responses and assistance. Neither a plan edit nor a checked map link changes the original performance record.
 
 ## Link a single task to its plan when available
 
 The optional `learning_task_id` identifies the bounded task currently being attempted, whether or not a formal plan exists. Optional `plan_id`, `plan_version` and `learning_stage_id` can relate this private observation to the corresponding plan version and stable learning-stage ID. If a stage link is supplied, a plan ID and version are required; these are declarations, **not** proof that the referenced plan or task actually exists. Omit the fields or leave them `null` for standalone learning tasks. A learner may produce several attempts for one task, each preserving its real help and conditions.
 
-Use the [lesson and task guide](LEARNING-WORKFLOW.md) to select an immediate observable output and criterion. The checker validates identifier shapes and observation declarations, but cannot inspect or certify an external private plan or infer mastery from one success.
+Use the [lesson and task guide](learning-workflow.md) to select an immediate observable output and criterion. The checker validates identifier shapes and observation declarations, but cannot inspect or certify an external private plan or infer mastery from one success.
 
 ## Assistance and verification
 

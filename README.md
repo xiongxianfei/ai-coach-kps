@@ -43,7 +43,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## Choose a coherent lesson
 
-[Coherent lessons and the wider plan](guides/LEARNING-WORKFLOW.md) connects the goal, lesson capability, essential knowledge and assessment. A few short, complementary questions can be presented together after teaching. Feedback leads directly into the next lesson within the agreed scope, unless a blocking gap needs attention or the learner pauses. Each learning stage ends with a connected summary and one overview picture, saved with actual progress and remaining gaps in a private learning record outside public repositories. The subject panorama and adaptive stage plan provide orientation; a precise small task can still start directly. Lesson scope and interaction pace are adjustable, authored choices rather than universal learning laws.
+[Coherent lessons and the wider plan](guides/learning-workflow.md) connects the goal, lesson capability, essential knowledge and assessment. A few short, complementary questions can be presented together after teaching. Feedback leads directly into the next lesson within the agreed scope, unless a blocking gap needs attention or the learner pauses. Each learning stage ends with a connected summary and one overview picture, saved with actual progress and remaining gaps in a private learning record outside public repositories. The subject panorama and adaptive stage plan provide orientation; a precise small task can still start directly. Lesson scope and interaction pace are adjustable, authored choices rather than universal learning laws.
 
 ## First use
 
@@ -56,7 +56,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 There are **26 knowledge objects**: seven Concepts, three Principles, six Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty-two Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
-The Models include two published frameworks, Cognitive Apprenticeship and the Assessment Triangle, and four explicitly authored domain syntheses: [Knowledge Representation](models/knowledge-representation.md), [Instructional Design](models/instructional-design.md), [Instruction and Scaffolding](models/instruction-and-scaffolding.md), and [Assessment and Feedback](models/assessment-and-feedback.md). Each embeds its own overview illustration and connects source-grounded explanations without claiming a published unified theory or a validated AI intervention. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/LEARNING-WORKFLOW.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
+The Models include two published frameworks, Cognitive Apprenticeship and the Assessment Triangle, and four explicitly authored domain syntheses: [Knowledge Representation](models/knowledge-representation.md), [Instructional Design](models/instructional-design.md), [Instruction and Scaffolding](models/instruction-and-scaffolding.md), and [Assessment and Feedback](models/assessment-and-feedback.md). Each embeds its own overview illustration and connects source-grounded explanations without claiming a published unified theory or a validated AI intervention. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/learning-workflow.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
 ## Evidence and outcome boundaries
 
@@ -72,7 +72,7 @@ This repository stands alone. It does not require the English Linguistics or Lea
 
 ## Repository layout
 
-The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/LEARNING-WORKFLOW.md), [private-session records](guides/SESSION-RECORDS.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
+The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/learning-workflow.md), [private-session records](guides/learning-records.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
 
 Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), and [reader and diagram guide](docs/READING-AND-DIAGRAMS.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
 
@@ -89,7 +89,7 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [record guide](guides/SESSION-RECORDS.md) are provided for private use. Do not publish completed personal records.
+These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [record guide](guides/learning-records.md) are provided for private use. Do not publish completed personal records.
 
 ## Versions and rights
 
