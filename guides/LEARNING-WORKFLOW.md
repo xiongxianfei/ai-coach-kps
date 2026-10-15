@@ -20,6 +20,20 @@ The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts t
 
 **Overall target → learning stage → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. Day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
 
+## Default adaptive roadmap for a new subject
+
+The self-contained master Practice supplies the actual steps; this optional guide summarizes its initial handoff. Do **not** start with a detailed multiweek list of daily questions.
+
+| Step | What the learner and coach decide | Keep distinct |
+|---|---|---|
+| 1. Learner starting point | Short self-report on goals, prior experience and constraints; optionally one checked response collected **before instruction** | Self-reported confidence versus observed competence; unknown is not failed |
+| 2. Subject areas or subsystems | A compact, source-grounded panorama: each candidate area's central question, boundary, an example and important overlaps | Academic explanatory perspectives versus arbitrary syllabus chapters |
+| 3. High-level stages | A few provisional capabilities, combining areas as useful, with candidate checkpoints and reasoned prerequisites | Subject-map relationships versus instructional prerequisites |
+| 4. One active task | Only the first meaningful, answerable activity with expected response, checked criterion, permitted help and stop/split rule | Day labels versus stable learning-task identities |
+| 5. Evidence-led adaptation | Preserve original answer, actual help and criterion-based feedback; choose one next action | Task success versus independent stage-level or retained learning |
+
+For English, a panorama might distinguish phonetics, phonology, syntax, semantics and pragmatics by their explanatory questions, while recognizing the cross-cutting role of prosody. A learner's proposed stage could combine syntax and semantics to explain one sentence; there is no one-to-one rule assigning each linguistic area its own week. Show the roadmap for orientation, then work on **one** task. Keep future task details undecided until the learner responds and the evidence is interpreted.
+
 ## One task at a time
 
 Begin with one meaningful learning task and a real check; expand only when the task or evidence calls for it.
