@@ -1,0 +1,28 @@
+Use case: scientific-educational.
+Create a polished landscape textbook summary illustration, 1536x1024, for the AI Coach domain Model "Instruction and Scaffolding". Match a warm ivory paper background, precise navy typography, delicate teal and amber watercolor illustrations, generous whitespace and highly legible labels.
+Title: Instruction and Scaffolding
+Subtitle: Make the idea understandable and the learner's reasoning visible.
+Upper half: three large connected panels, left to right:
+1 "Connected explanation" with small open book and connected concept symbols. Text: Purpose • terms • relationships • boundaries
+Arrow labelled "makes reasoning available" to
+2 "Learner activity" with hand arranging eight tokens into four groups, exactly two tokens per group. Text: Explain • apply • compare
+Arrow labelled "produces" to
+3 "Actual response" with handwritten note and magnifier. Text: Preserve the reply and actual help
+A wide curved arrow returning from Actual response toward Connected explanation labelled "informs the next explanation or support".
+Lower half: two spacious panels.
+Left "Worked example" with eight teal tokens in four visibly separated equal groups, exactly two tokens each. Equation: 8 tokens ÷ 4 groups = 2 tokens/group
+Small annotation: Four counts groups; two is the amount in each group.
+Right "Adjustable support" with a subtle watercolor bridge and three independent cards: Demonstration / Targeted hint / Attempt without answer help
+These are options, not a compulsory staircase; do not connect the three cards with arrows.
+Footer in a subtle strip: New learning: explain as needed. Baseline or retrieval: ask before revealing the answer.
+Small footer: Constructed example • Support is adjusted from evidence, not a fixed timetable.
+All spelling, arithmetic and token counts must be exact. No fictitious learner score, source logo, data chart or study claim. The explanatory loop is a conceptual synthesis, not a guarantee of learning.
+
+Revision prompt after visual inspection
+
+Edit this illustration with only these corrections, preserving its layout, title, typography, warm ivory/teal/amber watercolor style and all correct main labels:
+1. In the upper-middle Learner activity panel remove the loose tokens and hand entirely. Show exactly four dashed groups with exactly two tokens each: eight tokens total, no tokens outside groups.
+2. In the upper-right Actual response panel replace ALL invented handwritten answer text with: "Learner reply: not recorded" and below "Wait for the actual response". Make this look like a clean blank response card. Replace the magnifier label "Learner thinking" with "Observed work". Do not invent an answer, score or claim about hidden thinking.
+3. Remove decorative slogans in the top corners, bottom-right corner, and beside the lower-left example. Keep the main title/subtitle and the meaningful bottom footer.
+4. Remove "Greater independence over time" and "More support when needed" from the bridge area. The three support options and bottom note already carry the intended meaning.
+Keep the lower-left worked example exactly correct: four groups of two tokens; 8 tokens ÷ 4 groups = 2 tokens/group. Keep every main relationship arrow and its label. Keep all remaining useful wording intact. No new text, no added tokens.

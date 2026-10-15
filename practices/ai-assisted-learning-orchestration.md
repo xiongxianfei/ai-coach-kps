@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.2.1"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -15,7 +15,7 @@ stage_order: "recommended; resume at the current decision rather than repeat eve
 stage_titles: ["Stage1 Establish the overall target and learning agreement", "Stage2 Orient to the subject and propose learning stages", "Stage3 Select one current learning task", "Stage4 Teach question and preserve the learner response", "Stage5 Assess the response and adapt assistance", "Stage6 Evaluate stage evidence and revise the programme", "Stage7 Retrieve review and resume or close"]
 composes: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai", "ai-coach:practice:self-regulated-learning-with-ai", "ai-coach:practice:formative-assessment-with-ai", "ai-coach:practice:retrieval-and-distributed-practice-with-ai", "ai-coach:practice:evaluation-of-ai-assisted-learning"]
 uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:concept-map", "ai-coach:concept:instructional-scaffolding", "ai-coach:concept:formative-assessment", "ai-coach:concept:learning-performance-distinction"]
-uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:assessment-and-feedback"]
+uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:instruction-and-scaffolding", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
 references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008"]
@@ -33,9 +33,9 @@ This is the master entry for an independent adult who wants one continuing learn
 
 Stage numbers give a recommended order; consent, safe scope and usable evidence are actual prerequisites. Resume at the current decision rather than repeat completed setup.
 
-For a new broad goal, the default planning route is **self-assessment and an optional pre-instruction diagnostic → source-grounded subject-area map → high-level learning stages → one current task → learner response → assessment → evidence-based next decision**. These are revisable design decisions, not a universal processing sequence or a requirement to survey the entire field before any useful activity. An already bounded task can enter directly.
+For a new broad goal, the default planning route is **self-assessment and an optional pre-instruction diagnostic → source-grounded subject-area map → high-level learning stages → focused lesson → one current task → learner response → assessment → evidence-based next decision**. These are revisable design decisions, not a universal processing sequence or a requirement to survey the entire field before any useful activity. An already bounded task can enter directly.
 
-The core arrangement is **overall target → learning stages → individual tasks**. Inside an instructional task, use **relevant knowledge → question or activity → learner response → assessment → next decision**. For a baseline, retrieval or independent check, ask before disclosing an answer. A calendar label such as Day 1 does not determine task size, stage identity, or learning success.
+The core arrangement is **overall target → learning stages → focused lessons → individual tasks**. The body-of-knowledge outline describes subject coverage from which the target selects relevant knowledge. Within a lesson, use **orient → explain → demonstrate when useful → ask one task → wait for the actual response → assess and give feedback → adapt**. For a baseline, retrieval or independent check, ask before disclosing an answer. A calendar label such as Day 1 does not determine lesson scope, task size, stage identity, or learning success.
 
 This is a KPS-authored orchestration procedure, not a new scientific theory, an executable autonomous tutor, or a validated curriculum. Self-contained means that the procedure and decision rules are available here; subject-specific truth and consequential judgments still need suitable references or qualified expertise.
 
@@ -51,10 +51,11 @@ The learner chooses the goal, can request direct explanation instead of hints, c
 |---|---|---|---|
 | Overall target | Desired capability across the programme, revisable with the learner | `plan_id: quantitative-reasoning`, version 1 | A topic name or promise of universal mastery |
 | Learning stage | A learner-specific capability within that target, spanning as many sessions as needed | `learning_stage_id: rates` | The procedural StageN headings of this document |
+| Lesson within a stage | A focused capability supported by connected explanation and one or more tasks | Lesson focus: explain an amount per group | A whole domain, a fixed day or a required number of tasks |
 | Current task | One question, explanation, comparison or safe demonstration with a criterion | `learning_task_id: interpret-one-rate` | A complete chapter or an entire daily syllabus |
 | Attempt and assessment | What actually happened under recorded assistance and verification conditions | `attempt_id: attempt-1` | The planned activity or the corrected response |
 
-A subject panorama describes major areas; a goal concept map describes selected relationships. Neither is an observed learning outcome. Stage order and dates may change while identifiers and old observations remain intact. One day may include several sequential tasks; one task may span several days. Display one current task rather than generating every future question in advance.
+A subject panorama describes major areas; a goal concept map describes selected relationships. Neither is an observed learning outcome. Stage order and dates may change while identifiers and old observations remain intact. One day may include several lessons or sequential tasks; a lesson or task may span several days. Display one current task rather than generating every future question in advance. A lesson focus can be a brief learner-owned note alongside the current task; this refinement does not add a mandatory lesson ID, JSON field or planning form.
 
 ## Default planning handoff
 
@@ -84,7 +85,7 @@ A plan should fit the learner's goal and constraints, not a mandatory number of 
 
 Human–AI interaction spans all six steps: turn-taking, access, verification, available context and learner control affect every decision. Evaluation of AI-assisted learning examines the quality and effects of the approach over time; it is not an extra effectiveness test required after every reply. A successful task by itself does not establish that the coaching approach caused learning.
 
-The [body of knowledge outline](../docs/body-of-knowledge-outline.md) locates all nine domains. The [Knowledge Representation](../models/knowledge-representation.md), [Instructional Design](../models/instructional-design.md), and [Assessment and Feedback](../models/assessment-and-feedback.md) Models deepen the explanations; the operational instructions remain complete in this Practice.
+The [body of knowledge outline](../docs/body-of-knowledge-outline.md) locates all nine domains. The [Knowledge Representation](../models/knowledge-representation.md), [Instructional Design](../models/instructional-design.md), [Instruction and Scaffolding](../models/instruction-and-scaffolding.md), and [Assessment and Feedback](../models/assessment-and-feedback.md) Models deepen the explanations; the operational instructions remain complete in this Practice.
 
 ## Stage map
 
@@ -146,8 +147,8 @@ These rows are the learner's proposed learning stages, not Stage1–Stage7 of th
 
 ## Stage3 Select one current learning task
 
-1. Choose the **smallest meaningful, assessable part** of the current learning stage, informed by the learner's actual evidence and constraints. State what the learner will explain, solve, identify, compare or demonstrate; one coherent relationship is better than isolated trivia. Keep the other stages visible only as a high-level roadmap and **defer generating future daily questions**.
-2. Prepare the essential knowledge or a suitable worked example for this task, plus a clear question or activity. Define the expected response and checking criterion before seeing the answer. For a baseline, retrieval or independent check, keep answer-revealing content out of view until the reply is preserved.
+1. Name a focused lesson capability within the current stage, then choose its **smallest meaningful, assessable part**, informed by the learner's actual evidence and constraints. State what the learner will explain, solve, identify, compare or demonstrate; one coherent relationship is better than isolated trivia. The lesson may contain several connected tasks, but select only the current one. Keep the other stages visible only as a high-level roadmap and **defer generating future daily questions**.
+2. Prepare the essential knowledge and, when useful, a worked example for the lesson's central question. Include the terms, relationships, reasons and boundaries needed to understand the current task; do not reduce teaching to a formula or a list of labels. Define the expected response and checking criterion before seeing the answer. For a baseline, retrieval or independent check, keep answer-revealing content out of view until the reply is preserved. Future lesson tasks remain provisional.
 3. Record permitted assistance, access resources, prior exposure and a stop/split condition. Choose a date or time box only when useful. “Day 1” is a scheduling label, not a claim of completion or an obligation to finish a whole stage today.
 4. Confirm the learner wants **this one task** now. If it requires several unfamiliar capabilities, choose the first meaningful part, or demonstrate the whole relation with support before practising a component. If too easy, increase the reasoning demand with agreement rather than multiplying trivial questions. Do not silently switch tasks or generate a multi-day batch.
 
@@ -155,7 +156,7 @@ These rows are the learner's proposed learning stages, not Stage1–Stage7 of th
 
 | Field | Current content |
 |---|---|
-| Parent | Overall target; plan version; stable learning-stage ID |
+| Parent | Overall target; plan version; stable learning-stage ID; brief lesson focus |
 | Current task | One capability, question or action; stable task ID |
 | Knowledge/input | Essential explanation, data or reference; exposure recorded |
 | Response | What the learner should produce |
@@ -168,19 +169,24 @@ The state labels are local coordination shorthand, not scientific mastery levels
 
 ## Stage4 Teach question and preserve the learner response
 
-1. Locate the current task in its learning stage and larger target in one or two sentences. Give the knowledge needed now: a definition, meaningful relationship, reasoned demonstration or example and relevant limit. Do not deliver the whole future curriculum or force unsupported guessing.
-2. Choose the presentation from the purpose. In instruction, explain first when needed. In retrieval, ask the learner to reconstruct already encountered knowledge before showing it again. In a baseline or independent check, withhold the solution and record any prior exposure. The sequence is adaptable; “knowledge first” is not permission to contaminate a test while calling it independent.
+1. Locate the lesson capability and current task in the learning stage and larger target. State the central question and choose the mode before disclosing an answer. For new learning, explain as needed before application. In retrieval, ask for previously encountered knowledge before showing it again. In a baseline or independent check, withhold the solution and record prior exposure. “Knowledge first” is not permission to contaminate a test while calling it independent.
+2. In instruction, build a connected explanation: introduce necessary terms, relate the parts, explain how and why the relationship or procedure works, and show where it applies. Use a checked demonstration when useful, explaining important choices and how to check the result. Connect any diagram or equation explicitly to the words. Include a relevant contrast or boundary when it prevents a likely confusion. These are content responsibilities, not compulsory headings or a fixed order; let the subject and learner determine depth. Preserve enough context for understanding rather than forcing unsupported guessing, and avoid delivering the whole future curriculum. Give a different example for learner application when the goal requires applying the idea rather than repeating the demonstration.
 3. Ask one clear question or set one activity and **wait for the learner's response**. Do not generate both sides of a live dialogue, answer on the learner's behalf, or advance because the question has been displayed. Silence means no response yet, not failure.
 4. Preserve the original reply and the help actually received. If the learner requests a hint or full explanation, honour the choice, mark answer assistance, and remain in instruction. Do not treat the resulting assisted answer as independent evidence. A later independent check needs its own conditions and preserved response.
 5. Once a reply exists, carry its evidence to Stage5. If no reply exists, wait, invite clarification, or record that the learner chose to stop. Do not invent a reply to make the session look complete.
 
-**Constructed Day 1 task with an inline reference**
+**Constructed lesson with an inline explanation**
 
-In this example, a per-unit value divides a total by its quantity, with the units kept explicit. Eight tokens across four equal groups gives two tokens per group: `8 ÷ 4 = 2`. This is an authored arithmetic illustration, not a financial recommendation or an observed learner session.
+The lesson capability is to explain an amount per group and justify the divisor, within the rates stage. It assumes counting and simple multiplication, with a calculator allowed. This is an authored arithmetic illustration, not a financial recommendation or an observed learner session.
+
+The teaching explanation is: “How much does each group receive when we share a total equally? The total counts all the tokens; the group count tells us how many equal shares to make. Eight tokens across four equal groups gives two tokens per group: `8 ÷ 4 = 2`. One round of one token per group uses four tokens; a second round uses the other four. We divide by four because four counts the groups. We can check the result by reconstructing the total: `4 groups × 2 tokens per group = 8 tokens`. If the shares are unequal, two is only the average and need not be each group's actual share.”
+
+This connects meaning, a concrete demonstration, a calculation, its reason and a boundary. The next task changes both the total and the group count while keeping the relationship in view. Its criterion is prepared before asking; in live delivery the answer key below stays hidden.
 
 ```text
 Target: justify rate comparisons. Current learning stage: rates.
 Task ID: rate-meaning-01. Day label: Day 1, optional.
+Lesson focus: explain an amount per group and justify the divisor.
 Knowledge: “per group” describes the amount for one group; report both units.
 Question: Twelve tokens are shared across three equal groups. What is the
 rate in tokens per group, and why is the divisor three?
@@ -190,6 +196,8 @@ Learner response: NOT RECORDED — stop here in a real session and wait.
 ```
 
 The check is `12 ÷ 3 = 4 tokens per group`, because three is the number of groups. This answer key is for the author/coach and must not be displayed during an independent attempt. A reader of this complete worked example has now seen the answer; use a fresh, comparably checked item for a clean assessment. Correctly echoing four does not by itself establish the explanation.
+
+After the actual reply, Stage5 provides checked feedback. A missing unit calls for clarification of the quantity; confusion about the divisor may call for a group diagram or reconstruction of the total. These are candidate actions, not invented learner responses. Continue with one selected action, or close the lesson with a brief record of what the actual response supports and what remains uncertain. Completing this lesson does not automatically complete the rates stage.
 
 ## Stage5 Assess the response and adapt assistance
 
@@ -295,10 +303,15 @@ Connect the overall target to a goal concept map; propose only high-level
 capability stages with provisional prerequisite reasons and checkpoint criteria.
 Stages may combine subsystems. For a bounded task, enter directly and backfill
 only useful context. Keep stage IDs distinct from procedural StageN and day labels.
+Name the current lesson capability within its stage; a lesson can span sessions.
 Select exactly ONE current meaningful task, with relevant knowledge/input,
 a question or activity, an expected response, a criterion, allowed help and
 a stop/split condition. Do not pre-generate future days' detailed tasks.
-Explain when needed; for retrieval or independent checks keep answers hidden.
+Explain connected knowledge when needed: context, essential terms, relationships,
+reasons, a checked example and relevant boundaries. Show important decisions in
+a demonstration when useful; connect words, diagrams and equations explicitly.
+Use a different example for application; keep later tasks provisional.
+For baseline, retrieval or independent checks keep answers hidden.
 Ask the question, WAIT for my real response, and never invent my reply.
 Preserve it before feedback. Check content and uncertainty against the criterion;
 record actual hints, answer exposure, access supports and verification limits.

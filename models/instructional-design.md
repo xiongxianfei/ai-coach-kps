@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instructional-design"
 type: "model"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instructional Design"
@@ -21,7 +21,7 @@ A learning design connects the intended capability, the activity and the evidenc
 
 ## Summary
 
-This Model explains how goals, content, tasks, support and evidence constrain one another. It covers capability alignment, task analysis, prerequisites, sequencing, task demand and adaptation through a constructed unit-price example. It is a KPS-authored integration of selected published contributions, not a universal instructional algorithm. Coaching actions and prompts remain in the [master Practice](../practices/ai-assisted-learning-orchestration.md).
+This Model explains how goals, content, tasks, support and evidence constrain one another. It covers capability alignment, stages and lessons, content selection, task analysis, prerequisites, sequencing, task demand and adaptation through a constructed unit-price example. It is a KPS-authored integration of selected published contributions, not a universal instructional algorithm. Coaching actions and prompts remain in the [master Practice](../practices/ai-assisted-learning-orchestration.md).
 
 ![Instructional Design connects capability, activity and evidence through alignment. A provisional route links interpreting quantities, explaining a rate and justifying a comparison. Learner evidence, task demands, support and constraints inform the design.](../diagrams/instructional-design-overview.png)
 
@@ -30,6 +30,8 @@ The triangle expresses mutual alignment rather than a three-step sequence. The r
 ## Contents
 
 - [Capability objectives and alignment](#capability-objectives-and-alignment)
+- [From subject coverage to lessons](#from-subject-coverage-to-lessons)
+- [Choosing lesson content and scope](#choosing-lesson-content-and-scope)
 - [Task analysis and meaningful integration](#task-analysis-and-meaningful-integration)
 - [Prerequisites and corequisites](#prerequisites-and-corequisites)
 - [Sequencing and learning progressions](#sequencing-and-learning-progressions)
@@ -55,6 +57,33 @@ The [Assessment Triangle](assessment-triangle.md) connects an account of compete
 | Conditions | Which sources, tools, assistance and constraints apply? | A supplied answer can be mistaken for independent performance |
 
 These elements constrain each other. A calculator can remove arithmetic burden while preserving the goal of interpreting a rate. If unaided division is the goal, the same tool changes what the response can establish. Neither condition is universally better; its relevance depends on the capability.
+
+## From subject coverage to lessons
+
+Subject coverage and learning organization answer different questions. The following distinctions are our practical vocabulary for designing lessons, not a new standardized taxonomy:
+
+| Level | Responsibility | Constructed example |
+|---|---|---|
+| Body of knowledge outline | Identify what the subject covers and how domains connect | Quantities, operations, ratios and their relationships |
+| Overall target | Select a useful capability from that subject | Justify comparisons on a common basis |
+| Learning stage | Develop a broader capability that may combine domains | Compute and interpret per-unit quantities |
+| Lesson within a stage | Develop a focused capability through connected explanation and activity | Explain why dividing a total by a group count gives an amount per group |
+| Task within a lesson | Give one meaningful opportunity to reason or act | Calculate an amount per group and justify the divisor |
+| Attempt | Record the actual response and help | A learner's explanation, if supplied; otherwise unobserved |
+
+A lesson can contain several connected tasks presented one at a time. A day or session describes scheduling: one session can contain several lessons, and a lesson can span sessions. These distinctions prevent a daily quota from silently deciding conceptual scope. A narrowly focused question may need only one lesson and one task; the vocabulary does not require an elaborate plan.
+
+The outline informs what knowledge is available. The learner's goal selects a route through it. The stage provides context for a lesson, while evidence from tasks informs whether its scope or support should change. Coverage of a topic, completion of a lesson and demonstrated stage capability remain different claims.
+
+## Choosing lesson content and scope
+
+A lesson needs a central question and a capability, such as explaining an amount per group. Evidence is chosen alongside the content: a quotient alone cannot show whether the learner understands the divisor, so the task also asks for that relationship. This creates a reason to explain the meanings of the quantities rather than merely supply a formula.
+
+The essential content includes the terms, prerequisite meanings, relationships, worked reasoning and boundaries needed for the capability. For equal sharing, that means total, group count, amount per group, division and the equal-group assumption. General algebra is related but unnecessary for this introductory lesson. A learner unfamiliar with multiplication may need a concrete distribution example; a learner who already explains the relation may need a different application instead.
+
+The [Instruction and Scaffolding Model](instruction-and-scaffolding.md) develops how to turn that selection into a connected explanation. Content responsibilities are flexible: a mechanism, proof, contrast or demonstration can be appropriate depending on the subject. No fixed list of headings, word limit or one-concept rule defines a lesson.
+
+The first task should be concrete enough to use now, with a checked criterion and assistance conditions. Later tasks remain candidates. A reply can justify revisiting a relationship, moving to another example, reducing support or closing the lesson. A useful stopping boundary is enough evidence for the current decision, or an agreed pause because of time, uncertainty or changed circumstances; it is not automatic completion after a fixed task count.
 
 ## Task analysis and meaningful integration
 

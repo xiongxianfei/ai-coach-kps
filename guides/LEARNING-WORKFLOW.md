@@ -18,7 +18,15 @@ This reader guide combines the one-task-at-a-time convention and the optional tw
 
 The [master Practice](../practices/ai-assisted-learning-orchestration.md) puts the full procedure in one file. Define the overall target, identify provisional learning stages, select one current task, teach or ask for retrieval, wait for the real reply, assess against an inspectable criterion and choose the next action. Preserve actual attempts separately from plan revisions, and resume from the current decision instead of restarting the whole procedure.
 
-**Overall target → learning stage → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. Day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
+**Overall target → learning stage → lesson → task → attempt** is a learner-specific hierarchy. The master’s Stage1–Stage7 headings describe its reusable procedure, not seven mandatory subject modules. A lesson develops a focused capability through connected explanation and one or more tasks, presented one at a time. A day can contain several lessons, or a lesson can span days; day labels remain scheduling choices. You may stay in the master; this guide and the specialist Practices provide optional record detail and alternative entry points, not required prerequisites.
+
+## Explain knowledge within the lesson
+
+The subject outline describes coverage; the learner's goal selects relevant knowledge. A stage organizes a broader capability, while a lesson focuses on a meaningful part. Select essential content and a checking criterion together: what must the learner understand to produce the intended response?
+
+For new learning, orient to the question, explain the necessary terms and relationships, show why the result or procedure follows, and use a checked demonstration when useful. Connect any picture or equation to the same meaning in words. Include a relevant boundary or contrast, then ask for an application or explanation and wait for the actual reply. The [Instruction and Scaffolding Model](../models/instruction-and-scaffolding.md) supplies a worked lesson; the master Practice keeps the delivery steps inline.
+
+These are flexible content responsibilities, not compulsory lesson headings. For a baseline or retrieval task, ask before revealing the answer. Feedback and the next action follow the learner's actual response. A lesson focus can be an ordinary note; no new required record field or lesson form is introduced.
 
 ## Default adaptive roadmap for a new subject
 
