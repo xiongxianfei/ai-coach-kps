@@ -4,7 +4,7 @@ language: "KPS 9.x"
 
 # Learning notes
 
-Replace these prompts with your own notes. Adapt the headings and detail as useful; keep personal notes in a private location. The frontmatter above can be removed from your private copy.
+Adapt the headings, order and detail to your learning. Be flexible about presentation; be precise about meaning and evidence. Remove these instructions from your finished notes.
 
 ## Goal
 

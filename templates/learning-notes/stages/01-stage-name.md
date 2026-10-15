@@ -4,7 +4,9 @@ language: "KPS 9.x"
 
 # Stage name
 
-What will I be able to explain or do after this stage? Add useful knowledge links and context. Replace these prompts with natural notes; the headings and lesson count can change.
+Adapt the headings, order and detail to your learning. Be flexible about presentation; be precise about meaning and evidence. Remove these instructions from your finished notes.
+
+What will I be able to explain or do after this stage? Add useful knowledge links and context.
 
 ## Lesson outline
 

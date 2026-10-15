@@ -45,7 +45,11 @@ These are illustrative private paths. Create a stage file when work begins; futu
 
 Use two-digit prefixes and descriptive lowercase filenames, such as `01-voice-production.md` and `02-pitch-relationships.md`. The number shows the current learning order, not a score or permanent identity. If the route changes, rename affected files and repair roadmap, evidence and image links together. Preserve existing stable stage IDs when used; do not reuse an ID for a different capability. Record consequential route changes briefly in the overview or affected stage rather than creating a mandatory history folder.
 
-The templates are starting points, not forms to complete. Replace their prompts with natural prose and adjust headings, detail and lesson count to the learning. The small frontmatter declaration supports this repository's checker and can be removed from private copies. A truly small standalone goal can use sections in one file, but the overview plus `stages/` is the default for continuing learning. A domain organizes subject knowledge; a stage develops a capability and can connect several domains or revisit an earlier one.
+**Be flexible about presentation; be precise about meaning and evidence.** The templates provide an example structure: adapt headings, order, lesson count and depth, and choose prose, bullets, tables or pictures where useful. Replace the prompts with natural notes and remove the opening instructions from the finished copy.
+
+Preserve the initial evidence and meaningful original responses as current understanding develops. Keep planned lessons distinct from completed learning, learner contributions distinct from coach explanations and feedback, and demonstrated understanding distinct from untested capabilities. State the assistance received so an assisted response is not presented as independent performance. These distinctions need to remain clear in the writing; they do not require fixed headings or labels.
+
+The small frontmatter declaration supports this repository's checker and can be removed from private copies. A truly small standalone goal can use sections in one file, but the overview plus `stages/` is the default for continuing learning. A domain organizes subject knowledge; a stage develops a capability and can connect several domains or revisit an earlier one.
 
 ## Initial and current assessment
 
