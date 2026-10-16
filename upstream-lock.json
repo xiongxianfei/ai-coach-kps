@@ -16,17 +16,17 @@
       "upstream_sha256": "18e7e9a7eb86ace86a1f8fa31f7772b182b488ab0a5ab10c3fce2a2ea4e70f50",
       "upstream_path": "validate.py"
     },
-    "docs/AUTHORING.md": {
-      "sha256": "15ef89aca3c43eb65bf9e72062cea465a17805a4da8c7330799c7131e05f432d",
-      "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained",
+    "docs/authoring.md": {
+      "sha256": "7ba7b290fbf528a297c267726909b65e67f8a444f1981677071695914821f6a9",
+      "git_blob_sha1": "4f14624e25c8c625f3678452bf35d92f2e25bbab",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, contextual method selection, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
       "upstream_path": "AUTHORING.md"
     },
-    "docs/TEMPLATES.md": {
-      "sha256": "1bb060cd339cd8d12b88100564e3a9c4fd264566520be0cee7db84c47436cfeb",
-      "git_blob_sha1": "0a30f90deed16f86b4b270d9c2d2d597bee805bf",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained",
+    "docs/templates.md": {
+      "sha256": "807fda53a49acd10f967588dbca717f78f6bcbc3af4dcf032a218d2463eeef8e",
+      "git_blob_sha1": "a9e306de7dc64047bbaba548f01604feb005f3bd",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
       "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1",
       "upstream_path": "TEMPLATES.md"
     }

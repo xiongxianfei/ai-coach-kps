@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.12.0"
+version: "0.15.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -33,11 +33,7 @@ This is the master entry for an independent adult who wants one continuing learn
 
 Stage numbers give a recommended order; consent, safe scope and usable evidence are actual prerequisites. Resume at the current decision rather than repeat completed setup.
 
-For a new broad goal, the default planning route is **self-assessment and an optional pre-instruction diagnostic → source-grounded subject-area map → high-level learning stages → coherent lesson → current assessment activity or set → learner response → assessment → evidence-based next decision**. These are revisable design decisions, not a universal processing sequence or a requirement to survey the entire field before any useful activity. An already bounded task can enter directly.
-
 The core arrangement is **overall target → learning stages → focused lessons → individual tasks**. The body-of-knowledge outline describes subject coverage from which the target selects relevant knowledge. For new learning, the default is **agree on the lesson goal → teach connected content with examples → invite clarification → present a short assessment set → wait for actual responses → give brief combined feedback → address blocking gaps or begin the next lesson**. Guided questioning during instruction remains available when requested or when a prerequisite or procedural decision needs checking; do not interrupt after every small idea by default. For a baseline, retrieval or independent check, ask before disclosing an answer. A calendar label such as Day 1 does not determine lesson scope, task size, stage identity, or learning success.
-
-Keep checks light: ask a few short, complementary questions together, with deeper follow-up only when an important gap needs it. After actual answers, give feedback and begin the next lesson in the same reply when the evidence and existing agreement support continuing. At each learning-stage boundary, summarize the connected knowledge, include one overview picture, distinguish demonstrated understanding from open gaps, and introduce the next stage. Keep this learner-specific summary in a private learning record, outside public repositories.
 
 This is a KPS-authored orchestration procedure, not a new scientific theory, an executable autonomous tutor, or a validated curriculum. Self-contained means that the procedure and decision rules are available here; subject-specific truth and consequential judgments still need suitable references or qualified expertise.
 
@@ -55,7 +51,7 @@ Choose teaching techniques to serve those responsibilities. Direct explanation, 
 
 For example, correct definitions with an uncertain application may call for a contrasting case; a well-justified application may support a harder problem or synthesis; a practical capability may need observed action rather than another written explanation. These are possibilities, not automatic branches. Choose from the goal, demonstrated readiness, unresolved uncertainty, preferences and constraints. A new lesson need not be triggered by a mistake.
 
-The defaults below support connected teaching, light grouped questions, continuation after feedback and stage summaries with an overview picture. Follow the learner's preferences and adapt the mode or representation when useful; the defaults do not establish a universal teaching sequence. Such adaptation does not permit inventing responses, hiding assistance or treating an untested capability as demonstrated. Examples and templates illustrate choices, while the inline procedure supplies the decisions and evidence boundaries needed without opening another file.
+The defaults below support connected teaching, light grouped questions, continuation after feedback and stage summaries with an overview picture. The required responsibilities are the usable procedure, necessary reasoning, evidence interpretation and next decisions; these delivery defaults and the optional prompts or records are adaptable choices. Follow the learner's preferences and adapt the mode or representation when useful; the defaults do not establish a universal teaching sequence. Such adaptation does not permit inventing responses, hiding assistance or treating an untested capability as demonstrated. Examples and templates illustrate choices, while the inline procedure supplies the decisions and evidence boundaries needed without opening another file.
 
 ## Keep the levels distinct
 
@@ -164,7 +160,7 @@ These rows are the learner's proposed learning stages, not Stage1–Stage7 of th
 3. Use the learner's stated pacing preference. For new learning, default to connected teaching followed by clarification and questions together. Offer guided steps when requested or when a missing prerequisite or procedural decision blocks progress. Record permitted assistance, access resources, prior exposure and a stop/split condition. Keep answers hidden for a baseline, retrieval or independent check. A day label is only scheduling.
 4. Reuse existing agreement rather than repeatedly asking permission. Split an overbroad lesson at a meaningful boundary, preserve the larger relationship, and make clear what remains. If too easy, increase the reasoning demand rather than multiplying trivial questions. Introduce the next lesson and its connection to the goal when continuing. Do not silently switch tasks, expand scope or generate a multi-day batch.
 
-The stable Stage3 heading identifies the current activity; it is not a one-question limit. The activity can be a coherent assessment set. The optional card and existing single `next_task` record can describe that set with numbered prompts and criteria in their text fields. No new schema or required lesson form is introduced.
+The stable Stage3 heading identifies the current activity; it is not a one-question limit. The activity can be a coherent assessment set. The existing optional `next_task` record can describe that set with numbered prompts and criteria in its text fields. No new schema or required lesson form is introduced.
 
 **Question fit and effort**
 
@@ -176,20 +172,7 @@ Adjust reasoning demand separately from the effort of producing an answer. A cho
 
 Consider the effort of the whole question set, including setup, tool use, output inspection, repeated context changes and several demands hidden inside one item. Accept relevant existing work as evidence and ask only for the missing interpretation; do not require a prose restatement of every observation. Where practical work is needed, establish that the materials and launch instructions are available and explain unfamiliar notation or controls briefly. If setup is blocked, offer a clearly labeled supplied example for conceptual work; it does not establish practical execution. Keep grouped questions when preferred, but remove redundant or incidental demands and offer a smaller coherent part if needed. An integration goal may require a substantial problem; do not split away the relationship it is meant to reveal. Increase useful challenge through a new application, comparison or boundary when justified, rather than requiring more words or more repetitions. Treat study durations as adjustable estimates, not completion criteria. These are coach decisions, not a checklist to print, a fixed difficulty ladder or an additional form for the learner.
 
-**One task card**
-
-| Field | Current content |
-|---|---|
-| Parent | Overall target; plan version; stable learning-stage ID; brief lesson focus |
-| Current task | Bounded activity or related question set; stable task ID |
-| Knowledge/input | Essential explanation, data or reference; exposure recorded |
-| Response | What the learner should produce |
-| Criterion | What features a credible check will examine |
-| Conditions | Actual help permitted, access supports, prior item exposure |
-| Stop or split | What makes the task unsafe, ambiguous, too broad or unproductive |
-| Current state | Proposed / awaiting response / response observed / assessment pending / next decision |
-
-The state labels are local coordination shorthand, not scientific mastery levels. No learner answer is filled in yet. Without an answerable task and credible criterion, repair the task instead of requesting a performance judgment.
+Keep a short current-task note if it helps coordination: the lesson and stage, activity, available input, sufficient response, criterion, allowed help and next decision. Its state may be proposed, awaiting a response, assessment pending or ready for a next action. These are coordination descriptions, not mastery levels or mandatory learner-facing fields. No learner answer is filled in yet. Without an answerable task and credible criterion, repair the task instead of requesting a performance judgment.
 
 ## Stage4 Teach question and preserve the learner response
 
@@ -198,6 +181,8 @@ The state labels are local coordination shorthand, not scientific mastery levels
 3. After the connected explanation, invite clarification and present the agreed questions together, or proceed in guided steps if that mode was chosen. The learner can ask for clarification before answering; no extra confirmation turn is compulsory. Then **wait for the learner's response**. Do not generate both sides of a live dialogue, answer on the learner's behalf, or advance because the question has been displayed. Silence means no response yet, not failure.
 4. Preserve the original reply and the help actually received. If the learner requests a hint or full explanation, honour the choice, mark answer assistance, and remain in instruction. Do not treat the resulting assisted answer as independent evidence. A later independent check needs its own conditions and preserved response.
 5. Once a reply exists, preserve the meaningful original response, task and actual help in the current stage notes, separately from the connected explanation supplied during teaching. Retain wording needed to interpret the response; a faithful labeled summary can omit routine conversational filler. Keep important learner-written content below the stage lesson outline, identify coach explanations and feedback separately, and carry the evidence to Stage5. Lessons remain within the stage file by default. For a partial set, preserve which items were answered and leave the others unobserved; offer feedback on available answers or let the learner finish, following their preference. If no reply exists, wait, invite clarification, or record that the learner chose to stop. Do not invent a reply to make the session look complete.
+
+For consequential method choices, make the reason and trade-off clear without delivering a comparison lecture. Consider a constructed case: the learner can reproduce the division steps, but their explanation of why the divisor counts groups remains unclear. With sufficient prior instruction, use self-explanation: ask them to connect that step to equal sharing in a brief explanation or annotated demonstration. Recalling the steps alone would leave that relationship unobserved; supplying another full explanation would leave the learner's own reasoning unobserved. This choice asks for more reasoning, so keep the response bounded and accept an accessible format. If the reply reveals a missing prerequisite, or the learner requests a demonstration, use cognitive modeling: show a checked equal-sharing example, explain the divisor choice and reconstruct the total to check it. Then invite an application when appropriate, recording the help given. If the relationship is already demonstrated, move to useful new work. This selection rationale is an authored application of the Methods, not evidence that one is generally superior or a required sequence for every lesson.
 
 When the task depends on a process, make the necessary connections visible: trace a representative input through relevant decisions and transformations to its result. Use code, a diagram, a demonstration or prose according to the subject and learner; a trace is not compulsory in every lesson. State which parts are observed, supplied by inspected material or assumed for illustration. If the question asks about an internal mechanism that the available output cannot establish, supply the needed evidence or revise the question to ask what can be concluded. Do not assess the learner against an implementation they cannot inspect.
 
@@ -296,6 +281,10 @@ For example only, “4” would leave units and the divisor's meaning unobserved
 6. When a learning stage ends, provide its summary before moving on; for a pause or provisional transition, label the summary accordingly. Explain the central mechanism and how the stage's ideas connect, rather than listing lesson titles. By default, include one checked overview picture with essential meaning also in text; adapt the representation to the learner's preferences and access needs. Reuse a suitable illustration or create one with available tools; check labels, arrows and examples before embedding it. If an image cannot be supplied, give the text summary now and say that the picture remains unavailable; do not invent an asset or link. Additional pictures are optional.
 7. In that summary, separate what was taught from what actual replies demonstrated, under which assistance, and what remains uncertain or untested. An introductory pass is not retained knowledge or practical mastery. Name the next stage's purpose, then begin its first lesson in the same reply when continuation is appropriate. Save the summary at the end of its numbered stage file, with the picture embedded beside it; do not put learner results in the public subject outline or domain Model. Use `images/` paths from the overview and `../images/` paths from a file in `stages/`, checking the actual target. Update the dated current assessment in the overview with supported capabilities, links to actual observations and assistance, open gaps and the next action. Do this at a stage boundary or when meaningful evidence changes a conclusion; it does not require a new test after every reply. Preserve the initial assessment and earlier consequential judgments in the evidence record. If a judgment or criterion changes, record the reason and avoid treating unlike observations as a direct measure of improvement. Plain Markdown is sufficient. If no private destination is available, supply the summary in the conversation for the learner to save and do not claim it was stored.
 8. At a programme checkpoint, examine the overall target against relevant tasks, including later or changed-context evidence only when collected. State unmeasured areas and alternative explanations for improvement. Extra study, prior exposure, changed difficulty or a corrected key may explain a difference; a single learner's before/after result does not isolate an AI treatment effect.
+
+When changing the coaching approach, identify the observed limitation, the proposed adjustment and what a useful result would look like. Judge progress against the lesson capability alongside relevant learner effort or access needs; finishing more questions or receiving shorter answers is not itself better learning. Representation, pacing and support can change, while subject accuracy, actual-response preservation, assistance disclosure and learner control remain necessary. If the goal or criterion changes, state that explicitly rather than making the new task appear to prove improvement on the old one.
+
+For a constructed example, a learner might calculate an amount per group correctly but confuse the unit. A labeled grouping illustration could make the quantity relationship clearer. After explaining it, use a fresh applicable task when a further observation is needed, retaining the relevant criterion and recording actual help. An adequate interpretation without answer help, when independence is the goal, and acceptable reported effort could support retaining that approach provisionally. A copied label, unanswered item or clearer coach explanation does not demonstrate the intended capability. If the response remains unclear, revise the support; if effort is excessive, simplify incidental demands. Reuse suitable evidence instead of imposing a new test after every change. This fictional case supplies no learner outcome or benchmark. A local improvement could also reflect additional practice or changed task demands; it does not establish that the coaching adjustment caused it or will work for other learners.
 
 **Adaptive planning triggers**
 
@@ -422,6 +411,9 @@ overview and current stage. Link reusable knowledge improvements back to their o
 If saving or image tools are unavailable, provide the text and state the limit.
 Revise the high-level plan only when a checked gap, a stage checkpoint, a source
 correction or an agreed goal/constraint change warrants it; preserve old versions.
+When adapting coaching, name the expected benefit and inspect actual results against
+the capability and relevant effort or quality trade-offs. Keep changes provisional
+when evidence is missing; a changed response alone does not establish a causal benefit.
 Stage advancement and the overall learning conclusion need their own evidence,
 not just a task marked complete.
 Keep a short resume record; do not claim memory, reminders or unperformed checks.

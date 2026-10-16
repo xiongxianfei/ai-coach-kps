@@ -16,7 +16,7 @@ Contributions should improve adult learning guidance, source faithfulness or ver
 
 ## Before changing content
 
-1. Read [Authoring](../docs/AUTHORING.md), the combined scientific and scope policy in [Scientific policy](../docs/SCIENTIFIC-POLICY.md), and the target Practice with its direct dependencies.
+1. Read [Authoring](../docs/authoring.md), the combined scientific and scope policy in [Scientific policy](../docs/scientific-policy.md), and the target Practice with its direct dependencies.
 2. Identify the source-defined meaning, the local adaptation and the proposed improvement separately.
 3. Inspect the relevant source passage; preserve context, comparators, outcomes and access limitations. Do not replace a missing passage with an invented locator.
 4. Keep original coaching workflows inside Practices and use academic names for faithful scholarly objects. For a domain Model synthesis, identify KPS authorship and the inspected contribution of each source under the scientific policy; do not attribute the entire integration to a cited author.
@@ -35,4 +35,4 @@ Keep completed learner records outside the public repository. Do not commit API 
 
 ## Reproduce
 
-Run the commands in [Validation](../docs/VALIDATION.md). Regenerate navigation from canonical files, review affected summaries and only then accept the dependency snapshot. Keep upstream tool copies pinned and record any proposed tool changes separately.
+Run the commands in [Validation](../docs/validation.md). Regenerate navigation from canonical files, review affected summaries and only then accept the dependency snapshot. Keep upstream tool copies pinned and record any proposed tool changes separately.

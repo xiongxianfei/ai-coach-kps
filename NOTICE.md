@@ -16,7 +16,7 @@ The supporting library is newly authored as bounded source-aligned summaries. Th
 
 ## Upstream copies
 
-LICENSE remains an unchanged copy from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. The validator from that release has a disclosed local exception for two private-note templates; its original and local digests are retained in upstream-lock.json. docs/AUTHORING.md and docs/TEMPLATES.md adapt local documentation links; docs/AUTHORING.md also names the local domain-test command. The copied regression suite was removed; its original source and digest remain recorded in upstream-lock.json. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
+LICENSE remains an unchanged copy from xiongxianfei/knowledge-practice-system, Core 10.2.0, commit `9432f1ee86f641d01444038cc81b7efa596b75dc`. The validator from that release has a disclosed local exception for two private-note templates; its original and local digests are retained in upstream-lock.json. docs/authoring.md and docs/templates.md adapt local documentation links; docs/authoring.md also names the local domain-test command. The copied regression suite was removed; its original source and digest remain recorded in upstream-lock.json. The MIT copyright and permission notice are retained. No KPS Core figure or external source full text is included.
 
 ## Original material
 

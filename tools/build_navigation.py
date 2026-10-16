@@ -44,7 +44,7 @@ def generate(root=ROOT):
     sr+='\n## Publications\n\n'
     for p,d in refs:sr+=f'- [{d.meta["publication"]}]({Path(p).name}) — {d.meta["access_extent"]}\n'
     sr+='\n## Rights and applicability\n\nNo external full texts, figures, audio, datasets or private learner results are bundled. General educational research and studies of particular AI systems have different application limits. Multiple records of a publication are not independent experiments. Consult each Reference for its inspection scope and applicability limits.\n'
-    return {'docs/INDEX.md':index,'references/README.md':sr}
+    return {'docs/index.md':index,'references/README.md':sr}
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();stale=[]
     for name,text in generate().items():
