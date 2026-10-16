@@ -17,16 +17,16 @@
       "upstream_path": "validate.py"
     },
     "docs/AUTHORING.md": {
-      "sha256": "15ef89aca3c43eb65bf9e72062cea465a17805a4da8c7330799c7131e05f432d",
-      "git_blob_sha1": "6a9ffeaa6c0fdb6e291ad7f24ebb88cee5f55b24",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained",
+      "sha256": "3f0a9f594edfafa9b3f3b5628018dc891ff3aed46f400a66f7703a9b85551733",
+      "git_blob_sha1": "3b4a36c791422a9147593a29cecec074a1224458",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, format requirements and optional presentation without changing the pinned validator",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
       "upstream_path": "AUTHORING.md"
     },
     "docs/TEMPLATES.md": {
-      "sha256": "1bb060cd339cd8d12b88100564e3a9c4fd264566520be0cee7db84c47436cfeb",
-      "git_blob_sha1": "0a30f90deed16f86b4b270d9c2d2d597bee805bf",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained",
+      "sha256": "3890677da6079c5dc039538e377c7f3622eac8c2ef13cb9a2709a471d7e96aac",
+      "git_blob_sha1": "b2ab99bf2ec63d288fd0448691712cdbe04b59c7",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, format requirements and optional presentation without changing the pinned validator",
       "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1",
       "upstream_path": "TEMPLATES.md"
     }

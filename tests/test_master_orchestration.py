@@ -90,10 +90,6 @@ class MasterContentTests(unittest.TestCase):
         s = section(self.text(), STAGES[1])
         for term in ['panorama','concept map','prerequisite','hypothesis','stable ID','criterion']:
             self.assertIn(term, s)
-    def test_one_task_card_is_inline(self):
-        s = section(self.text(), STAGES[2])
-        for term in ['Parent','Current task','Knowledge/input','Response','Criterion','Conditions','Stop or split']:
-            self.assertIn(term, s)
     def test_real_reply_not_simulated(self):
         s = section(self.text(), STAGES[3])
         self.assertIn('wait for the learner', s)
@@ -204,9 +200,7 @@ class MasterContentTests(unittest.TestCase):
 
     def test_adaptive_route_is_visible_and_not_fixed_curriculum(self):
         text = self.text()
-        summary = section(text, 'Summary')
         handoff = section(text, 'Default planning handoff')
-        self.assertIn('self-assessment and an optional pre-instruction diagnostic', summary)
         for phrase in ('Assess the learner', 'Map the subject',
                        'Propose learning stages', 'Teach and assess', '6. Adapt',
                        'Do not pre-generate', 'high-level'):

@@ -94,6 +94,8 @@ Domain release 0.2.1 refines the same five Practice identities and StageN headin
 
 New Practices are steps-first with consecutive StageN headings and usable actions. The six repeated labels used by old 9.0 packages are not required. An earlier validator can reject the new layout; major-language compatibility alone does not guarantee an old tool understands it.
 
+The authoring contract and Practice template also adopt the clarified separation of required content, required format and optional presentation. This is a documentation-only adaptation: the Core pin, validator, record schemas and stable Practice stages remain unchanged. The original upstream checksums remain in the lock alongside the current local file digests.
+
 The local scientific-policy and reading-and-diagrams guides explain this domain's adoption and supporting formats. Core-only tests of retired Core IDs and Core diagram counts are not copied blindly; domain tests exercise the corresponding local commitments.
 
 ## Root layout migration for 0 3 0
