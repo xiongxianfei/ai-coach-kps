@@ -54,7 +54,7 @@ Begin with the task that fits. The package does not require reading the full lib
 
 ## What is included
 
-There are **26 knowledge objects**: seven Concepts, three Principles, six Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty-two Reference records document inspected source scope. Use the [knowledge index](docs/INDEX.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
+There are **26 knowledge objects**: seven Concepts, three Principles, six Models, four Methods and six Practices, with **35 procedural stages** across the Practices. Twenty-two Reference records document inspected source scope. Use the [knowledge index](docs/index.md) for Practice stages and academic objects; [claim records](data/claims.json) preserve source premises and application limits.
 
 The Models include two published frameworks, Cognitive Apprenticeship and the Assessment Triangle, and four explicitly authored domain syntheses: [Knowledge Representation](models/knowledge-representation.md), [Instructional Design](models/instructional-design.md), [Instruction and Scaffolding](models/instruction-and-scaffolding.md), and [Assessment and Feedback](models/assessment-and-feedback.md). Each embeds its own overview illustration and connects source-grounded explanations without claiming a published unified theory or a validated AI intervention. The Methods summarize published Retrieval Practice, Self-Explanation and Cognitive Modeling. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/learning-workflow.md). Distributed practice scheduling is implemented inside a Practice; abstract-only source access was not inflated into a detailed standalone scientific protocol.
 
@@ -66,17 +66,17 @@ General learning research and AI-specific studies are distinguished. A structure
 
 ## Architecture and independence
 
-KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. Domain Models may integrate inspected source contributions under explicitly declared authorship and limits; original coaching procedures remain in Practices. [ALIGNMENT](docs/SCIENTIFIC-POLICY.md) explicitly adopts a domain version of Core's professional source-alignment policy.
+KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. Domain Models may integrate inspected source contributions under explicitly declared authorship and limits; original coaching procedures remain in Practices. [ALIGNMENT](docs/scientific-policy.md) explicitly adopts a domain version of Core's professional source-alignment policy.
 
 This repository stands alone. It does not require the English Linguistics or Learning and Teaching KPS packages, an Obsidian plugin, an API key or an installed agent. It is knowledge and guidance, not a deployed chatbot. Ordinary relative Markdown links work without a knowledge-graph viewer.
 
 ## Repository layout
 
-The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/learning-workflow.md), [learning notes](guides/learning-notes.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/INDEX.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
+The root holds the reader entry, agent instructions, licence and attribution, validator and integrity metadata. Authoring and maintenance guidance live in `docs/`; contribution guidance lives in `.github/`. Use [learning workflow](guides/learning-workflow.md), [learning notes](guides/learning-notes.md) and the [worked example](guides/WORKED-EXAMPLE.md) for learner tasks. The [knowledge index](docs/index.md) combines Practice entry points, stage links and academic objects. Canonical names, source alignments and claim records remain in their owning files.
 
-Maintainers use the [scientific and scope policy](docs/SCIENTIFIC-POLICY.md), [validation and compatibility](docs/VALIDATION.md), and [reader and diagram guide](docs/READING-AND-DIAGRAMS.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
+Maintainers use the [scientific and scope policy](docs/scientific-policy.md), [validation and compatibility](docs/validation.md), and [reader and diagram guide](docs/reading-and-diagrams.md). The existing knowledge types remain in the five original role folders; references, tests and tools remain separately organized.
 
-**Root cleanup changes document locations**. Links to former root-level guide or generated files will need updating in external notes. Stable KPS knowledge IDs, Practice stage anchors, the 10.2.0 Core lock and the 9.1.0 validation semantics are unchanged. See the mapping table in [validation and compatibility](docs/VALIDATION.md) before migrating external links.
+**Root cleanup changes document locations**. Links to former root-level guide or generated files will need updating in external notes. Stable KPS knowledge IDs, Practice stage anchors, the 10.2.0 Core lock and the 9.1.0 validation semantics are unchanged. See the mapping table in [validation and compatibility](docs/validation.md) before migrating external links.
 
 ## Check locally
 
@@ -89,10 +89,10 @@ python3 tools/build_navigation.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/VALIDATION.md). Blank [session records](data/session-record-template.json) and a [learning-notes guide](guides/learning-notes.md) are provided for private use. For Markdown, copy the flexible [learning-notes overview](templates/learning-notes/learning-notes.md) and [numbered stage template](templates/learning-notes/stages/01-stage-name.md) into a private location. Do not publish completed personal records.
+These commands check structure and declared boundaries, not educational efficacy. See [CHECKS](docs/validation.md). Blank [session records](data/session-record-template.json) and a [learning-notes guide](guides/learning-notes.md) are provided for private use. For Markdown, copy the flexible [learning-notes overview](templates/learning-notes/learning-notes.md) and [numbered stage template](templates/learning-notes/stages/01-stage-name.md) into a private location. Do not publish completed personal records.
 
 ## Versions and rights
 
-Domain package: 0.4.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/VALIDATION.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
+Domain package: 0.4.0. Based on KPS Core **10.2.0**, authoring language **9.x**, structural validator **9.1.0**, Practice format **steps-first-v1**. [COMPATIBILITY](docs/validation.md) and [upstream lock](upstream-lock.json) identify the exact sources; the domain is not version 10.2.0 merely because Core is.
 
 Original content and copied KPS tooling use the retained MIT license. Third-party publications retain their rights and are linked, not mirrored. See [NOTICE](NOTICE.md) and [CONTRIBUTING](.github/CONTRIBUTING.md).

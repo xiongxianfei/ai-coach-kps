@@ -17,7 +17,7 @@ These repository-wide instructions apply to knowledge, code, tools and workflows
 
 ## Project purpose
 
-Help independent adult learners understand and apply knowledge through source-grounded explanations and authored AI-assisted learning Practices. Use the [knowledge index](docs/INDEX.md) and [learning workflow](guides/learning-workflow.md). This repository does not itself implement an autonomous tutor, persistent memory or scheduling.
+Help independent adult learners understand and apply knowledge through source-grounded explanations and authored AI-assisted learning Practices. Use the [knowledge index](docs/index.md) and [learning workflow](guides/learning-workflow.md). This repository does not itself implement an autonomous tutor, persistent memory or scheduling.
 
 ## Core Engineering Principles
 
@@ -41,7 +41,7 @@ Help independent adult learners understand and apply knowledge through source-gr
 
 ## Project guidance
 
-- Follow [Authoring](docs/AUTHORING.md), [Scientific policy](docs/SCIENTIFIC-POLICY.md) and the affected Practice. Preserve the five roles, adult audience and declared upstream compatibility.
+- Follow [Authoring](docs/authoring.md), [Scientific policy](docs/scientific-policy.md) and the affected Practice. Preserve the five roles, adult audience and declared upstream compatibility.
 - Ground standalone non-Practice meanings in actually inspected academic sources, recording the passage and scope. Domain Models may be explicitly KPS-authored explanatory syntheses under the scientific policy, with source contributions and integration limits stated. Keep original coaching prompts, adaptation rules and workflows inside Practices; do not present them as established theory or proven interventions.
 - Scope a coherent lesson capability within the learner's goal before selecting assessment tasks. Default to connected explanation followed by a few short complementary questions and concise combined feedback; follow learner pacing preferences and use deeper questions for important gaps. Within existing agreement, default to beginning the next lesson after feedback when appropriate; choose clarification, practice, retrieval or synthesis when the goal and evidence call for it. Treat example sequences and template layouts as optional illustrations, not required teaching techniques. Summarize each learning stage with connected ideas, observed understanding, open gaps and the next stage, using one checked overview picture by default and adapting representation to learner preferences; keep learner summaries private. Keep observable outputs, criteria and stop/split rules. Do not equate one question with a lesson or invent universal size thresholds.
 - Fit questions to the lesson, available learner evidence and support. Keep task scope and sufficient answers clear; adjust reasoning challenge separately from answer-writing effort and consider the entire question set. Clarify confusing prompts, reduce incidental demands or move to useful new work as the evidence warrants. Treat reported effort or boredom as input for adaptation, not an ability or motivation diagnosis.
@@ -50,7 +50,7 @@ Help independent adult learners understand and apply knowledge through source-gr
 
 ## Verification
 
-Run the publication checks in [Validation](docs/VALIDATION.md):
+Run the publication checks in [Validation](docs/validation.md):
 
 ```bash
 python3 validate.py .

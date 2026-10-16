@@ -14,7 +14,7 @@ This local specification defines the KPS 9.x document format; it is not an exter
 This local specification defines the KPS 9.x document format; it is not an externally endorsed knowledge taxonomy.
 
 ## Authority and scope
-This document defines the **KPS 9.x authoring convention** for the five knowledge roles, publication-based Reference records, self-contained content, metadata, naming, stage headings and local links. `TEMPLATES.md`, `NAVIGATION.md` and Practices provide examples or application guidance, not competing authoring requirements. This is a project convention, not a universally standardized Markdown dialect.
+This document defines the **KPS 9.x authoring convention** for the five knowledge roles, publication-based Reference records, self-contained content, metadata, naming, stage headings and local links. `templates.md`, `reading-and-diagrams.md` and Practices provide examples or application guidance, not competing authoring requirements. This is a project convention, not a universally standardized Markdown dialect.
 
 An *incompatible change to these requirements* needs a new KPS language major version; compatible explanations, tooling and optional guidance may change within 9.x. A domain package declares `kps_language: "9.x"` and separately records the KPS release it was checked against.
 
@@ -30,6 +30,8 @@ Supporting root-level documents and verification tooling are infrastructure, not
 
 ## Filename and identity
 Use lowercase, meaningful kebab-case filenames, such as `spacing-effect.md` for a Principle, `study-data-extraction.md` for a Method or `build-domain-knowledge.md` for a Practice. Reference filenames identify the **publication**, normally `creator-year-short-title.md`, `creator-undated-short-title.md`, or `organization-standard-id-year.md` when the official identifier matters. Do not infer a publication year from the date accessed.
+
+Ordinary documentation filenames also use lowercase kebab-case, for example `authoring.md`, `index.md`, `scientific-policy.md` and `body-of-knowledge-outline.md`. Preserve established repository filenames such as `README.md`, `AGENTS.md`, `LICENSE`, `NOTICE.md` and GitHub community files such as `CONTRIBUTING.md`; tools may depend on their exact spelling. File capitalization does not establish document authority. For an explicit rename, update incoming links, generated navigation, tools, tests and local provenance paths together, and remove the superseded path. Preserve original source paths in provenance and former paths in migration records. Existing files are migrated deliberately, not renamed automatically by this convention.
 
 Metadata must include a stable `id`, `type`, `version`, `language` and `status` for a knowledge object. Stable IDs are **not** Markdown link anchors. Metadata is for identities, indexing and typed dependency hints; body prose explains why the relationships matter.
 
@@ -113,11 +115,11 @@ Keep `.d2` and generated `.svg` together under semantic paths in `diagrams/`. Em
 
 A knowledge relationship graph must use declared metadata edges. Label the relation type and state which objects and edges were omitted. It is not causal evidence or a compulsory reading path. Keep normal Markdown links outside the SVG for dependable navigation.
 
-Register each diagram with its owning document and reason in `diagrams.json`. Update text and diagram together when meaning changes. With the pinned renderer, `python diagram_tools.py --write` generates artifacts and `python diagram_tools.py --check` rejects stale outputs or a stale metadata graph. The base validator still checks links/images; separate diagram checks validate rendering, not explanatory accuracy. See [Diagram authoring guide](READING-AND-DIAGRAMS.md) for the small implementation and review procedure.
+Register each diagram with its owning document and reason in `diagrams.json`. Update text and diagram together when meaning changes. With the pinned renderer, `python diagram_tools.py --write` generates artifacts and `python diagram_tools.py --check` rejects stale outputs or a stale metadata graph. The base validator still checks links/images; separate diagram checks validate rendering, not explanatory accuracy. See [Diagram authoring guide](reading-and-diagrams.md) for the small implementation and review procedure.
 
 ## Format and tool compatibility
 
-The five roles, stage numbering and Markdown navigation contract are unchanged. KPS 9.1.0 relaxes fixed stage layout: existing six-label stages can still be checked, but Core now authors steps-first stages rather than two parallel templates. Mark new Practices `practice_format: "steps-first-v1"` and record `minimum_validator: "9.1.0"` in package metadata. Earlier 9.0 validators reject missing labels and cannot validate the new presentation; the 9.x declaration alone does not make old tools understand it. See [Compatibility](VALIDATION.md) before migrating a domain.
+The five roles, stage numbering and Markdown navigation contract are unchanged. KPS 9.1.0 relaxes fixed stage layout: existing six-label stages can still be checked, but Core now authors steps-first stages rather than two parallel templates. Mark new Practices `practice_format: "steps-first-v1"` and record `minimum_validator: "9.1.0"` in package metadata. Earlier 9.0 validators reject missing labels and cannot validate the new presentation; the 9.x declaration alone does not make old tools understand it. See [Compatibility](validation.md) before migrating a domain.
 
 ## Markdown links
 KPS uses UTF-8 `.md`, ordinary inline relative file links and conservative heading fragments; avoid application-specific wikilinks, embedded HTML anchors and renderer-dependent extensions. For links to a full file, use `[Text](../../models/example.md)` rather than a fragile section fragment. For section links, the destination must match the complete real heading under the chosen lowercase/hyphenated profile:
@@ -142,6 +144,6 @@ Root-level GitHub community and automation files are repository infrastructure r
 
 ## Core professional alignment policy
 
-Core content 10.0.0 adopts [ALIGNMENT.md](SCIENTIFIC-POLICY.md). Its standalone Concepts, Principles, Models and Methods identify the actual source, relation and passage. Source-defined meaning takes precedence over a conflicting local paraphrase; scope differences must not be disguised as equivalence. KPS-specific workflows, reasoning aids and design choices are embedded in Practices. Necessary file-format rules remain here as specifications, not scientific Principles.
+Core content 10.0.0 adopts [ALIGNMENT.md](scientific-policy.md). Its standalone Concepts, Principles, Models and Methods identify the actual source, relation and passage. Source-defined meaning takes precedence over a conflicting local paraphrase; scope differences must not be disguised as equivalence. KPS-specific workflows, reasoning aids and design choices are embedded in Practices. Necessary file-format rules remain here as specifications, not scientific Principles.
 
 This is a Core curation decision, not a silent change to the five-role KPS 9.x language. The unchanged 9.1.0 structural checker accepts these files; `test_alignment.py` checks the additional Core declarations and migration. A passing test cannot determine authority, faithfulness or scientific validity. Other domain packages adopt the policy separately rather than being changed by this release.
