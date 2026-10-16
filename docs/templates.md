@@ -53,7 +53,7 @@ Purpose; necessary terms; actual representation; relationships; assumptions; imp
 
 ## Method content
 
-> **Template guidance — remove before use:** Follow [Method purpose and depth](authoring.md#method-purpose-and-depth). Explain the established operation sufficiently for its intended use, choosing headings and examples that suit it. Cover necessary conditions, reasoning, actions, result interpretation and limits without treating this list as a fixed layout. Keep contextual selection and authored adaptations in the Practice. An illustrative application is not evidence of effectiveness.
+> **Template guidance — remove before use:** Follow [Method purpose and depth](authoring.md#method-purpose-and-depth). Explain the published operation or source-grounded reusable adaptation sufficiently for its intended use, choosing headings and examples that suit it. Cover necessary conditions, reasoning, actions, result interpretation and limits without treating this list as a fixed layout. Identify source-supported parts, authored changes and untested expectations. Keep particular goals, selected tasks and live coaching decisions in the Practice, with essential actions inline. An illustrative application is not evidence of effectiveness.
 
 ## Practice content
 
@@ -67,6 +67,9 @@ Use the [authoring contract](authoring.md#practice-responsibilities) for require
 > Combine these responsibilities where natural; add support only where useful.
 > Explain how users judge results and adapt the approach. Include previous
 > outcomes when supported, and distinguish proposed from demonstrated improvements.
+> Choose approaches from the reader need, not only existing Method files. Where
+> selection matters, explain when alternatives fit beside the action; the examples
+> are not an exhaustive menu or a requirement to create a file for every activity.
 
 # Practice name
 

@@ -19,7 +19,7 @@ Contributions should improve adult learning guidance, source faithfulness or ver
 1. Read [Authoring](../docs/authoring.md), the combined scientific and scope policy in [Scientific policy](../docs/scientific-policy.md), and the target Practice with its direct dependencies.
 2. Identify the source-defined meaning, the local adaptation and the proposed improvement separately.
 3. Inspect the relevant source passage; preserve context, comparators, outcomes and access limitations. Do not replace a missing passage with an invented locator.
-4. Keep original coaching workflows inside Practices and use academic names for faithful scholarly objects. For a domain Model synthesis, identify KPS authorship and the inspected contribution of each source under the scientific policy; do not attribute the entire integration to a cited author.
+4. Keep particular coaching workflows inside Practices and use academic names for faithful scholarly objects. Reusable Method adaptations must identify inspected procedural support, authored changes and untested limits under the scientific policy. For a domain Model synthesis, identify KPS authorship and the inspected contribution of each source under the scientific policy; do not attribute the entire integration to a cited author.
 
 ## Source and learning review
 

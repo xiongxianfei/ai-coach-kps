@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.16.0"
+version: "0.17.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -17,7 +17,7 @@ composes: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-
 uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:concept-map", "ai-coach:concept:instructional-scaffolding", "ai-coach:concept:formative-assessment", "ai-coach:concept:learning-performance-distinction"]
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:instruction-and-scaffolding", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
-uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
+uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice", "ai-coach:method:predict-observe-explain", "ai-coach:method:learning-from-erroneous-examples"]
 references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics", "ai-coach:reference:pashler-2007-organizing-instruction"]
 ---
 
@@ -170,7 +170,34 @@ For the default complete-lesson mode, prepare the teaching and the current quest
 
 **Question fit and effort**
 
-Choose the question's purpose, the thinking it should elicit and a sufficient answer format separately. Recall, comparison, explanation, application, prediction, error diagnosis, evidence evaluation and generation are available options, not a sequence to complete. A choice can serve application; a short explanation can reveal a relationship; a practical demonstration may fit an action goal better than text. Select what supplies useful practice or evidence for this learner. Do not infer difficulty from a type label or format, or turn the menu into a question quota.
+Choose the question's purpose, the thinking it should elicit and a sufficient answer format separately. Start from the lesson capability and the learner's evidence, then consider suitable approaches; existing Method files are not a whitelist. The options below include published methods, task types and authored adaptations because all can help select an activity. They do not share identical evidence or imply a complete scientific taxonomy. If none fits, investigate another approach and make its basis and limits clear. A missing Method file is not a reason to exclude a useful action; retain enough instruction here and document a reusable procedure when that adds value.
+
+**Choosing questions and learning tasks**
+
+| Intended learning or decision | Available approach and when it fits | Bounded example and important limit |
+|---|---|---|
+| Remember essential knowledge | [Retrieval practice](../methods/retrieval-practice.md): recall previously encountered material before showing it again | “Without looking back, what does an equal share mean?” An answer copied from the lesson is not unaided recall. |
+| Explain a relationship or worked step | [Self-explanation](../methods/self-explanation.md): elicit the learner's reason, not a repetition of our solution | “Why does dividing twelve by three give the size of each equal share?” Clarify necessary terms first. |
+| Explain why a stated fact holds | Elaborative interrogation: connect the fact to relevant prior knowledge | “Why does doubling the number of equal groups halve each share when the total stays fixed?” Check the premise and reason; do not demand an explanation of an unfamiliar fact without support. |
+| Distinguish or classify | Comparison or classification: identify the property that separates confusing cases | “Which quantity is the number of groups, and which is the amount per group?” A label alone may leave the distinction unclear. |
+| Predict a consequence | Prediction: change a relevant condition and ask for an outcome with a brief reason; use [Predict Observe Explain](../methods/predict-observe-explain.md) when an observation is available | “Keep twelve counters but double the groups. What happens to each share?” A prediction alone does not require an experiment; POE adds prediction-before-observation and reconciliation. |
+| Recognize and repair a mistake | Error diagnosis; [Learning from Erroneous Examples](../methods/learning-from-erroneous-examples.md) provides one supported procedure to adapt | “This flawed solution changes only one side of an equation. Why is that invalid, and how would you repair it?” Finding an unmarked error is an additional demand, not always a prerequisite. |
+| Apply knowledge or perform an action | A new problem, practical demonstration or created artifact when the target requires use | “Arrange fifteen counters into five equal groups and show how you check the result.” A written plan alone does not demonstrate execution. |
+| Evaluate evidence and boundaries | Evidence evaluation; focused Socratic questions when an actual claim needs clarification or scrutiny | “Does one denied request show that every route is protected? What remains unknown?” Ask about a specific inference rather than conducting an endless interrogation. |
+| Connect ideas or develop a solution | Synthesis, design or creation when the goal requires integration | “Show two different grouping arrangements with the same total, and explain their connection.” Bound the deliverable rather than asking for everything about the subject. |
+| Explain accessibly | A Feynman-style explain-to-a-beginner task, used here as an authored adaptation | “Explain equal sharing to a beginner using an example.” Check meaning and boundaries, not simplicity or fluency alone; this is not a claim about the evidence for a named protocol. |
+| Decide how to adjust support | Reflection on strategy, uncertainty or effort when this changes the next action | “Which step was unclear, and what would help?” Self-report informs support but is not a substitute for demonstrated capability. |
+
+Use the table to choose, not to fill a quota or fixed progression. A choice can serve application; a short explanation can reveal a relationship; a practical demonstration may fit an action goal better than text. These purposes can overlap. Check whether the selected set covers the consequential relationship and likely confusion for this lesson before reducing it for brevity; remove duplication and incidental effort rather than silently dropping that relationship. Do not infer difficulty from the approach's name or answer format. This is authored selection guidance; it does not declare all options equally effective or require a separate Method for each row.
+
+**Applying the two procedures locally**
+
+For POE, prepare an accessible event or investigation and a checked interpretation. Describe the setup without revealing its outcome, ask for a prediction and reason, and wait for that response. Then provide or carry out the observation, ask what happened and how it agrees or conflicts with the prediction, and check the explanation. Confirm that the observation resource is available before promising it. If only supplied data are available, label them as supplied; never invent an experiment or learner observation. Keep the initial prediction unchanged in the record. When no observation is needed, a prediction-and-reason question is sufficient.
+
+For an erroneous example, prepare a short flawed step and a valid correction. Mark the work as flawed; identify the step if locating it is not the goal. Ask what changed, why it fails, and for a repair with a check, combining those requests into a manageable prompt. Wait for the actual response, then compare with the valid reasoning and explain the particular gap. Offer a highlighted step, contrast or correct demonstration when foundations are missing, recording that assistance. Use a different problem only when independent application remains uncertain. This adapts supported explanation of labelled errors; it does not treat every wrong answer as a conceptual misconception.
+
+Preserve the usual complete scoped teaching followed by grouped questions. Teach the prerequisites and relevant relationships, using a different example if the current task needs an unrevealed outcome. For a diagnostic POE, elicit the prediction before teaching the answer; a POE after instruction instead examines application of taught knowledge. Explain any necessary information boundary: prediction must precede its observation, and an independent error correction must precede the supplied solution. Group prompts that can be answered from the currently available information; reveal the next part after the real response. This is an information dependency, not a reason to interrupt every idea with a question or force POE into every lesson. If the learner requests the full solution, supply instruction and label the subsequent work assisted.
+
 
 Before presenting a question, consider its relevance, scope, challenge and answer effort together. Identify the lesson capability it develops or reveals. A prerequisite probe or planned review can reach beyond the current explanation, but make that connection clear; do not introduce an unrelated demand without explanation. Keep a recognizable task and stopping point, with enough context to answer. Estimate the challenge from available responses and support needs, treating that estimate as provisional rather than assigning a fixed ability level.
 
@@ -383,7 +410,12 @@ Explain connected knowledge when needed: context, essential terms, relationships
 reasons and relevant boundaries; use a checked example when useful. Show important decisions in
 a demonstration when useful; connect words, diagrams and equations explicitly.
 Default to teaching the connected lesson, inviting clarification, then presenting
-its questions together. Follow my stated pacing preference; use guided questions
+its questions together. Choose question approaches from the capability, including
+prediction, comparison, error diagnosis, application and evidence evaluation when
+useful; existing Method files and examples do not limit the choices. For a method
+with an information dependency, such as predicting before observing, explain it,
+group the currently answerable prompts, and wait before revealing the next part.
+Follow my stated pacing preference; use guided questions
 when requested or needed for a blocking prerequisite or procedural decision.
 Use a different example for application; keep later lessons provisional.
 For baseline, retrieval or independent checks keep answers hidden.
