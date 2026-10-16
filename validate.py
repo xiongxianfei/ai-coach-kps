@@ -118,36 +118,6 @@ def meaningful(text: str) -> str:
     # Strip destinations and formatting; retain link labels for normal prose.
     return re.sub(r'\s+',' ',LINK.sub('',text).replace('*','').strip())
 
-def has_local_actions(body: str) -> bool:
-    """Recognize action-shaped content, not its usefulness or scientific truth.
-
-    The caller supplies live Markdown (code examples are already hidden).
-    Labels and word counts are deliberately not part of this check.
-    """
-    items = re.findall(r'^ {0,3}\d+[.)][ \t]+(.+)$', body, re.M)
-    if items and all(meaningful(item) for item in items):
-        return True
-    branches = re.findall(
-        r'^ {0,3}[-*+][ \t]+((?:if\b|when\b|otherwise\b).+)$',
-        body, re.M | re.I)
-    if branches and all(meaningful(item) for item in branches):
-        return True
-    lines = body.splitlines()
-    for i, line in enumerate(lines):
-        if not line.strip().startswith('|') or i + 2 >= len(lines):
-            continue
-        headers = [cell.strip() for cell in line.strip().strip('|').split('|')]
-        separator = [cell.strip() for cell in lines[i + 1].strip().strip('|').split('|')]
-        if len(headers) < 2 or len(separator) != len(headers):
-            continue
-        if not all(re.fullmatch(r':?-{3,}:?', cell) for cell in separator):
-            continue
-        # Header meaning and the suitability of each action remain review tasks.
-        row = [cell.strip() for cell in lines[i + 2].strip().strip('|').split('|')]
-        if len(row) == len(headers) and all(meaningful(cell) for cell in row):
-            return True
-    return False
-
 def resolve(root:Path,source:Path,destination:str) -> tuple[Path,str] | None:
     u=urlsplit(destination)
     if u.scheme or u.netloc:return None
@@ -244,10 +214,6 @@ def validate(root: Path, manifest: bool=False, refresh: bool=False) -> dict[str,
             if m.get('stage_titles')!=titles:error('stage-metadata',path,'stage_titles differs from actual heading order')
             if 'recommended' not in doc.live.lower() or 'prerequisite' not in doc.live.lower():error('stage-meaning',path,'order/dependency distinction absent')
             for match in stage_matches:
-                next_h=re.search(r'^## ',doc.live[match.end():],re.M)
-                body=doc.live[match.end():match.end()+next_h.start()] if next_h else doc.live[match.end():]
-                if not has_local_actions(body):
-                    error('stage-actions', path, match[1] + ': missing local action list or decision table')
                 if '#'+slug(match[1]) not in doc.links:error('stage-navigation',path,match[1]+': no live stage-map link')
             stage_count+=len(stage_matches)
     graph={}

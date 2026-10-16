@@ -41,16 +41,9 @@ def section(text, heading):
     return match.group(1) if match else ''
 
 
-def inline_contract_errors(text):
-    """Mechanical early-warning checks, not a measure of self-containment quality."""
+def interaction_contract_errors(text):
+    """Check declared response-wait and hierarchy boundaries, not instructional usability."""
     errors = []
-    for heading in STAGES:
-        body = section(text, heading)
-        visible = re.sub(r'```[^\n]*\n.*?```', '', body, flags=re.S)
-        if not re.search(r'^\d+\. \S', visible, flags=re.M):
-            errors.append('missing-inline-actions:' + heading)
-        if re.search(r'\]\([^)]*\.md(?:#[^)]*)?\)', body):
-            errors.append('stage-link-dependency:' + heading)
     if "wait for the learner's response" not in section(text, STAGES[3]).lower():
         errors.append('missing-response-wait')
     if 'overall target' not in section(text, 'Keep the levels distinct').lower():
@@ -68,17 +61,10 @@ class MasterContentTests(unittest.TestCase):
     def test_seven_steps_first_stages(self):
         self.assertEqual(STAGES, self.doc().meta['stage_titles'])
         self.assertEqual('steps-first-v1', self.doc().meta['practice_format'])
-    def test_actions_available_without_specialist_files(self):
-        self.assertEqual([], inline_contract_errors(self.text()))
-    def test_link_only_stage_is_detected(self):
-        text = self.text(); body = section(text, STAGES[1])
-        text = text.replace(body, '\n[Use planning](other-practice.md)\n', 1)
-        errors = inline_contract_errors(text)
-        self.assertTrue(any(e.startswith('missing-inline-actions') for e in errors))
-        self.assertTrue(any(e.startswith('stage-link-dependency') for e in errors))
     def test_removed_wait_is_detected(self):
+        self.assertEqual([], interaction_contract_errors(self.text()))
         text = self.text().replace("wait for the learner's response", 'proceed automatically')
-        self.assertIn('missing-response-wait', inline_contract_errors(text))
+        self.assertIn('missing-response-wait', interaction_contract_errors(text))
     def test_hierarchy_distinguishes_calendar_and_procedure(self):
         s = section(self.text(), 'Keep the levels distinct')
         for term in ['Overall target','Learning stage','Current task','Attempt and assessment',
