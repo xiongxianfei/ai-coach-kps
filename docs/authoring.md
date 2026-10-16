@@ -55,6 +55,16 @@ All substantial Markdown knowledge and Reference files use one semantic `# Title
 
 Knowledge by role must be self-contained: a Principle explains the actual relationship, not merely a command; a Model includes its representation rather than only a link; a Method includes actionable steps and safeguards; a Practice contains operationally sufficient information **in each stage**, not a list of Methods to visit elsewhere.
 
+## Method purpose and depth
+
+A Practice need, a reader's difficulty or the discovery of a relevant established procedure can trigger Method documentation. State the intended use and inspect a credible procedural source before creating or expanding the document. One target Practice can justify a dedicated Method when the explanation materially improves understanding or application; multiple existing uses are not required. Recognition in an industry or discipline identifies a candidate, not proof of effectiveness. Reuse an existing explanation when it already serves the need, and keep minor actions inline when a separate document adds little value.
+
+Explain the operation deeply enough for competent use: its purpose and applicability, essential inputs and prior knowledge, mechanism or rationale, usable procedure and decisions, outputs and their interpretation, a worked application where useful, and relevant failure modes and limits. Distinguish demonstrated effects from proposed mechanisms and uncertain expectations. Explain alternatives when their differences help the reader choose. These are content responsibilities, not mandatory section names, a fixed sequence or an exhaustive survey. Preserve the common document opening and identity; let the method determine the substantive presentation.
+
+The standalone Method preserves the established procedure and source-defined variants, with inspected passages and scope recorded. A constructed example illustrates execution and interpretation without claiming an observed success. Original combinations, coaching prompts and contextual adaptations belong in Practices and remain identifiable as authored choices. A Practice retains essential instructions locally while linking to the Method for depth.
+
+Work from the need through source investigation and explanation to contextual application. Observations from use may reveal an unclear explanation, unsuitable application conditions or a limitation requiring further investigation; they do not automatically establish a new general claim. Revise the owning explanation or Practice accordingly, preserving the evidence and uncertainty. This is authoring guidance, not a new scientific Method or compulsory workflow artifact.
+
 ## Practice responsibilities
 
 A Practice must provide enough information to act, interpret results and choose the next action. Authors may combine these responsibilities and organize them according to the task. These are requirements for useful content, not a prescribed set of headings or fields in every stage.

@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:chi-1994"
 type: "reference"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 creator: "Michelene T. H. Chi, Nicholas de Leeuw, Mei-Hung Chiu and Christian LaVancher"
@@ -11,8 +11,8 @@ date_basis: "Bibliographic year shown in the inspected publication."
 doi: "10.1207/s15516709cog1803_3"
 source_type: "primary experiment"
 evidence_family: "chi-1994"
-accessed: "2026-10-12"
-access_extent: "Publisher identity plus selected original-paper PDF pages inspected via an external mirror: abstract on printed page 439 and elicitation procedure on pages 450 to 451. No raw data reanalysis."
+accessed: "2026-10-16"
+access_extent: "Prior publisher identity inspection retained. Original-paper PDF mirror inspected on 2026-10-16: abstract page 439, procedure pages 450 to 451, selected Discussion passages pages 470 to 472, and Appendix page 477. Not a complete literature review or raw-data reanalysis."
 reviewed: null
 ---
 
@@ -40,13 +40,15 @@ This record identifies a specific publication and the material inspected for thi
 
 ## Inspection extent
 
-Accessed 2026-10-12. Publisher identity plus selected original-paper PDF pages inspected via an external mirror: abstract on printed page 439 and elicitation procedure on pages 450 to 451. No raw data reanalysis.
+Accessed 2026-10-16. Prior publisher identity inspection retained. Original-paper PDF mirror inspected on 2026-10-16: abstract page 439, procedure pages 450 to 451, selected Discussion passages pages 470 to 472, and Appendix page 477. Not a complete literature review or raw-data reanalysis.
 
-**Locator:** Abstract; Procedure and explanation-elicitation prompts, printed pages 450 to 451
+**Locator:** Abstract page 439; Procedure pages 450 to 451; Discussion pages 470 to 472; Appendix page 477
 
 ## Located contribution
 
 Learners in the prompted condition generated explanations of text rather than merely rereading. The study reported improved understanding in the investigated setting.
+
+The expanded inspection supports separating the published elicitation from the authors' proposed mechanisms and from our arithmetic illustration. The mirror is the same paper, not independent corroboration.
 
 ## Limits and nonclaims
 

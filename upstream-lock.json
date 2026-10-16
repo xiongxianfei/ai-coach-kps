@@ -17,16 +17,16 @@
       "upstream_path": "validate.py"
     },
     "docs/authoring.md": {
-      "sha256": "7ba7b290fbf528a297c267726909b65e67f8a444f1981677071695914821f6a9",
-      "git_blob_sha1": "4f14624e25c8c625f3678452bf35d92f2e25bbab",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, contextual method selection, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
+      "sha256": "5afc513cf6f7fbe299461030754c7de1cb6b96caf041b4f9f2a887d24ddbd54a",
+      "git_blob_sha1": "254cd7690e9f5570db869c95bb41259135289ceb",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, contextual method selection, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained; Method guidance clarifies intended-use triggers, inspected procedural basis and flexible explanatory depth",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
       "upstream_path": "AUTHORING.md"
     },
     "docs/templates.md": {
-      "sha256": "807fda53a49acd10f967588dbca717f78f6bcbc3af4dcf032a218d2463eeef8e",
-      "git_blob_sha1": "a9e306de7dc64047bbaba548f01604feb005f3bd",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
+      "sha256": "11b7821eac79ffbf49b9ef52dc7f6603906afcb0dabde8dcb6e4f2688848a137",
+      "git_blob_sha1": "2143e3e6985cd865b30723707b3fc5c351630a16",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained; Method guidance clarifies intended-use triggers, inspected procedural basis and flexible explanatory depth",
       "upstream_sha256": "9f15840bb5f8d54e47e47395b101f6ea85e9ee1675ecbc8bed878a0b52512cf1",
       "upstream_path": "TEMPLATES.md"
     }
