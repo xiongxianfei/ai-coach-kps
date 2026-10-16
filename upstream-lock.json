@@ -17,9 +17,9 @@
       "upstream_path": "validate.py"
     },
     "docs/authoring.md": {
-      "sha256": "a5cd9703e49022b9f79f88db24df8438a2cf5b1066fda48f65ac28eb5da54011",
-      "git_blob_sha1": "0af6a27becab703158f05886fe4d460dfbb1d411",
-      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
+      "sha256": "7ba7b290fbf528a297c267726909b65e67f8a444f1981677071695914821f6a9",
+      "git_blob_sha1": "4f14624e25c8c625f3678452bf35d92f2e25bbab",
+      "reuse": "Core 10.2.0 document relocated under docs/ with local documentation links, domain-test command and review-record destinations adapted; original checksum retained; Practice guidance locally clarifies content responsibilities, outcome evaluation, justified improvement, contextual method selection, format requirements and optional presentation without changing the pinned validator; local documentation filename and links normalized to lowercase; original upstream_path retained",
       "upstream_sha256": "92ff0e7ace7ac238545f98d88a7745dcb91dcfdf8af7fe86a2933446cec27864",
       "upstream_path": "AUTHORING.md"
     },
