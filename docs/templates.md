@@ -52,7 +52,8 @@ Declarative Statement; explanatory mechanism or relationship; evidence-supported
 Purpose; necessary terms; actual representation; relationships; assumptions; implications; how to evaluate; evidence and limitations. Summarize necessary dependencies inline instead of linking away the explanation.
 
 ## Method content
-Objective; inputs and prerequisites; rationale; numbered procedure; expected effect; observations and counter-signals; limits or stop conditions; example; deeper evidence. A new comparison procedure is a proposal until used; examples do not establish effectiveness.
+
+> **Template guidance — remove before use:** Follow [Method purpose and depth](authoring.md#method-purpose-and-depth). Explain the established operation sufficiently for its intended use, choosing headings and examples that suit it. Cover necessary conditions, reasoning, actions, result interpretation and limits without treating this list as a fixed layout. Keep contextual selection and authored adaptations in the Practice. An illustrative application is not evidence of effectiveness.
 
 ## Practice content
 
