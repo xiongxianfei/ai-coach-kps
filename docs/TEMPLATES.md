@@ -64,6 +64,8 @@ Use the [authoring contract](AUTHORING.md#practice-responsibilities) for require
 > Adapt the stage names, number, order and detail to the task. Keep actions,
 > essential reasoning, observations and next decisions locally usable.
 > Combine these responsibilities where natural; add support only where useful.
+> Explain how users judge results and adapt the approach. Include previous
+> outcomes when supported, and distinguish proposed from demonstrated improvements.
 
 # Practice name
 

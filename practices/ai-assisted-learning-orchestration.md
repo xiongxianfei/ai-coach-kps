@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.13.0"
+version: "0.14.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -280,6 +280,10 @@ For example only, “4” would leave units and the divisor's meaning unobserved
 7. In that summary, separate what was taught from what actual replies demonstrated, under which assistance, and what remains uncertain or untested. An introductory pass is not retained knowledge or practical mastery. Name the next stage's purpose, then begin its first lesson in the same reply when continuation is appropriate. Save the summary at the end of its numbered stage file, with the picture embedded beside it; do not put learner results in the public subject outline or domain Model. Use `images/` paths from the overview and `../images/` paths from a file in `stages/`, checking the actual target. Update the dated current assessment in the overview with supported capabilities, links to actual observations and assistance, open gaps and the next action. Do this at a stage boundary or when meaningful evidence changes a conclusion; it does not require a new test after every reply. Preserve the initial assessment and earlier consequential judgments in the evidence record. If a judgment or criterion changes, record the reason and avoid treating unlike observations as a direct measure of improvement. Plain Markdown is sufficient. If no private destination is available, supply the summary in the conversation for the learner to save and do not claim it was stored.
 8. At a programme checkpoint, examine the overall target against relevant tasks, including later or changed-context evidence only when collected. State unmeasured areas and alternative explanations for improvement. Extra study, prior exposure, changed difficulty or a corrected key may explain a difference; a single learner's before/after result does not isolate an AI treatment effect.
 
+When changing the coaching approach, identify the observed limitation, the proposed adjustment and what a useful result would look like. Judge progress against the lesson capability alongside relevant learner effort or access needs; finishing more questions or receiving shorter answers is not itself better learning. Representation, pacing and support can change, while subject accuracy, actual-response preservation, assistance disclosure and learner control remain necessary. If the goal or criterion changes, state that explicitly rather than making the new task appear to prove improvement on the old one.
+
+For a constructed example, a learner might calculate an amount per group correctly but confuse the unit. A labeled grouping illustration could make the quantity relationship clearer. After explaining it, use a fresh applicable task when a further observation is needed, retaining the relevant criterion and recording actual help. An adequate interpretation without answer help, when independence is the goal, and acceptable reported effort could support retaining that approach provisionally. A copied label, unanswered item or clearer coach explanation does not demonstrate the intended capability. If the response remains unclear, revise the support; if effort is excessive, simplify incidental demands. Reuse suitable evidence instead of imposing a new test after every change. This fictional case supplies no learner outcome or benchmark. A local improvement could also reflect additional practice or changed task demands; it does not establish that the coaching adjustment caused it or will work for other learners.
+
 **Adaptive planning triggers**
 
 | Evidence or change | Next planning action | Boundary |
@@ -405,6 +409,9 @@ overview and current stage. Link reusable knowledge improvements back to their o
 If saving or image tools are unavailable, provide the text and state the limit.
 Revise the high-level plan only when a checked gap, a stage checkpoint, a source
 correction or an agreed goal/constraint change warrants it; preserve old versions.
+When adapting coaching, name the expected benefit and inspect actual results against
+the capability and relevant effort or quality trade-offs. Keep changes provisional
+when evidence is missing; a changed response alone does not establish a causal benefit.
 Stage advancement and the overall learning conclusion need their own evidence,
 not just a task marked complete.
 Keep a short resume record; do not claim memory, reminders or unperformed checks.
