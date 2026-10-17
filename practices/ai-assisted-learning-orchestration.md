@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.17.0"
+version: "0.18.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -17,7 +17,7 @@ composes: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-
 uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:concept-map", "ai-coach:concept:instructional-scaffolding", "ai-coach:concept:formative-assessment", "ai-coach:concept:learning-performance-distinction"]
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle", "ai-coach:model:knowledge-representation", "ai-coach:model:instructional-design", "ai-coach:model:instruction-and-scaffolding", "ai-coach:model:assessment-and-feedback"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
-uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice", "ai-coach:method:predict-observe-explain", "ai-coach:method:learning-from-erroneous-examples"]
+uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice", "ai-coach:method:predict-observe-explain", "ai-coach:method:learning-from-erroneous-examples", "ai-coach:method:backward-design", "ai-coach:method:structured-explanation", "ai-coach:method:worked-example-instruction"]
 references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:panadero-2017", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:karpicke-2011", "ai-coach:reference:cepeda-2008", "ai-coach:reference:unsw-voice-acoustics", "ai-coach:reference:pashler-2007-organizing-instruction"]
 ---
 
@@ -166,7 +166,21 @@ The stable Stage3 heading identifies the current activity; it is not a one-quest
 
 Before delivery, define the lesson's coverage around its capability: necessary concepts, relationships, mechanisms or procedures, prerequisites and important boundaries. Then prepare the actual explanation and a checked demonstration where the task needs one. A plan saying “explain the concepts and give an example” is not the teaching content. Connect each part so the learner can understand why the proposed action or conclusion follows. Use a changed case to show a relevant distinction when useful, and explain how any simplified example connects to the intended application. Identify invented observations and unverified task details. This is an authored preparation responsibility, not a mandatory set of headings, a word count or a requirement to demonstrate every concept.
 
-For the default complete-lesson mode, prepare the teaching and the current question set together. Deliver the explanation and demonstration first, then all selected questions at the end of the same response. “Complete” means sufficient for the declared lesson scope; it does not mean the whole subject, an exhaustive question bank or every future follow-up. If the content cannot fit coherently, narrow or split the lesson at a meaningful boundary and state what remains. Keep alternative pacing available when requested or needed for a blocking decision.
+**Choosing how to prepare and teach**
+
+Use [Backward Design](../methods/backward-design.md) when building or revising a stage or lesson: state the intended capability, choose evidence that would support it, then prepare the knowledge and activities needed. This planning order does not require assessment before teaching. Keep broader subject coverage visible; do not replace the curriculum with whatever is easiest to question.
+
+| Teaching need | Method choice and essential action | When to change the choice |
+|---|---|---|
+| Connect unfamiliar ideas into an understandable account | [Structured Explanation](../methods/structured-explanation.md), our adaptation of university lecture guidance: orient to the problem, explain needed terms and relationships, develop a meaningful example or contrast, and state its limits | If the learner cannot follow the bridge, clarify the missing idea or representation; merely extending the lecture may not help. |
+| Show how knowledge solves a task | [Worked Example Instruction](../methods/worked-example-instruction.md): show a checked problem and solution, then let the learner attempt a related problem; adjust support from the actual attempt | If the learner already solves and explains such tasks, reduce demonstration and move to relevant application. |
+| Make an expert choice or check understandable | [Cognitive Modeling](../methods/cognitive-modeling.md): demonstrate the action and explain the decision, constraint or check that justifies it | If the decision is already understood, avoid narrating every trivial action. A reasoned AI demonstration still needs content verification. |
+
+These are complementary options, not a required sequence or closed catalog. Principles supply subject relationships; they do not require teaching every topic under a “Principle” heading. A case, investigation or another supported approach may fit the capability better. Keep the selected teaching self-contained and explain important method choices beside their use.
+
+For example, when the capability is distinguishing an average from individual values, explain the mean through equal sharing and compare collections with the same mean but different values. Calculate one example visibly, then ask about a fresh collection. This prepares the actual inference instead of offering a definition followed by a broad “explain averages” question. The example is authored and does not establish a successful lesson.
+
+For the default complete-lesson mode, prepare the teaching and the current question set together. Deliver the explanation and demonstration first, then all selected questions at the end of the same response. “Complete” means sufficient for the declared lesson scope; it does not mean the whole subject, an exhaustive question bank or every future follow-up. If the content cannot fit coherently, narrow or split the lesson at a meaningful boundary and state what remains. Keep alternative pacing available when requested or needed for a blocking decision. Worked-example research supports alternation with learner problems; grouping all demonstrations before the question set is our pacing adaptation, not that studied sequence. Use successive example-and-attempt cycles when helpful or requested, while preserving the coherent lesson capability.
 
 **Question fit and effort**
 

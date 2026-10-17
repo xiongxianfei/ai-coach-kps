@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instruction-and-scaffolding"
 type: "model"
-version: "0.6.0"
+version: "0.6.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instruction and Scaffolding"
@@ -250,7 +250,7 @@ The six outline topics have introductory coverage, not a complete theory of inst
 ## Source alignment
 
 - [Collins, Brown and Holum](../references/collins-brown-holum-1991-cognitive-apprenticeship.md): framework Content, Method and Sequencing supply the named instructional relationships. The six methods are not six compulsory lesson stages. No underlying experiments were reanalyzed.
-- [Pashler and colleagues](../references/pashler-2007-organizing-instruction.md): the official overview of recommendations 2, 3, 4 and 7 supports the selected example, representation and questioning considerations. The full guide and primary studies are outside this inspection.
+- [Pashler and colleagues](../references/pashler-2007-organizing-instruction.md): the official overview of recommendations 2, 3, 4 and 7 supports the selected example, representation and questioning considerations. These Model claims retain their overview-level basis; the Reference record separately identifies selected full-guide passages now inspected for Methods. Primary studies were not reappraised.
 - [Richards](../references/richards-2022-morphology.md): PDF text on pages 16–18 supplies the subject analysis for the morphology contrast, not evidence for a teaching method. The concrete cases and coaching implications are authored here.
 
 - [Eberly Center](../references/cmu-eberly-assessment-alignment.md): the opening discussion and objective/activity table support distinguishing intended thinking from assessment format. Our overlapping question menu, reflection entry and token prompts are authored explanatory choices, not a validated taxonomy or an efficacy claim.
