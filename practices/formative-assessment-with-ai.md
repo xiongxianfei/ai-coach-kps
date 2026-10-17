@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:formative-assessment-with-ai"
 type: "practice"
-version: "0.2.0"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Formative Assessment With an AI Coach"
@@ -37,6 +37,8 @@ This Practice is for educational obstacles in a bounded adult learning task. It 
 ## One obstacle and one discriminating probe
 
 Enter with **one observed discrepancy**, its task, a credible criterion and actual assistance information. Check whether the task or reference is wrong before inferring a learner difficulty. Choose a small probe whose answers would lead to different instructional decisions; ask it before presenting multiple new explanations. Return one concrete next learning task or an explicit reason to pause, not a global learner diagnosis. Use [the lesson and task guide](../guides/learning-workflow.md) when the instructional response needs to be scoped further.
+
+This targeted investigation does not make one question the default size of a lesson. When the learner is answering a grouped set, review the available answers together and address shared confusion once. Use a separate probe only when its result would change the next teaching action. If the explanation or demonstration was insufficient, repair that content instead of repeatedly requesting self-ratings. Keep any corrective exercise connected to the original lesson and return to the relevant application before claiming transfer.
 
 ## Stage map
 
@@ -74,7 +76,7 @@ These branches are authored task-design hypotheses. They are not a validated dia
 ## Stage3 Provide actionable feedback or modeling
 
 1. Relate the feedback to the criterion and one inspectable feature of the original response. Avoid unsupported praise or personal labels.
-2. Offer an appropriate next move and let the learner choose between a hint, a simpler explanation and a verified worked example. Direct instruction is legitimate when questioning alone is unproductive.
+2. Choose an appropriate next move within the learner's existing agreement, preserving their ability to request a hint, simpler explanation or verified worked example. Do not require a new choice at every turn. Direct instruction is legitimate when questioning alone is unproductive; prepare the missing explanation and demonstrate the relevant relationship before requesting another attempt.
 3. If the AI supplies a worked example, verify the relation before presenting it as a model. Ask for an external explanation of the solution, not for private chain-of-thought or a claim about internal model cognition.
 4. Have the learner attempt the relevant step and explain the criterion they used. Preserve every supplied cue in the assistance record.
 
@@ -82,12 +84,15 @@ These branches are authored task-design hypotheses. They are not a validated dia
 
 ```text
 Use the criterion and original response below. Identify one discrepancy,
-state the evidence for it and one alternative explanation. Offer one small
-next action. Do not infer a personal trait. If the source or correction is
-uncertain, say so before asking me to adopt it. Wait for my choice.
+state the evidence for it and one alternative explanation. Carry out a useful
+next teaching action within our agreed pacing. Do not infer a personal trait.
+If the source or correction is uncertain, say so. Present any needed questions
+together after the explanation, and wait for my actual response.
 ```
 
 The learner's response and the content check determine whether the feedback was useful. A polite acknowledgment is not evidence of correction.
+
+Preserve ambiguous replies without upgrading them: “yes” to a prompt offering several possibilities does not identify which occurred, and “better” reports perceived change without verifying accuracy or its cause. Ask a short clarification only when needed for the decision. Otherwise retain the uncertainty and continue useful instruction. These examples describe interpretation limits, not additional questions to ask after every response.
 
 ## Stage4 Observe a revision and a comparable task
 

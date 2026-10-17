@@ -111,6 +111,8 @@ New Practices are steps-first with consecutive StageN headings and usable action
 
 The authoring contract and Practice template also adopt the clarified separation of required content, required format and optional presentation, including contextual method selection, relevant trade-offs and reasons to reconsider a choice. Method guidance also permits documentation for one intended Practice and explains source investigation, sufficient depth and flexible presentation. These authoring changes did not alter the Core pin, record schemas or stable Practice stages. The separate removal of the validator's stage-format heuristic is documented below. The original upstream checksums remain in the lock alongside the current local file digests.
 
+The local authoring, template and scientific-policy guidance also adopts open selection from learning needs and permits source-grounded reusable Method adaptations with explicit changes and limits. This is a documentation-policy adoption, not a Core upgrade: the validator, allowed alignment relations, record schemas and original upstream checksums remain unchanged. The current adapted authoring/template digests are recorded separately in the lock.
+
 The local scientific-policy and reading-and-diagrams guides explain this domain's adoption and supporting formats. Core-only tests of retired Core IDs and Core diagram counts are not copied blindly; domain tests exercise the corresponding local commitments.
 
 ## Root layout migration for 0 3 0
