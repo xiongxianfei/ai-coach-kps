@@ -91,12 +91,15 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Methods
 
+- [Backward Design](../methods/backward-design.md) — Plan toward an intended capability, decide what evidence would demonstrate it, then design the learning that makes it attainable.
 - [Cognitive Modeling](../methods/cognitive-modeling.md) — Make a knowledgeable task demonstration and its explanatory decisions available for a learner to inspect.
 - [Concept Mapping](../methods/concept-mapping.md) — Construct and revise propositions that answer a defined focus question.
 - [Learning from Erroneous Examples](../methods/learning-from-erroneous-examples.md) — Use a checked flawed solution to examine why a step fails, then construct and check a valid correction.
 - [Predict–Observe–Explain](../methods/predict-observe-explain.md) — Record an expectation and its reason, inspect what happens, then explain how the result relates to that expectation.
 - [Retrieval Practice](../methods/retrieval-practice.md) — Attempt to retrieve encountered material before returning to it.
 - [Self-Explanation](../methods/self-explanation.md) — The learner generates an explanation connecting studied information to its meaning or justification.
+- [Structured Explanation](../methods/structured-explanation.md) — Build an explanation whose terms, relationships and examples let the learner follow why a conclusion holds and where it stops applying.
+- [Worked Example Instruction](../methods/worked-example-instruction.md) — Let a learner inspect a solved task, then attempt a related task; adjust example support as their understanding develops.
 
 ## Sources and review
 
