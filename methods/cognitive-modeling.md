@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:cognitive-modeling"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Cognitive Modeling"
@@ -36,6 +36,14 @@ A learner can inspect how an example is approached rather than only seeing its f
 1. Select a task that makes the target decisions visible.
 2. Demonstrate the task and explain the relevant choices, checks and constraints.
 3. Invite the learner to articulate those choices and compare another attempt.
+
+## Worked decisions and their limits
+
+A [worked example](worked-example-instruction.md) shows a task and its solution path. Cognitive modeling makes relevant choices and checks explicit within a demonstration. For `3x + 6 = 21`, a solution can show `3x = 15`, then `x = 5`. The modeling adds: remove the added 6 by subtracting it from both sides to preserve equality; then divide by 3; finally substitute 5 into the original equation to check it. The explanation exposes a usable decision rule rather than asking the learner to imitate unexplained symbols.
+
+Select the decisions the learner needs. Narrating every trivial action can obscure the important choice. Check the demonstrated operations and the stated reason before teaching them. If the learner can already justify the steps, another task may be more useful than repeating the demonstration. This equation and these support choices are authored illustrations of modeling, not observations reported in the source publication.
+
+A learner explaining the step is performing self-explanation; the demonstrator explaining its choice is modeling. Both can occur around the same example. An AI-generated explanatory account is a teaching artifact, not a transcript of hidden internal cognition.
 
 ## Output and validation
 

@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:model:instructional-design"
 type: "model"
-version: "0.4.0"
+version: "0.4.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Instructional Design"
@@ -164,7 +164,7 @@ This introductory synthesis addresses the outline's six topics without covering 
 - [Collins and colleagues](../references/collins-brown-holum-1991-cognitive-apprenticeship.md): Content, Method and Sequencing inform the account of strategies, supported participation and meaningful task order.
 - [NRC assessment](../references/national-research-council-2001-assessment.md): Chapter 2, pages 44–51, supports coherence among competence, observation and interpretation. Our capability–activity–evidence presentation extends this to design.
 - [NRC learning progressions](../references/national-research-council-2007-learning-progressions.md): Chapter 8, pages 214 and 220–222, bounds progression terminology; it does not validate this adult route.
-- [IES overview](../references/pashler-2007-organizing-instruction.md): recommendations 1, 2 and 5b identify selected practice considerations. Full-guide and underlying-study review is not claimed.
+- [IES overview](../references/pashler-2007-organizing-instruction.md): recommendations 1, 2 and 5b identify selected practice considerations. These Model claims retain their overview-level basis; the Reference record separately identifies selected full-guide passages now inspected for Methods. Underlying studies were not reappraised.
 
 The integration, conditional prerequisite examples, task comparison and adaptation analysis are authored here. They are not a jointly published theory or an automated tutor specification.
 
