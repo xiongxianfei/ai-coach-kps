@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:self-regulated-learning-with-ai"
 type: "practice"
-version: "0.3.0"
+version: "0.4.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Self Regulated Learning With an AI Coach"
@@ -16,7 +16,7 @@ references: ["ai-coach:reference:panadero-2017", "ai-coach:reference:collins-199
 uses_concepts: ["ai-coach:concept:self-regulated-learning", "ai-coach:concept:learning-performance-distinction", "ai-coach:concept:instructional-scaffolding", "ai-coach:concept:feedback"]
 uses_principles: ["ai-coach:principle:testing-effect"]
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle"]
-uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice"]
+uses_methods: ["ai-coach:method:cognitive-modeling", "ai-coach:method:self-explanation", "ai-coach:method:retrieval-practice", "ai-coach:method:baseline-check", "ai-coach:method:grow-coaching", "ai-coach:method:deliberate-practice-loop", "ai-coach:method:after-action-review"]
 composes: ["ai-coach:practice:formative-assessment-with-ai", "ai-coach:practice:retrieval-and-distributed-practice-with-ai", "ai-coach:practice:evaluation-of-ai-assisted-learning"]
 uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
@@ -63,6 +63,8 @@ A bounded activity may contain related questions answered together after a conne
 3. Identify the available time, prior experience and access supports. Choose a manageable boundary and a stopping point. Do not require personal identity, private records or a psychological profile.
 4. Separate learning mode from task-completion mode. In learning mode preserve the learner's reasoning; in completion mode a full AI answer may be useful but cannot serve as independent learner evidence.
 
+If choosing a workable next action is the obstacle, use [GROW Coaching](../methods/grow-coaching.md): clarify the desired outcome, inspect present evidence and constraints, compare options, and let the learner choose an action and review occasion. Reuse what is already known and provide explanation when a knowledge gap prevents a meaningful choice.
+
 **Working note, not a completed result**
 
 ```text
@@ -78,7 +80,7 @@ Self-regulation includes choices about goals and strategy, not just obeying a co
 ## Stage2 Establish a source and a starting response
 
 1. Select a trustworthy subject reference, verified worked example or human expert criterion. Record its identity, passage and what it actually supports. An AI-created bibliography is only a candidate until the material is inspected.
-2. Reuse relevant starting evidence when available. Otherwise, if knowing the starting point would change instruction, offer a small baseline task aligned with the goal. Check its wording and answerability before presenting it. Use a human-prepared or reference-provided item when independent task verification would reveal the solution. If no baseline is needed or available, record that it was not assessed and begin appropriate instruction.
+2. Reuse relevant starting evidence when available. Otherwise, if knowing the starting point would change instruction, use a [Baseline Check](../methods/baseline-check.md) with a small task aligned with the goal. Check its wording and answerability before presenting it. Use a human-prepared or reference-provided item when independent task verification would reveal the solution. If no baseline is needed or available, record that it was not assessed and begin appropriate instruction.
 3. If a starting task is used, write the initial response before receiving answer help. Record uncertainty and any resource already visible. No response is missing evidence, not an incorrect score.
 4. Check whether the AI can access the source. When it cannot, supply a permitted short excerpt or work from a locally verified rule. Do not claim that the model read a link, a video or an uploaded file without evidence.
 
@@ -124,6 +126,8 @@ A prompt does not guarantee model behavior. The learner must observe whether the
 3. Choose support for the observed gap using the guide below, explaining the reason when the choice matters. A cue leaves more of the response for the learner; a completed substep supplies that part; a worked example supplies the demonstrated reasoning. Use the help the learner needs or requests, rather than always starting with the least help. Save the response before correction and mark the new attempt as assisted when appropriate.
 4. Explain or demonstrate the corrected relation yourself. Ask for a different example when merely repeating the coach would hide a remaining gap.
 
+For an observed recurring component error, use the [Deliberate Practice Loop](../methods/deliberate-practice-loop.md): set a checked criterion, attempt, inspect specific feedback, adjust and retry, then check a fresh case and return to the whole task. Change the task or guidance if repetition is uninformative. AI-only support is focused practice adapted from these conditions, not proof of expert-guided deliberate practice.
+
 **Local decision guide**
 
 | Observation | Next action |
@@ -165,6 +169,8 @@ If the learner chooses a full solution, switch back to instruction and preserve 
 3. Save a compact private summary: target, reference, original attempt, actual assistance, assessment condition, interpretation, uncertainty and next action. Copy this into a future chat only with the learner's permission and without unnecessary identifiers.
 4. Use the [retrieval and distributed practice workflow](retrieval-and-distributed-practice-with-ai.md) for a review plan, or the [evaluation workflow](evaluation-of-ai-assisted-learning.md) for broader conclusions. Both have locally usable steps; neither is compulsory for every session.
 5. State **one next learning task** or an explicit stop, with its reason, criteria and permissible assistance. It may be a simpler question, an integration task, a later retrieval, or a paused plan. Set any calendar reminder yourself unless an available tool has actually created it. Do not assume a chatbot retains memory, schedules work, or will contact the learner later.
+
+When the process itself needs revision, use [After Action Review](../methods/after-action-review.md): compare the intended and actual attempt, identify what the record supports, consider alternative explanations and choose one justified adjustment with a later check. Keep observations separate from causal guesses and do not rewrite the original goal.
 
 The immediate deliverable is an honest learning record and next decision, not a declaration that learning is complete. Longer-term benefit, motivation and independence require actual subsequent evidence.
 

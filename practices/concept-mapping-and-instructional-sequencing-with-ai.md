@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
 type: "practice"
-version: "0.1.1"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Concept Mapping and Instructional Sequencing With an AI Coach"
@@ -15,7 +15,7 @@ stage_titles: ["Stage1 Establish a panoramic subject overview", "Stage2 Select a
 references: ["ai-coach:reference:novak-canas-2008", "ai-coach:reference:collins-1991", "ai-coach:reference:nrc-2001", "ai-coach:reference:soderstrom-2015", "ai-coach:reference:nrc-2007-learning-progressions"]
 uses_concepts: ["ai-coach:concept:concept-map", "ai-coach:concept:learning-performance-distinction", "ai-coach:concept:formative-assessment"]
 uses_models: ["ai-coach:model:cognitive-apprenticeship", "ai-coach:model:assessment-triangle"]
-uses_methods: ["ai-coach:method:concept-mapping"]
+uses_methods: ["ai-coach:method:concept-mapping", "ai-coach:method:baseline-check", "ai-coach:method:skill-decomposition"]
 ---
 
 # Concept Mapping and Instructional Sequencing With an AI Coach
@@ -89,7 +89,7 @@ This illustrative overview omits many topics and alternative organizations. It i
 
 1. Locate one intended capability within the panorama. Separate the learner's target from neighboring regions that remain context only. A learner who already has a precise goal can use the panorama simply to orient that goal.
 2. State the intended use and what response would demonstrate the capability. Define relevant criteria and permissible resources before selecting a lesson sequence.
-3. Invite a small starting response or ask about relevant experience. Keep self-reports, task observations and AI interpretations separate. If the panorama already exposed the answer, record that exposure; do not claim a pre-instruction baseline.
+3. Use a [Baseline Check](../methods/baseline-check.md) when direct evidence would change the starting point: select a relevant task with a checked criterion, agree on resources and preserve the response before feedback. Otherwise reuse adequate evidence or ask about relevant experience. Keep self-reports, task observations and AI interpretations separate. If the panorama already exposed the answer, record that exposure; do not claim a pre-instruction baseline.
 4. Identify unfamiliar terms or candidate prerequisites through evidence, not a presumed learner type. Keep missing evidence unknown. Choose one useful starting task with the learner.
 
 **Example goal**: compare two package prices expressed in different units and justify the comparison on an equal-quantity basis. The current goal includes units, division and rates; it does not require completing algebra or statistics first. A permitted calculator is an access/task resource, not automatically answer-generating assistance.
@@ -113,6 +113,8 @@ If no usable goal emerges, revisit a concrete example in the panorama. If the le
 For this task, unit conversion may need preparation if the learner cannot equate 0.75 kg and 750 g. A short probe can inform that choice. If a calculator handles the arithmetic, fluency in mental division need not become a compulsory preceding module. Circular "requires first" claims may indicate an erroneous dependency or a group of concepts to introduce together; do not hide the cycle with an arbitrary order.
 
 ## Stage4 Propose a staged instructional sequence
+
+Use [Skill Decomposition](../methods/skill-decomposition.md) if the capability is too broad: inspect a representative whole task, identify its component knowledge, decisions and coordination, then compare those demands with actual evidence. Choose a consequential practice target and plan a whole-task return check. Do not infer the weakest component from a generated list or require isolated mastery of every component before meaningful integrated work.
 
 1. Group the goal-relevant concepts into capability-bearing learning episodes. Use the prerequisite register and starting evidence; do not mechanically turn each map node or book chapter into a stage.
 2. For each stage specify a stable identifier, current order, target capability, mapped concepts, proposed prerequisites and their basis, learning activity, allowed support, independent check, evaluation criterion, and adaptation trigger. Stage identifiers persist if the recommended order changes.
