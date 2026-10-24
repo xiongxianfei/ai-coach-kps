@@ -12,7 +12,7 @@ Keep evidence-based scientific meaning separate from authored AI coaching decisi
 
 ## Summary
 
-This document combines the domain scope, academic source-alignment policy, adult learner boundaries, and evidence limits. The five KPS file roles remain an authoring convention, not an educational theory. Original coaching workflows belong in Practices.
+This document combines the domain scope, academic source-alignment policy, adult learner boundaries, and evidence limits. The five KPS file roles remain an authoring convention, not an educational theory. Programme-level coaching workflows belong in Practices.
 
 ## Academic source alignment policy
 
@@ -28,9 +28,9 @@ The following source relationships govern independently reusable scientific obje
 | Method | An inspected published operation, or a reusable adaptation that identifies its procedural basis, authored changes and limits | An unsupported proposal, a merely topical citation, or an original prompt chain presented as a validated intervention |
 | Practice | Explicit KPS application synthesis with usable actions | A list of links or a claim that it was empirically tested |
 
-Original coaching workflows remain in Practices. Local prompt contracts, aid categories and record schemas are specifications or Practice content. They are not scientific Principles. A domain Model may integrate source-grounded explanations without claiming that the integrated representation was published or empirically validated as a whole.
+Programme-level coaching workflows remain in Practices. Session-specific prompt contracts, aid categories and record schemas are specifications or Practice content. They are not scientific Principles. A domain Model may integrate source-grounded explanations without claiming that the integrated representation was published or empirically validated as a whole.
 
-For a reusable Method adaptation, explain what the inspected operation supports, what is changed and why, and what remains untested. `published-procedure-summary` identifies the published procedural basis, not an assertion that every local step appears in the source. Preserve established names for their source-defined meanings and identify adapted variants explicitly. Unsupported procedural proposals remain in Practices or private investigation notes until their basis justifies admission. Particular lesson choices and live coaching workflows stay in Practices. This adopts Core's clarified distinction without upgrading the pinned validator or adding metadata relations.
+For a reusable Method adaptation, explain what the inspected operation supports, what is changed and why, and what remains untested. `published-procedure-summary` identifies the published procedural basis, not an assertion that every local step appears in the source. Preserve established names for their source-defined meanings and identify adapted variants explicitly. Unsupported procedural proposals remain in Practices or private investigation notes until their basis justifies admission. Particular lesson choices and live coaching workflows stay in Practices. An admitted reusable Method adaptation may include an explicitly authored AI procedure and copyable prompt for that bounded operation, with actual-response waits, checked criteria and capability limits. The prompt is an application aid, not an additional published protocol or evidence that an AI follows it; programme-level selection and continuation remain in Practices. This local application rule preserves the source and Practice distinction without upgrading the pinned validator or adding metadata relations.
 
 ## Domain Models and published frameworks
 

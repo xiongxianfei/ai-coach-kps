@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:grow-coaching"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "GROW Coaching"
@@ -10,68 +10,83 @@ reviewed: null
 basis_kind: "published practitioner procedure with authored adult learning application; not an effectiveness finding"
 references: ["ai-coach:reference:performance-consultants-grow"]
 source_alignment: [{"reference": "ai-coach:reference:performance-consultants-grow", "relation": "published-procedure-summary", "locator": "The GROW Model guide: How the GROW Model Works; The Four Stages of the GROW Model, Steps 1 to 4; Common Mistakes"}]
+name: "grow-coaching"
+home: "5-coach-and-reflect"
+also: ["1-plan"]
+use_when: "A learner needs to choose a feasible next action toward a meaningful goal"
+ai_role: "Decision facilitator; clarify goals and options while the learner chooses"
+time: "15-20 min suggested; revisit only unresolved decisions"
 ---
 
 # GROW Coaching
 
 ## Key takeaway
 
-Clarify the learner's goal, examine the current situation, compare possible actions and let the learner choose a feasible next step.
+Clarify Goal, Reality, Options and Will, then record the learner's chosen action rather than inventing commitment.
 
 ## Summary
 
-GROW names Goal, Reality, Options and Will or Way Forward. Performance Consultants describes these as a flexible coaching structure associated with John Whitmore and colleagues. This Method provides a brief account of the operation and an original adult-learning example. It does not reproduce branded training materials or claim coaching certification or endorsement.
+Facilitate a flexible GROW conversation using existing evidence and constraints; supply checked instruction when a knowledge gap blocks a meaningful choice.
 
-## Use when and prerequisites
+## Purpose and rationale
 
-Use this when a learner has a meaningful goal or decision but needs help turning it into action. Bring relevant evidence, constraints and available choices. A correct factual answer, missing prerequisite or urgent practical instruction usually calls for explanation rather than a coaching conversation. The learner must be free to revise the goal or decline a proposed action.
+Turn a goal into a feasible action. Compare what the learner wants with present circumstances before selecting a route; questioning alone cannot supply missing subject knowledge.
 
-## Procedure
+## Inputs
 
-1. **Goal:** identify the outcome the learner wants and how progress could be recognized.
-2. **Reality:** examine present circumstances, prior actions, resources and constraints. Keep observations separate from assumptions.
-3. **Options:** generate possible routes before choosing one. Consider their requirements and trade-offs.
-4. **Will or Way Forward:** let the learner select an action, timing and a way to examine progress. Revisit earlier decisions if the selected action exposes an unrealistic goal or missing resource.
+- A learner-owned goal or decision and its intended use.
+- Available evidence, prior actions, resources and constraints.
+- An adjustable conversation budget; an existing context brief is optional.
 
-The stages are prompts for decisions, not a rigid interview script. The source supplies this structure; the application rules below are authored for learning with AI.
+## Steps
 
-## Rationale and application
+Run these steps as the AI. Reuse answered questions; revisit a stage only when new information warrants it.
 
-Reuse a goal or constraint already stated instead of asking the same question again. Where the learner lacks subject knowledge, supply a checked explanation and make that contribution visible. Coaching questions should not imply that all necessary knowledge can be discovered through introspection.
+1. **Goal.** Restate the desired outcome and a sign of progress. Ask about ambiguity that changes the action and wait for the reply. Keep the learner's purpose and scope; do not substitute your own curriculum.
+2. **Reality.** Separate actual performance, self-report and assumptions. Inspect time, resources and prior attempts. Ask for missing consequential context and wait. Offer a small checked task only if the result would change planning, not as a compulsory assessment.
+3. **Options.** Invite the learner's possibilities and wait, or use options already supplied. With permission or an existing request, add alternatives and explain their demands and trade-offs. If missing knowledge prevents a choice, provide a verified explanation rather than more introspective questions.
+4. **Will or Way Forward.** Ask the learner to choose an action, timing, progress criterion and response to a likely obstacle. Wait for the choice unless already supplied. Record postponement or information gathering as valid choices. A suggested action is not an agreed commitment.
+5. **Check feasibility.** Compare the choice with stated resources. If it does not fit, revisit the relevant decision instead of diagnosing low motivation. Let the learner amend it; wait if a new choice is needed.
+6. **Close.** Return the decision record with unresolved questions and a review trigger. Stop when a workable choice is made or the learner pauses. Do not create reminders or save personal records unless an authorized tool actually completes the action.
 
-Keep a proposed option distinct from the learner's choice. If a plan exceeds available time, examine scope or resources rather than interpreting the mismatch as insufficient commitment. Completion may be a decision to postpone or obtain information; a confident promise is not required.
+## Prompt
 
-The practical rationale is to connect an intended outcome to present constraints before committing effort. This is a design rationale, not evidence that the four-stage conversation is superior to every other way of planning.
-
-## Worked application
-
-**Constructed example:** A learner wants to become better at explaining statistical summaries in meetings.
-
-| Decision | Illustrative content |
-|---|---|
-| Goal | Explain why two collections can have the same mean but different variation, using a small example |
-| Reality | The learner reports knowing the mean formula; their ability to explain variation has not been observed; two short study periods are available |
-| Options | Inspect a checked explanation, analyze contrasting collections, or rehearse an explanation and request feedback |
-| Chosen way forward | The learner chooses a checked explanation followed by a fresh comparison in the first period, then a brief explanation without notes in the second |
-
-The AI can point out that reported familiarity with the formula does not establish the target explanation. It can offer a small starting task if that evidence would change the plan. It should not quietly replace the learner's chosen meeting-related goal with a complete statistics syllabus.
-
-The second period is a planned observation, not a recorded success. If the learner cannot arrange it, revise timing or scope while keeping the intended capability visible.
+```text
+Facilitate GROW coaching for [goal or decision] using [context, evidence and
+constraints] within [time budget]. Reuse information I have already provided.
+Clarify my Goal and evidence of progress; examine Reality without treating
+self-report as demonstrated ability; explore Options and their trade-offs;
+then ask which action I choose as my Will or Way Forward. Wait when my response
+or decision is needed and never invent it. Supply checked subject information
+when questions alone cannot resolve a knowledge gap. Revisit earlier decisions
+if the plan is infeasible, and accept postponement or changing the goal.
+Return my chosen action, timing, progress criterion, obstacle response and review
+trigger, with proposals and unknowns clearly marked. Do not claim learning,
+commitment, saving or scheduling that has not actually occurred.
+```
 
 ## Output and validation
 
-Produce a learner-owned decision: target, relevant evidence and unknowns, options considered, selected action, constraints and a review occasion. Check whether the action can realistically generate evidence relevant to the goal. The conversation is incomplete if the AI selected the action while presenting it as the learner's commitment.
+Return `goal | evidence and unknowns | options and trade-offs | learner's choice | timing | progress criterion | obstacle response | review trigger`. Mark the choice pending if unanswered. Check whether the action fits the constraints and can produce relevant evidence.
 
-## AI role and limits
+**Constructed example:** The goal is to explain in meetings why equal means can accompany different variation. The learner reports knowing the mean formula but has not demonstrated the explanation; two short study periods are available. Compare a checked explanation, contrasting data sets and rehearsal with feedback. If the learner chooses explanation plus a fresh comparison, followed by a later explanation without notes, record that choice and both planned occasions. Do not mark the later task successful or expand the plan to a full statistics course. Revise timing if the second period is unavailable.
 
-AI facilitates clarification and comparison, can challenge unsupported assumptions and can explain options when needed. It does not determine personal values, diagnose motivation or certify progress. Prompts cannot guarantee non-leading questions or faithful behavior.
+## Common failures and limits
 
-[Backward Design](backward-design.md) aligns intended learning, evidence and instruction. GROW addresses the learner's choice and commitment to action. [After Action Review](after-action-review.md) begins with a completed event. They can inform one another without becoming compulsory steps in every session.
+- **Leading questions or automatic agreement:** compare the learner's reasons with evidence and invite alternatives.
+- **Repeatedly asking answered questions:** reuse the supplied context.
+- **Introspection replacing instruction:** explain missing subject knowledge with a checked source.
+- **AI choice recorded as learner commitment:** wait or mark the choice pending.
+- **A rigid four-stage interview:** revisit only decisions affected by new information; respect a pause or declined action.
+
+## Next
+
+Use [Backward Design](backward-design.md) to align a chosen learning goal with evidence and instruction. Use [After Action Review](after-action-review.md) once an episode has occurred. Neither is a compulsory extra step after every GROW conversation.
 
 ## Source alignment
 
-[Performance Consultants' GROW guide](../references/performance-consultants-undated-grow.md) supplies the four-part practitioner procedure and its flexible use. The table and AI application decisions are original to this package. The provider's promotional outcome claims are not adopted as research evidence.
+[Performance Consultants' guide](../references/performance-consultants-undated-grow.md) supplies Goal, Reality, Options and Will or Way Forward and flexible use, associated with John Whitmore and colleagues. The AI instructions, prompt and example are authored; promotional outcome claims are not adopted. No branded diagrams, question bank or training materials are copied.
 
 ## Evidence status
 
-**Provisional.** This is a source-aligned procedure, not a validated AI intervention, psychotherapy protocol or reported coaching outcome.
+**Provisional.** No certification, endorsement, psychotherapy protocol, learner outcome or validated AI coaching intervention is claimed.

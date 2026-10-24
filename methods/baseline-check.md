@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:baseline-check"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Baseline Check"
@@ -10,56 +10,98 @@ reviewed: null
 basis_kind: "KPS-authored reusable adaptation of performance-based prior knowledge assessment; not a standardized diagnostic instrument"
 references: ["ai-coach:reference:cmu-eberly-prior-knowledge"]
 source_alignment: [{"reference": "ai-coach:reference:cmu-eberly-prior-knowledge", "relation": "published-procedure-summary", "locator": "Performance-Based Prior Knowledge Assessments, three introductory paragraphs; How to Assess Students' Prior Knowledge, direct and indirect measures"}]
+name: "baseline-check"
+home: "1-plan"
+also: ["5-coach-and-reflect"]
+use_when: "Starting a skill or improvement effort when evidence would change the next lesson"
+ai_role: "Instructional assessor; prepare checked tasks and compare predictions with observed performance"
+time: "15-20 min suggested; narrow the scope if needed"
+uses_concepts: ["ai-coach:concept:metacognitive-calibration"]
 ---
 
 # Baseline Check
 
 ## Key takeaway
 
-Collect a bounded sample of current performance before instruction or answer help, then use it to choose a starting point while leaving untested capabilities unknown.
+Record the learner's prediction before testing, then choose a starting point from checked performance and explicit unknowns.
 
 ## Summary
 
-Baseline Check is this package's descriptive name for an adaptation of performance-based prior knowledge assessment. Carnegie Mellon's Eberly Center recommends identifying relevant background capabilities, sampling them with tasks and using the results to adjust instruction without assigning a course grade. The recording, verification and decision rules below are authored for independent adult learning.
+Run a bounded assessment using the same criteria for predicted and observed performance; keep assistance, corrections and untested skills separate.
 
-## Use when and prerequisites
+## Purpose and rationale
 
-Use a check when uncertainty about starting knowledge would change what to teach next. Reuse a recent, relevant response if its conditions are known. A brief clarification or an already well-scoped lesson need not begin with a test.
+Find a useful starting point for instruction. Recording predictions first preserves the learner's initial judgment; comparing matched criteria makes a confidence discrepancy interpretable without inventing a general ability score.
 
-Define the intended capability, relevant prerequisites, observable criteria and allowed resources. Obtain an answer or rubric that can be checked against subject knowledge. Keep access supports such as a screen reader separate from help that supplies the answer. A learner's account of experience is useful context, but it is not the same evidence as performing a task.
+## Inputs
 
-## Rationale and procedure
+- Target capability and intended use; a prior plan or context brief is optional.
+- Relevant experience, constraints, allowed resources and the learner's time budget.
+- A checked subject source, answer key or rubric. If absent, obtain one before scoring.
+- An optional private record destination outside public repositories.
 
-1. State the instructional decision: for example, whether to begin with unit conversion or with comparing rates. Select tasks that could distinguish those starting points.
-2. Check wording, answerability and the criterion before delivery. If checking the answer would expose it to the learner, use a prepared item or a separate evaluator. Do not invent a baseline from an already demonstrated solution.
-3. Explain that the check informs teaching. Present the task with the agreed resources, then preserve the original response before feedback. Record actual hints, prior exposure and answer access. If the learner requests instruction, provide it and mark the subsequent response as assisted.
-4. Compare the response with the criterion. Separate observed actions, self-reports and possible explanations. A missing response is missing evidence; an ambiguous question needs repair.
-5. Choose instruction, a narrower probe or a provisional advance. Stop checking when the remaining uncertainty would not change that choice. More questions are justified by a consequential unresolved decision, not by a fixed quota.
+## Steps
 
-The rationale is decision alignment: a broad score may hide the particular distinction needed to select instruction. This adaptation retains the actual work so a later reader can inspect how the recommendation was reached.
+Run these steps as the AI; wait for real learner responses.
 
-## Worked application
+1. **Scope.** Restate the target and agree on resources and time. Ask for missing essentials and wait. Reuse adequate prior evidence; do not require a diagnostic just to complete a template.
+2. **Prepare.** Choose representative tasks, often 3-5 if they fit the budget, and check their answers or rubric. Include integration when the target requires it. Keep solutions hidden; replace exposed items or record the exposure.
+3. **Predict first.** Show criteria without solutions. Ask which the learner expects to meet independently, partly or not yet, with a reason; allow “unsure.” Wait and preserve predictions before testing. Define any numerical scale before use.
+4. **Test.** Present a task and wait. Preserve the original response and actual help. Retain access supports; if the learner requests instruction, provide it and label the attempt assisted. Defer feedback that would reveal a later task's answer.
+5. **Assess.** Compare the work with checked criteria. Keep errors, assistance, missing responses and uncertain judgments distinct. Repair invalid tasks rather than assigning a failure.
+6. **Compare.** Contrast predictions and observations on matching criteria and conditions. Use qualitative discrepancies unless a common numerical scale is defined. Report supported strengths and the largest observed difficulty among sampled areas; leave untested skills unknown.
+7. **Decide.** Recommend one next focus with evidence and uncertainty. Stop when further testing would not change the choice, the budget ends or the learner pauses; mark incomplete coverage.
+8. **Record.** Return dated, copyable output. Save only to an authorized private destination through an available tool and verify the write; otherwise say it has not been saved. Preserve this baseline when later results arrive.
 
-**Constructed example, not a learner record:** The goal is to compare package prices. A calculator is allowed; answer-generating hints are not. Two complementary tasks ask the learner to express 750 g in kilograms and compare a 750 g package costing £3 with a 1 kg package costing £5, explaining the common basis.
+## Prompt
 
-The evaluator's checks are 0.75 kg, £4/kg and £5/kg; the first package has the lower unit price. Keep these checks out of the live question. Correct conversion with incorrect division suggests a different next lesson from correct calculations followed by comparing unlike units. It does not establish why the error happened. A short probe can distinguish a reading error from a misunderstanding if that distinction would change teaching.
+```text
+Run a baseline check for [target and intended use]. Budget: [15-20 minutes or
+my preference]. Context and existing evidence: [optional]. Permitted resources:
+[resources]. Verification source or rubric: [source, or help me obtain one].
 
-If the learner succeeds only after being told to divide price by kilograms, record the original and assisted attempts separately. A suitable conclusion is that unit conversion was demonstrated on this example, while independent selection of the comparison procedure remains unestablished.
+Clarify missing essentials, then prepare representative tasks with checked
+criteria. Before testing, show the criteria without solutions and ask me to
+predict my performance on each under the agreed conditions. Wait for my reply.
+Give tasks one at a time and wait for my actual work; never supply my responses.
+Preserve predictions and original answers. Record any hints or answer exposure;
+defer feedback that would reveal a later answer. Compare work with checked
+criteria, leaving unsupported judgments provisional and untested skills unknown.
+Compare predictions and evidence on matching criteria, without subtracting
+unrelated scales or diagnosing a trait. Stop at the budget or when enough
+evidence supports a starting decision. Return a dated table, coverage limits
+and one next focus. Provide a private copyable record; claim a save only after
+a confirmed authorized write. Do not require a context brief to start.
+```
 
 ## Output and validation
 
-Produce the tasks, criteria, original responses, actual assistance, bounded observations and next instructional choice. Check that each conclusion has corresponding evidence and that another plausible explanation has not been silently excluded. Completion means enough information for the stated decision, not a general ability rating. A later comparable task can examine change, but differences in support, difficulty and prior exposure limit interpretation.
+Return the target, date, resources, task and source identifiers, preserved predictions and responses, then:
 
-## AI role and limits
+| Criterion | Prediction before test | Observed evidence | Actual assistance | Result and confidence discrepancy |
+|---|---|---|---|---|
+| [criterion] | [prediction and reason] | [response or untested] | [actual help] | [bounded comparison or unknown] |
 
-AI may draft candidate tasks and organize observations. Verify its answer key and any judgment that determines the route; confidence is not validation. The learner supplies the performance. Do not infer intelligence, motivation or a clinical condition from a small sample. Keep completed records private.
+Finish with one next-focus sentence and the evidence needed to revisit it. Check that every conclusion is supported by an actual response and that predictions and results refer to the same criterion.
 
-[Skill Decomposition](skill-decomposition.md) identifies task demands; this Method samples performance against selected demands. [Retrieval Practice](retrieval-practice.md) primarily exercises recall of encountered material. A baseline can involve recall, but its immediate purpose is choosing instruction.
+**Constructed example, not a learner record:** To compare a 750 g package costing £3 with a 1 kg package costing £5, the evaluator checks 0.75 kg and £4/kg versus £5/kg. If conversion was predicted independent and performed independently, that criterion agrees. If selecting a rate was predicted independent but required a supplied division setup, record the mismatch and assistance; independent rate selection remains unestablished. Correct conversion with wrong division suggests a different next lesson from comparing unlike units. Do not reveal this example's key during a fresh baseline, and do not generalize its result to untested skills.
+
+## Common failures and limits
+
+- **Ratings collected after testing:** label them retrospective; do not overwrite predictions.
+- **Tasks too easy, too hard or unrepresentative:** revise the sample; a short check is not a full skill ranking.
+- **Hints or visible solutions:** retain the response as assisted, not an untouched baseline.
+- **Unverified AI scores or mismatched scales:** check the criterion or report uncertainty; do not invent a numeric gap.
+- **No record or invented save:** return the copyable record and actual storage status. Never default to a public repository's `logs/`.
+
+## Next
+
+Teach a demonstrated prerequisite gap directly. Use [Skill Decomposition](skill-decomposition.md) if the bottleneck is unclear, or [Deliberate Practice Loop](deliberate-practice-loop.md) for a supported target. Recheck after relevant practice or at a meaningful milestone using comparable conditions and fresh tasks; 4-8 weeks is an optional planning choice, not a validated interval.
 
 ## Source alignment
 
-[Eberly Center prior knowledge guidance](../references/cmu-eberly-undated-prior-knowledge.md) supplies the assessment basis. The package-price example, assistance record and stopping rule are authored adaptations, not a validated test or CMU protocol.
+[Eberly Center guidance](../references/cmu-eberly-undated-prior-knowledge.md) supplies the performance-assessment basis. [Metacognitive Calibration](../concepts/metacognitive-calibration.md) explains judgment versus criterion; its abstract-level source does not validate a scale. Prediction-first delivery, the prompt, timing, recording rules and example are authored adaptations, not a standardized diagnostic instrument.
 
 ## Evidence status
 
-**Provisional.** No reliability study, independent review or learner outcome is claimed. A small sample supports only a bounded decision under its recorded conditions.
+**Provisional.** No reliability study, independent review or learner trial is claimed. Prompt instructions do not guarantee AI behavior.

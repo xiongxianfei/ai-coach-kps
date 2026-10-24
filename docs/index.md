@@ -91,20 +91,20 @@ Generated view of canonical package declarations. It is a navigation and review 
 
 ## Methods
 
-- [After Action Review](../methods/after-action-review.md) — Compare the intended and actual course of a completed attempt, explain successes and difficulties cautiously, and choose a concrete adjustment to examine next time.
+- [After Action Review](../methods/after-action-review.md) — Review intention and actual events, distinguish evidence from explanations, and select an adjustment with a follow-up check.
 - [Backward Design](../methods/backward-design.md) — Plan toward an intended capability, decide what evidence would demonstrate it, then design the learning that makes it attainable.
-- [Baseline Check](../methods/baseline-check.md) — Collect a bounded sample of current performance before instruction or answer help, then use it to choose a starting point while leaving untested capabilities unknown.
+- [Baseline Check](../methods/baseline-check.md) — Record the learner's prediction before testing, then choose a starting point from checked performance and explicit unknowns.
 - [Cognitive Modeling](../methods/cognitive-modeling.md) — Make a knowledgeable task demonstration and its explanatory decisions available for a learner to inspect.
 - [Concept Mapping](../methods/concept-mapping.md) — Construct and revise propositions that answer a defined focus question.
-- [Deliberate Practice Loop](../methods/deliberate-practice-loop.md) — Work on a specific performance target through an attempt, informative feedback and an adjusted retry, then check whether the improvement survives reduced support and return to the whole task.
-- [GROW Coaching](../methods/grow-coaching.md) — Clarify the learner's goal, examine the current situation, compare possible actions and let the learner choose a feasible next step.
-- [Interleaved Practice](../methods/interleaved-practice.md) — Mix previously introduced problem types so the learner must select an appropriate approach from the problem itself, then distinguish selection errors from execution errors.
+- [Deliberate Practice Loop](../methods/deliberate-practice-loop.md) — Collect a focused attempt, give checked feedback, adjust and retry, then examine independent and integrated performance separately.
+- [GROW Coaching](../methods/grow-coaching.md) — Clarify Goal, Reality, Options and Will, then record the learner's chosen action rather than inventing commitment.
+- [Interleaved Practice](../methods/interleaved-practice.md) — Mix taught problem types, wait for the learner's choice and solution, then check selection separately from execution.
 - [Learning from Erroneous Examples](../methods/learning-from-erroneous-examples.md) — Use a checked flawed solution to examine why a step fails, then construct and check a valid correction.
 - [Predict–Observe–Explain](../methods/predict-observe-explain.md) — Record an expectation and its reason, inspect what happens, then explain how the result relates to that expectation.
 - [Retrieval Practice](../methods/retrieval-practice.md) — Attempt to retrieve encountered material before returning to it.
 - [Self-Explanation](../methods/self-explanation.md) — The learner generates an explanation connecting studied information to its meaning or justification.
-- [Skill Decomposition](../methods/skill-decomposition.md) — Analyze what a meaningful task requires, inspect evidence for possible bottlenecks and select focused practice while preserving how the parts work together.
-- [Spaced Repetition](../methods/spaced-repetition.md) — Revisit important learned material on separated occasions, preserve recall before correction and revise future reviews using actual performance and the intended retention horizon.
+- [Skill Decomposition](../methods/skill-decomposition.md) — Map the demands of a whole task, check candidate bottlenecks and choose focused practice with a return to integration.
+- [Spaced Repetition](../methods/spaced-repetition.md) — Collect recall on separated occasions, check it before revising the schedule and keep planned reviews distinct from completed ones.
 - [Structured Explanation](../methods/structured-explanation.md) — Build an explanation whose terms, relationships and examples let the learner follow why a conclusion holds and where it stops applying.
 - [Worked Example Instruction](../methods/worked-example-instruction.md) — Let a learner inspect a solved task, then attempt a related task; adjust example support as their understanding develops.
 
