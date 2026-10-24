@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:deliberate-practice-loop"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Deliberate Practice Loop"
@@ -10,59 +10,86 @@ reviewed: null
 basis_kind: "KPS-authored reusable adaptation of deliberate-practice training conditions; AI-only use is not established expert-guided deliberate practice"
 references: ["ai-coach:reference:ericsson-1993-deliberate-practice"]
 source_alignment: [{"reference": "ai-coach:reference:ericsson-1993-deliberate-practice", "relation": "published-procedure-summary", "locator": "The Role of Deliberate Practice in the Acquisition of Expert Performance, printed pages 367 to 368: Characteristics of Deliberate Practice and comparison with other activities"}]
+name: "deliberate-practice-loop"
+home: "5-coach-and-reflect"
+also: ["4-test-and-fix"]
+use_when: "Actual performance shows a specific weakness and reliable feedback can guide adjustment"
+ai_role: "Practice assistant; organize attempts and checked feedback without claiming expert coaching"
+time: "15-20 min suggested; stop sooner if practice becomes uninformative"
 ---
 
 # Deliberate Practice Loop
 
 ## Key takeaway
 
-Work on a specific performance target through an attempt, informative feedback and an adjusted retry, then check whether the improvement survives reduced support and return to the whole task.
+Collect a focused attempt, give checked feedback, adjust and retry, then examine independent and integrated performance separately.
 
 ## Summary
 
-This loop adapts training conditions described by Ericsson, Krampe and Tesch-Römer: tasks matched to existing knowledge, informative feedback and repeated opportunities to improve. Their account places individualized teacher-designed training within established domains of expertise. A generic chatbot does not supply that expertise merely by proposing exercises. Without competent domain guidance, describe the activity as focused practice adapted from these conditions, not as verified deliberate practice in the original sense.
+Run practice against a specific criterion; describe AI-only support as an adaptation of deliberate-practice conditions, not established expert-guided training.
 
-## Use when and prerequisites
+## Purpose and rationale
 
-Use the loop when actual work reveals a specific, consequential weakness and a credible criterion can guide correction. Identify the component, a suitable task, the performance standard and a trustworthy feedback source. A qualified coach may be necessary to observe physical technique or select an appropriate progression. If neither correctness nor improvement can be judged, obtain better guidance before repeating the task.
+Improve a consequential component through actionable feedback. Keeping the criterion explicit makes each adjustment inspectable; repeated corrections alone do not establish independent performance or transfer.
 
-## Rationale and procedure
+## Inputs
 
-A narrow target makes feedback actionable: it identifies a discrepancy that the next attempt can address. Keeping the criterion stable while recording changes in support helps distinguish a successful correction from a new independent performance. This is the local rationale for the loop, not a claim that every task can be improved through repetition.
+- A specific target supported by actual work and its relation to the whole skill.
+- A task the learner can understand, a checked criterion and reliable feedback.
+- Agreed support, stopping conditions and an adjustable time budget.
+- Competent domain guidance where task selection or physical observation requires it.
 
-1. Select a narrow target from evidence. Keep its connection to the whole performance explicit; [Skill Decomposition](skill-decomposition.md) can help when that relationship is unclear.
-2. Prepare an attempt that the learner can understand with the available instruction. Define what would count as a useful improvement, including accuracy and relevant quality rather than speed alone.
-3. Perform and preserve the attempt. Record the support actually received before evaluating it.
-4. Compare with the criterion and provide specific, checked feedback. Identify a change in strategy or execution that addresses the discrepancy; praise or a score alone does not specify what to adjust.
-5. Retry the same or a closely related task with that change. If the error persists, inspect the explanation, prerequisite, task and feedback rather than simply increasing repetitions.
-6. Check a fresh case with the intended level of independence, then return the component to a meaningful whole task. Stop, rest or change approach when attention, discomfort, learner preference or lack of reliable feedback makes further repetitions unhelpful.
+## Steps
 
-The stopping rules, assistance record, fresh-case check and whole-task return are authored decisions. They prevent a corrected response from being counted as a broader capability without examining it.
+Run these steps as the AI. The learner performs the task; you must not invent an attempt or improvement.
 
-## Worked application
+1. **Set the target.** Identify one consequential discrepancy from the record and the intended improvement. If the target is unclear, ask for relevant work and wait, or use decomposition before prescribing drills.
+2. **Prepare.** Verify the task and criterion. Explain instructions and agree on support and the stopping boundary. Track accuracy and relevant quality; do not reward speed at their expense. If correctness cannot be checked, obtain better guidance before starting repetitions.
+3. **Attempt.** Present the task and wait for the actual response. Preserve original work and actual assistance before showing a correction. If the learner requests a demonstration, provide it and label the changed conditions.
+4. **Give feedback.** Compare with the criterion, identify the important discrepancy and explain a specific adjustment. Verify the correction; praise or a score alone is insufficient. Ask for clarification when the work does not reveal the issue and wait before judging.
+5. **Retry.** Present a similar task using the adjustment and wait. Keep the retry separate from the original. If the same difficulty persists, inspect prerequisites, instructions and feedback; change guidance rather than merely adding repetitions.
+6. **Check independence and integration.** When useful, give a fresh case with agreed answer help removed, retaining access supports; wait before feedback. Then return to a meaningful whole task. Mark these as separate observations or as planned if not performed. If only the repeated item improves, keep the conclusion narrow.
+7. **Stop and record.** Pause on request, discomfort, deteriorating attention, unreliable feedback or an exhausted budget. Return the attempt record and one next decision. Save privately only through an authorized, confirmed write; otherwise provide copyable output.
 
-**Constructed example:** A learner can subtract numbers but sometimes changes only one side of an equation. The chosen target is preserving equality while isolating the unknown, rather than completing an entire algebra course.
+## Prompt
 
-For `3x + 6 = 21`, the learner writes `3x = 21`. The criterion requires applying the same operation to both sides. Feedback identifies the missing subtraction on the right: `3x = 15`, then `x = 5`; substitution checks `3 × 5 + 6 = 21`. Preserve the original error before showing this correction.
-
-A retry asks for the first transformation of `4y + 3 = 19`. The evaluator expects `4y = 16`. If the learner copies a supplied transformation, label the retry assisted. A subsequent fresh equation without the reminder can inspect independent execution. Finally, return to a word problem where the learner must first construct the equation; success on supplied equations alone does not establish that broader skill.
-
-These are authored examples of feedback and checking, not a tested training programme or actual learner progress. Repeated failure after explanation calls for reconsidering the task or guidance, not an automatic judgment about effort.
+```text
+Guide focused practice for [specific target] using [actual evidence], [checked
+criterion or source], [permitted support] and [time budget and stop conditions].
+Check that the task is understandable and feedback can be verified. Give one
+attempt and wait for my real work before showing a solution. Preserve the original
+response and help received. Explain one specific correction, then present a
+similar retry and wait again. If difficulty persists, inspect the task,
+prerequisites and feedback instead of assigning endless repetitions. When useful,
+check a fresh case with agreed support reduced and return to the whole task;
+do not invent those results if we stop earlier. Respect requests for a full
+explanation or a pause. Return attempts, support, checked feedback, adjustments
+and one next action. Treat AI-only use as focused practice adapted from deliberate
+practice, not expert coaching. Report saving only after a confirmed private write.
+```
 
 ## Output and validation
 
-Retain the target and criterion, attempts, actual assistance, feedback basis, adjustments and result of any independent or integrated check. Improvement should be visible in the relevant performance, not inferred from time spent. If only the repeated example improves, keep the claim narrow. Later retention needs a later observation; one before-and-after change does not identify the cause.
+Return `target and criterion | original attempt | actual assistance | checked feedback | adjustment | retry | independent or whole-task check`. Mark unperformed checks planned. Verify that any improvement claim identifies the actual task and conditions; time spent or one before-and-after change does not establish its cause or later retention.
 
-## AI role and limits
+**Constructed example:** For `3x + 6 = 21`, a response of `3x = 21` omits subtracting 6 on the right. Preserve it, then explain equal operations on both sides: `3x = 15`, `x = 5`; substitution gives `3 × 5 + 6 = 21`. A retry asks for the first transformation of `4y + 3 = 19`, expecting `4y = 16`. Copied transformations are assisted. A later fresh equation checks independent execution; a word problem checks constructing and using the equation. These are illustrative tasks, not observed progress.
 
-AI can help draft comparable tasks, organize feedback and maintain a record supplied in the conversation. Verify generated solutions and task equivalence. AI-only feedback cannot establish expert-designed progression or unobserved physical execution. The learner remains the performer and may request a demonstration, change support or stop.
+## Common failures and limits
 
-[Spaced Repetition](spaced-repetition.md) primarily arranges delayed revisits; this loop targets a current performance discrepancy. [After Action Review](after-action-review.md) examines the completed episode and can inform the next target. No universal practice duration, expertise threshold or guaranteed outcome is prescribed here.
+- **No verified criterion:** obtain a source or competent feedback before repeating.
+- **More repetitions without an adjustment:** inspect what prevented useful feedback.
+- **Corrected work counted as independent:** retain original and assisted attempts separately.
+- **Isolated success treated as whole-skill mastery:** return to an integrated task and preserve unknowns.
+- **AI presented as an expert coach:** state its limits, especially for unobserved physical technique. No universal hours or expertise threshold is prescribed.
+
+## Next
+
+Use [Skill Decomposition](skill-decomposition.md) if the target needs revision, [Spaced Repetition](spaced-repetition.md) for delayed revisits, or [After Action Review](after-action-review.md) when the episode's process needs reflection. Continue only while the next attempt serves a useful decision.
 
 ## Source alignment
 
-[Ericsson and colleagues](../references/ericsson-et-al-1993-deliberate-practice.md), pages 367–368, supplies the bounded training conditions and teacher-guidance context. The named loop, arithmetic example and AI adaptation are authored. The wider theory of expertise is not adjudicated by this procedural account.
+[Ericsson and colleagues](../references/ericsson-et-al-1993-deliberate-practice.md), pages 367-368, supplies suitable tasks, informative feedback, repeated attempts and individualized teacher-designed training. The named loop, stopping rules, AI prompt and example are authored adaptations; a chatbot is not evidence of competent domain guidance.
 
 ## Evidence status
 
-**Provisional.** No independent expert review, learner trial or demonstrated equivalence between AI assistance and expert coaching is claimed.
+**Provisional.** No independent review, learner trial or equivalence between AI assistance and expert coaching is claimed. Prompt instructions cannot guarantee model behavior.

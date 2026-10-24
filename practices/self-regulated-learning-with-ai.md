@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:self-regulated-learning-with-ai"
 type: "practice"
-version: "0.4.0"
+version: "0.4.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Self Regulated Learning With an AI Coach"
@@ -81,7 +81,7 @@ Self-regulation includes choices about goals and strategy, not just obeying a co
 
 1. Select a trustworthy subject reference, verified worked example or human expert criterion. Record its identity, passage and what it actually supports. An AI-created bibliography is only a candidate until the material is inspected.
 2. Reuse relevant starting evidence when available. Otherwise, if knowing the starting point would change instruction, use a [Baseline Check](../methods/baseline-check.md) with a small task aligned with the goal. Check its wording and answerability before presenting it. Use a human-prepared or reference-provided item when independent task verification would reveal the solution. If no baseline is needed or available, record that it was not assessed and begin appropriate instruction.
-3. If a starting task is used, write the initial response before receiving answer help. Record uncertainty and any resource already visible. No response is missing evidence, not an incorrect score.
+3. If a starting task is used, first show the criterion without its solution, ask the learner to predict performance under the agreed resources and wait. Then present the task and preserve the learner's initial response before supplying answer help. Compare prediction and actual performance on matching criteria; keep untested capabilities unknown. Record uncertainty and any resource already visible. No response is missing evidence, not an incorrect score.
 4. Check whether the AI can access the source. When it cannot, supply a permitted short excerpt or work from a locally verified rule. Do not claim that the model read a link, a video or an uploaded file without evidence.
 
 **Example of an inspectable reference for a constructed exercise**

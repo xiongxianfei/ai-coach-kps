@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:ai-assisted-learning-orchestration"
 type: "practice"
-version: "0.19.0"
+version: "0.19.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "AI-Assisted Learning Orchestration"
@@ -113,7 +113,7 @@ For a new subject begin with Stage1 and a brief Stage2. For a continuing program
 2. Ask for a **brief self-assessment** directly relevant to the overall target: prior experience, one thing the learner can already explain or do, uncertainties, available time, access supports and restrictions. Reuse known information instead of administering a long questionnaire. Label confidence and claimed experience as *self-report*, not demonstrated competence or a stable learner type.
 3. Agree on the intended mode, allowed sources and assistance **before testing**. Preserve access accommodations such as a screen reader or a calculator permitted for the capability. Separate these from answer-generating hints or full solutions; a coached baseline must be labeled assisted.
 4. Select a credible content source or criterion **before presenting a diagnostic question**. Identify a passage, checked example, deterministic calculation, or competent human review. Inspect the content that supports the current task; a plausible AI citation is only a candidate. If access is unavailable, use a permitted excerpt or narrow the activity to an explicitly constructed example. Do not claim to have read an inaccessible source.
-5. When safe, permitted and answerable, use a [Baseline Check](../methods/baseline-check.md) to invite **one small pre-instruction baseline response** on a goal-relevant capability. State the previously checked question and criterion, keep the solution hidden, and preserve the original reply, help and prior exposure before correction. An existing credible observation can replace this probe; if no suitable task or response exists, mark baseline **not assessed**, not failed. Do not administer a diagnostic solely to complete a template.
+5. When safe, permitted and answerable, use a [Baseline Check](../methods/baseline-check.md) to invite **one small pre-instruction baseline response** on a goal-relevant capability. Before giving the task, show the checked criterion without the solution, ask the learner to predict performance under the agreed resources and wait for that prediction. Then present the checked question, keep the solution hidden, and preserve the original reply, help and prior exposure before correction. Compare predictions and performance only on matching criteria; mark untested areas unknown rather than ranking all sub-skills. An existing credible observation can replace this probe; if no suitable task or response exists, mark baseline **not assessed**, not failed. Do not administer a diagnostic solely to complete a template.
 6. Save self-report and baseline evidence **separately** from the current target and constraints in a learner-owned record outside public repositories. Default to `learning-notes.md` plus a `stages/` folder. In the overview, put the goal and preferences first, then Starting point with the initial self-assessment, baseline evidence, conditions and unknowns, then the provisional learning stages, and Where I am now with the dated current assessment and next action. No separate initial-assessment file is needed by default. A small standalone goal may use sections of one file. Base the first current assessment only on available evidence. Preserve the initial assessment after teaching; add a dated correction if its interpretation was wrong. Ask for agreement before proceeding when it has not already been given, and leave agreement unrecorded until it is actually given. An overall target can be revised; do not expand it silently when interesting side topics appear.
 
 When the learner needs help choosing a feasible action, use [GROW Coaching](../methods/grow-coaching.md): clarify the goal, inspect present evidence and constraints, compare options, and let the learner choose a next action and review occasion. Reuse existing answers. Supply checked instruction when knowledge is missing; questioning is not a substitute for teaching. This is optional decision support, not an extra assessment.
@@ -125,6 +125,7 @@ Overall target and use: [fill]
 Scope and exclusions: [fill]
 Candidate evidence: [explanation, artifact, calculation, demonstration, critique]
 Self-assessment (self-report): [prior experience, confidence/uncertainty, constraints]
+Pre-test prediction: [criterion / expected performance / reason, or NOT RECORDED]
 Pre-instruction baseline: [task / original reply / actual help / prior exposure, or NOT ASSESSED]
 Source and inspected extent: [fill or unverified]
 Allowed help and access supports: [fill]
@@ -411,6 +412,9 @@ representations and activities for my goal, current evidence and preferences.
 Preserve accuracy, actual responses, assistance and uncertainty in any format.
 For a new broad goal, first ask for a concise self-assessment, then—when safe
 and answerable—one pre-instruction baseline response before exposing its answer.
+Before the task, ask me to predict performance against its criterion and wait for that prediction.
+Compare the actual response with the prediction under matching conditions; keep
+untested areas unknown and record any hints or prior exposure.
 Keep self-reports separate from observed performance. Make a compact, sourced
 subject map with each candidate subsystem's explanatory question, boundary and
 cross-links; do not force a universal list or assume separate boxes.

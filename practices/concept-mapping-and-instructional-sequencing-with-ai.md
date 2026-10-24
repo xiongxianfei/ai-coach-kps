@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"
 type: "practice"
-version: "0.2.0"
+version: "0.2.1"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Concept Mapping and Instructional Sequencing With an AI Coach"
@@ -89,7 +89,7 @@ This illustrative overview omits many topics and alternative organizations. It i
 
 1. Locate one intended capability within the panorama. Separate the learner's target from neighboring regions that remain context only. A learner who already has a precise goal can use the panorama simply to orient that goal.
 2. State the intended use and what response would demonstrate the capability. Define relevant criteria and permissible resources before selecting a lesson sequence.
-3. Use a [Baseline Check](../methods/baseline-check.md) when direct evidence would change the starting point: select a relevant task with a checked criterion, agree on resources and preserve the response before feedback. Otherwise reuse adequate evidence or ask about relevant experience. Keep self-reports, task observations and AI interpretations separate. If the panorama already exposed the answer, record that exposure; do not claim a pre-instruction baseline.
+3. Use a [Baseline Check](../methods/baseline-check.md) when direct evidence would change the starting point: select a relevant task with a checked criterion and agree on resources. Before presenting it, ask for a prediction against that criterion and wait. Preserve the actual response before feedback, then compare it with the prediction on the same basis; leave untested components unknown. Otherwise reuse adequate evidence or ask about relevant experience. Keep self-reports, task observations and AI interpretations separate. If the panorama already exposed the answer, record that exposure; do not claim a pre-instruction baseline.
 4. Identify unfamiliar terms or candidate prerequisites through evidence, not a presumed learner type. Keep missing evidence unknown. Choose one useful starting task with the learner.
 
 **Example goal**: compare two package prices expressed in different units and justify the comparison on an equal-quantity basis. The current goal includes units, division and rates; it does not require completing algebra or statistics first. A permitted calculator is an access/task resource, not automatically answer-generating assistance.

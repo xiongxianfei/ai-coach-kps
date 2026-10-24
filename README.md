@@ -60,7 +60,11 @@ The Models include two published frameworks, Cognitive Apprenticeship and the As
 
 The sixteen Methods include source-aligned procedures and explicitly authored reusable adaptations for planning, instruction, assessment, practice and reflection. Concept Map and Concept Mapping use the Novak and Cañas report. The two-level workflow is an authored Practice, not a newly invented academic Model or a validated learning progression. See [the planning record guide](guides/learning-workflow.md).
 
-Planning and assessment are supported by [Baseline Check](methods/baseline-check.md) and [Skill Decomposition](methods/skill-decomposition.md). Practice design is supported by [Spaced Repetition](methods/spaced-repetition.md) and [Interleaved Practice](methods/interleaved-practice.md). Coaching and reflection are supported by [After Action Review](methods/after-action-review.md), [GROW Coaching](methods/grow-coaching.md) and [Deliberate Practice Loop](methods/deliberate-practice-loop.md). Each states its inspected procedural basis, example, AI role and limits. Spaced Repetition uses inspected IES procedural passages; it does not derive a scheduling algorithm from abstract-only evidence. Practitioner guidance supports the coaching procedures without establishing their educational effectiveness. Essential instructions remain inline in the relevant Practices.
+Planning and assessment are supported by [Baseline Check](methods/baseline-check.md) and [Skill Decomposition](methods/skill-decomposition.md). Practice design is supported by [Spaced Repetition](methods/spaced-repetition.md) and [Interleaved Practice](methods/interleaved-practice.md). Coaching and reflection are supported by [After Action Review](methods/after-action-review.md), [GROW Coaching](methods/grow-coaching.md) and [Deliberate Practice Loop](methods/deliberate-practice-loop.md).
+
+These seven files use a procedure-first layout: purpose, inputs, numbered AI actions with response waits, a ready-to-paste prompt, output checks, failure modes and next actions. Short KPS summaries, constructed examples and source limits remain. Their `name`, `home`, `also`, `use_when`, `ai_role` and `time` fields describe selection and suggested use; stage labels are not new directories and times are adjustable budgets. Baseline Check records a prediction before testing and compares it with evidence on the same criterion. The other nine Methods retain their existing formats.
+
+Spaced Repetition uses inspected IES procedural passages; it does not derive a scheduling algorithm from abstract-only evidence. Practitioner guidance supports the coaching procedures without establishing their educational effectiveness. Essential instructions remain inline in the relevant Practices.
 
 ## Evidence and outcome boundaries
 
@@ -70,7 +74,7 @@ General learning research and AI-specific studies are distinguished. A structure
 
 ## Architecture and independence
 
-KPS role describes the job of a document, not its subject. Original assistance choices, prompts and local evaluation rules stay in Practices and supporting specifications. Domain Models may integrate inspected source contributions under explicitly declared authorship and limits; original coaching procedures remain in Practices. [ALIGNMENT](docs/scientific-policy.md) explicitly adopts a domain version of Core's professional source-alignment policy.
+KPS role describes the job of a document, not its subject. Programme-level assistance choices and session-specific prompts stay in Practices and supporting specifications. Reusable Method adaptations may include authored prompts for their bounded operations, with the source basis and untested limits stated. Domain Models integrate inspected source contributions under explicitly declared authorship and limits; programme workflows remain in Practices. [ALIGNMENT](docs/scientific-policy.md) explicitly adopts a domain version of Core's professional source-alignment policy.
 
 This repository stands alone. It does not require the English Linguistics or Learning and Teaching KPS packages, an Obsidian plugin, an API key or an installed agent. It is knowledge and guidance, not a deployed chatbot. Ordinary relative Markdown links work without a knowledge-graph viewer.
 

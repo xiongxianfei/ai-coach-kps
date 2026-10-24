@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:skill-decomposition"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Skill Decomposition"
@@ -10,63 +10,84 @@ reviewed: null
 basis_kind: "KPS-authored reusable adaptation of component-skill analysis and integration guidance"
 references: ["ai-coach:reference:ambrose-2010-component-skills"]
 source_alignment: [{"reference": "ai-coach:reference:ambrose-2010-component-skills", "relation": "published-procedure-summary", "locator": "How Learning Works, chapter 4, printed pages 112 to 117: component skills, diagnosis, isolated practice and integration"}]
+name: "skill-decomposition"
+home: "1-plan"
+also: ["4-test-and-fix", "5-coach-and-reflect"]
+use_when: "A goal is too broad to choose practice or a recurring difficulty has no clear bottleneck"
+ai_role: "Task analyst; propose component demands and distinguish evidence from hypotheses"
+time: "15-20 min suggested; stop when one useful target is identified"
 ---
 
 # Skill Decomposition
 
 ## Key takeaway
 
-Analyze what a meaningful task requires, inspect evidence for possible bottlenecks and select focused practice while preserving how the parts work together.
+Map the demands of a whole task, check candidate bottlenecks and choose focused practice with a return to integration.
 
 ## Summary
 
-Skill Decomposition adapts Ambrose and colleagues' guidance on exposing component skills, diagnosing missing preparation and teaching integration. The output is a revisable task analysis with a justified practice target. A list of parts alone cannot identify the learner's weakest skill or establish a learning order.
+Use actual work to select a practice target; a generated component list does not identify the learner's weakest skill.
 
-## Use when and prerequisites
+## Purpose and rationale
 
-Use this when a goal such as interpreting a chart or comparing prices is too broad to select useful practice, or when repeated whole-task attempts leave the difficulty unclear. Start with a representative task, credible subject guidance, a successful example and any actual learner work. If the task is already bounded and its difficulty is clear, work on it directly.
+Turn a broad skill into actionable practice. Separate knowledge, execution and coordination so a successful isolated step is not mistaken for successful whole-task performance.
 
-## Rationale and procedural basis
+## Inputs
 
-Identify the knowledge and actions needed to perform the task. Check for steps an experienced performer may omit from their explanation; compare with instructional materials or another knowledgeable person's analysis. Examine evidence of missing components, provide focused practice where useful and explicitly return to integration. These are the source-supported operations; the decision record below is an authored adaptation.
+- Target capability, representative whole task and success criteria.
+- Credible subject guidance or an example checked by a competent performer.
+- Existing attempts or baseline results, if available; a baseline is not compulsory.
+- Relevant constraints, permitted support and an adjustable session budget.
 
-## Procedure for constructing and using the analysis
+## Steps
 
-1. Describe a successful whole performance and its conditions. Include meaningful accuracy, explanation or coordination criteria rather than merely finishing a sequence.
-2. Trace the decisions and actions needed. Distinguish knowledge, execution and coordination. Stop splitting when the components are observable and useful for choosing teaching; do not subdivide every physical or verbal movement.
-3. For each candidate component, record the evidence: demonstrated under stated support, difficulty observed, or not yet assessed. Use a [Baseline Check](baseline-check.md) only where more evidence would affect the next choice.
-4. Select a consequential, addressable bottleneck. Test a competing explanation if needed. A low score on one component does not automatically make it the best next target, especially if the real difficulty is coordinating otherwise successful parts.
-5. Choose a focused task and a whole-task return check. If component performance improves but the whole performance does not, revisit the analysis, interaction demands or criterion instead of repeating the same drill indefinitely.
+Run these steps as the AI; the learner supplies any requested performance.
 
-This method makes the proposed cause of a difficulty inspectable. The component map is a hypothesis about task demands; actual attempts can contradict it.
+1. **Locate the whole task.** Restate what successful performance looks like. Ask for missing context or an example and wait if it changes the analysis. Reuse existing evidence.
+2. **Decompose.** Trace required knowledge, decisions, actions and coordination. Check dependencies against subject guidance; flag assumptions. Stop splitting when components are observable and useful for teaching, not at an arbitrary number of sub-skills.
+3. **Inspect evidence.** For each component, mark demonstrated under stated support, difficulty observed or untested. Attach the relevant work. Never infer weakness from a self-rating or an AI-generated tree alone.
+4. **Probe only if needed.** If competing explanations would lead to different practice, prepare a small task and checked criterion. Present it, wait for the response, then preserve the work and actual assistance before interpreting it. If missing evidence would not change the choice, proceed provisionally without another test.
+5. **Select a target.** Explain which consequential, addressable demand the evidence points to and what remains uncertain. When isolated components succeed but the whole task fails, inspect coordination before assigning more isolated drills. Invite correction when the interpretation is uncertain; wait for a necessary clarification.
+6. **Design the return.** Propose focused practice plus a new whole-task check with explicit criteria. Stop with one next action. If later component gains do not carry into the whole task, revise the decomposition or guidance.
 
-## Worked application
+## Prompt
 
-**Constructed example:** Comparing two package prices requires more than division.
-
-| Candidate demand | Evidence to inspect | Possible focused task |
-|---|---|---|
-| Normalize quantities | Can the learner express 750 g as 0.75 kg? | Convert quantities without prices |
-| Form a rate | Does price divided by quantity produce the intended unit? | Label the numerator, denominator and resulting unit |
-| Calculate | Is the division correct with the permitted calculator? | Compute a supplied rate expression |
-| Coordinate and judge | Are both rates on a common basis before comparison? | Compare two packages and justify the decision |
-
-Suppose, illustratively, that a learner converts units and computes supplied expressions correctly but compares £/g with £/kg. More division exercises would not directly address the observed mismatch. Ask them to write both rate units before choosing the cheaper package, then return to a new complete comparison. This is a proposed response to the example, not an observed improvement.
+```text
+Help decompose [target capability] using [representative task and success
+criteria], [subject source or checked example] and [existing work, if any].
+Identify the knowledge, decisions, execution and coordination required.
+Distinguish checked dependencies from assumptions. For each component, show
+actual evidence and assistance or mark it untested. Do not invent my weakest
+skill. If an unresolved distinction would change practice, present one checked
+probe and wait for my response before judging it. Otherwise use existing evidence.
+Recommend one consequential target, explain uncertainty, and provide both a
+focused exercise and a whole-task return check. Keep the analysis revisable;
+do not turn every component into a compulsory module. Return the component
+table and one next action. Do not claim to have saved a record without doing so.
+```
 
 ## Output and validation
 
-Retain the task analysis, source basis, component evidence, chosen target and return check. A useful analysis explains a realistic error and identifies an action that could improve the whole task. If several decompositions fit, prefer the smallest one that informs a decision; do not claim a unique universal hierarchy. Successful isolated steps do not establish coordinated performance or transfer.
+Return `component | observable criterion | evidence and support | uncertainty | proposed practice`, then the chosen target and whole-task check. Check that every weakness claim has evidence and that focused success could be tested in the original capability.
 
-## AI role and limits
+**Constructed example:** For package-price comparison, inspect conversion (750 g to 0.75 kg), rate formation (price divided by quantity), calculation and comparison on common units. If conversion and supplied divisions succeed but the learner compares £/g with £/kg, focus on writing both rate units before judging. Return to a fresh complete comparison. More division exercises would not directly target the observed mismatch; this example reports no learner outcome.
 
-AI can propose overlooked demands, organize evidence and suggest probes. A subject source or competent performer must check material dependencies; an AI-generated skill tree is not a diagnosis. Never rank unobserved components as weaknesses or make every proposed component a compulsory module.
+## Common failures and limits
 
-[Concept Mapping](concept-mapping.md) represents relationships among ideas; decomposition concerns performance demands. [Deliberate Practice Loop](deliberate-practice-loop.md) organizes improvement attempts after a target is selected. Domain-specific physical performance may require direct observation and qualified coaching beyond conversational evidence.
+- **Ranking untested components:** retain unknowns and collect evidence only when useful.
+- **Splitting too finely:** stop at distinctions that change instruction.
+- **Treating every dependency as mandatory:** check the actual task and permitted tools.
+- **Drilling parts without integration:** include a whole-task return criterion.
+- **AI guesses about physical technique:** obtain observable evidence and qualified guidance where required.
+
+## Next
+
+Use [Baseline Check](baseline-check.md) for a consequential evidence gap or [Deliberate Practice Loop](deliberate-practice-loop.md) for a supported target. Use [Concept Mapping](concept-mapping.md) when the question concerns relationships among ideas rather than performance demands.
 
 ## Source alignment
 
-[Ambrose and colleagues](../references/ambrose-et-al-2010-component-skills.md), chapter 4, pages 112–117, supplies component analysis and integration guidance. The table, evidence labels and bottleneck-selection rules are local adaptations. The inspected excerpt does not validate this particular analysis or an AI assessment.
+[Ambrose and colleagues](../references/ambrose-et-al-2010-component-skills.md), chapter 4, pages 112-117, supports component analysis, focused practice and integration. Evidence labels, the AI procedure, prompt and example are authored adaptations; no unique universal decomposition is established.
 
 ## Evidence status
 
-**Provisional.** No independent review, measured improvement or exhaustive task-analysis procedure is claimed.
+**Provisional.** No independent review, learner trial or exhaustive task-analysis protocol is claimed. The prompt does not guarantee AI behavior.

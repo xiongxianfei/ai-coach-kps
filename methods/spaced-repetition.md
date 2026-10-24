@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:method:spaced-repetition"
 type: "method"
-version: "0.1.0"
+version: "0.2.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Spaced Repetition"
@@ -11,58 +11,84 @@ basis_kind: "KPS-authored reusable adaptation combining delayed review and retri
 references: ["ai-coach:reference:pashler-2007-organizing-instruction"]
 uses_principles: ["ai-coach:principle:spacing-effect", "ai-coach:principle:testing-effect"]
 source_alignment: [{"reference": "ai-coach:reference:pashler-2007-organizing-instruction", "relation": "published-procedure-summary", "locator": "Recommendation 1, printed pages 5 to 7; Recommendation 5b, printed page 21, opening recommendation"}]
+name: "spaced-repetition"
+home: "4-test-and-fix"
+also: ["5-coach-and-reflect"]
+use_when: "Previously learned material needs to remain available after a delay"
+ai_role: "Review facilitator; prepare checked prompts and propose revisits from actual recall"
+time: "10-15 min per review suggested; intervals depend on the retention goal"
 ---
 
 # Spaced Repetition
 
 ## Key takeaway
 
-Revisit important learned material on separated occasions, preserve recall before correction and revise future reviews using actual performance and the intended retention horizon.
+Collect recall on separated occasions, check it before revising the schedule and keep planned reviews distinct from completed ones.
 
 ## Summary
 
-This Method operationalizes spaced review through retrieval and checked feedback. The IES guide supplies delayed revisiting and recall with correction; the scheduling decisions here are authored adaptations. The [Spacing Effect](../principles/spacing-effect.md) concerns timing, while [Retrieval Practice](retrieval-practice.md) concerns what the learner does during a review. Neither specifies an individualized scheduling algorithm.
+Guide one review at a time using actual responses and an explicit retention horizon; do not invent an optimal calendar or automatic reminders.
 
-## Use when and prerequisites
+## Purpose and rationale
 
-Use this for material already encountered that must remain available later and is not sufficiently revisited through ordinary use. Identify the future use, relevant content, checked prompts and answers, and a practical place to keep the review record. If the learner never understood the relation, teach it before interpreting a failure to retrieve it.
+Keep important learned material available later. [Spacing](../principles/spacing-effect.md) concerns when material returns; [retrieval](retrieval-practice.md) concerns recalling it before seeing the answer. This procedure combines them with checked feedback.
 
-## Rationale and procedure
+## Inputs
 
-The IES guide recommends returning to important content after delays and using recall quizzes with correct-answer feedback. Its classroom recommendations include reviews weeks or months later. That basis supports separated review, not one mandatory calendar for every adult or topic.
+- Previously encountered material, intended future use and retention horizon.
+- Checked prompts and answers, or a source from which to prepare them.
+- Actual review dates, responses and intervening study where known.
+- Available time; an optional private record or calendar destination.
 
-The following decisions make the approach usable without specialized software:
+## Steps
 
-1. Select a manageable set of facts, relationships or procedures relevant to the goal. Phrase each prompt so its answer can be checked; avoid ambiguous fragments whose correctness depends on hidden context.
-2. Choose a later review occasion and record why it fits the intended use and available time. Include existing meaningful practice when planning workload rather than adding duplicate reviews automatically.
-3. At the review, attempt retrieval before viewing the answer. Preserve the response and record actual elapsed time, hints and answer exposure. Then inspect the checked answer, explain consequential differences and correct the record.
-4. Decide what happens next. After a successful independent response, consider a longer gap if it fits the goal. After a failure, repair the knowledge or prompt and arrange an earlier check than previously planned. These are revisable heuristics, not proven optimal interval rules.
-5. Retire, combine or reduce low-value items as the goal changes. Include a later application task when the goal requires using knowledge; remembering a card does not establish that capability.
+Run these steps as the AI, using only reviews and capabilities actually available.
 
-Repeated difficulty can indicate a bad question, missing understanding or excessive workload. Investigate those possibilities before merely shortening every interval.
+1. **Choose material.** Identify a manageable set relevant to future use. Reuse existing items and ordinary practice rather than creating duplicate reviews. If understanding was never established, offer checked instruction first.
+2. **Prepare a review.** Verify each prompt and criterion. Keep the answer separate from delivery; record any exposure during preparation. Ask only for missing information needed to set conditions or timing, and wait when a reply is required.
+3. **Retrieve.** Present a checked question without its answer and wait for the learner's actual response. Preserve it and record actual hints, resources and elapsed time since relevant study; leave unknown timing unknown.
+4. **Correct.** Compare with the criterion, explain the important difference and retain the correction separately. If help was supplied before completion, label the attempt assisted. Repair an ambiguous prompt rather than attributing its failure to memory.
+5. **Reschedule.** Propose a later occasion with a reason. Consider a longer gap after successful independent recall, or repair followed by an earlier check after difficulty. These are adjustable heuristics, not optimized interval rules. Include a delayed application task when using knowledge matters.
+6. **Close and record.** Return the review record and next date or trigger. Reduce low-value items when the goal or workload changes. Save privately or create a reminder only through an available, authorized tool and verify its result; otherwise provide copyable details and state that no save or reminder occurred.
 
-## Worked application
+## Prompt
 
-**Constructed scheduling example:** A learner wants to retain the distinction between a package price and a unit price for use over the next month. After instruction, they schedule a review two days later and another a week after that. These dates are convenient trial choices, not an optimum derived from the source.
-
-One prompt asks for the price per kilogram of a 750 g package costing £3 and the meaning of the result. The checked answer is £4/kg. The learner's response must be saved before revealing it. If the numerator and denominator are reversed, revisit what each quantity counts and make a new check sooner. If the response is independent and justified, retain the planned later occasion or lengthen the gap within the retention goal.
-
-Use a different package comparison later to inspect application. Record each actual date; a missed review stays missed. Resume from the available evidence instead of manufacturing a successful streak or assuming all knowledge was lost.
+```text
+Guide spaced review of [learned material] for use by [retention horizon].
+Use [checked source or items], [actual prior review record, if available] and
+[time budget]. Ask for essential missing context, then verify the next prompt
+and its answer. Present the question without the answer and wait for my work.
+Keep original recall, actual help and correction separate. Record actual delays
+or unknown timing; do not treat a missed review as a failed memory test.
+Explain corrections, then propose a next review with a reason. Treat longer or
+shorter gaps as revisable choices, not optimal rules. If understanding is missing,
+teach it rather than repeating unsupported retrieval. Return a dated record and
+next occasion; do not claim persistent memory, saving or scheduling without a
+confirmed authorized tool result. Pause when I stop or the agreed set is complete.
+```
 
 ## Output and validation
 
-Keep the prompt and answer basis, original recall, correction, actual assistance, elapsed interval and next planned review. Judge the method by what is available after a delay under the intended conditions, not by the number of cards completed. Compare records cautiously when questions or support change. One successful review does not establish durable retention.
+Return `item and source | actual date and delay | original recall | help | correction | next occasion and reason`. Distinguish planned entries from observed attempts. Check whether the evidence actually comes after a known delay; completion counts or corrected cards alone do not establish retention.
 
-## AI role and limits
+**Constructed example:** After instruction, a learner plans a unit-price review two days later and another a week after that. Those are trial choices. A 750 g package costing £3 has a checked price of £4/kg. Reversing the ratio calls for repairing its meaning and considering an earlier check; independent, justified recall may support keeping or lengthening the gap. A different package comparison can later examine application. A missed appointment stays missed, not failed.
 
-AI can draft prompts, help verify answers and propose a schedule from the supplied record. It cannot observe unreported reviews or create reminders, persistent memory or background scheduling merely through instructions. The learner retrieves; a source, executable check or competent reviewer supplies the verification basis.
+## Common failures and limits
 
-[Interleaved Practice](interleaved-practice.md) changes which task types occur together. Spacing changes when material returns; the two can be combined. A short fixed countdown or repeated rereading should not be presented as evidence of independent recall.
+- **Rereading counted as recall:** record answer exposure and seek a later independent response if needed.
+- **Failure triggers endless cards:** inspect understanding, wording and workload first.
+- **One fixed calendar for every topic:** revise timing against the goal and actual evidence.
+- **Unknown delays treated as retention:** preserve uncertainty.
+- **Fictional reminders or saves:** report only confirmed actions; keep personal records outside public repositories.
+
+## Next
+
+Continue at the next review occasion. Use [Interleaved Practice](interleaved-practice.md) when choosing among problem types matters; it changes the mixture, not just timing. Schedule a separate application check when recall alone does not sample the goal.
 
 ## Source alignment
 
-[Pashler and colleagues](../references/pashler-2007-organizing-instruction.md), Recommendation 1, pages 5–7, and the opening of Recommendation 5b, page 21, support the procedural basis. The schedule, interval-adjustment heuristics and example are authored and untested. No particular software algorithm is adopted.
+[Pashler and colleagues](../references/pashler-2007-organizing-instruction.md), Recommendation 1, pages 5-7, and the opening of 5b, page 21, supplies delayed review and recall with correction. Timing choices, the AI procedure, prompt and example are authored and untested; no software algorithm is adopted.
 
 ## Evidence status
 
-**Provisional.** Published learning findings do not validate this scheduling implementation or establish outcomes for independent adult AI coaching.
+**Provisional.** Published findings do not validate this scheduling implementation or guarantee that an AI follows the prompt.
