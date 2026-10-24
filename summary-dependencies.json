@@ -24,8 +24,18 @@
     "concepts/self-regulated-learning.md": {
       "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de"
     },
+    "methods/after-action-review.md": {
+      "methods/deliberate-practice-loop.md": "aff568b1c4da03ccbcafd10f997dcce8b14f31461b1da785cba5647cfc8f2188",
+      "methods/grow-coaching.md": "7b6b47bc164e8cd76704b95f4472a82a8de631f0fbd915c72d60a6f96b6a32b7",
+      "references/salem-schatz-et-al-2010-after-action-review.md": "402671906aae2b24532c003ff18cfec9ab1652a101f33def9ceba600fa36a7c3"
+    },
     "methods/backward-design.md": {
       "references/mctighe-wiggins-2012-understanding-by-design.md": "00d25d5a86b646820c94610a85be10157041bb17ffbb35ec3c550304ae8c421a"
+    },
+    "methods/baseline-check.md": {
+      "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
+      "methods/skill-decomposition.md": "317611a8fe2ade5d53fe05b980ffcb720a79fbf78c37f7ed198ddd176e276831",
+      "references/cmu-eberly-undated-prior-knowledge.md": "c44845fb85d51731aa6943eb5cc85b372741ab201cbcf64131c98b9ea9fa35da"
     },
     "methods/cognitive-modeling.md": {
       "methods/worked-example-instruction.md": "20670f48d30cb6cf42502d9d4a6ba2aac6624f38c3d309ad44c936d83ec19075",
@@ -36,12 +46,28 @@
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51"
     },
+    "methods/deliberate-practice-loop.md": {
+      "methods/after-action-review.md": "981207a8f12389fa141fe4cfaa9c3c4d8a2b3844bbb826c40698dbd2392f1237",
+      "methods/skill-decomposition.md": "317611a8fe2ade5d53fe05b980ffcb720a79fbf78c37f7ed198ddd176e276831",
+      "methods/spaced-repetition.md": "e50e1ff4fb27a67a5b5ae4326e00971a52cc54b586e537b1ac66b8d7f493dbc2",
+      "references/ericsson-et-al-1993-deliberate-practice.md": "161d6d16d44c166f09ad11132275e5464304eebbf861366364e25ba282510801"
+    },
+    "methods/grow-coaching.md": {
+      "methods/after-action-review.md": "981207a8f12389fa141fe4cfaa9c3c4d8a2b3844bbb826c40698dbd2392f1237",
+      "methods/backward-design.md": "5a93bc4cf874584f2fe0e085b5fa29f69329c4ef1c0136d7b1ab6c612ee2b980",
+      "references/performance-consultants-undated-grow.md": "e4d5b8ea73fcf08960a42d08fb3b10441cba37f75d9faed9987a1623424fbef5"
+    },
+    "methods/interleaved-practice.md": {
+      "methods/spaced-repetition.md": "e50e1ff4fb27a67a5b5ae4326e00971a52cc54b586e537b1ac66b8d7f493dbc2",
+      "methods/worked-example-instruction.md": "20670f48d30cb6cf42502d9d4a6ba2aac6624f38c3d309ad44c936d83ec19075",
+      "references/rohrer-et-al-2015-interleaved-practice.md": "6301ef0d4a87448e07396ef983c192003b518805a43ca7fec13a3097c1fca457"
+    },
     "methods/learning-from-erroneous-examples.md": {
-      "practices/ai-assisted-learning-orchestration.md": "03416df0b3d1c009c976498aa2e53fb546584f6f6297472c6327be45854bd091",
+      "practices/ai-assisted-learning-orchestration.md": "828e31ad503a790a1a665cda3a8433d5bbeea6a0c42ec7c914ed7b33e7db7611",
       "references/booth-et-al-2013-example-problems.md": "ed83e57a1868c59cf5bec9733165bfb8857d2126eaf5b31d42bfc97ddd142c45"
     },
     "methods/predict-observe-explain.md": {
-      "practices/ai-assisted-learning-orchestration.md": "03416df0b3d1c009c976498aa2e53fb546584f6f6297472c6327be45854bd091",
+      "practices/ai-assisted-learning-orchestration.md": "828e31ad503a790a1a665cda3a8433d5bbeea6a0c42ec7c914ed7b33e7db7611",
       "references/joyce-2006-predict-observe-explain.md": "f1c748c77dadc1203940b7c3759e3ba2555c4d8440562b3cbb5b32debebc7baa",
       "references/kearney-et-al-2001-multimedia-poe.md": "5bb36b932c288e2deaabcd67ace98570ef1738e43359a89d79b5770ff5b4dcfb"
     },
@@ -51,9 +77,22 @@
       "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md": "6421c087d1d885cfdfa0d01eda87abc5350aa5d1b1e7734c69f9030ffaa19ef6"
     },
     "methods/self-explanation.md": {
-      "practices/self-regulated-learning-with-ai.md": "2efa08504ea31c8004668162ac49256220ac2de7b42c04ae7f58718a3beb5b3e",
+      "practices/self-regulated-learning-with-ai.md": "890958563ba248630ebfff69cf9dabab901842c8a435acfb0994e5e8fc19c094",
       "principles/self-explanation-effect.md": "25dd41b973cc7059041d0ef17f38d6e5906e5f14d333959fa739d2eaf0e11126",
       "references/chi-1994-self-explanation.md": "9f12c7ca9720539a14b1677a877e9a3f94aa16c7015c5bd05145a2cf88fb1318"
+    },
+    "methods/skill-decomposition.md": {
+      "methods/baseline-check.md": "0d02737646dc0067e0a745d17740a5630cdee9d79f931294890094bfd982752b",
+      "methods/concept-mapping.md": "bac4b5ce3f9e80845b4f648cc4fd38ef3d5604d09daec206df692fb85c4d5c2f",
+      "methods/deliberate-practice-loop.md": "aff568b1c4da03ccbcafd10f997dcce8b14f31461b1da785cba5647cfc8f2188",
+      "references/ambrose-et-al-2010-component-skills.md": "91f406bff67962b0ac16c7a277fc6f44ec93e37e5bf974a5db2b2124b9c9bf98"
+    },
+    "methods/spaced-repetition.md": {
+      "methods/interleaved-practice.md": "1af0fdad2aaf4a0f6b99a4098431952202a2793e7e9e240717afcbb27a11abc1",
+      "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
+      "principles/spacing-effect.md": "2039f5ab8ac78381de63fc08e0b44e8f85758584907fef91e44d88ae1a2cd967",
+      "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda"
     },
     "methods/structured-explanation.md": {
       "methods/cognitive-modeling.md": "6577d2ee196296e32c4084f51b4eb152b8b9dde1b683c3b9e2ae86ad3a6b37ff",
@@ -63,7 +102,7 @@
     "methods/worked-example-instruction.md": {
       "methods/cognitive-modeling.md": "6577d2ee196296e32c4084f51b4eb152b8b9dde1b683c3b9e2ae86ad3a6b37ff",
       "methods/self-explanation.md": "b60352a6cb4504f18d0deea53705b8155bb7d285f630b6d3ab672602acd140f1",
-      "references/pashler-2007-organizing-instruction.md": "6632d4735eedc4ce144233cca67356ef93dbd10d384ab47dfb95e30ec1941096"
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda"
     },
     "models/assessment-and-feedback.md": {
       "concepts/feedback.md": "cff5f7ab828c0f4e9a0cd41a977292958992758084441e6d6c7ffc3be25449d7",
@@ -91,10 +130,10 @@
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
       "models/instructional-design.md": "f0dd5c4fb30863fcc3e05e0151ef00c867857dd817ea635a5dd68225bf6de8dc",
       "models/knowledge-representation.md": "46f2dab1fcc3b54f55188402433181ad76039b7445bba2b7bea661fe503998ae",
-      "practices/ai-assisted-learning-orchestration.md": "03416df0b3d1c009c976498aa2e53fb546584f6f6297472c6327be45854bd091",
+      "practices/ai-assisted-learning-orchestration.md": "828e31ad503a790a1a665cda3a8433d5bbeea6a0c42ec7c914ed7b33e7db7611",
       "references/cmu-eberly-assessment-alignment.md": "d12306d31e7676abee2c8d526c91519939dc9cc1a11da7dd19f5001e50922cfc",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
-      "references/pashler-2007-organizing-instruction.md": "6632d4735eedc4ce144233cca67356ef93dbd10d384ab47dfb95e30ec1941096",
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda",
       "references/richards-2022-morphology.md": "6229650a10e106b796e132ba1c21d300c35f9c7c7991cc893957b1d3098405b7"
     },
     "models/instructional-design.md": {
@@ -103,18 +142,18 @@
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
       "models/instruction-and-scaffolding.md": "e8bf0f122a2dac0e03ff46e3671444fec2db16c104db3126eaa27deb2d7743d8",
       "models/knowledge-representation.md": "46f2dab1fcc3b54f55188402433181ad76039b7445bba2b7bea661fe503998ae",
-      "practices/ai-assisted-learning-orchestration.md": "03416df0b3d1c009c976498aa2e53fb546584f6f6297472c6327be45854bd091",
+      "practices/ai-assisted-learning-orchestration.md": "828e31ad503a790a1a665cda3a8433d5bbeea6a0c42ec7c914ed7b33e7db7611",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/national-research-council-2007-learning-progressions.md": "c4a1c4a2b0cd668a10bc2a74c12df4fc7b980eba579dac3ef935ff3eeb181a76",
-      "references/pashler-2007-organizing-instruction.md": "6632d4735eedc4ce144233cca67356ef93dbd10d384ab47dfb95e30ec1941096"
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda"
     },
     "models/knowledge-representation.md": {
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
       "models/assessment-and-feedback.md": "ac917e72758b9d060501fd37600b2f4240eef90bbf4ffbcfce13f6e85c6d825e",
       "models/instructional-design.md": "f0dd5c4fb30863fcc3e05e0151ef00c867857dd817ea635a5dd68225bf6de8dc",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
-      "references/pashler-2007-organizing-instruction.md": "6632d4735eedc4ce144233cca67356ef93dbd10d384ab47dfb95e30ec1941096"
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda"
     },
     "practices/ai-assisted-learning-orchestration.md": {
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
@@ -122,13 +161,20 @@
       "concepts/instructional-scaffolding.md": "ca75f5411e98054d4e5217209ebe08977c04564a1cf6efc49889c3f7e71c2ac4",
       "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
       "concepts/self-regulated-learning.md": "9d6c5f86af0ed14b4131fe1689f9f96af6dc88bc1aae761a410681def1590b50",
+      "methods/after-action-review.md": "981207a8f12389fa141fe4cfaa9c3c4d8a2b3844bbb826c40698dbd2392f1237",
       "methods/backward-design.md": "5a93bc4cf874584f2fe0e085b5fa29f69329c4ef1c0136d7b1ab6c612ee2b980",
+      "methods/baseline-check.md": "0d02737646dc0067e0a745d17740a5630cdee9d79f931294890094bfd982752b",
       "methods/cognitive-modeling.md": "6577d2ee196296e32c4084f51b4eb152b8b9dde1b683c3b9e2ae86ad3a6b37ff",
       "methods/concept-mapping.md": "bac4b5ce3f9e80845b4f648cc4fd38ef3d5604d09daec206df692fb85c4d5c2f",
+      "methods/deliberate-practice-loop.md": "aff568b1c4da03ccbcafd10f997dcce8b14f31461b1da785cba5647cfc8f2188",
+      "methods/grow-coaching.md": "7b6b47bc164e8cd76704b95f4472a82a8de631f0fbd915c72d60a6f96b6a32b7",
+      "methods/interleaved-practice.md": "1af0fdad2aaf4a0f6b99a4098431952202a2793e7e9e240717afcbb27a11abc1",
       "methods/learning-from-erroneous-examples.md": "9a58294bd1b848fa5da60705e216091d157d788268faff48de4d79c2d81ea7fc",
       "methods/predict-observe-explain.md": "3f75320fd457eeee51ce9ee65c342a9c920a98ed02923dc09873ab8b9dfe937d",
       "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
       "methods/self-explanation.md": "b60352a6cb4504f18d0deea53705b8155bb7d285f630b6d3ab672602acd140f1",
+      "methods/skill-decomposition.md": "317611a8fe2ade5d53fe05b980ffcb720a79fbf78c37f7ed198ddd176e276831",
+      "methods/spaced-repetition.md": "e50e1ff4fb27a67a5b5ae4326e00971a52cc54b586e537b1ac66b8d7f493dbc2",
       "methods/structured-explanation.md": "b910f051cdff47476e87ee79cae1252eea183180917e79b2c6f3d32f78440179",
       "methods/worked-example-instruction.md": "20670f48d30cb6cf42502d9d4a6ba2aac6624f38c3d309ad44c936d83ec19075",
       "models/assessment-and-feedback.md": "ac917e72758b9d060501fd37600b2f4240eef90bbf4ffbcfce13f6e85c6d825e",
@@ -137,11 +183,11 @@
       "models/instruction-and-scaffolding.md": "e8bf0f122a2dac0e03ff46e3671444fec2db16c104db3126eaa27deb2d7743d8",
       "models/instructional-design.md": "f0dd5c4fb30863fcc3e05e0151ef00c867857dd817ea635a5dd68225bf6de8dc",
       "models/knowledge-representation.md": "46f2dab1fcc3b54f55188402433181ad76039b7445bba2b7bea661fe503998ae",
-      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "85867ebd4c9b4e776106d6b6a14cffa7b7c6ddeb359e9c5f3d4b23677840482c",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "d391247aea055bc5f0f099b35da0f43891d16b9fd29a5f02fe0497252013cc33",
       "practices/evaluation-of-ai-assisted-learning.md": "2df72587aedee0406062524f7b8777665bbeef073cb01a482c9d401bd9519f75",
       "practices/formative-assessment-with-ai.md": "be47f10e6b897e0e2e27e0b4ffdb23d766b4946d0c610dd22dfd9f3a967155e2",
-      "practices/retrieval-and-distributed-practice-with-ai.md": "e7bbe6fcab1073042d69640cb7dcc385ec41bdc38a83613a73baa1a02a255e6f",
-      "practices/self-regulated-learning-with-ai.md": "2efa08504ea31c8004668162ac49256220ac2de7b42c04ae7f58718a3beb5b3e",
+      "practices/retrieval-and-distributed-practice-with-ai.md": "691013225a53c4d79ad4f6d43f753cbc2369689eec99bc53f5688733106090ff",
+      "practices/self-regulated-learning-with-ai.md": "890958563ba248630ebfff69cf9dabab901842c8a435acfb0994e5e8fc19c094",
       "principles/spacing-effect.md": "2039f5ab8ac78381de63fc08e0b44e8f85758584907fef91e44d88ae1a2cd967",
       "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
       "references/cepeda-2008-temporal-ridgeline.md": "97c4be64fad86ca52b0bb29091a06a547bc3c1e31593e0f379bcad1bf17ca266",
@@ -150,7 +196,7 @@
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/novak-canas-2008-concept-maps.md": "2de693c7dba078fafeced6b5a43ec446ff76f46a61352d730a778811e0bfad51",
       "references/panadero-2017-self-regulated-learning.md": "b703a951ed23ea234bfcd907f800c1ede166a81b196a691ce4c5add5bd8996de",
-      "references/pashler-2007-organizing-instruction.md": "6632d4735eedc4ce144233cca67356ef93dbd10d384ab47dfb95e30ec1941096",
+      "references/pashler-2007-organizing-instruction.md": "eb00a823905a3384a57cf7fae03a20e76f62de2cc449b38d47d88141f8c22cda",
       "references/soderstrom-bjork-2015-learning-versus-performance.md": "f03e9bdc5428da6c1270e70a9d53b727ad7c29a286c9e404da470fa9e452fc66",
       "references/wolfe-garnier-smith-2009-voice-acoustics.md": "6f5101eb83497088a7c3d3dc986c3917eacd9f44cf5859f9f4d1f158fbbc2421"
     },
@@ -158,11 +204,13 @@
       "concepts/concept-map.md": "808fcb5241d50201b0592ae001707666d4ba4641f1a1be5268492f287b440db2",
       "concepts/formative-assessment.md": "c5622cb78be7f41b33567bb7b5548b1699948399db030dc92152238faec31731",
       "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
+      "methods/baseline-check.md": "0d02737646dc0067e0a745d17740a5630cdee9d79f931294890094bfd982752b",
       "methods/concept-mapping.md": "bac4b5ce3f9e80845b4f648cc4fd38ef3d5604d09daec206df692fb85c4d5c2f",
+      "methods/skill-decomposition.md": "317611a8fe2ade5d53fe05b980ffcb720a79fbf78c37f7ed198ddd176e276831",
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
       "practices/evaluation-of-ai-assisted-learning.md": "2df72587aedee0406062524f7b8777665bbeef073cb01a482c9d401bd9519f75",
-      "practices/self-regulated-learning-with-ai.md": "2efa08504ea31c8004668162ac49256220ac2de7b42c04ae7f58718a3beb5b3e",
+      "practices/self-regulated-learning-with-ai.md": "890958563ba248630ebfff69cf9dabab901842c8a435acfb0994e5e8fc19c094",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/national-research-council-2007-learning-progressions.md": "c4a1c4a2b0cd668a10bc2a74c12df4fc7b980eba579dac3ef935ff3eeb181a76",
@@ -174,7 +222,7 @@
       "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
       "concepts/metacognitive-calibration.md": "90673e6ab0baf7f19e993af23ca9e74ad4b0b956c62b4c816aa7cd297b1b9762",
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
-      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "85867ebd4c9b4e776106d6b6a14cffa7b7c6ddeb359e9c5f3d4b23677840482c",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "d391247aea055bc5f0f099b35da0f43891d16b9fd29a5f02fe0497252013cc33",
       "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
       "references/kestin-2025-ai-tutoring.md": "9e9cb26c147fe204572a37d18051289eb3351ae682443a2c86a4192cc2d4f8df",
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
@@ -188,7 +236,7 @@
       "methods/cognitive-modeling.md": "6577d2ee196296e32c4084f51b4eb152b8b9dde1b683c3b9e2ae86ad3a6b37ff",
       "methods/self-explanation.md": "b60352a6cb4504f18d0deea53705b8155bb7d285f630b6d3ab672602acd140f1",
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
-      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "85867ebd4c9b4e776106d6b6a14cffa7b7c6ddeb359e9c5f3d4b23677840482c",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "d391247aea055bc5f0f099b35da0f43891d16b9fd29a5f02fe0497252013cc33",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
       "references/national-research-council-2001-assessment.md": "f88ec128af96088e45fa7f0cc69ed490d242a945d1de18b60118b3b9625d0eac",
       "references/sadler-1989-formative-assessment.md": "7a227f788c1bdf5b617700bba6d00cdcad45068eae53b12984a421719066ab50",
@@ -197,10 +245,12 @@
     "practices/retrieval-and-distributed-practice-with-ai.md": {
       "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
       "concepts/metacognitive-calibration.md": "90673e6ab0baf7f19e993af23ca9e74ad4b0b956c62b4c816aa7cd297b1b9762",
+      "methods/interleaved-practice.md": "1af0fdad2aaf4a0f6b99a4098431952202a2793e7e9e240717afcbb27a11abc1",
       "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
       "methods/self-explanation.md": "b60352a6cb4504f18d0deea53705b8155bb7d285f630b6d3ab672602acd140f1",
+      "methods/spaced-repetition.md": "e50e1ff4fb27a67a5b5ae4326e00971a52cc54b586e537b1ac66b8d7f493dbc2",
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
-      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "85867ebd4c9b4e776106d6b6a14cffa7b7c6ddeb359e9c5f3d4b23677840482c",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "d391247aea055bc5f0f099b35da0f43891d16b9fd29a5f02fe0497252013cc33",
       "practices/evaluation-of-ai-assisted-learning.md": "2df72587aedee0406062524f7b8777665bbeef073cb01a482c9d401bd9519f75",
       "principles/spacing-effect.md": "2039f5ab8ac78381de63fc08e0b44e8f85758584907fef91e44d88ae1a2cd967",
       "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
@@ -215,15 +265,19 @@
       "concepts/instructional-scaffolding.md": "ca75f5411e98054d4e5217209ebe08977c04564a1cf6efc49889c3f7e71c2ac4",
       "concepts/learning-performance-distinction.md": "08207e73065c21e087915e58e6a07d9aea3d5c56cc646e195fc372e6fc132134",
       "concepts/self-regulated-learning.md": "9d6c5f86af0ed14b4131fe1689f9f96af6dc88bc1aae761a410681def1590b50",
+      "methods/after-action-review.md": "981207a8f12389fa141fe4cfaa9c3c4d8a2b3844bbb826c40698dbd2392f1237",
+      "methods/baseline-check.md": "0d02737646dc0067e0a745d17740a5630cdee9d79f931294890094bfd982752b",
       "methods/cognitive-modeling.md": "6577d2ee196296e32c4084f51b4eb152b8b9dde1b683c3b9e2ae86ad3a6b37ff",
+      "methods/deliberate-practice-loop.md": "aff568b1c4da03ccbcafd10f997dcce8b14f31461b1da785cba5647cfc8f2188",
+      "methods/grow-coaching.md": "7b6b47bc164e8cd76704b95f4472a82a8de631f0fbd915c72d60a6f96b6a32b7",
       "methods/retrieval-practice.md": "c28a6b9e9f345283ae1154bb76892b22155117e6d01f9062d3926521f81cc193",
       "methods/self-explanation.md": "b60352a6cb4504f18d0deea53705b8155bb7d285f630b6d3ab672602acd140f1",
       "models/assessment-triangle.md": "7b3c7426565ba722803ae165a5b9ab4f9609f2d9189845cd4270a93deec5149b",
       "models/cognitive-apprenticeship.md": "c165e5e6d638c9a598ec33ecad4a9b747a09547f22eb86b04884c6711f493bdb",
-      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "85867ebd4c9b4e776106d6b6a14cffa7b7c6ddeb359e9c5f3d4b23677840482c",
+      "practices/concept-mapping-and-instructional-sequencing-with-ai.md": "d391247aea055bc5f0f099b35da0f43891d16b9fd29a5f02fe0497252013cc33",
       "practices/evaluation-of-ai-assisted-learning.md": "2df72587aedee0406062524f7b8777665bbeef073cb01a482c9d401bd9519f75",
       "practices/formative-assessment-with-ai.md": "be47f10e6b897e0e2e27e0b4ffdb23d766b4946d0c610dd22dfd9f3a967155e2",
-      "practices/retrieval-and-distributed-practice-with-ai.md": "e7bbe6fcab1073042d69640cb7dcc385ec41bdc38a83613a73baa1a02a255e6f",
+      "practices/retrieval-and-distributed-practice-with-ai.md": "691013225a53c4d79ad4f6d43f753cbc2369689eec99bc53f5688733106090ff",
       "principles/testing-effect.md": "7cbd3bab81a06d6b24a09632fc7b3e0466f31aad8ff1fb362b4771e220613853",
       "references/bastani-2025-generative-ai-guardrails.md": "91784b38f135b2bfb03b7dfb7e737c24f2dd8325995a8f42cda39b30329d4d45",
       "references/collins-brown-holum-1991-cognitive-apprenticeship.md": "e1ed90d52632b84d931a7770dd86b8822a57515f80e41a75742973f2377ec2b3",
@@ -242,11 +296,20 @@
       "references/karpicke-blunt-2011-retrieval-practice.md": "f87213b5967b4b0a95e056d4ed9dec324b7d6e175c360aecd52e1db593c42960",
       "references/mayrhofer-kuhbandner-frischholz-2023-testing-effect.md": "6421c087d1d885cfdfa0d01eda87abc5350aa5d1b1e7734c69f9030ffaa19ef6"
     },
+    "references/ambrose-et-al-2010-component-skills.md": {
+      "methods/skill-decomposition.md": "317611a8fe2ade5d53fe05b980ffcb720a79fbf78c37f7ed198ddd176e276831"
+    },
     "references/booth-et-al-2013-example-problems.md": {
       "methods/learning-from-erroneous-examples.md": "9a58294bd1b848fa5da60705e216091d157d788268faff48de4d79c2d81ea7fc"
     },
     "references/cmu-eberly-undated-lectures.md": {
       "methods/structured-explanation.md": "b910f051cdff47476e87ee79cae1252eea183180917e79b2c6f3d32f78440179"
+    },
+    "references/cmu-eberly-undated-prior-knowledge.md": {
+      "methods/baseline-check.md": "0d02737646dc0067e0a745d17740a5630cdee9d79f931294890094bfd982752b"
+    },
+    "references/ericsson-et-al-1993-deliberate-practice.md": {
+      "methods/deliberate-practice-loop.md": "aff568b1c4da03ccbcafd10f997dcce8b14f31461b1da785cba5647cfc8f2188"
     },
     "references/joyce-2006-predict-observe-explain.md": {
       "methods/predict-observe-explain.md": "3f75320fd457eeee51ce9ee65c342a9c920a98ed02923dc09873ab8b9dfe937d"
@@ -258,7 +321,17 @@
       "methods/backward-design.md": "5a93bc4cf874584f2fe0e085b5fa29f69329c4ef1c0136d7b1ab6c612ee2b980"
     },
     "references/pashler-2007-organizing-instruction.md": {
+      "methods/spaced-repetition.md": "e50e1ff4fb27a67a5b5ae4326e00971a52cc54b586e537b1ac66b8d7f493dbc2",
       "methods/worked-example-instruction.md": "20670f48d30cb6cf42502d9d4a6ba2aac6624f38c3d309ad44c936d83ec19075"
+    },
+    "references/performance-consultants-undated-grow.md": {
+      "methods/grow-coaching.md": "7b6b47bc164e8cd76704b95f4472a82a8de631f0fbd915c72d60a6f96b6a32b7"
+    },
+    "references/rohrer-et-al-2015-interleaved-practice.md": {
+      "methods/interleaved-practice.md": "1af0fdad2aaf4a0f6b99a4098431952202a2793e7e9e240717afcbb27a11abc1"
+    },
+    "references/salem-schatz-et-al-2010-after-action-review.md": {
+      "methods/after-action-review.md": "981207a8f12389fa141fe4cfaa9c3c4d8a2b3844bbb826c40698dbd2392f1237"
     }
   }
 }

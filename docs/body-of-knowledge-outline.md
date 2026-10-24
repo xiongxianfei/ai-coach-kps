@@ -61,11 +61,11 @@ This domain asks how a learner develops a usable understanding or skill. It conc
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Prior knowledge and understanding | How existing knowledge relates to interpretation, integration and mistaken assumptions | Partial: [Concept Map](../concepts/concept-map.md) represents relationships; a mechanism-level account of prior knowledge is missing |
+| Prior knowledge and understanding | How existing knowledge relates to interpretation, integration and mistaken assumptions | Partial: [Baseline Check](../methods/baseline-check.md) samples current performance and [Concept Map](../concepts/concept-map.md) represents relationships; a mechanism-level account of prior knowledge is missing |
 | Attention and working memory | Selection of information, temporary maintenance and task demands | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md) locates the relevant chapters; detailed passages still need inspection |
 | Cognitive load | Demands created by the task, its presentation and the learner's available knowledge | Gap: inspect appropriate cognitive-load theory and boundary evidence before recommending task-size rules |
 | Mental representations and conceptual change | How concepts, explanations and procedures are represented, challenged and revised | Gap: an external concept map is not itself a model of the learner's internal representation |
-| Expertise and skill development | Differences in organized knowledge, strategies and increasingly independent performance | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) describes expert content and supported participation; a fuller account of expertise is missing |
+| Expertise and skill development | Differences in organized knowledge, strategies and increasingly independent performance | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) describes supported participation; [Deliberate Practice Loop](../methods/deliberate-practice-loop.md) adapts bounded training conditions while preserving expert-guidance limits; a fuller account of expertise is missing |
 | Context and individual variation | Learning across situations, cultures, languages and adult circumstances | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md); domain applicability and adult variation need local explanation |
 
 ## Memory and transfer
@@ -76,8 +76,8 @@ This domain asks whether learning remains available and can be used when time, c
 |---|---|---|
 | Encoding and forgetting | How information becomes retrievable and why later access can fail | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md); detailed memory mechanisms remain missing |
 | Retrieval practice | Reconstructing encountered knowledge and separating recall from correction | Partial: [Retrieval Practice](../methods/retrieval-practice.md) and [Testing Effect](../principles/testing-effect.md), including comparison limits |
-| Spacing | Temporal distribution, retention goals and actual intervals | Partial: [Spacing Effect](../principles/spacing-effect.md); no individualized scheduling algorithm is established |
-| Interleaving and practice variation | Changing categories, examples or contexts, separately from spacing | Source only for alternating examples and problems: [IES overview](../references/pashler-2007-organizing-instruction.md); category-interleaving claims need their own evidence |
+| Spacing | Temporal distribution, retention goals and actual intervals | Partial: [Spacing Effect](../principles/spacing-effect.md) explains the relationship and [Spaced Repetition](../methods/spaced-repetition.md) provides a review procedure; no individualized optimal scheduling algorithm is established |
+| Interleaving and practice variation | Changing categories, examples or contexts, separately from spacing | Partial: [Interleaved Practice](../methods/interleaved-practice.md) covers mixed problem types with a school-mathematics procedural basis; [Worked Example Instruction](../methods/worked-example-instruction.md) separately covers example/problem alternation; broader domain applicability remains open |
 | Retention and performance | Immediate success, later availability and the conditions of observation | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) |
 | Transfer | Applying a relationship to a changed representation, context or reasoning demand | Partial: [Learning–Performance Distinction](../concepts/learning-performance-distinction.md) supplies the distinction; mechanisms and conditions for transfer remain missing |
 
@@ -87,12 +87,12 @@ This domain asks how learners choose, monitor and sustain learning. It includes 
 
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
-| Goals and values | Purpose, interest, perceived value and competing demands | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md) names the broad dimensions; mechanisms need fuller explanation |
+| Goals and values | Purpose, interest, perceived value and competing demands | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md) names the broad dimensions; [GROW Coaching](../methods/grow-coaching.md) supplies practitioner decision guidance, not a mechanism or efficacy finding; mechanisms need fuller explanation |
 | Self-efficacy and motivation | Beliefs about capability, persistence and context | Source only: [How People Learn II overview](../references/nasem-2018-how-people-learn-ii.md) identifies relevant sections; detailed source inspection remains necessary |
 | Agency and choice | Learner control, assistance preferences and responsibility | Partial context: [Self-Regulated Learning](../concepts/self-regulated-learning.md); consent and autonomy commitments also have a normative basis |
 | Planning and monitoring | Selecting strategies, observing progress and controlling study | Partial: [Self-Regulated Learning](../concepts/self-regulated-learning.md), without claiming a complete named phase model |
 | Metacognitive calibration | Comparing judgments with performance under stated conditions | Partial: [Metacognitive Calibration](../concepts/metacognitive-calibration.md); measurement methods remain open |
-| Reflection and strategy revision | Interpreting an attempt and changing how one learns | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) and [Self-Regulated Learning](../concepts/self-regulated-learning.md) |
+| Reflection and strategy revision | Interpreting an attempt and changing how one learns | Partial: [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md) and [Self-Regulated Learning](../concepts/self-regulated-learning.md); [After Action Review](../methods/after-action-review.md) adds a bounded procedure adapted from team review |
 | Emotion and social support | Frustration, effort, belonging, collaboration and help-seeking | Partial: the sociology dimension of [Cognitive Apprenticeship](../models/cognitive-apprenticeship.md); broader explanation remains missing |
 
 ## Knowledge representation
@@ -119,7 +119,7 @@ The [Instructional Design Model](../models/instructional-design.md) connects the
 | Topic | What the explanation needs to cover | Existing explanation and gap |
 |---|---|---|
 | Capability objectives and alignment | Observable capabilities, stages and lessons, matching content, activities and criteria | [Capability objectives and alignment](../models/instructional-design.md#capability-objectives-and-alignment) connects goals, activities and evidence; [lesson scope](../models/instructional-design.md#choosing-lesson-content-and-scope) and [coverage to lessons](../models/instructional-design.md#from-subject-coverage-to-lessons) explain the learning units; broader design frameworks remain open |
-| Task analysis | Component demands, integration and meaningful units of work | [Task analysis and meaningful integration](../models/instructional-design.md#task-analysis-and-meaningful-integration) explains a local decomposition; formal analysis methods need deeper coverage |
+| Task analysis | Component demands, integration and meaningful units of work | [Task analysis and meaningful integration](../models/instructional-design.md#task-analysis-and-meaningful-integration) explains the relationships; [Skill Decomposition](../methods/skill-decomposition.md) adds component analysis, evidence checks and whole-task return; comprehensive task-analysis techniques remain outside its scope |
 | Prerequisites and corequisites | Required preparation, helpful background and capabilities learned together | [Prerequisites and corequisites](../models/instructional-design.md#prerequisites-and-corequisites) explains task-dependent relations; no universal prerequisite graph is established |
 | Sequencing and learning progressions | Complexity, diversity and evidence for proposed routes | [Sequencing and learning progressions](../models/instructional-design.md#sequencing-and-learning-progressions) distinguishes a provisional route from a researched progression; subject-specific sequence evidence remains open |
 | Task difficulty and practice selection | How demand changes with knowledge, support and the target capability | [Task demand support and practice](../models/instructional-design.md#task-demand-support-and-practice) explains changing demands and help; no optimized difficulty or schedule is supplied |

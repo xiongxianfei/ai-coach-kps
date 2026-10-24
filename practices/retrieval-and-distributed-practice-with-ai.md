@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:practice:retrieval-and-distributed-practice-with-ai"
 type: "practice"
-version: "0.2.0"
+version: "0.3.0"
 language: "KPS 9.x"
 status: "draft"
 canonical_name: "Retrieval and Distributed Practice With an AI Coach"
@@ -16,7 +16,7 @@ references: ["ai-coach:reference:karpicke-2011", "ai-coach:reference:mayrhofer-2
 uses_concepts: ["ai-coach:concept:learning-performance-distinction", "ai-coach:concept:metacognitive-calibration"]
 uses_principles: ["ai-coach:principle:testing-effect", "ai-coach:principle:spacing-effect"]
 uses_models: ["ai-coach:model:assessment-triangle"]
-uses_methods: ["ai-coach:method:retrieval-practice", "ai-coach:method:self-explanation"]
+uses_methods: ["ai-coach:method:retrieval-practice", "ai-coach:method:self-explanation", "ai-coach:method:spaced-repetition", "ai-coach:method:interleaved-practice"]
 uses_practices: ["ai-coach:practice:concept-mapping-and-instructional-sequencing-with-ai"]
 ---
 
@@ -96,14 +96,16 @@ This is an authored prompt, not an assurance that a model will follow it. Audit 
 
 ## Stage4 Distribute review with a revisable schedule
 
-1. Choose separated review occasions that fit the learner's intended use and constraints. Record planned intervals without claiming that one fixed daily pattern is optimal.
+1. Use [Spaced Repetition](../methods/spaced-repetition.md) to choose separated review occasions that fit the learner's intended use and constraints. Record planned intervals without claiming that one fixed daily pattern is optimal.
 2. At each actual occasion, note the time since relevant study and any intervening practice or answer exposure. A missed appointment is not a failed memory test.
-3. Adjust the next interval or activity from the observed item-level pattern. Consider both too-easy recognition and repeated inability to retrieve; no prescribed percentage decides this automatically.
+3. Adjust the next interval or activity from the observed item-level pattern. Consider lengthening the gap after successful independent recall, or repairing the content or prompt and checking earlier after failure; these are revisable heuristics rather than an optimized algorithm. Consider both too-easy recognition and repeated inability to retrieve; no prescribed percentage decides this automatically.
 4. Put reminders in a learner-controlled calendar or use a real scheduling tool only when it is actually available and invoked. A conversational promise is not a scheduled task.
 
 Spacing research supports attention to timing, but its reported task and delay conditions do not specify an optimal schedule for every adult subject. Keep the schedule as a labeled local design choice.
 
 ## Stage5 Check retention and changed context application
+
+If selecting among taught approaches is part of the goal, use [Interleaved Practice](../methods/interleaved-practice.md): mix checked problem types without labels that reveal the solution method, preserve the learner's selected approach and execution, then give feedback on each. Return to explanation if a type is unfamiliar. Category mixing and review timing are separate choices; neither by itself demonstrates broad transfer.
 
 1. At the planned time, collect an independent response under declared resources before reopening the prior answer. Record actual timing or explicitly mark it unknown.
 2. Use a task in a changed representation or context when application matters; state what changed. Mere replacement of names or numbers may test only a narrow variation.

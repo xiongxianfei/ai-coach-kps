@@ -1,7 +1,7 @@
 ---
 id: "ai-coach:reference:pashler-2007-organizing-instruction"
 type: "reference"
-version: "0.3.0"
+version: "0.4.0"
 language: "KPS 9.x"
 status: "draft"
 creator: "Harold Pashler, Patrice M. Bain, Brian A. Bottge, Arthur Graesser, Kenneth Koedinger, Mark McDaniel and Janet Metcalfe"
@@ -10,8 +10,8 @@ publication_year: 2007
 date_basis: "Official What Works Clearinghouse landing page states Released September 2007."
 source_type: "IES practice guide overview and selected PDF text"
 evidence_family: "ies-organizing-instruction-2007"
-accessed: "2026-10-17"
-access_extent: "Official WWC HTML title, release date, panel, recommendations 1 to 7 including 5a/5b and 6a/6b, displayed evidence levels and short descriptions. Also selected PDF text on printed pages 4, 10 and 29: Recommendation 2 on guidance and expertise, and Recommendation 7 on readiness for deeper explanatory questions. Additional inspection on 2026-10-17 covers Recommendation 2 in full, printed pages 9 to 11, including implementation and roadblocks. Remaining full-guide text and underlying studies not inspected."
+accessed: "2026-10-24"
+access_extent: "Official WWC HTML title, release date, panel, recommendations 1 to 7 including 5a/5b and 6a/6b, displayed evidence levels and short descriptions. Also selected PDF text on printed pages 4, 10 and 29: Recommendation 2 on guidance and expertise, and Recommendation 7 on readiness for deeper explanatory questions. Additional inspection on 2026-10-17 covers Recommendation 2 in full, printed pages 9 to 11, including implementation and roadblocks. Additional inspection on 2026-10-24 covers Recommendation 1, printed pages 5 to 7, and the opening recommendation of 5b on printed page 21. Remaining full-guide text and underlying studies not inspected."
 reviewed: null
 ---
 
@@ -38,6 +38,8 @@ Printed pages 4 and 10 describe reducing example support and increasing independ
 ## Additional procedural inspection
 
 Recommendation 2, printed pages 9–11, describes alternating worked solutions and learner problems, varying guidance with expertise, and gradually leaving more steps to the learner. It notes that added annotations are not universally helpful. This supports the bounded procedure in [Worked Example Instruction](../methods/worked-example-instruction.md); presenting all examples before all questions is a separate adaptation.
+
+Recommendation 1, pages 5–7, and the opening of Recommendation 5b, page 21, supply delayed review and recall with correction for [Spaced Repetition](../methods/spaced-repetition.md). Its interval-adjustment rules are authored heuristics; no optimized algorithm is extracted from the guide.
 
 ## Limits
 
